@@ -8,7 +8,13 @@ const chapters = JSON.parse(fs.readFileSync('chapters.json','utf8')).chapters;
 const details = JSON.parse(fs.readFileSync('seo-content.json','utf8'));
 const titles = Object.fromEntries(chapters.map(c=>[c.id,c.title]));
 const esc = x => String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
-const fmt = x => esc(x).replace(/\*\*([^*\n]+)\*\*/g,'<strong>$1</strong>').replace(/(^|[^\*])\*([^*\n]+)\*/g,'$1<em>$2</em>');
+const fmt = x => esc(x)
+  .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_match, label, url) => {
+    const external = url.startsWith('https://chatgpt.com/') ? ' target="_blank" rel="noopener noreferrer"' : '';
+    return '<a href="'+url+'"'+external+'>'+label+'</a>';
+  })
+  .replace(/\*\*([^*\n]+)\*\*/g,'<strong>$1</strong>')
+  .replace(/(^|[^\*])\*([^*\n]+)\*/g,'$1<em>$2</em>');
 const dir='topics';
 fs.mkdirSync(dir,{recursive:true});
 // Unreviewed supplementary chapters must not be indexed until approved.
