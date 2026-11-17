@@ -41,18 +41,18 @@ html = replaceMeta(html, 'property', 'og:url', site.siteUrl);
 const structuredData = JSON.stringify({
   '@context': 'https://schema.org', '@type': 'WebSite',
   name: site.title, url: site.siteUrl, description: site.description
-}).replace(/</g, '\\u003c');
-html = html.replace(/<script type="application\\/ld\\+json">[\\s\\S]*?<\\/script>/,
+}).replace(/</g, () => String.fromCharCode(92) + 'u003c');
+html = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/,
   '<script type="application/ld+json">' + structuredData + '</script>');
-html = html.replace(/<h1>How to survive a <em>psyop\\.<\\/em><\\/h1>/,
+html = html.replace(/<h1>How to survive a <em>psyop\.<\/em><\/h1>/,
   '<h1>' + (site.heroHeading === 'How to survive a psyop.'
     ? 'How to survive a <em>psyop.</em>' : escapeHTML(site.heroHeading)) + '</h1>');
-html = html.replace(/(<p class="hero-lead">)[\\s\\S]*?(<\\/p>)/,
+html = html.replace(/(<p class="hero-lead">)[\s\S]*?(<\/p>)/,
   (_match, start, end) => start + escapeHTML(site.heroLead) + end);
-html = html.replace(/(<div class="cover-center">)[\\s\\S]*?(<\\/div>)/,
+html = html.replace(/(<div class="cover-center">)[\s\S]*?(<\/div>)/,
   (_match, start, end) => start + (site.coverText === 'Just Do Nothing.'
     ? 'Just<br>Do<br>Nothing.'
-    : site.coverText.split('\\n').map(escapeHTML).join('<br>')) + end);
+    : site.coverText.split('\n').map(escapeHTML).join('<br>')) + end);
 write('index.html', html);
 
 const chapters = JSON.parse(fs.readFileSync('chapters.json', 'utf8'));
@@ -65,13 +65,13 @@ for (const chapter of chapters.chapters) {
   chapter.read_url = site.siteUrl + '#read/' + chapter.id;
   chapter.github_url = site.repoUrl + '/blob/main/' + chapter.id + '.txt';
 }
-write('chapters.json', JSON.stringify(chapters, null, 2) + '\\n');
+write('chapters.json', JSON.stringify(chapters, null, 2) + '\n');
 
 let llms = switchSiteLinks(fs.readFileSync('llms.txt', 'utf8'));
 llms = llms.replace(/^# .*$/m, '# ' + site.title);
 llms = llms.replace(/^> .*$/m, '> ' + site.description);
 write('llms.txt', llms);
-write('robots.txt', 'User-agent: *\\nAllow: /\\nSitemap: ' + site.siteUrl + 'sitemap.xml\\n');
+write('robots.txt', 'User-agent: *\nAllow: /\nSitemap: ' + site.siteUrl + 'sitemap.xml\n');
 
 for (const name of fs.readdirSync('.')) {
   if (fs.statSync(name).isFile() && (name.endsWith('.txt') || name === 'seo-content.json' || name === 'sitemap.xml')) {
