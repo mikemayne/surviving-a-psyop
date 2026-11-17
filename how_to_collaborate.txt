@@ -4,6 +4,8 @@ This is an open project. If you've experienced an upsetting, confusing or manipu
 
 You can write your own version of this guide, suggest a correction, or offer a new section. **Sharing is entirely optional.** There is no obligation to disclose personal experiences.
 
+**Start drafting:** [Open ChatGPT with the suggested prompt](https://chatgpt.com/?temporary-chat=true&q=Read%20the%20existing%20sections%20at%20https%3A%2F%2Fgithub.com%2Fmikemayne%2Fsurviving-a-psyop%20for%20their%20style%20and%20length.%20If%20you%20cannot%20access%20them%2C%20ask%20me%20to%20paste%20an%20example.%20Based%20on%20an%20experience%20I%20describe%2C%20write%20a%20new%20plain-text%20section%20explaining%20the%20general%20pattern%20and%20practical%20ways%20to%20respond.%20Separate%20direct%20observations%20from%20interpretations.%20Do%20not%20invent%20events%2C%20identities%2C%20intentions%20or%20explanations.%20Replace%20names%2C%20locations%2C%20dates%2C%20unique%20quotations%20and%20other%20identifying%20details%20with%20broad%20descriptions.%20Show%20me%20the%20draft%20for%20review%2C%20and%20do%20not%20publish%20or%20upload%20anything%20without%20my%20approval.%20First%2C%20ask%20me%20to%20describe%20my%20experience%20without%20including%20unnecessary%20identifying%20details.). The link may automatically submit the prompt and *requests* Temporary Chat, but that mode is not guaranteed. Before describing any personal experience, **check that ChatGPT shows Temporary Chat**. If it does not, start a Temporary Chat manually and copy the same prompt from section 3 below.
+
 ## 1. Start with a more private conversation
 
 You can use [ChatGPT](https://chatgpt.com/) to organise your thoughts and draft an account. Start a new **Temporary Chat** rather than a normal saved conversation. Temporary chats stay out of your chat history and aren't used to improve OpenAI's models while temporary, although a copy may be kept for up to 30 days for safety purposes. Temporary Chat is **not** an anonymous or confidential reporting service.
@@ -30,7 +32,7 @@ Then ask ChatGPT to turn the experience into a **general, self-contained section
 
 For example, you can use this prompt:
 
-> Read the existing sections of this guide for their style and length. Based on the experience I describe, write a new plain-text section describing the general pattern and practical ways to respond. Separate direct observations from interpretations. Do not invent events, identities, intentions or explanations. Replace names, locations, dates, unique quotations and other identifying details with broad descriptions. Show me the draft for review, and do not publish or upload anything without my approval.
+> Read the existing sections at https://github.com/mikemayne/surviving-a-psyop for their style and length. If you cannot access them, ask me to paste an example. Based on an experience I describe, write a new plain-text section explaining the general pattern and practical ways to respond. Separate direct observations from interpretations. Do not invent events, identities, intentions or explanations. Replace names, locations, dates, unique quotations and other identifying details with broad descriptions. Show me the draft for review, and do not publish or upload anything without my approval. First, ask me to describe my experience without including unnecessary identifying details.
 
 ## 4. Remove identifying information — then check again
 
