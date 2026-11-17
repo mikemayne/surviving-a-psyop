@@ -17,6 +17,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/introduction.txt"
     },
     {
+      "id": "ready_to_report",
+      "title": "Ready to report?",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/ready_to_report.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/ready_to_report",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/ready_to_report.txt"
+    },
+    {
       "id": "take_back_control",
       "title": "Take back control",
       "category": "Begin here",
