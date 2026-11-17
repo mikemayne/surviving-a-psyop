@@ -179,6 +179,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/victim_blaming.txt"
     },
     {
+      "id": "false_report_accusations",
+      "title": "Accusations of False Reports",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/false_report_accusations.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/false_report_accusations",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_report_accusations.txt"
+    },
+    {
       "id": "claim_inflation",
       "title": "Claim inflation",
       "category": "Recognising manipulation",
