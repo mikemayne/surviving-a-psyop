@@ -1,0 +1,85 @@
+name: Plain-text-only contributions
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+
+# Never grant write permissions or run code from a submitted file.
+permissions:
+  contents: read
+
+jobs:
+  plain-text-only:
+    name: Validate plain-text files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out proposed changes
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Check changed files only
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          import pathlib
+          import subprocess
+          import sys
+
+          # Compare the submitted branch against the base, not the whole repo:
+          # the existing website deliberately contains HTML and workflow files.
+          raw = subprocess.check_output([
+              "git", "diff", "--no-ext-diff", "--no-renames",
+              "--name-only", "-z", os.environ["BASE_SHA"], os.environ["HEAD_SHA"]
+          ])
+          filenames = [os.fsdecode(item) for item in raw.split(b"\0") if item]
+          errors = []
+
+          for filename in filenames:
+              name = repr(filename)  # Avoid exposing control characters in logs.
+              if not filename.endswith(".txt"):
+                  errors.append(f"{name}: only .txt files may be changed")
+                  continue
+
+              path = pathlib.Path(filename)
+              if path.is_symlink():
+                  errors.append(f"{name}: symlinks are not plain-text files")
+                  continue
+              if not path.exists():
+                  # Deleting an existing .txt file is subject to human review.
+                  print(f"Deletion of {name}: no contents to check")
+                  continue
+              if not path.is_file():
+                  errors.append(f"{name}: not a regular file")
+                  continue
+
+              data = path.read_bytes()
+              try:
+                  text = data.decode("utf-8")
+              except UnicodeDecodeError:
+                  errors.append(f"{name}: contents must be UTF-8 text")
+                  continue
+
+              if data.startswith(b"%PDF-"):
+                  errors.append(f"{name}: PDF content is not permitted")
+                  continue
+              if any((ord(c) < 32 and c not in "\t\n\r") or 127 <= ord(c) <= 159 for c in text):
+                  errors.append(f"{name}: contains binary/control characters")
+                  continue
+              if text.lstrip().lower().startswith(("<!doctype html", "<html", "<script")):
+                  errors.append(f"{name}: HTML or script documents are not permitted")
+
+          if errors:
+              print("Plain-text-only check FAILED:")
+              for error in errors:
+                  print(f" - {error}")
+              sys.exit(1)
+
+          print(f"Plain-text-only check passed: {len(filenames)} changed file(s) checked.")
+          print("Content still requires the author's manual review.")
+          PY
