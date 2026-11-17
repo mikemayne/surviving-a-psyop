@@ -299,6 +299,18 @@
       "moral_accusations"
     ]
   },
+  "weaponised_literalism": {
+    "intro": "Explains how an argument can be derailed through excessively literal interpretations of everyday language, and how to return to the underlying point.",
+    "questions": [
+      "How can strict definitions of ordinary words derail a conversation?",
+      "How do I distinguish genuine clarification from semantic nitpicking?"
+    ],
+    "related": [
+      "logic_traps",
+      "loaded_questions",
+      "impossible_standards"
+    ]
+  },
   "loaded_questions": {
     "intro": "Looks at questions and conditional promises that appear to assume wrongdoing before any facts have been established.",
     "questions": [
