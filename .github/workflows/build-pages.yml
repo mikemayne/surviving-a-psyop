@@ -35,6 +35,7 @@ jobs:
           test -s _site/index.html
           test -s _site/topics/index.html
           test -s _site/chapters.json
+          test -s _site/strategy-metadata.json
           test -s _site/sitemap.xml
       - name: Upload generated website
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
