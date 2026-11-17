@@ -179,7 +179,8 @@
     .footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 25px; }
     .footer p { color: var(--muted); margin: 0; font-size: .77rem; line-height: 1.7; }
     .footer a { text-decoration: underline; text-underline-offset: 3px; }
-    .footer-links { display: flex; align-items: center; gap: 20px; white-space: nowrap; color: var(--muted); font-size: .77rem; }
+    .footer-links { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; color: var(--muted); font-size: .77rem; }
+    .feedback-privacy strong { color: var(--ink); }
     /* Reading interface */
     .reader { min-height: calc(100vh - 78px); display: grid; grid-template-columns: 305px minmax(0, 1fr); }
     /* Keep the mobile-only overlay out of the desktop grid. Without this,
@@ -412,6 +413,8 @@
         <p>A simple method helped me regain control. Email yourself brief, factual notes about incidents when convenient.  Connect ChatGPT to your email and ask it to compare them to my experiences. Examining every detail obsessively can increase stress, so ideally check this no more than once a week.  Make sure you consider other explanations.</p>
         <a class="btn btn-primary" href="#read/how_to_collaborate">How to collaborate <span aria-hidden="true">↗</span></a>
         <p><a href="https://github.com/mikemayne/surviving-a-psyop" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a></p>
+        <p><a class="btn btn-secondary" href="https://github.com/mikemayne/surviving-a-psyop/issues" target="_blank" rel="noopener noreferrer">Report a site issue <span aria-hidden="true">↗</span></a></p>
+        <p class="feedback-privacy"><strong>Public feedback only.</strong> Use GitHub Issues for broken links, accessibility problems, suggestions and other site feedback. Issues and comments are visible to everyone and require a GitHub account to post. Do not include personal or sensitive information. Unsolicited private communication is not welcome.</p>
       </div>
       <div class="contribute-panel">
         <strong>Spread the word.</strong>
@@ -499,7 +502,7 @@ My question:
 <footer class="footer">
   <div class="wrap footer-inner">
     <p>How to Survive a Psyop · Published under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">CC0 1.0 Universal</a>.<br>Built as a simple, open website with no analytics or cookies.</p>
-    <div class="footer-links"><a href="#home">Home</a><a href="#catalogue">Chapters</a><a href="#use-ai">Use with AI</a><a href="https://github.com/mikemayne/surviving-a-psyop" target="_blank" rel="noopener noreferrer">Source ↗</a></div>
+    <div class="footer-links"><a href="#home">Home</a><a href="#catalogue">Chapters</a><a href="#use-ai">Use with AI</a><a href="https://github.com/mikemayne/surviving-a-psyop/issues" target="_blank" rel="noopener noreferrer">Public feedback ↗</a><a href="https://github.com/mikemayne/surviving-a-psyop" target="_blank" rel="noopener noreferrer">Source ↗</a></div>
   </div>
 </footer>
 <script>
