@@ -41,11 +41,11 @@ try {
     description: 'A customised public-domain guide.',
     heroHeading: 'My handbook',
     heroLead: 'Welcome to my guide.',
-    coverText: 'My\\nBook',
+    coverText: 'My\nBook',
     repository: 'sample-author/my-book',
     siteUrl: 'https://guide.example.com/'
   };
-  fs.writeFileSync(configFile, JSON.stringify(customConfig, null, 2) + '\\n');
+  fs.writeFileSync(configFile, JSON.stringify(customConfig, null, 2) + '\n');
   build('ignored-env/ignored-repository');
   const home = published('index.html');
   assert.ok(home.includes('My &amp; Your Handbook'));
