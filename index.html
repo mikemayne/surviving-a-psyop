@@ -77,9 +77,9 @@
     .author-note h2 { font: normal clamp(1.8rem, 3vw, 2.5rem)/1.15 var(--serif); letter-spacing: -.03em; margin: 12px 0 24px; }
     .author-note p { color: var(--muted); line-height: 1.8; font-size: .97rem; margin: 0 0 18px; }
     .author-note p strong { color: var(--ink); }
-    .hero { padding: 38px 0 58px; border-bottom: 1px solid var(--line); overflow: hidden; }
+    .hero { padding: 94px 0 92px; border-bottom: 1px solid var(--line); overflow: hidden; }
     .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 6%; }
-    .hero h1 { font: normal clamp(3.75rem, 7vw, 7.05rem)/.98 var(--serif); letter-spacing: -.062em; max-width: 700px; margin: 18px 0 22px; }
+    .hero h1 { font: normal clamp(3.75rem, 7vw, 7.05rem)/.98 var(--serif); letter-spacing: -.062em; max-width: 700px; margin: 27px 0 28px; }
     .hero h1 em { color: var(--accent); font-weight: normal; }
     .hero-lead { color: var(--muted); font-size: 1.11rem; line-height: 1.75; max-width: 530px; }
     .buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 34px; }
@@ -87,6 +87,8 @@
     .btn:hover { transform: translateY(-2px); }
     .btn-primary { background: var(--ink); color: var(--paper); }
     .btn-secondary { border-color: var(--line); color: var(--ink); background: transparent; }
+    .tiny-note { margin-top: 23px; color: var(--muted); font-size: .8rem; display: flex; align-items: center; gap: 10px; }
+    .tiny-note:before { content: ""; width: 23px; height: 1px; background: var(--orange); }
     .cover { aspect-ratio: 4/5; position: relative; background: #315f55; border-radius: 3px 11px 11px 3px; color: #f4f3e9; box-shadow: 15px 25px 40px rgba(30,48,42,.16), inset 11px 0 13px rgba(0,0,0,.12); overflow: hidden; padding: 37px; display: flex; flex-direction: column; justify-content: space-between; max-width: 480px; margin-left: auto; }
     .cover:before, .cover:after { content:""; position: absolute; border: 1px solid rgba(226,243,222,.22); border-radius: 50%; width: 380px; height: 380px; left: 19%; top: 16%; }
     .cover:after { width: 270px; height: 270px; left: 32%; top: 25%; }
@@ -166,8 +168,9 @@
     .ai-copy-row .btn { white-space: nowrap; }
     .ai-instructions .ai-privacy { border-top: 1px solid var(--line); margin: 20px 0 0; padding-top: 14px; font-size: .76rem !important; }
 
-    /* First-screen, no-cost ChatGPT chapter-writing hand-off */
-    .hero-analysis { max-width: 540px; margin: 28px 0 8px; padding: 20px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); box-shadow: var(--shadow); scroll-margin-top: 18px; }
+    /* Free, uncertainty-first ChatGPT analysis below the four rules */
+    .statement-section { padding: 65px 0 70px; background: var(--paper-2); border-bottom: 1px solid var(--line); scroll-margin-top: 20px; }
+    .hero-analysis { max-width: 680px; margin: 0 auto; padding: 20px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); box-shadow: var(--shadow); scroll-margin-top: 18px; }
     .hero-analysis h2 { font: normal 1.65rem/1.15 var(--serif); letter-spacing: -.025em; margin: 0 0 8px; }
     .hero-analysis .hero-analysis-intro { color: var(--muted); font-size: .87rem; line-height: 1.55; margin: 0 0 14px; }
     .statement-analyser-form label { display: block; font-size: .85rem; font-weight: 700; margin-bottom: 8px; }
@@ -348,26 +351,15 @@
   <section class="hero">
     <div class="wrap hero-grid">
       <div>
-        <p class="eyebrow"><span class="mark">✳</span> A free &amp; open field guide. No Sign In. No Tracking</p>
+        <p class="eyebrow"><span class="mark">✳</span> A free &amp; open field guide</p>
         <h1 tabindex="-1">How to survive a <em>psyop.</em></h1>
         <p class="hero-lead">A collection of anonymized unpleasant experiences and advice on how to deal with them. Read the four survival rules first, then ask ChatGPT for advice on a specific experience or browse</p>
-        <div class="hero-analysis" id="analyse-a-statement" aria-labelledby="statement-analyser-title">
-          <h2 id="statement-analyser-title">Analyse a statement</h2>
-          <p class="hero-analysis-intro">Enter something someone said or did. ChatGPT can explain possible psychological mechanisms, alternatives and practical responses in the style of a book chapter.</p>
-          <form class="statement-analyser-form" id="statement-analyser-form" action="https://chatgpt.com/" method="get" target="_blank" rel="noopener noreferrer">
-            <label for="statement-analyser-input">What did someone say or do?</label>
-            <textarea id="statement-analyser-input" rows="3" maxlength="1000" required placeholder="For example: &quot;Nobody will believe you.&quot;"></textarea>
-            <input type="hidden" name="temporary-chat" value="true">
-            <input type="hidden" name="q" id="statement-analyser-prompt">
-            <button type="submit" class="btn btn-primary">Analyse a statement <span aria-hidden="true">↗</span></button>
-            <p class="statement-privacy"><strong>Privacy:</strong> Your text stays on this page until you click. Then it is included in a ChatGPT URL, which may appear in browser history. Avoid sensitive details. Verify Temporary Chat is active if wanted; ChatGPT may require sign-in and has usage limits.</p>
-          </form>
-        </div>
         <div class="buttons">
           <a class="btn btn-primary" href="#rules">Read the four rules <span aria-hidden="true">↓</span></a>
           <a class="btn btn-secondary" href="#read/introduction">Full introduction <span aria-hidden="true">↗</span></a>
-          <a class="btn btn-secondary" href="#analyse-a-statement">Analyse a statement <span aria-hidden="true">↓</span></a>
+          <a class="btn btn-secondary" href="https://chatgpt.com/?temporary-chat=true&amp;q=I%20would%20like%20help%20understanding%20and%20responding%20to%20an%20experience.%20I%20will%20describe%20what%20happened%20below%20in%20my%20own%20words%2C%20without%20unnecessary%20identifying%20details.%20Then%20look%20through%20the%20public%20guide%20at%20https%3A%2F%2Fmikemayne.github.io%2Fsurviving-a-psyop%2F%20and%20its%20source%20at%20https%3A%2F%2Fgithub.com%2Fmikemayne%2Fsurviving-a-psyop.%20Find%20the%20most%20relevant%20chapters%20and%20provide%20links%20to%20them%2C%20briefly%20explaining%20their%20relevance.%20Do%20not%20claim%20to%20have%20read%20any%20chapter%20you%20cannot%20access%3B%20if%20needed%2C%20ask%20me%20to%20share%20text.%20Also%20give%20your%20own%20balanced%2C%20independent%20advice%20rather%20than%20simply%20agreeing%20with%20the%20guide%20or%20my%20interpretation.%20Clearly%20distinguish%20observations%2C%20possible%20explanations%2C%20and%20unknowns.%20Do%20not%20assume%20malicious%20intent%20or%20coordination%20without%20evidence%2C%20and%20do%20not%20dismiss%20real%20concerns.%20Suggest%20calm%2C%20safe%2C%20proportionate%20next%20steps.%20Do%20not%20publish%20or%20share%20my%20account.%20Always%20respond%20in%20the%20same%20language%20the%20visitor%20uses%2C%20regardless%20of%20the%20language%20of%20the%20source%20material.%20When%20analysing%20this%20book%2C%20distinguish%20the%20author's%20explicit%20claims%20from%20your%20inferences.%20Do%20not%20attribute%20stronger%20claims%20than%20the%20text%20supports.%20Criticise%20the%20statements%20actually%20made%2C%20quoting%20where%20useful%2C%20and%20clearly%20identify%20your%20own%20interpretations.%20Provide%20substantive%20criticism%20where%20warranted.%20Descriptions%20of%20possible%20techniques%20should%20not%20automatically%20be%20treated%20as%20claims%20that%20they%20were%20used%20in%20any%20particular%20instance.%0A%0AMy%20experience%3A%0A" target="_blank" rel="noopener noreferrer" title="Find relevant chapters and get independent advice. Check Temporary Chat before sharing personal details.">Ask ChatGPT <span aria-hidden="true">↗</span></a>
         </div>
+        <p class="tiny-note">Freely available. No sign-in. No tracking.</p>
       </div>
       <div class="cover" role="img" aria-label="Book cover reading Just Do Nothing">
         <div class="cover-top"><span>FIELD NOTES<br>AN OPEN HANDBOOK</span><span class="sun" aria-hidden="true"></span></div>
@@ -391,6 +383,23 @@
     </div>
   </section>
 
+  <section class="statement-section" id="analyse-a-statement" aria-labelledby="statement-analyser-title">
+    <div class="wrap">
+        <div class="hero-analysis" aria-labelledby="statement-analyser-title">
+          <h2 id="statement-analyser-title">Analyse a statement</h2>
+          <p class="hero-analysis-intro">Enter a statement or describe a behaviour. ChatGPT can compare it with patterns in the guide, explain how closely it fits, consider ordinary explanations and suggest practical responses. A resemblance does not establish anyone’s intention.</p>
+          <form class="statement-analyser-form" id="statement-analyser-form" action="https://chatgpt.com/" method="get" target="_blank" rel="noopener noreferrer">
+            <label for="statement-analyser-input">What did someone say or do?</label>
+            <textarea id="statement-analyser-input" rows="3" maxlength="1000" required placeholder="For example: &quot;Nobody will believe you.&quot;"></textarea>
+            <input type="hidden" name="temporary-chat" value="true">
+            <input type="hidden" name="q" id="statement-analyser-prompt">
+            <button type="submit" class="btn btn-primary">Analyse a statement <span aria-hidden="true">↗</span></button>
+            <p class="statement-privacy"><strong>Privacy:</strong> Your text stays on this page until you click. Then it is included in a ChatGPT URL, which may appear in browser history. Avoid sensitive details. Verify Temporary Chat is active if wanted; ChatGPT may require sign-in and has usage limits.</p>
+          </form>
+        </div>
+
+    </div>
+  </section>
   <section class="principles" aria-labelledby="principles-title">
     <div class="wrap principles-heading">
       <h2 id="principles-title" class="principles-title">Three ways to help</h2>
@@ -896,12 +905,13 @@ My question:
     var input = document.getElementById("statement-analyser-input");
     var prepared = document.getElementById("statement-analyser-prompt");
     var guidance = [
-      "Analyse the following brief statement or behaviour and write a clear, practical, self-contained chapter in the style of the free book How to Survive a Psyop.",
-      "Before writing, if possible read two or three relevant chapters from https://mikemayne.github.io/surviving-a-psyop/llms.txt . If they are unavailable, use the instructions below; never pretend to have read inaccessible sources.",
-      "Use direct, accessible British English. Avoid jargon, sensationalism and invented details. Give the chapter a descriptive title and appropriate sections: The Pattern, Why It Works, Recognising the Pattern and Practical Response.",
-      "Explain possible ordinary psychological mechanisms if the behaviour is deliberate. Clearly separate observations from interpretations and include plausible non-malicious alternatives, especially if the statement is ambiguous. Never assume that a pattern proves targeting or coordination.",
-      "Suggest calm, safe, proportionate and non-confrontational responses, including independent advice where appropriate. Avoid encouraging obsessive investigation, confrontation or retaliation.",
-      "Do not invent personal testimony, facts, motives, research or technological capabilities. End with a concise practical principle where useful. Return only the chapter.",
+      "Assess the statement or behaviour below without assuming it is psychological manipulation, deliberate or directed at anyone. Your first task is an even-handed pattern comparison, NOT to write an alarming explanation.",
+      "Consult the index of the public guide How to Survive a Psyop at https://mikemayne.github.io/surviving-a-psyop/llms.txt and read relevant plain-text chapters if accessible. Compare with those chapters and established ordinary psychological concepts. Name and link only chapters you actually accessed; never invent matches, citations or claims that you read something you could not open. If the guide is inaccessible, state that you could not check it and distinguish general knowledge from guide-based matches.",
+      "Begin with a brief assessment under the heading 'Pattern check'. Give: 'Resemblance: [Close / Some / Weak / No clear match / Insufficient context]' and 'Confidence in this comparison: [Low / Moderate / High]'. These describe only the similarity of the words or behaviour to a documented pattern, NOT the probability that manipulation, targeting, harassment or coordination occurred. Never assign percentage probabilities or pretend statistical calibration. Explain the rating in two or three plain sentences with specific observable features and missing context. A short isolated remark will often warrant low confidence, even when the words sound similar.",
+      "List at most two genuinely relevant patterns with chapter links if verified, noting what does and does not match. If none is relevant, say 'No clear match'. Consider ordinary social, accidental, humorous, conversational, mistaken or non-malicious explanations, as applicable. Do not suggest hidden intentions as a default explanation. Do not infer who the remark refers to without context.",
+      "Only after the pattern check, if there is a meaningful pattern to explain, write a concise practical chapter using the headings 'The Pattern', 'Why It Might Work', 'Recognising the Pattern', and 'Practical Response' as appropriate. If there is no clear match or insufficient context, give a short grounded explanation instead of manufacturing a technique or chapter.",
+      "Use accessible British English. Explain psychological mechanisms conditionally, without inventing personal experiences, facts, motives, research or technologies. Separate what was observed from what someone might infer. Do not turn a resemblance into a diagnosis of the speaker or evidence of a campaign.",
+      "Suggest calm, safe, proportionate responses that help whether or not anything deliberate happened. Do not encourage obsessive monitoring, confrontation, retaliation or certainty unsupported by the input. Where relevant, advise seeking a second opinion from a trusted independent person. Return the assessment and explanation directly, without preamble.",
       "Statement or behaviour to analyse:"
     ].join("\n\n");
     form.addEventListener("submit", function(event) {
