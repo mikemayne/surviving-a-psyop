@@ -85,6 +85,7 @@ Descriptions of emotionally forceful and coercive tactics.
 - [Bodily functions](https://mikemayne.github.io/surviving-a-psyop/bodily_functions.txt)
 - [Incitement to violence](https://mikemayne.github.io/surviving-a-psyop/incitement_to_violence.txt)
 - [Sleep deprivation](https://mikemayne.github.io/surviving-a-psyop/sleep_deprivation.txt)
+- [Deprivation of Basic Necessities as Punishment](https://mikemayne.github.io/surviving-a-psyop/deprivation_of_basic_necessities.txt)
 - [Sexual coercion](https://mikemayne.github.io/surviving-a-psyop/sexual_coercion.txt)
 - [Choose your death](https://mikemayne.github.io/surviving-a-psyop/choose_your_death.txt)
 - [Indefinite abuse](https://mikemayne.github.io/surviving-a-psyop/indefinite_abuse.txt)
