@@ -755,6 +755,18 @@
       "dont_tolerate_mistreatment"
     ]
   },
+  "preemptive_discrediting": {
+    "intro": "Describes how a remark such as 'Nobody will believe him' can discourage someone from reporting or asking for help, while explaining why an overheard prediction does not establish what others think.",
+    "questions": [
+      "Why might a prediction that nobody will believe me make it harder to seek help?",
+      "How can I respond without assuming an ambiguous overheard remark was intended for me?"
+    ],
+    "related": [
+      "threatening_consequences_for_seeking_help",
+      "accidentally_overheard",
+      "ready_to_report"
+    ]
+  },
   "dream_manipulation": {
     "intro": "Explains how sounds incorporated into dreams, cold reading and post-waking suggestibility can create the impression that dreams are being influenced or observed, without establishing dream control.",
     "questions": [
