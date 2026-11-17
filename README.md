@@ -32,6 +32,10 @@ The GitHub Actions workflow at `.github/workflows/build-pages.yml` builds the fo
 
 The generated `topics/` and `sitemap.xml` files remain checked into the repository as an earlier snapshot for source browsing; the Pages deployment rebuilds them from reviewed sources in the job workspace. An independent local backup is recommended.
 
+## Public feedback and site issues
+
+For broken links, accessibility problems, corrections or suggestions, use [GitHub Issues](https://github.com/mikemayne/surviving-a-psyop/issues). Discussion there, including issue descriptions and comments, is public and requires a GitHub account to post. Please do not share personal, identifying or sensitive information in an issue. Unsolicited private communication is not welcome; public GitHub Issues is the feedback channel.
+
 ## Contribution security
 
 The [active branch ruleset](https://github.com/mikemayne/surviving-a-psyop/rules/27456493) requires pull requests and the **Validate plain-text files** check before merging to `main`, with no bypass actors configured. This helps enforce the submission policy, but does not replace the owner's review.
