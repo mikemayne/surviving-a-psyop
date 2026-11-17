@@ -39,6 +39,7 @@ Start with the introduction and practical ways of responding.
 Patterns of pressure, interpretation and social influence.
 
 - [Gaslighting by friends](https://mikemayne.github.io/surviving-a-psyop/gaslit_by_friends.txt)
+- [Obstruction of Communication](https://mikemayne.github.io/surviving-a-psyop/obstruction_of_communication.txt)
 - [Negging](https://mikemayne.github.io/surviving-a-psyop/negging_psychological_manipulation.txt)
 - [Good cop, bad cop](https://mikemayne.github.io/surviving-a-psyop/good_cop_bad_cop.txt)
 - [Guilt tripping](https://mikemayne.github.io/surviving-a-psyop/guilt_tripping.txt)
