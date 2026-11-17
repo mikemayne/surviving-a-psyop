@@ -88,6 +88,7 @@ Descriptions of emotionally forceful and coercive tactics.
 - [Humiliation Rituals](https://mikemayne.github.io/surviving-a-psyop/humiliation_rituals.txt)
 - [Bodily functions](https://mikemayne.github.io/surviving-a-psyop/bodily_functions.txt)
 - [Incitement to violence](https://mikemayne.github.io/surviving-a-psyop/incitement_to_violence.txt)
+- [Cumulative Psychological Pressure](https://mikemayne.github.io/surviving-a-psyop/cumulative_psychological_pressure.txt)
 - [Sleep deprivation](https://mikemayne.github.io/surviving-a-psyop/sleep_deprivation.txt)
 - [Deprivation of Basic Necessities as Punishment](https://mikemayne.github.io/surviving-a-psyop/deprivation_of_basic_necessities.txt)
 - [Sexual coercion](https://mikemayne.github.io/surviving-a-psyop/sexual_coercion.txt)
