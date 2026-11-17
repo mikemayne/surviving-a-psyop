@@ -635,6 +635,18 @@
       "bodily_functions"
     ]
   },
+  "exaggerated_disgust": {
+    "intro": "Explains how frequent, theatrical expressions of disgust about minor or alleged faults can create shame and excessive self-monitoring, and how to respond proportionately.",
+    "questions": [
+      "Why can repeated expressions of disgust make a small criticism feel overwhelming?",
+      "How should I respond to an exaggerated hygiene-related criticism or an ambiguous overheard remark?"
+    ],
+    "related": [
+      "body_shaming",
+      "public_shaming",
+      "cumulative_psychological_pressure"
+    ]
+  },
   "humiliation_rituals": {
     "intro": "Describes coercive demands to perform or endure degrading acts as conditions of acceptance or assistance, and how to protect dignity and set boundaries.",
     "questions": [

@@ -86,6 +86,7 @@ Descriptions of emotionally forceful and coercive tactics.
 - [Name and shame](https://mikemayne.github.io/surviving-a-psyop/name_and_shame.txt)
 - [Flashmobs](https://mikemayne.github.io/surviving-a-psyop/flashmobs.txt)
 - [Body shaming](https://mikemayne.github.io/surviving-a-psyop/body_shaming.txt)
+- [Exaggerated Disgust](https://mikemayne.github.io/surviving-a-psyop/exaggerated_disgust.txt)
 - [Humiliation Rituals](https://mikemayne.github.io/surviving-a-psyop/humiliation_rituals.txt)
 - [Bodily functions](https://mikemayne.github.io/surviving-a-psyop/bodily_functions.txt)
 - [Incitement to violence](https://mikemayne.github.io/surviving-a-psyop/incitement_to_violence.txt)
