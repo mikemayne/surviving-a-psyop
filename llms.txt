@@ -91,6 +91,7 @@ Descriptions of emotionally forceful and coercive tactics.
 - [Sexual coercion](https://mikemayne.github.io/surviving-a-psyop/sexual_coercion.txt)
 - [Choose your death](https://mikemayne.github.io/surviving-a-psyop/choose_your_death.txt)
 - [Indefinite abuse](https://mikemayne.github.io/surviving-a-psyop/indefinite_abuse.txt)
+- [Threatening Consequences for Seeking Help](https://mikemayne.github.io/surviving-a-psyop/threatening_consequences_for_seeking_help.txt)
 
 ### Technology & perception
 
