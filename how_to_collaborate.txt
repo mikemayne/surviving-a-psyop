@@ -4,7 +4,11 @@ This is an open project. If you've experienced an upsetting, confusing or manipu
 
 You can write your own version of this guide, suggest a correction, or offer a new section. **Sharing is entirely optional.** There is no obligation to disclose personal experiences.
 
-**Start drafting:** [Open ChatGPT with the suggested prompt](https://chatgpt.com/?temporary-chat=true&q=Read%20the%20existing%20sections%20at%20https%3A%2F%2Fgithub.com%2Fmikemayne%2Fsurviving-a-psyop%20for%20their%20style%20and%20length.%20If%20you%20cannot%20access%20them%2C%20ask%20me%20to%20paste%20an%20example.%20Based%20on%20an%20experience%20I%20describe%2C%20write%20a%20new%20plain-text%20section%20explaining%20the%20general%20pattern%20and%20practical%20ways%20to%20respond.%20Separate%20direct%20observations%20from%20interpretations.%20Do%20not%20invent%20events%2C%20identities%2C%20intentions%20or%20explanations.%20Replace%20names%2C%20locations%2C%20dates%2C%20unique%20quotations%20and%20other%20identifying%20details%20with%20broad%20descriptions.%20Show%20me%20the%20draft%20for%20review%2C%20and%20do%20not%20publish%20or%20upload%20anything%20without%20my%20approval.%20First%2C%20ask%20me%20to%20describe%20my%20experience%20without%20including%20unnecessary%20identifying%20details.). The link may automatically submit the prompt and *requests* Temporary Chat, but that mode is not guaranteed. Before describing any personal experience, **check that ChatGPT shows Temporary Chat**. If it does not, start a Temporary Chat manually and copy the same prompt from section 3 below.
+**No technical knowledge required.** You can write, revise and submit a contribution by talking to ChatGPT in ordinary language. It will explain any account setup or button-clicking when needed. You do not need to learn Git, coding or pull requests.
+
+**[Contribute with ChatGPT — no technical skills needed](https://chatgpt.com/?temporary-chat=true&q=I%20want%20to%20contribute%20to%20the%20open%20book%20at%20https%3A%2F%2Fgithub.com%2Fmikemayne%2Fsurviving-a-psyop.%20Please%20guide%20me%20through%20EVERYTHING%20in%20ordinary%20language.%20Assume%20I%20know%20nothing%20about%20Git%2C%20GitHub%2C%20code%2C%20forks%2C%20branches%20or%20pull%20requests.%20Ask%20only%20one%20simple%20question%20at%20a%20time.%20First%20help%20me%20write%20or%20revise%20a%20short%20chapter%20in%20the%20style%20of%20the%20existing%20book.%20Ask%20what%20I%20would%20like%20to%20contribute.%20Don't%20invent%20facts%20or%20motives%3B%20distinguish%20observations%20from%20interpretations%20and%20consider%20simpler%20explanations.%20Remove%20names%20and%20details%20that%20could%20identify%20me%20or%20other%20people.%20Let%20me%20review%20and%20edit%20the%20draft%20until%20I%20am%20happy.%20Do%20not%20ask%20me%20to%20create%20accounts%20yet.%20Only%20if%20I%20say%20I%20want%20to%20submit%20it%2C%20explain%20that%20a%20GitHub%20account%2C%20public%20fork%2C%20commits%20and%20submission%20may%20expose%20identifying%20details.%20Then%20help%20me%20connect%20GitHub%20to%20ChatGPT%20if%20available%20and%20handle%20as%20much%20as%20possible%20for%20me%3A%20fork%20the%20book%2C%20create%20the%20text%20file%20and%20submit%20it%20to%20the%20original%20author%20for%20review.%20If%20you%20cannot%20perform%20a%20step%20yourself%2C%20tell%20me%20exactly%20what%20button%20to%20click%2C%20one%20step%20at%20a%20time%2C%20without%20jargon.%20Show%20me%20exactly%20what%20will%20be%20made%20public%20and%20ask%20my%20explicit%20approval%20before%20uploading%20or%20submitting%20anything.%20If%20I%20do%20not%20wish%20to%20publish%2C%20help%20me%20keep%20the%20draft%20private.%20Begin%20by%20asking%20what%20I%20would%20like%20to%20contribute.)**
+
+This link opens ChatGPT with a suggested prompt that asks it to guide you from your first idea through to a possible submission. Depending on your version of ChatGPT, the prompt may be filled in or sent automatically. The link requests Temporary Chat, but this is not guaranteed: **check that ChatGPT shows Temporary Chat before sharing personal details**. If the prompt does not appear, copy it from section 3 below. You can write a draft without a GitHub account and decide later whether to submit it.
 
 ## 1. Start with a more private conversation
 
@@ -14,13 +18,13 @@ If you want ChatGPT to work directly with GitHub in the same conversation, selec
 
 Even in Temporary Chat, avoid entering names or sensitive details that aren't necessary. You can replace them with neutral descriptions before telling your story.
 
-## 2. Create a GitHub account and fork the guide
+## 2. Set up GitHub only if you decide to submit
 
-Create a free account at [github.com](https://github.com/) if you don't have one. Consider a username that doesn't identify you, and enable GitHub's private-email setting if privacy matters.
+**You can skip this section while drafting.** If you later decide to contribute your work, ask ChatGPT to guide you through each step. It can explain unfamiliar terms and tell you exactly where to click.
 
-Visit [the source repository](https://github.com/mikemayne/surviving-a-psyop) and select **Fork** to create your own copy. The chapters are plain text files, so you don't need to learn a programming language to contribute.
+You will need a free account at [github.com](https://github.com/) if you don't have one. Consider a username that doesn't identify you, and enable GitHub's private-email setting if privacy matters. If ChatGPT cannot create the account or fork the project for you, it can walk you through those few clicks on [the source repository](https://github.com/mikemayne/surviving-a-psyop).
 
-In ChatGPT, go to **Settings > Plugins**, find GitHub, connect your account if the plugin is available to you, and review the permissions you are granting. Ask ChatGPT to work on **your fork**, not the original repository. A connected plugin can help read the existing chapters, prepare a new file and make changes you approve.
+In ChatGPT, go to **Settings > Plugins**, find GitHub, connect your account if the plugin is available to you, and review the permissions you are granting. Ask ChatGPT to work on **your fork** (your copy), not the original repository. When connected and authorised, ChatGPT can help write files and submit your contribution for review. You do not need to learn Git commands.
 
 **Important:** This is a public repository. Your public fork, commit history, GitHub username and any pull request can be viewed by other people. A pseudonym or private email setting does not guarantee anonymity. You can do all the writing without forking or publishing anything.
 
@@ -30,9 +34,9 @@ Tell ChatGPT what you directly saw, heard or experienced; enough context to make
 
 Then ask ChatGPT to turn the experience into a **general, self-contained section in the style of this guide**: explain a possible pattern of manipulation or pressure, give a short illustrative example, and suggest calm, practical responses. The aim is to describe a recognisable situation, not to make accusations about particular people.
 
-For example, you can use this prompt:
+The **Contribute with ChatGPT** link at the top uses this prompt. You can also copy and paste it into a Temporary Chat yourself:
 
-> Read the existing sections at https://github.com/mikemayne/surviving-a-psyop for their style and length. If you cannot access them, ask me to paste an example. Based on an experience I describe, write a new plain-text section explaining the general pattern and practical ways to respond. Separate direct observations from interpretations. Do not invent events, identities, intentions or explanations. Replace names, locations, dates, unique quotations and other identifying details with broad descriptions. Show me the draft for review, and do not publish or upload anything without my approval. First, ask me to describe my experience without including unnecessary identifying details.
+> I want to contribute to the open book at https://github.com/mikemayne/surviving-a-psyop. Please guide me through EVERYTHING in ordinary language. Assume I know nothing about Git, GitHub, code, forks, branches or pull requests. Ask only one simple question at a time. First help me write or revise a short chapter in the style of the existing book. Ask what I would like to contribute. Don't invent facts or motives; distinguish observations from interpretations and consider simpler explanations. Remove names and details that could identify me or other people. Let me review and edit the draft until I am happy. Do not ask me to create accounts yet. Only if I say I want to submit it, explain that a GitHub account, public fork, commits and submission may expose identifying details. Then help me connect GitHub to ChatGPT if available and handle as much as possible for me: fork the book, create the text file and submit it to the original author for review. If you cannot perform a step yourself, tell me exactly what button to click, one step at a time, without jargon. Show me exactly what will be made public and ask my explicit approval before uploading or submitting anything. If I do not wish to publish, help me keep the draft private. Begin by asking what I would like to contribute.
 
 ## 4. Remove identifying information — then check again
 
@@ -44,11 +48,11 @@ Keep the description fair: present events as observations or personal recollecti
 
 ## 5. Decide whether and how to share
 
-If you're comfortable publishing, ask ChatGPT to create a new `.txt` file in your GitHub fork, using the existing chapter format. **Inspect the exact file and commit before approving the upload.**
+If you're comfortable publishing, simply tell ChatGPT: **"I'm happy with the draft. Please help me submit it to the book for review."** ChatGPT can guide you through creating a new `.txt` file in your GitHub copy and proposing it to the original author. It can explain each step, carry out supported actions with your permission, or tell you exactly which button to click. **Inspect the exact file and commit before approving the upload.**
 
 You then have several choices:
 
-- **Suggest it for this guide:** open a **pull request** from your fork to the original repository, explaining that you're offering a new section. A pull request is public and may be reviewed, discussed, edited or declined.
+- **Suggest it for this guide:** ask ChatGPT to **submit the draft to the author for review**. Behind the scenes, GitHub calls this a *pull request*. It is public and may be reviewed, discussed, edited or declined; you do not need to understand the technical process.
 - **Publish your own version:** keep your fork and share its link if you wish. You can adapt the guide to your own priorities.
 - **Keep it to yourself:** save the draft locally, share it privately with someone you trust, or do nothing. You don't need to publish to make the writing worthwhile.
 
