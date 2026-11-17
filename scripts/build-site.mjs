@@ -74,7 +74,7 @@ write('llms.txt', llms);
 write('robots.txt', 'User-agent: *\nAllow: /\nSitemap: ' + site.siteUrl + 'sitemap.xml\n');
 
 for (const name of fs.readdirSync('.')) {
-  if (fs.statSync(name).isFile() && (name.endsWith('.txt') || name === 'seo-content.json' || name === 'sitemap.xml')) {
+  if (fs.statSync(name).isFile() && ((name.endsWith('.txt') && name !== 'llms.txt' && name !== 'robots.txt') || name === 'seo-content.json' || name === 'sitemap.xml')) {
     fs.copyFileSync(name, path.join(output, name));
   }
 }
