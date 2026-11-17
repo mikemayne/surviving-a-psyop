@@ -8,7 +8,7 @@ You can change absolutely everything: the title, design, chapters, advice and su
 
 Let ChatGPT guide you through creating, customising and publishing your own copy of this website, one step at a time.
 
-[Create your website with ChatGPT](https://chatgpt.com/?temporary-chat=true&q=I%20want%20to%20create%20and%20publish%20my%20own%20website%20by%20forking%20https%3A%2F%2Fgithub.com%2Fmikemayne%2Fsurviving-a-psyop.%20Be%20my%20step-by-step%20guide%20for%20a%20complete%20beginner.%20Ask%20if%20I%20already%20have%20a%20GitHub%20account%2C%20then%20walk%20me%20through%20creating%20one%20if%20needed%2C%20forking%20the%20repository%2C%20customising%20the%20website%20content%20and%20design%2C%20updating%20hard-coded%20site%20URLs%20and%20SEO%20metadata%20throughout%20the%20repository%2C%20enabling%20GitHub%20Actions%20and%20GitHub%20Pages%2C%20deploying%20the%20new%20site%2C%20and%20checking%20that%20it%20works.%20Explain%20only%20one%20step%20at%20a%20time%20and%20wait%20for%20me%20to%20confirm%20each%20is%20complete.%20If%20GitHub%20tools%20are%20connected%2C%20offer%20to%20prepare%20changes%20and%20a%20pull%20request%2C%20but%20ask%20before%20editing%20or%20publishing.%20Preserve%20secure%20read-only%20build%20permissions%20and%20advise%20that%20repository%20rules%20and%20required%20checks%20must%20be%20configured%20separately%20in%20my%20fork.%20Explain%20the%20public%20visibility%20of%20my%20username%2C%20fork%20and%20commit%20history.%20Never%20ask%20for%20passwords%20or%20access%20tokens.)
+[Create your website with ChatGPT](https://chatgpt.com/?temporary-chat=true&q=I%20want%20to%20fork%20https%3A%2F%2Fgithub.com%2Fmikemayne%2Fsurviving-a-psyop%20and%20publish%20my%20own%20free%20website.%20Guide%20me%20in%20plain%20language%2C%20one%20step%20at%20a%20time%2C%20and%20wait%20for%20me%20to%20complete%20each%20step.%20Start%20by%20asking%20whether%20I%20have%20a%20GitHub%20account.%20Explain%20how%20to%20fork%20the%20repository%20and%20edit%20its%20site-config.json%20file%20to%20set%20title%2C%20tagline%2C%20description%2C%20heroHeading%2C%20heroLead%20and%20coverText%20without%20programming.%20The%20GitHub%20Actions%20build%20automatically%20detects%20the%20fork's%20repository%20and%20generates%20the%20correct%20site%20URL%2C%20sitemap%2C%20chapter%20links%2C%20source%20links%20and%20metadata.%20Only%20set%20siteUrl%20in%20the%20configuration%20if%20I%20use%20a%20custom%20domain.%20Guide%20me%20to%20enable%20the%20Actions%20workflow%2C%20choose%20GitHub%20Actions%20under%20Settings%20%3E%20Pages%2C%20run%20Build%20and%20deploy%20book%2C%20and%20check%20the%20published%20site.%20Help%20me%20replace%20or%20edit%20the%20original%20chapters%20and%20any%20other%20original%20author%20copy%2C%20and%20verify%20the%20links.%20If%20you%20can%20access%20my%20fork%20through%20connected%20GitHub%20tools%2C%20offer%20to%20prepare%20reviewed%20changes%20via%20a%20branch%20and%20pull%20request%2C%20but%20ask%20before%20making%20changes%20or%20publishing%20anything.%20Explain%20that%20public%20forks%2C%20usernames%20and%20commits%20can%20identify%20me%2C%20and%20that%20repository%20branch%20protection%20and%20required%20checks%20are%20not%20copied%20automatically.%20Preserve%20the%20secure%20read-only%20build%20workflow%20and%20never%20ask%20for%20passwords%20or%20access%20tokens.)
 
 ## Step 1. Create a GitHub account
 
@@ -50,7 +50,7 @@ Under **Build and deployment**, select **GitHub Actions** as the source.
 
 Open the **Actions** tab and enable workflows if GitHub asks you to. Run the existing **Build and deploy book** workflow, or commit a change to the main branch to trigger it.
 
-You'll also need to replace the original website addresses with your own. Ask ChatGPT to update the repository's publishing configuration, sitemap, search metadata and links.
+The website address, source links, chapter catalogue, sitemap and search metadata are generated automatically for your fork. Open `site-config.json` to change the site's title, tagline, description, hero heading, introductory text and cover wording. You only need to enter `siteUrl` if you use a custom domain.
 
 Your website will normally be available at:
 
@@ -60,7 +60,7 @@ If you rename the repository, the address changes accordingly.
 
 ## Step 5. Make it your own
 
-Start changing things. Ask ChatGPT to help you rewrite the introduction, choose a different title, change the colours, remove chapters or create new ones.
+Start changing things. You can edit `site-config.json` directly on GitHub without programming, and ask ChatGPT to help you rewrite the introduction, change the colours, remove chapters or create new ones.
 
 The original project includes an interactive reader, individual text files, searchable chapter pages and a sitemap. You can reuse these features for almost any subject.
 
