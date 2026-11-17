@@ -1,0 +1,104 @@
+# Hiding Behind the Official Secrets Act
+
+**The technique:** Invoking official secrecy, classified technology or supposed national security powers to discourage someone from questioning, reporting or discussing potentially abusive behaviour.
+
+Someone attempting this form of intimidation might make statements such as:
+
+- "I've signed the Official Secrets Act."
+- "You can't talk about our techniques because of the Official Secrets Act."
+- "The technology we use is classified."
+- "You're not allowed to tell anyone what's happening."
+- "The police can't investigate because it's a national security matter."
+- "You'll be tried in a secret court."
+
+These statements exploit the fact that most people have limited knowledge of national security legislation and may be reluctant to challenge someone claiming official authority.
+
+## How it works
+
+The objective is to create the impression that ordinary legal protections and avenues for complaint do not apply.
+
+By invoking secrecy, the speaker attempts to place their conduct beyond scrutiny. They may imply that they possess special authority, that their activities have government approval, or that asking questions will expose the individual to criminal prosecution.
+
+This combines **appeal to authority, intimidation, information asymmetry and legal misinformation**.
+
+It can also create a logical trap: the person making the claim suggests that the absence of publicly available evidence demonstrates how secret and powerful their organisation is.
+
+Any request for evidence can then be dismissed with the assertion that the evidence is classified.
+
+## What the law actually says
+
+The UK's Official Secrets Act 1989 protects particular categories of sensitive information and imposes legal obligations in defined circumstances. Other legislation, including the National Security Act 2023, also protects national security interests.
+
+However:
+
+- Claiming to have signed the Official Secrets Act does not establish someone's identity, authority or entitlement to behave unlawfully.
+- The Act applies according to someone's position and the information involved, not simply whether they have signed a document.
+- Describing technology as classified does not establish that it exists, that the speaker has access to it, or that its alleged use is lawful.
+- A claim of national security involvement does not automatically prevent independent scrutiny or complaints.
+- Criminal proceedings in England and Wales are normally public. Courts can exclude the public from proceedings in exceptional circumstances, including for national security reasons, but this is governed by law and judicial decisions, not by an individual's threats.
+
+### Police officers are Crown servants
+
+An important detail is that **Section 12(1)(e) of the Official Secrets Act 1989 expressly includes constables and people employed or appointed for the purposes of police forces within its definition of Crown servants.**
+
+This matters because the Act itself provides for certain authorised disclosures to Crown servants.
+
+Under Section 7(3)(a), a disclosure by someone other than a Crown servant or government contractor can be made with lawful authority when it is made to a Crown servant for the purposes of that person's official functions.
+
+Consequently, the Official Secrets Act should not be interpreted as a blanket prohibition on reporting concerns to the police. Indeed, the legislation expressly recognises circumstances in which disclosure to a Crown servant is lawful.
+
+This does not mean that every disclosure to every police officer is automatically permitted, particularly where other laws or specific restrictions apply. If genuinely classified information might be involved, seek independent legal advice about an appropriate reporting channel.
+
+The essential distinction is that **the Official Secrets Act protects certain information; it does not grant individuals a general licence to engage in unlawful conduct or prevent complaints about their behaviour.**
+
+## How to respond
+
+**Do not accept someone's claim of official authority as legal advice.**
+
+There is no need to argue about whether a particular organisation, technology or operation exists, or to persuade the person making the claim to explain themselves.
+
+Instead, concentrate on what you can report accurately.
+
+Describe what people said, what you personally experienced and what was happening at the time. Where possible, record:
+
+- The exact words spoken, distinguishing quotations from approximate recollections.
+- When and where the incident occurred.
+- What you were doing immediately before and during the incident.
+- What you directly saw, heard or otherwise experienced.
+- Whether anyone else was present or might have witnessed the event.
+- Any relevant recordings, messages or other evidence.
+
+**Do not feel obliged to explain how something was happening.**
+
+For example, if you experienced an unexplained sound while using your phone, you can report the sound, what was said, what you were doing and the circumstances in which it occurred. You do not need to claim that the phone was hacked, that a particular technology was involved or that a particular organisation was responsible.
+
+Likewise, if someone said "the technology we use is classified," you can report those words without accepting the speaker's claim that any such technology exists.
+
+Distinguish the words you heard from your interpretation of their meaning. If you cannot confidently identify the speaker, say so.
+
+A factual account can be useful without containing any explanation of the underlying mechanism. Determining how something happened, whether any laws were broken and who was responsible is a matter for an appropriately qualified investigator.
+
+This approach also avoids making unnecessary claims about potentially sensitive capabilities.
+
+If you have concerns about someone's behaviour, seek advice through independently verified channels, such as the police, a solicitor or an appropriate oversight body. If genuinely sensitive information might be involved, obtain advice about how to report it safely rather than publishing it indiscriminately.
+
+## The central principle
+
+The important distinction is between legitimate confidentiality and an unsupported demand for silence.
+
+**Secrecy is not proof of authority. Classification is not proof of legality. A threat of prosecution is not a court order.**
+
+Someone claiming extraordinary powers does not acquire those powers merely by making the claim.
+
+You do not have to solve a mystery before reporting what happened to you.
+
+## Related questions
+
+- Does signing the Official Secrets Act give someone special legal powers?
+- Are police officers covered by the Official Secrets Act?
+- Can you report suspected misconduct involving classified information to the police?
+- Can someone prevent you from reporting their behaviour by invoking national security?
+- Can a criminal trial take place in secret in the UK?
+- How can you independently verify a claim of official authority?
+- How do you report an unexplained experience without speculating about its cause?
+- What information should you record when reporting suspected intimidation?
