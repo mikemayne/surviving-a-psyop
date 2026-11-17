@@ -71,6 +71,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/social_media.txt"
     },
     {
+      "id": "how_to_collaborate",
+      "title": "How to collaborate",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/how_to_collaborate.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/how_to_collaborate",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/how_to_collaborate.txt"
+    },
+    {
       "id": "gaslit_by_friends",
       "title": "Gaslighting by friends",
       "category": "Recognising manipulation",
