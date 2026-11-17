@@ -227,6 +227,18 @@
       "dont_chase"
     ]
   },
+  "reputation_to_live_up_to": {
+    "intro": "Explains how assigning someone a flattering identity can influence behaviour, and how exaggerated praise may encourage unrealistic beliefs about their abilities.",
+    "questions": [
+      "How can flattering descriptions be used to pressure someone into a decision?",
+      "What is the difference between encouragement and exaggerated claims about someone's abilities?"
+    ],
+    "related": [
+      "claiming_influence",
+      "negging_psychological_manipulation",
+      "stay_grounded"
+    ]
+  },
   "logic_traps": {
     "intro": "Explains false dilemmas, circular reasoning and double binds, with suggestions for rejecting unsupported premises.",
     "questions": [
