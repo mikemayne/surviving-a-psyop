@@ -790,5 +790,17 @@
       "dont_chase",
       "take_back_control"
     ]
+  },
+  "false_report_accusations": {
+    "intro": "Explores accusations that someone has filed a false report, how such claims may discourage legitimate complaints, and ways to respond calmly and factually.",
+    "questions": [
+      "What is the difference between an unsubstantiated report and a deliberately false one?",
+      "How can I respond to an accusation of false reporting without abandoning a genuine concern?"
+    ],
+    "related": [
+      "victim_blaming",
+      "accusation_baiting",
+      "legal_intimidation"
+    ]
   }
 }
