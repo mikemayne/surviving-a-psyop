@@ -299,6 +299,18 @@
       "stay_grounded"
     ]
   },
+  "manufactured_confusion": {
+    "intro": "Explains how contradictory instructions, shifting explanations and changing rules can create confusion and dependence on repeated clarification.",
+    "questions": [
+      "How can I distinguish deliberate confusion from an ordinary misunderstanding?",
+      "How can I respond when instructions keep changing or no stable answer is given?"
+    ],
+    "related": [
+      "logic_traps",
+      "impossible_compliance",
+      "impossible_standards"
+    ]
+  },
   "logic_traps": {
     "intro": "Explains false dilemmas, circular reasoning and double binds, with suggestions for rejecting unsupported premises.",
     "questions": [
