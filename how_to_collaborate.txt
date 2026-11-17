@@ -8,7 +8,7 @@ You can write your own version of this guide, suggest a correction, or offer a n
 
 **Getting support:** If you feel unwell, please consider contacting your GP or mental health services. If you feel unsafe, contact the police (or call 999 if you are in immediate danger). You can seek help alongside writing or contributing here; there's no need to wait until you've finished.
 
-**Submission formats:** I will only accept contributions as plain text (`.txt`) or Markdown (`.md`) files. Please do not submit JavaScript, HTML, scripts, executable files or other file formats. ChatGPT can help format your writing as a `.txt` or `.md` file.
+**Submission formats — plain text only:** I will only accept `.txt` files containing ordinary plain text. **No PDFs, images, audio, video, Word documents, Markdown (`.md`) files, HTML, JavaScript, scripts, executable files, attachments or other formats.** Ask ChatGPT to prepare a simple `.txt` file without embedded media or code. Submissions containing other file types will not be accepted.
 
 **Privacy before contributing:** Anything submitted through GitHub to this book is **publicly visible**, including your contribution, GitHub username, submission discussion and commit history. If you want to avoid associating it with your real identity, consider a separate pseudonymous GitHub account and email address, keep your email private in GitHub settings, and check the author details attached to commits. These precautions reduce exposure but cannot guarantee anonymity. You can draft privately and choose not to submit.
 
