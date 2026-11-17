@@ -1,5 +1,3 @@
-# Spread the word
-
 This website is free to copy, modify and republish. You can use it as the starting point for your own book, guide, collection of experiences or entirely different project. I would be delighted if you forked my repository and built on my experiences by adding your own. Equally, I welcome pull requests that follow the [contribution guidelines](https://mikemayne.github.io/surviving-a-psyop/#read/how_to_collaborate).
 
 You don't need to know how to program. GitHub can host your website for free, and ChatGPT can help you customise it, write content and maintain it.
