@@ -455,6 +455,18 @@
       "criminilisation"
     ]
   },
+  "retrospective_reinterpretation_of_behaviour": {
+    "intro": "Examines how ordinary actions can be assigned condemnatory meanings after the fact, particularly when accusations and standards change in response to reasonable explanations.",
+    "questions": [
+      "How can I distinguish a genuine misunderstanding from repeated retroactive accusations?",
+      "What should I do when someone assigns hidden intentions to ordinary behaviour without identifying a clear rule or harm?"
+    ],
+    "related": [
+      "interpretation_trick",
+      "moral_accusations",
+      "manufactured_confusion"
+    ]
+  },
   "talking": {
     "intro": "Discusses possible ambiguities in indirect communication and the temptation to infer hidden messages.",
     "questions": [
