@@ -227,6 +227,18 @@
       "dont_chase"
     ]
   },
+  "we_only_do_this_to_really_bad_people": {
+    "intro": "Explains how claiming that harsh treatment is reserved for 'really bad people' can imply guilt without evidence, justify cruelty and discourage seeking help.",
+    "questions": [
+      "Why does being told that mistreatment is reserved for bad people not establish guilt?",
+      "How can I respond to vague accusations without accepting their premise?"
+    ],
+    "related": [
+      "victim_blaming",
+      "moral_accusations",
+      "dont_tolerate_mistreatment"
+    ]
+  },
   "claim_inflation": {
     "intro": "Explores how the seriousness or scope of an accusation may change as it is repeated.",
     "questions": [
