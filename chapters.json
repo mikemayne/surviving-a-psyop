@@ -62,6 +62,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/feelings_can_change.txt"
     },
     {
+      "id": "stay_grounded",
+      "title": "Staying grounded",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/stay_grounded.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/stay_grounded",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/stay_grounded.txt"
+    },
+    {
       "id": "personal_security_notes",
       "title": "Personal security notes",
       "category": "Begin here",

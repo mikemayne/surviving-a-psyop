@@ -71,6 +71,18 @@
       "take_back_control"
     ]
   },
+  "stay_grounded": {
+    "intro": "Practical advice for checking assumptions, considering simpler explanations, and separating direct experience from interpretation.",
+    "questions": [
+      "How can I stay grounded when an unusual experience prompts increasingly elaborate theories?",
+      "How can I distinguish what I observed from an explanation I am considering?"
+    ],
+    "related": [
+      "feelings_can_change",
+      "dont_chase",
+      "sleep_discipline"
+    ]
+  },
   "personal_security_notes": {
     "intro": "Everyday personal-security considerations and ways to reduce avoidable exposure to problems.",
     "questions": [

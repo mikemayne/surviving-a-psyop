@@ -27,6 +27,7 @@ Start with the introduction and practical ways of responding.
 - [Don't tolerate mistreatment](https://mikemayne.github.io/surviving-a-psyop/dont_tolerate_mistreatment.txt)
 - [Reducing stress and sleep discipline](https://mikemayne.github.io/surviving-a-psyop/sleep_discipline.txt)
 - [Look for evidence, and remember feelings can change](https://mikemayne.github.io/surviving-a-psyop/feelings_can_change.txt)
+- [Staying grounded](https://mikemayne.github.io/surviving-a-psyop/stay_grounded.txt)
 - [Personal security notes](https://mikemayne.github.io/surviving-a-psyop/personal_security_notes.txt)
 - [Telephone calls](https://mikemayne.github.io/surviving-a-psyop/phone_calls.txt)
 - [Social media](https://mikemayne.github.io/surviving-a-psyop/social_media.txt)
