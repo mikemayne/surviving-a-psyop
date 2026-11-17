@@ -458,6 +458,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cold_reading_ai_assisted.txt"
     },
     {
+      "id": "predicting_bodily_movements",
+      "title": "Predicting bodily movements",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/predicting_bodily_movements.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/predicting_bodily_movements",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/predicting_bodily_movements.txt"
+    },
+    {
       "id": "source_identification_trick",
       "title": "Source identification",
       "category": "Technology & perception",
