@@ -114,7 +114,8 @@
     .rules-bottom p { color: var(--muted); font-size: .84rem; line-height: 1.7; max-width: 590px; margin: 0; }
     .rules-bottom a { color: var(--accent); font-size: .85rem; font-weight: 750; white-space: nowrap; text-underline-offset: 4px; }
     .principles { border-bottom: 1px solid var(--line); }
-    .principles-title { font: normal clamp(2.4rem, 4.2vw, 4rem)/1.1 var(--serif); letter-spacing: -.05em; margin: 34px 0 0; }
+    .principles-heading { display: flex; justify-content: space-between; align-items: end; gap: 35px; padding-top: 34px; }
+    .principles-title { font: normal clamp(2.4rem, 4.2vw, 4rem)/1.1 var(--serif); letter-spacing: -.05em; margin: 0; }
     .principles-inner { display: grid; grid-template-columns: repeat(3, 1fr); }
     .principle { padding: 33px 28px; border-right: 1px solid var(--line); }
     .principle:first-child { padding-left: 0; }
@@ -250,6 +251,7 @@
       .principle:last-child { border-bottom: 0; }
       .rules { padding: 58px 0 66px; }
       .rules-heading { align-items: start; flex-direction: column; gap: 18px; }
+      .principles-heading { align-items: start; flex-direction: column; gap: 18px; }
       .rules-heading h2 { font-size: 3rem; }
       .rules-grid { grid-template-columns: 1fr; }
       .rule-card { padding: 24px; }
@@ -340,7 +342,10 @@
     </div>
   </section>
   <section class="principles" aria-labelledby="principles-title">
-    <div class="wrap"><h2 id="principles-title" class="principles-title">Three ways to help</h2></div>
+    <div class="wrap principles-heading">
+      <h2 id="principles-title" class="principles-title">Three ways to help</h2>
+      <div class="rules-intro"><a class="btn btn-primary" href="#contribute">Contribute <span aria-hidden="true">↗</span></a></div>
+    </div>
     <div class="wrap principles-inner">
       <div class="principle"><small>01 / RECORD</small><strong>Keep your own record.</strong><p>Create a dedicated email account and send yourself factual descriptions of incidents. Once recorded, put them aside and get on with your life.</p></div>
       <div class="principle"><small>02 / REVIEW</small><strong>Look for useful patterns.</strong><p>Connect the account to ChatGPT and periodically compare your observations with this book, considering alternative explanations as well.</p></div>
