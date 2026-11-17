@@ -97,6 +97,8 @@
     .rules-heading { display: flex; justify-content: space-between; align-items: end; gap: 35px; margin-bottom: 37px; }
     .rules-heading h2 { font: normal clamp(2.8rem, 5vw, 4.6rem)/1.05 var(--serif); letter-spacing: -.055em; margin: 14px 0 0; }
     .rules-heading p:not(.eyebrow) { max-width: 345px; font-size: .93rem; line-height: 1.75; color: var(--muted); margin: 0 0 3px; }
+    .rules-intro { max-width: 345px; }
+    .rules-intro .btn { margin-top: 18px; }
     .rules-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px; }
     .rule-card { background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 30px 32px 34px; position: relative; }
     .rule-number { font: normal 2.3rem/1 var(--serif); letter-spacing: -.08em; color: var(--orange); display: block; margin-bottom: 35px; }
@@ -324,7 +326,7 @@
     <div class="wrap">
       <div class="rules-heading">
         <div><p class="eyebrow"><span class="mark">✳</span> Start here</p><h2 id="rules-title">Four rules to remember<span style="color:var(--orange)">.</span></h2></div>
-        <p>The main advice from the introduction, gathered in one place. You don't need to read the whole booklet to start.</p>
+        <div class="rules-intro"><p>The main advice from the introduction, gathered in one place. You don't need to read the whole booklet to start.</p><a class="btn btn-primary" href="./topics/ready_to_report.html">Ready to report? <span aria-hidden="true">↗</span></a></div>
       </div>
       <div class="rules-grid">
         <article class="rule-card"><span class="rule-number">01</span><h3>Stay calm</h3><p id="rule-text-1">Stay calm, the only external response to someone saying something unusual around or to you should be polite bafflement.  Don't react in any other way, just walk off and do something else. Remember you don't owe anyone an explanation for anything, just walk away.</p></article>
@@ -467,6 +469,7 @@ My question:
   var GROUPS = [
     {name:"Begin here", note:"Start with the introduction and practical ways of responding.", files:[
       ["introduction","Introduction"],
+      ["ready_to_report","Ready to report?"],
       ["take_back_control","Take back control"],
       ["dont_chase","Don't chase"],
       ["dont_tolerate_mistreatment","Don't tolerate mistreatment"],
