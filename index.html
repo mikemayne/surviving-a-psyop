@@ -77,9 +77,9 @@
     .author-note h2 { font: normal clamp(1.8rem, 3vw, 2.5rem)/1.15 var(--serif); letter-spacing: -.03em; margin: 12px 0 24px; }
     .author-note p { color: var(--muted); line-height: 1.8; font-size: .97rem; margin: 0 0 18px; }
     .author-note p strong { color: var(--ink); }
-    .hero { padding: 94px 0 92px; border-bottom: 1px solid var(--line); overflow: hidden; }
+    .hero { padding: 38px 0 58px; border-bottom: 1px solid var(--line); overflow: hidden; }
     .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 6%; }
-    .hero h1 { font: normal clamp(3.75rem, 7vw, 7.05rem)/.98 var(--serif); letter-spacing: -.062em; max-width: 700px; margin: 27px 0 28px; }
+    .hero h1 { font: normal clamp(3.75rem, 7vw, 7.05rem)/.98 var(--serif); letter-spacing: -.062em; max-width: 700px; margin: 18px 0 22px; }
     .hero h1 em { color: var(--accent); font-weight: normal; }
     .hero-lead { color: var(--muted); font-size: 1.11rem; line-height: 1.75; max-width: 530px; }
     .buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 34px; }
@@ -87,8 +87,6 @@
     .btn:hover { transform: translateY(-2px); }
     .btn-primary { background: var(--ink); color: var(--paper); }
     .btn-secondary { border-color: var(--line); color: var(--ink); background: transparent; }
-    .tiny-note { margin-top: 23px; color: var(--muted); font-size: .8rem; display: flex; align-items: center; gap: 10px; }
-    .tiny-note:before { content: ""; width: 23px; height: 1px; background: var(--orange); }
     .cover { aspect-ratio: 4/5; position: relative; background: #315f55; border-radius: 3px 11px 11px 3px; color: #f4f3e9; box-shadow: 15px 25px 40px rgba(30,48,42,.16), inset 11px 0 13px rgba(0,0,0,.12); overflow: hidden; padding: 37px; display: flex; flex-direction: column; justify-content: space-between; max-width: 480px; margin-left: auto; }
     .cover:before, .cover:after { content:""; position: absolute; border: 1px solid rgba(226,243,222,.22); border-radius: 50%; width: 380px; height: 380px; left: 19%; top: 16%; }
     .cover:after { width: 270px; height: 270px; left: 32%; top: 25%; }
@@ -168,17 +166,15 @@
     .ai-copy-row .btn { white-space: nowrap; }
     .ai-instructions .ai-privacy { border-top: 1px solid var(--line); margin: 20px 0 0; padding-top: 14px; font-size: .76rem !important; }
 
-    /* Free client-side ChatGPT statement analysis hand-off */
-    .statement-analyser { padding: 70px 0 75px; background: var(--paper-2); border-bottom: 1px solid var(--line); scroll-margin-top: 20px; }
-    .statement-analyser-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 8%; align-items: start; }
-    .statement-analyser h2 { font: normal clamp(2.4rem, 4vw, 3.8rem)/1.1 var(--serif); letter-spacing: -.045em; margin: 16px 0 20px; }
-    .statement-analyser p:not(.eyebrow) { color: var(--muted); line-height: 1.75; font-size: .94rem; }
-    .statement-analyser-form { background: var(--surface); padding: 28px; border: 1px solid var(--line); box-shadow: var(--shadow); min-width: 0; }
-    .statement-analyser-form label { display: block; font-weight: 700; font-size: .9rem; margin-bottom: 10px; }
-    .statement-analyser-form textarea { width: 100%; min-height: 138px; padding: 14px; display: block; resize: vertical; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 4px; font: .94rem/1.55 var(--sans); margin-bottom: 16px; }
+    /* First-screen, no-cost ChatGPT chapter-writing hand-off */
+    .hero-analysis { max-width: 540px; margin: 28px 0 8px; padding: 20px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); box-shadow: var(--shadow); scroll-margin-top: 18px; }
+    .hero-analysis h2 { font: normal 1.65rem/1.15 var(--serif); letter-spacing: -.025em; margin: 0 0 8px; }
+    .hero-analysis .hero-analysis-intro { color: var(--muted); font-size: .87rem; line-height: 1.55; margin: 0 0 14px; }
+    .statement-analyser-form label { display: block; font-size: .85rem; font-weight: 700; margin-bottom: 8px; }
+    .statement-analyser-form textarea { width: 100%; min-height: 76px; padding: 11px 13px; display: block; resize: vertical; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 4px; font: .93rem/1.5 var(--sans); margin-bottom: 12px; }
     .statement-analyser-form .btn { justify-content: center; }
-    .statement-analyser-form .statement-privacy { border-top: 1px solid var(--line); padding-top: 14px; margin: 18px 0 0; font-size: .78rem; }
-    @media (max-width: 680px) { .statement-analyser-grid { grid-template-columns: 1fr; gap: 24px; } .statement-analyser-form { padding: 20px; } }
+    .statement-analyser-form .statement-privacy { color: var(--muted); font-size: .73rem; line-height: 1.5; margin: 11px 0 0; }
+    @media (max-width: 680px) { .hero-analysis { padding: 16px; } }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
     .contribute { border-block: 1px solid var(--line); padding: 70px 0; background: var(--paper-2); }
     .contribute-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 10%; align-items: center; }
@@ -352,15 +348,26 @@
   <section class="hero">
     <div class="wrap hero-grid">
       <div>
-        <p class="eyebrow"><span class="mark">✳</span> A free &amp; open field guide</p>
+        <p class="eyebrow"><span class="mark">✳</span> A free &amp; open field guide. No Sign In. No Tracking</p>
         <h1 tabindex="-1">How to survive a <em>psyop.</em></h1>
         <p class="hero-lead">A collection of anonymized unpleasant experiences and advice on how to deal with them. Read the four survival rules first, then ask ChatGPT for advice on a specific experience or browse</p>
+        <div class="hero-analysis" id="analyse-a-statement" aria-labelledby="statement-analyser-title">
+          <h2 id="statement-analyser-title">Analyse a statement</h2>
+          <p class="hero-analysis-intro">Enter something someone said or did. ChatGPT can explain possible psychological mechanisms, alternatives and practical responses in the style of a book chapter.</p>
+          <form class="statement-analyser-form" id="statement-analyser-form" action="https://chatgpt.com/" method="get" target="_blank" rel="noopener noreferrer">
+            <label for="statement-analyser-input">What did someone say or do?</label>
+            <textarea id="statement-analyser-input" rows="3" maxlength="1000" required placeholder="For example: &quot;Nobody will believe you.&quot;"></textarea>
+            <input type="hidden" name="temporary-chat" value="true">
+            <input type="hidden" name="q" id="statement-analyser-prompt">
+            <button type="submit" class="btn btn-primary">Analyse a statement <span aria-hidden="true">↗</span></button>
+            <p class="statement-privacy"><strong>Privacy:</strong> Your text stays on this page until you click. Then it is included in a ChatGPT URL, which may appear in browser history. Avoid sensitive details. Verify Temporary Chat is active if wanted; ChatGPT may require sign-in and has usage limits.</p>
+          </form>
+        </div>
         <div class="buttons">
           <a class="btn btn-primary" href="#rules">Read the four rules <span aria-hidden="true">↓</span></a>
           <a class="btn btn-secondary" href="#read/introduction">Full introduction <span aria-hidden="true">↗</span></a>
           <a class="btn btn-secondary" href="#analyse-a-statement">Analyse a statement <span aria-hidden="true">↓</span></a>
         </div>
-        <p class="tiny-note">Freely available. No sign-in. No tracking.</p>
       </div>
       <div class="cover" role="img" aria-label="Book cover reading Just Do Nothing">
         <div class="cover-top"><span>FIELD NOTES<br>AN OPEN HANDBOOK</span><span class="sun" aria-hidden="true"></span></div>
@@ -384,24 +391,6 @@
     </div>
   </section>
 
-  <section class="statement-analyser" id="analyse-a-statement" aria-labelledby="statement-analyser-title">
-    <div class="wrap statement-analyser-grid">
-      <div>
-        <p class="eyebrow"><span class="mark">✳</span> Explore the psychology</p>
-        <h2 id="statement-analyser-title" tabindex="-1">Analyse a statement.</h2>
-        <p>Enter a phrase or briefly describe a behaviour. ChatGPT can turn it into a chapter-style explanation of the possible psychological mechanisms, alternative explanations and practical ways to respond.</p>
-        <p>This opens ChatGPT directly. No paid AI service or backend is needed for this website.</p>
-      </div>
-      <form class="statement-analyser-form" id="statement-analyser-form" action="https://chatgpt.com/" method="get" target="_blank" rel="noopener noreferrer">
-        <label for="statement-analyser-input">What did someone say or do?</label>
-        <textarea id="statement-analyser-input" rows="4" maxlength="1000" required placeholder="For example: &quot;Nobody will believe you.&quot;"></textarea>
-        <input type="hidden" name="temporary-chat" value="true">
-        <input type="hidden" name="q" id="statement-analyser-prompt">
-        <button type="submit" class="btn btn-primary">Analyse a statement <span aria-hidden="true">↗</span></button>
-        <p class="statement-privacy"><strong>Privacy:</strong> Nothing is submitted while you type. Clicking the button passes your text to ChatGPT in a URL, which can appear in browser history. Avoid names and sensitive personal details. Check that Temporary Chat is active if you want it. ChatGPT may require sign-in and has usage limits.</p>
-      </form>
-    </div>
-  </section>
   <section class="principles" aria-labelledby="principles-title">
     <div class="wrap principles-heading">
       <h2 id="principles-title" class="principles-title">Three ways to help</h2>
