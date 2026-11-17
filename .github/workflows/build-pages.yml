@@ -30,12 +30,17 @@ jobs:
           node-version: '22'
       - name: Generate searchable chapter pages and sitemap
         run: node scripts/generate-seo.mjs
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - name: Package only public site files
+        run: |
+          mkdir -p _site
+          cp index.html *.txt *.json llms.txt robots.txt sitemap.xml _site/
+          cp -R topics _site/
+          test -s _site/index.html
+          test -s _site/topics/index.html
       - name: Upload generated website
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
-          path: .
+          path: ./_site
 
   deploy:
     needs: build
