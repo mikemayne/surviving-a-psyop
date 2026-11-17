@@ -137,7 +137,7 @@
     .catalogue { padding: 89px 0 105px; scroll-margin-top: 36px; }
     .search-box { display: flex; align-items: center; gap: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 5px; padding: 0 14px; width: min(300px, 100%); height: 49px; }
     .search-box svg { width: 17px; fill: none; stroke: var(--muted); stroke-width: 1.8; }
-    .search-box input { width: 100%; min-width: 0; border: none; background: transparent; outline: none; color: var(--ink); font-size: .86rem; }
+    .search-box input { width: 100%; min-width: 0; border: none; background: transparent; outline: none; color: var(--ink); font-size: .92rem; }
     .search-box:focus-within { border-color: var(--accent); outline: 3px solid var(--orange); outline-offset: 3px; }
     .category { border-top: 1px solid var(--line); padding: 29px 0 33px; display: grid; grid-template-columns: 245px 1fr; gap: 40px; }
     .category-title { font: normal 1.55rem var(--serif); margin: 0 0 9px; letter-spacing: -.025em; }
@@ -189,7 +189,7 @@
     .sidebar-back { font-size: .78rem; font-weight: 700; color: var(--accent); text-decoration: none; display: inline-flex; align-items: center; gap: 10px; margin-bottom: 26px; }
     .sidebar-search { width: 100%; }
     .sidebar-group { margin-top: 26px; }
-    .sidebar-group-title { color: var(--muted); text-transform: uppercase; font-size: .67rem; letter-spacing: .13em; font-weight: 800; margin-bottom: 10px; }
+    .sidebar-group-title { color: var(--muted); text-transform: uppercase; font-size: .8rem; letter-spacing: .09em; font-weight: 800; margin: 0 0 10px; }
     .sidebar-link { display: block; padding: 9px 12px; border-radius: 3px; color: var(--muted); text-decoration: none; font-size: .81rem; line-height: 1.4; border-left: 2px solid transparent; }
     .sidebar-link:hover { color: var(--ink); background: var(--surface); }
     .sidebar-link.active { background: var(--surface); color: var(--accent); border-left-color: var(--accent); font-weight: 740; }
@@ -320,7 +320,7 @@
       <a class="desktop-link" href="#use-ai">Use with AI</a>
       <a class="desktop-link" href="#contribute">Contribute</a>
       <a class="desktop-link" href="https://github.com/mikemayne/surviving-a-psyop" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-      <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" aria-pressed="false" title="Toggle colour theme">◐</button>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Dark mode is off" aria-pressed="false" title="Toggle colour theme">◐</button>
       <details class="mobile-site-nav" id="mobile-site-nav">
         <summary>Menu</summary>
         <div class="mobile-site-links">
@@ -349,7 +349,7 @@
         </div>
         <p class="tiny-note">Freely available. No sign-in. No tracking.</p>
       </div>
-      <div class="cover" aria-label="Decorative book cover">
+      <div class="cover" role="img" aria-label="Book cover reading Just Do Nothing">
         <div class="cover-top"><span>FIELD NOTES<br>AN OPEN HANDBOOK</span><span class="sun" aria-hidden="true"></span></div>
         <div class="cover-center">Just<br>Do<br>Nothing.</div>
         <div class="cover-bottom"><span>Readers' edition</span><span>CC0 · OPEN</span></div>
@@ -691,6 +691,10 @@ My question:
     var smallScreen = window.matchMedia("(max-width: 680px)").matches;
     var open = smallScreen && sidebar.classList.contains("open") && !reader.classList.contains("hidden");
     sidebar.inert = smallScreen && !open;
+    document.querySelector(".reader-main").inert = open;
+    document.querySelector(".header").inert = open;
+    document.querySelector(".footer").inert = open;
+    document.getElementById("skip-link").inert = open;
     if (smallScreen) {
       sidebar.setAttribute("aria-hidden", open ? "false" : "true");
       if (open) { sidebar.setAttribute("role", "dialog"); sidebar.setAttribute("aria-modal", "true"); }
@@ -916,7 +920,7 @@ My question:
   function syncThemeButton() {
     var dark = document.documentElement.dataset.theme === "dark";
     themeButton.setAttribute("aria-pressed", dark ? "true" : "false");
-    themeButton.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+    themeButton.setAttribute("aria-label", dark ? "Dark mode is on" : "Dark mode is off");
   }
   themeButton.addEventListener("click",function() {
     var dark = document.documentElement.dataset.theme !== "dark";
