@@ -804,6 +804,25 @@ My question:
     var preference = localStorage.getItem("fieldguide-theme");
     if (preference === "dark" || (!preference && window.matchMedia("(prefers-color-scheme: dark)").matches)) document.documentElement.dataset.theme = "dark";
   } catch(e) {}
+  // Match the cover to the hero text's height without stretching its 4:5 shape.
+  (function () {
+    var grid = document.querySelector(".hero-grid");
+    var copy = grid.firstElementChild;
+    var cover = grid.querySelector(".cover");
+    function sizeCover() {
+      if (window.matchMedia("(max-width: 680px)").matches) {
+        cover.style.removeProperty("width");
+        return;
+      }
+      var columns = grid.getBoundingClientRect().width - copy.getBoundingClientRect().width
+        - parseFloat(getComputedStyle(grid).columnGap);
+      var target = Math.min(480, columns, copy.getBoundingClientRect().height * 4 / 5);
+      cover.style.width = Math.max(0, Math.floor(target)) + "px";
+    }
+    if (window.ResizeObserver) new ResizeObserver(sizeCover).observe(copy);
+    window.addEventListener("resize", sizeCover);
+    sizeCover();
+  })();
   window.addEventListener("hashchange",route);
   window.addEventListener("scroll",updateProgress,{passive:true});
   window.addEventListener("resize",updateProgress);
