@@ -635,6 +635,18 @@
       "personal_security_notes"
     ]
   },
+  "deprivation_of_basic_necessities": {
+    "intro": "Describes the coercive withholding of essential needs such as food, water, hygiene, rest and medical attention, while distinguishing punitive restrictions from legitimate care constraints.",
+    "questions": [
+      "How can I distinguish a genuine care or safety restriction from punitive withholding of an essential need?",
+      "What practical steps can I take if I am denied food, water, hygiene or necessary medical care?"
+    ],
+    "related": [
+      "sleep_deprivation",
+      "obstruction_of_communication",
+      "dont_tolerate_mistreatment"
+    ]
+  },
   "sexual_coercion": {
     "intro": "Discusses threats, humiliation and violations of sexual boundaries in a non-graphic context.",
     "questions": [
