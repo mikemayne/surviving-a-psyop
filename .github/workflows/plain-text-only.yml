@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [opened, reopened, synchronize, ready_for_review]
 
-# Never grant write permissions or run code from a submitted file.
+# Pull requests never receive a write token or permission to publish.
 permissions:
   contents: read
 
@@ -13,73 +13,101 @@ jobs:
     name: Validate plain-text files
     runs-on: ubuntu-latest
     steps:
-      - name: Check out proposed changes
-        uses: actions/checkout@v4
+      - name: Check out proposed changes (no persisted credentials)
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
           persist-credentials: false
 
-      - name: Check changed files only
+      - name: Check proposed files
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          REPOSITORY: ${{ github.repository }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          REPOSITORY_OWNER: ${{ github.repository_owner }}
         shell: bash
         run: |
           python3 - <<'PY'
           import os
           import pathlib
+          import re
           import subprocess
           import sys
+          import unicodedata
 
-          # Compare the submitted branch against the base, not the whole repo:
-          # the existing website deliberately contains HTML and workflow files.
-          raw = subprocess.check_output([
-              "git", "diff", "--no-ext-diff", "--no-renames",
-              "--name-only", "-z", os.environ["BASE_SHA"], os.environ["HEAD_SHA"]
-          ])
-          filenames = [os.fsdecode(item) for item in raw.split(b"\0") if item]
+          def git(*args):
+              return subprocess.check_output(["git", *args])
+
+          base, head = os.environ["BASE_SHA"], os.environ["HEAD_SHA"]
+          names_raw = git("diff", "--no-ext-diff", "--no-renames", "--name-only", "-z", base, head)
+          names = [os.fsdecode(item) for item in names_raw.split(b"\0") if item]
+          deleted_raw = git("diff", "--no-ext-diff", "--no-renames", "--diff-filter=D", "--name-only", "-z", base, head)
+          deleted = set(os.fsdecode(item) for item in deleted_raw.split(b"\0") if item)
+
+          # The owner must be able to maintain the HTML, metadata and workflows.
+          # This exception is ONLY for PRs originating in this repository,
+          # opened by its owner; outside forks always receive strict text checks.
+          owner_maintenance = (
+              os.environ["HEAD_REPO"] == os.environ["REPOSITORY"]
+              and os.environ["PR_AUTHOR"] == os.environ["REPOSITORY_OWNER"]
+          )
+          if owner_maintenance:
+              print("Owner maintenance PR: file-type policy not applied.")
+              print("Changes still require author review and repository branch protections.")
+              sys.exit(0)
+
           errors = []
+          if not names:
+              errors.append("No changed files found")
+          if len(names) > 10:
+              errors.append("At most 10 changed text files per pull request")
+          total_bytes = 0
+          safe_filename = re.compile(r"[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}\.txt\Z")
+          html_tag = re.compile(r"<\s*(?:!doctype|/?(?:html|script|iframe|style|svg|object|embed|form|link|meta))\b", re.I)
 
-          for filename in filenames:
-              name = repr(filename)  # Avoid exposing control characters in logs.
-              if not filename.endswith(".txt"):
-                  errors.append(f"{name}: only .txt files may be changed")
+          for filename in names:
+              name = repr(filename)
+              if filename in deleted:
+                  errors.append(f"{name}: deletion is not allowed in a contribution")
                   continue
-
+              if not safe_filename.fullmatch(filename):
+                  errors.append(f"{name}: only root-level ASCII .txt chapter filenames are allowed")
+                  continue
               path = pathlib.Path(filename)
-              if path.is_symlink():
-                  errors.append(f"{name}: symlinks are not plain-text files")
+              if path.is_symlink() or not path.is_file():
+                  errors.append(f"{name}: must be a regular file, not a symlink")
                   continue
-              if not path.exists():
-                  # Deleting an existing .txt file is subject to human review.
-                  print(f"Deletion of {name}: no contents to check")
-                  continue
-              if not path.is_file():
-                  errors.append(f"{name}: not a regular file")
-                  continue
-
               data = path.read_bytes()
+              total_bytes += len(data)
+              if len(data) > 100_000:
+                  errors.append(f"{name}: maximum contribution file size is 100 KB")
+                  continue
               try:
-                  text = data.decode("utf-8")
+                  content = data.decode("utf-8")
               except UnicodeDecodeError:
-                  errors.append(f"{name}: contents must be UTF-8 text")
+                  errors.append(f"{name}: must be valid UTF-8")
                   continue
+              if content.startswith("\ufeff"):
+                  errors.append(f"{name}: UTF-8 byte order mark is not allowed")
+              if any(unicodedata.category(ch) in ("Cc", "Cf", "Cs") and ch not in "\t\r\n" for ch in content):
+                  errors.append(f"{name}: forbidden control/invisible/direction character")
+              if any(len(line) > 2000 for line in content.splitlines()):
+                  errors.append(f"{name}: a line exceeds 2,000 characters")
+              if html_tag.search(content):
+                  errors.append(f"{name}: HTML/script markup is not allowed")
+              if content.startswith("#!"):
+                  errors.append(f"{name}: executable script header is not allowed")
 
-              if data.startswith(b"%PDF-"):
-                  errors.append(f"{name}: PDF content is not permitted")
-                  continue
-              if any((ord(c) < 32 and c not in "\t\n\r") or 127 <= ord(c) <= 159 for c in text):
-                  errors.append(f"{name}: contains binary/control characters")
-                  continue
-              if text.lstrip().lower().startswith(("<!doctype html", "<html", "<script")):
-                  errors.append(f"{name}: HTML or script documents are not permitted")
+          if total_bytes > 250_000:
+              errors.append("Total changed text must be at most 250 KB")
 
           if errors:
               print("Plain-text-only check FAILED:")
               for error in errors:
-                  print(f" - {error}")
+                  print(" - " + error)
               sys.exit(1)
-
-          print(f"Plain-text-only check passed: {len(filenames)} changed file(s) checked.")
-          print("Content still requires the author's manual review.")
+          print(f"Plain-text-only check passed for {len(names)} file(s), {total_bytes} bytes.")
+          print("Human review of text, links, safety and anonymity remains necessary.")
           PY
