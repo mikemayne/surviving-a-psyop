@@ -47,6 +47,7 @@ Patterns of pressure, interpretation and social influence.
 - [Accusation baiting](https://mikemayne.github.io/surviving-a-psyop/accusation_baiting.txt)
 - [Staged Third-Party Reactions](https://mikemayne.github.io/surviving-a-psyop/staged_third_party_reactions.txt)
 - [We Only Do This to Really Bad People](https://mikemayne.github.io/surviving-a-psyop/we_only_do_this_to_really_bad_people.txt)
+- [Victim blaming](https://mikemayne.github.io/surviving-a-psyop/victim_blaming.txt)
 - [Accusations of False Reports](https://mikemayne.github.io/surviving-a-psyop/false_report_accusations.txt)
 - [Claim inflation](https://mikemayne.github.io/surviving-a-psyop/claim_inflation.txt)
 - [Claiming Influence Over Others](https://mikemayne.github.io/surviving-a-psyop/claiming_influence.txt)
@@ -88,6 +89,7 @@ Descriptions of emotionally forceful and coercive tactics.
 - [Humiliation Rituals](https://mikemayne.github.io/surviving-a-psyop/humiliation_rituals.txt)
 - [Bodily functions](https://mikemayne.github.io/surviving-a-psyop/bodily_functions.txt)
 - [Incitement to violence](https://mikemayne.github.io/surviving-a-psyop/incitement_to_violence.txt)
+- [Don't do it yourself](https://mikemayne.github.io/surviving-a-psyop/dont_do_it_yourself.txt)
 - [Cumulative Psychological Pressure](https://mikemayne.github.io/surviving-a-psyop/cumulative_psychological_pressure.txt)
 - [Sleep deprivation](https://mikemayne.github.io/surviving-a-psyop/sleep_deprivation.txt)
 - [Deprivation of Basic Necessities as Punishment](https://mikemayne.github.io/surviving-a-psyop/deprivation_of_basic_necessities.txt)
@@ -100,6 +102,7 @@ Descriptions of emotionally forceful and coercive tactics.
 
 Technical ideas, media, security and interpretation.
 
+- [Dream Manipulation](https://mikemayne.github.io/surviving-a-psyop/dream_manipulation.txt)
 - [Cold reading](https://mikemayne.github.io/surviving-a-psyop/cold_reading.txt)
 - [AI-assisted cold reading](https://mikemayne.github.io/surviving-a-psyop/cold_reading_ai_assisted.txt)
 - [Predicting bodily movements](https://mikemayne.github.io/surviving-a-psyop/predicting_bodily_movements.txt)
