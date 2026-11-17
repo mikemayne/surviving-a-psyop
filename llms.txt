@@ -42,6 +42,7 @@ Patterns of pressure, interpretation and social influence.
 - [Negging](https://mikemayne.github.io/surviving-a-psyop/negging_psychological_manipulation.txt)
 - [Good cop, bad cop](https://mikemayne.github.io/surviving-a-psyop/good_cop_bad_cop.txt)
 - [Guilt tripping](https://mikemayne.github.io/surviving-a-psyop/guilt_tripping.txt)
+- [False Accusations of Disloyalty](https://mikemayne.github.io/surviving-a-psyop/accusations_of_disloyalty.txt)
 - [Emotional burden](https://mikemayne.github.io/surviving-a-psyop/emotional_burden_trick.txt)
 - [Accusation baiting](https://mikemayne.github.io/surviving-a-psyop/accusation_baiting.txt)
 - [Staged Third-Party Reactions](https://mikemayne.github.io/surviving-a-psyop/staged_third_party_reactions.txt)
