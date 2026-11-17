@@ -215,6 +215,18 @@
       "legal_intimidation"
     ]
   },
+  "claiming_influence": {
+    "intro": "Examines claims of influence over other people's actions or organisations, including taking credit for ordinary events and threatening to relay casual comments.",
+    "questions": [
+      "How can I assess a claim that someone caused another person's ordinary behaviour?",
+      "Why should I avoid assuming that an offhand opinion has been passed on to a third party?"
+    ],
+    "related": [
+      "claim_inflation",
+      "interpretation_trick",
+      "dont_chase"
+    ]
+  },
   "logic_traps": {
     "intro": "Explains false dilemmas, circular reasoning and double binds, with suggestions for rejecting unsupported premises.",
     "questions": [
