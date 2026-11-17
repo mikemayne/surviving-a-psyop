@@ -1,0 +1,1004 @@
+{
+  "schema_version": 1,
+  "description": "Chapter-linked, qualitative pattern-matching aids drawn from the guide's text. Entries describe possible emotional effects and behavioural responses if a chapter's pattern applies. They are not diagnostic criteria, calibrated likelihoods, evidence of targeting, or proof of anyone's intentions.",
+  "usage": "Consider described behaviours and sequence first. Use reported emotions and behavioural pressures as secondary signals; a reaction alone does not identify a perpetrator's goal. Consult the underlying chapter before presenting a match. N/A means the text does not support a sufficiently specific inference, not that a reaction is impossible. Guidance and reference chapters are not assigned hypothetical manipulative goals.",
+  "chapter_count": 84,
+  "chapters": {
+    "introduction": {
+      "kind": "overview",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "ready_to_report": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "take_back_control": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "dont_chase": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "dont_tolerate_mistreatment": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "sleep_discipline": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "feelings_can_change": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "stay_grounded": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "personal_security_notes": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "phone_calls": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "social_media": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "how_to_collaborate": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "gaslit_by_friends": {
+      "kind": "technique",
+      "possible_goal": "undermine confidence and independence",
+      "possible_emotional_effects": [
+        "self-doubt",
+        "embarrassment",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "seeking approval",
+        "defensive explanations",
+        "withdrawing from friends"
+      ]
+    },
+    "obstruction_of_communication": {
+      "kind": "technique",
+      "possible_goal": "isolate someone from independent contacts or advice",
+      "possible_emotional_effects": [
+        "anxiety",
+        "helplessness",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "reduced help-seeking",
+        "dependence on a gatekeeper"
+      ]
+    },
+    "negging_psychological_manipulation": {
+      "kind": "technique",
+      "possible_goal": "undermine confidence or provoke a reaction",
+      "possible_emotional_effects": [
+        "embarrassment",
+        "insecurity",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "seeking approval",
+        "defending oneself",
+        "ruminating"
+      ]
+    },
+    "good_cop_bad_cop": {
+      "kind": "technique",
+      "possible_goal": "increase compliance by contrasting hostility with reassurance",
+      "possible_emotional_effects": [
+        "fear",
+        "relief",
+        "uncertainty"
+      ],
+      "possible_behavioural_responses": [
+        "trusting the reassuring person",
+        "complying under pressure"
+      ]
+    },
+    "guilt_tripping": {
+      "kind": "technique",
+      "possible_goal": "induce guilt without a specific accusation",
+      "possible_emotional_effects": [
+        "guilt",
+        "confusion",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "self-justification",
+        "attempting to make amends"
+      ]
+    },
+    "accusations_of_disloyalty": {
+      "kind": "technique",
+      "possible_goal": "pressure someone to conform by framing independence as betrayal",
+      "possible_emotional_effects": [
+        "guilt",
+        "anxiety",
+        "shame"
+      ],
+      "possible_behavioural_responses": [
+        "withdrawing a disagreement",
+        "apologising",
+        "complying"
+      ]
+    },
+    "emotional_burden_trick": {
+      "kind": "technique",
+      "possible_goal": "consume attention through repeated emotional disruption",
+      "possible_emotional_effects": [
+        "anger",
+        "alarm",
+        "embarrassment",
+        "frustration",
+        "exhaustion"
+      ],
+      "possible_behavioural_responses": [
+        "ruminating",
+        "reduced concentration",
+        "disengaging from ordinary activities"
+      ]
+    },
+    "accusation_baiting": {
+      "kind": "technique",
+      "possible_goal": "induce exaggerated accusations and undermine credibility",
+      "possible_emotional_effects": [
+        "anger",
+        "suspicion",
+        "fear",
+        "confusion"
+      ],
+      "possible_behavioural_responses": [
+        "making unsupported allegations",
+        "confrontation"
+      ]
+    },
+    "staged_third_party_reactions": {
+      "kind": "technique",
+      "possible_goal": "create the impression of social condemnation",
+      "possible_emotional_effects": [
+        "shame",
+        "anxiety",
+        "confusion"
+      ],
+      "possible_behavioural_responses": [
+        "seeking explanations",
+        "defending oneself",
+        "ruminating"
+      ]
+    },
+    "we_only_do_this_to_really_bad_people": {
+      "kind": "technique",
+      "possible_goal": "present mistreatment as proof of guilt",
+      "possible_emotional_effects": [
+        "shame",
+        "guilt",
+        "fear"
+      ],
+      "possible_behavioural_responses": [
+        "trying to prove innocence",
+        "accepting mistreatment"
+      ]
+    },
+    "victim_blaming": {
+      "kind": "technique",
+      "possible_goal": "shift responsibility from conduct to the person reporting it",
+      "possible_emotional_effects": [
+        "guilt",
+        "shame",
+        "anger"
+      ],
+      "possible_behavioural_responses": [
+        "self-blame",
+        "defending one's credibility",
+        "stopping complaints"
+      ]
+    },
+    "false_report_accusations": {
+      "kind": "technique",
+      "possible_goal": "discourage reporting by alleging dishonesty",
+      "possible_emotional_effects": [
+        "fear",
+        "anxiety",
+        "shame"
+      ],
+      "possible_behavioural_responses": [
+        "withdrawing complaints",
+        "avoiding authorities"
+      ]
+    },
+    "claim_inflation": {
+      "kind": "technique",
+      "possible_goal": "encourage claims beyond available evidence to damage credibility",
+      "possible_emotional_effects": [
+        "confusion",
+        "fear",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "speculative allegations",
+        "linking unrelated events"
+      ]
+    },
+    "claiming_influence": {
+      "kind": "technique",
+      "possible_goal": "create an exaggerated impression of control over others",
+      "possible_emotional_effects": [
+        "fear",
+        "helplessness",
+        "isolation"
+      ],
+      "possible_behavioural_responses": [
+        "mistrusting others",
+        "self-censorship",
+        "withdrawal"
+      ]
+    },
+    "claiming_control_over_predictable_events": {
+      "kind": "technique",
+      "possible_goal": "create an impression of extraordinary control",
+      "possible_emotional_effects": [
+        "confusion",
+        "fear",
+        "uncertainty"
+      ],
+      "possible_behavioural_responses": [
+        "checking coincidences",
+        "changing ordinary behaviour"
+      ]
+    },
+    "reputation_to_live_up_to": {
+      "kind": "technique",
+      "possible_goal": "pressure someone to conform to an assigned identity",
+      "possible_emotional_effects": [
+        "guilt",
+        "pride",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "compliance",
+        "avoiding disagreement"
+      ]
+    },
+    "manufactured_confusion": {
+      "kind": "technique",
+      "possible_goal": "make clear decisions harder through contradictory instructions",
+      "possible_emotional_effects": [
+        "confusion",
+        "frustration",
+        "self-doubt"
+      ],
+      "possible_behavioural_responses": [
+        "repeatedly seeking clarification",
+        "indecision"
+      ]
+    },
+    "logic_traps": {
+      "kind": "technique",
+      "possible_goal": "steer someone to accept a false premise",
+      "possible_emotional_effects": [
+        "confusion",
+        "guilt",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "defending against false accusations",
+        "choosing between false alternatives"
+      ]
+    },
+    "weaponised_literalism": {
+      "kind": "technique",
+      "possible_goal": "derail discussion into disputes over wording",
+      "possible_emotional_effects": [
+        "frustration",
+        "confusion"
+      ],
+      "possible_behavioural_responses": [
+        "overexplaining",
+        "losing the original point"
+      ]
+    },
+    "loaded_questions": {
+      "kind": "technique",
+      "possible_goal": "induce an apparent admission by embedding a false premise",
+      "possible_emotional_effects": [
+        "anxiety",
+        "shame",
+        "confusion"
+      ],
+      "possible_behavioural_responses": [
+        "answering within a false premise",
+        "unnecessary apology"
+      ]
+    },
+    "false_assistance": {
+      "kind": "technique",
+      "possible_goal": "secure compliance by portraying control as help",
+      "possible_emotional_effects": [
+        "guilt",
+        "fear",
+        "confusion"
+      ],
+      "possible_behavioural_responses": [
+        "accepting unreasonable demands",
+        "reluctance to refuse"
+      ]
+    },
+    "using_concern_as_a_vehicle_for_intimidation": {
+      "kind": "technique",
+      "possible_goal": "frame restrictions or threats as protective care",
+      "possible_emotional_effects": [
+        "guilt",
+        "anxiety",
+        "confusion"
+      ],
+      "possible_behavioural_responses": [
+        "compliance",
+        "hesitation to question demands"
+      ]
+    },
+    "you_can_run_but_you_cant_hide": {
+      "kind": "technique",
+      "possible_goal": "present ordinary choices as evidence of guilt or futile escape",
+      "possible_emotional_effects": [
+        "fear",
+        "helplessness",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "avoiding leaving",
+        "defending ordinary decisions"
+      ]
+    },
+    "false_endings": {
+      "kind": "technique",
+      "possible_goal": "use promised relief and its withdrawal to encourage compliance",
+      "possible_emotional_effects": [
+        "hope",
+        "relief",
+        "disappointment",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "trying to satisfy arbitrary conditions",
+        "renewed compliance"
+      ]
+    },
+    "false_completion": {
+      "kind": "technique",
+      "possible_goal": "induce premature abandonment of a legitimate task",
+      "possible_emotional_effects": [
+        "false reassurance",
+        "uncertainty",
+        "discouragement"
+      ],
+      "possible_behavioural_responses": [
+        "stopping work early",
+        "abandoning a plan"
+      ]
+    },
+    "impossible_compliance": {
+      "kind": "technique",
+      "possible_goal": "keep someone focused on satisfying changing demands",
+      "possible_emotional_effects": [
+        "frustration",
+        "anxiety",
+        "helplessness"
+      ],
+      "possible_behavioural_responses": [
+        "constant self-monitoring",
+        "trying to meet shifting rules"
+      ]
+    },
+    "impossible_standards": {
+      "kind": "technique",
+      "possible_goal": "undermine confidence through relentless criticism",
+      "possible_emotional_effects": [
+        "shame",
+        "frustration",
+        "self-doubt"
+      ],
+      "possible_behavioural_responses": [
+        "perfectionism",
+        "overexplaining",
+        "withdrawal"
+      ]
+    },
+    "moral_accusations": {
+      "kind": "technique",
+      "possible_goal": "pressure someone to defend against a presumed moral failing",
+      "possible_emotional_effects": [
+        "shame",
+        "anger",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "defending one's character",
+        "accepting a false premise"
+      ]
+    },
+    "moral_blackmail": {
+      "kind": "technique",
+      "possible_goal": "discourage disclosure through alleged greater-good obligations",
+      "possible_emotional_effects": [
+        "guilt",
+        "fear",
+        "moral conflict"
+      ],
+      "possible_behavioural_responses": [
+        "remaining silent",
+        "tolerating mistreatment"
+      ]
+    },
+    "interpretation_trick": {
+      "kind": "technique",
+      "possible_goal": "make ambiguous sounds or statements seem personally revealing",
+      "possible_emotional_effects": [
+        "confusion",
+        "defensiveness",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "reinterpretation of ambiguous speech",
+        "rumination"
+      ]
+    },
+    "retrospective_reinterpretation_of_behaviour": {
+      "kind": "technique",
+      "possible_goal": "impose condemnatory meanings after the fact",
+      "possible_emotional_effects": [
+        "guilt",
+        "confusion",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "rechecking ordinary behaviour",
+        "unnecessary apologies"
+      ]
+    },
+    "talking": {
+      "kind": "technique",
+      "possible_goal": "encourage interpretations of ordinary speech as coded communication",
+      "possible_emotional_effects": [
+        "confusion",
+        "anxiety",
+        "suspicion"
+      ],
+      "possible_behavioural_responses": [
+        "searching for hidden meanings",
+        "changing ordinary behaviour"
+      ]
+    },
+    "service_shield": {
+      "kind": "technique",
+      "possible_goal": "deflect scrutiny by invoking service or duty",
+      "possible_emotional_effects": [
+        "guilt",
+        "shame",
+        "hesitation"
+      ],
+      "possible_behavioural_responses": [
+        "withholding criticism",
+        "abandoning complaints"
+      ]
+    },
+    "the_guity_always_run": {
+      "kind": "technique",
+      "possible_goal": "frame departure or disengagement as guilt",
+      "possible_emotional_effects": [
+        "fear",
+        "anxiety",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "remaining in an unwanted encounter",
+        "defensive explanations"
+      ]
+    },
+    "legal_intimidation": {
+      "kind": "technique",
+      "possible_goal": "induce compliance by exaggerating criminal consequences",
+      "possible_emotional_effects": [
+        "fear",
+        "anxiety",
+        "helplessness"
+      ],
+      "possible_behavioural_responses": [
+        "avoiding complaints",
+        "complying",
+        "panicked decisions"
+      ]
+    },
+    "hiding_behind_OSA": {
+      "kind": "technique",
+      "possible_goal": "discourage questions and reporting through secrecy claims",
+      "possible_emotional_effects": [
+        "fear",
+        "uncertainty",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "self-censorship",
+        "avoiding reporting"
+      ]
+    },
+    "criminilisation": {
+      "kind": "technique",
+      "possible_goal": "make ordinary acts appear criminal or immoral",
+      "possible_emotional_effects": [
+        "guilt",
+        "shame",
+        "fear"
+      ],
+      "possible_behavioural_responses": [
+        "hypervigilance",
+        "self-censorship",
+        "defensive explanations"
+      ]
+    },
+    "threatened_framing": {
+      "kind": "technique",
+      "possible_goal": "coerce through threats of fabricated accusations",
+      "possible_emotional_effects": [
+        "fear",
+        "anxiety",
+        "helplessness"
+      ],
+      "possible_behavioural_responses": [
+        "withdrawal",
+        "compliance",
+        "avoidance"
+      ]
+    },
+    "accidentally_overheard": {
+      "kind": "technique",
+      "possible_goal": "make a staged message appear credible as accidental disclosure",
+      "possible_emotional_effects": [
+        "anxiety",
+        "confusion",
+        "fear"
+      ],
+      "possible_behavioural_responses": [
+        "believing implied information",
+        "changing behaviour"
+      ]
+    },
+    "narrating_trick": {
+      "kind": "technique",
+      "possible_goal": "create a feeling of scrutiny over ordinary actions",
+      "possible_emotional_effects": [
+        "anxiety",
+        "fear",
+        "self-consciousness"
+      ],
+      "possible_behavioural_responses": [
+        "self-monitoring",
+        "changing ordinary routines"
+      ]
+    },
+    "public_shaming": {
+      "kind": "technique",
+      "possible_goal": "humiliate and discourage participation in public life",
+      "possible_emotional_effects": [
+        "shame",
+        "anger",
+        "fear"
+      ],
+      "possible_behavioural_responses": [
+        "withdrawal",
+        "defending reputation",
+        "avoiding public places"
+      ]
+    },
+    "name_and_shame": {
+      "kind": "technique",
+      "possible_goal": "pressure through threatened reputational damage",
+      "possible_emotional_effects": [
+        "fear",
+        "shame",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "silence",
+        "compliance",
+        "withdrawal"
+      ]
+    },
+    "flashmobs": {
+      "kind": "experience_and_analysis",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": [
+        "embarrassment",
+        "anxiety",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "avoiding public places",
+        "searching for connections"
+      ]
+    },
+    "body_shaming": {
+      "kind": "technique",
+      "possible_goal": "undermine bodily confidence and dignity",
+      "possible_emotional_effects": [
+        "shame",
+        "embarrassment",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "self-consciousness",
+        "avoiding ordinary private activities"
+      ]
+    },
+    "exaggerated_disgust": {
+      "kind": "technique",
+      "possible_goal": "induce shame through conspicuous disapproval",
+      "possible_emotional_effects": [
+        "embarrassment",
+        "disgust",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "self-monitoring",
+        "defending one's behaviour"
+      ]
+    },
+    "humiliation_rituals": {
+      "kind": "technique",
+      "possible_goal": "obtain degrading compliance as a test of obedience",
+      "possible_emotional_effects": [
+        "shame",
+        "fear",
+        "embarrassment"
+      ],
+      "possible_behavioural_responses": [
+        "compliance",
+        "reluctance to disclose"
+      ]
+    },
+    "bodily_functions": {
+      "kind": "technique",
+      "possible_goal": "make involuntary bodily functions seem blameworthy",
+      "possible_emotional_effects": [
+        "shame",
+        "anxiety",
+        "fear"
+      ],
+      "possible_behavioural_responses": [
+        "self-monitoring",
+        "suppressing ordinary behaviour"
+      ]
+    },
+    "incitement_to_violence": {
+      "kind": "technique",
+      "possible_goal": "provoke an aggressive response or confrontation",
+      "possible_emotional_effects": [
+        "anger",
+        "fear",
+        "frustration",
+        "outrage"
+      ],
+      "possible_behavioural_responses": [
+        "confrontation",
+        "retaliation",
+        "impulsive action"
+      ]
+    },
+    "dont_do_it_yourself": {
+      "kind": "overview",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": [
+        "fear",
+        "helplessness",
+        "hopelessness"
+      ],
+      "possible_behavioural_responses": [
+        "impulsive decisions",
+        "withdrawal"
+      ]
+    },
+    "cumulative_psychological_pressure": {
+      "kind": "overview",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": [
+        "frustration",
+        "anxiety",
+        "exhaustion"
+      ],
+      "possible_behavioural_responses": [
+        "hypervigilance",
+        "repeated checking",
+        "reduced concentration"
+      ]
+    },
+    "sleep_deprivation": {
+      "kind": "technique",
+      "possible_goal": "disrupt sleep and reduce emotional resilience",
+      "possible_emotional_effects": [
+        "frustration",
+        "exhaustion",
+        "irritability"
+      ],
+      "possible_behavioural_responses": [
+        "impaired judgement",
+        "impulsive responses",
+        "reduced concentration"
+      ]
+    },
+    "deprivation_of_basic_necessities": {
+      "kind": "technique",
+      "possible_goal": "coerce compliance by withholding essential needs",
+      "possible_emotional_effects": [
+        "fear",
+        "helplessness",
+        "distress"
+      ],
+      "possible_behavioural_responses": [
+        "compliance",
+        "urgent efforts to obtain relief"
+      ]
+    },
+    "sexual_coercion": {
+      "kind": "technique",
+      "possible_goal": "intimidate or silence through sexual humiliation and blackmail",
+      "possible_emotional_effects": [
+        "shame",
+        "fear",
+        "embarrassment"
+      ],
+      "possible_behavioural_responses": [
+        "withdrawal",
+        "compliance",
+        "avoiding disclosure"
+      ]
+    },
+    "choose_your_death": {
+      "kind": "technique",
+      "possible_goal": "induce terror and helplessness through simulated lethal threats",
+      "possible_emotional_effects": [
+        "terror",
+        "helplessness",
+        "despair"
+      ],
+      "possible_behavioural_responses": [
+        "compelled choices",
+        "compliance",
+        "panic"
+      ]
+    },
+    "indefinite_abuse": {
+      "kind": "technique",
+      "possible_goal": "coerce self-harm through threats of endless suffering",
+      "possible_emotional_effects": [
+        "hopelessness",
+        "fear",
+        "despair"
+      ],
+      "possible_behavioural_responses": [
+        "withdrawal",
+        "reduced help-seeking",
+        "thoughts of self-harm"
+      ]
+    },
+    "threatening_consequences_for_seeking_help": {
+      "kind": "technique",
+      "possible_goal": "deter people from seeking assistance or reporting",
+      "possible_emotional_effects": [
+        "fear",
+        "anxiety",
+        "guilt"
+      ],
+      "possible_behavioural_responses": [
+        "avoiding help",
+        "remaining silent"
+      ]
+    },
+    "preemptive_discrediting": {
+      "kind": "technique",
+      "possible_goal": "discourage disclosure by predicting disbelief",
+      "possible_emotional_effects": [
+        "hopelessness",
+        "anxiety",
+        "shame"
+      ],
+      "possible_behavioural_responses": [
+        "withholding complaints",
+        "self-censorship"
+      ]
+    },
+    "dream_manipulation": {
+      "kind": "technical_context",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": [
+        "confusion",
+        "unease",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "ruminating about dreams",
+        "searching for hidden meanings"
+      ]
+    },
+    "cold_reading": {
+      "kind": "technique",
+      "possible_goal": "create an impression of privileged knowledge",
+      "possible_emotional_effects": [
+        "surprise",
+        "uncertainty",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "trusting unsupported claims",
+        "disclosing information"
+      ]
+    },
+    "cold_reading_ai_assisted": {
+      "kind": "technique",
+      "possible_goal": "create an impression of access to private thoughts",
+      "possible_emotional_effects": [
+        "surprise",
+        "anxiety",
+        "unease"
+      ],
+      "possible_behavioural_responses": [
+        "searching for a source of apparent knowledge",
+        "self-monitoring"
+      ]
+    },
+    "predicting_bodily_movements": {
+      "kind": "technique",
+      "possible_goal": "make ordinary movement seem incriminating",
+      "possible_emotional_effects": [
+        "shame",
+        "anxiety",
+        "self-consciousness"
+      ],
+      "possible_behavioural_responses": [
+        "suppressing movements",
+        "self-monitoring"
+      ]
+    },
+    "source_identification_trick": {
+      "kind": "technique",
+      "possible_goal": "create an impression of knowing private referents",
+      "possible_emotional_effects": [
+        "confusion",
+        "unease",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "rechecking one's speech",
+        "ruminating"
+      ]
+    },
+    "internal_monologue_trick": {
+      "kind": "experience_and_analysis",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": [
+        "confusion",
+        "unease",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "trying to locate sounds",
+        "repeatedly evaluating speech"
+      ]
+    },
+    "mind_reading_trick": {
+      "kind": "technique",
+      "possible_goal": "create an impression of access to private thoughts",
+      "possible_emotional_effects": [
+        "surprise",
+        "unease",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "checking sound sources",
+        "searching for explanations"
+      ]
+    },
+    "bug_in_face": {
+      "kind": "technique",
+      "possible_goal": "provoke unsafe physical attempts to remove an alleged object",
+      "possible_emotional_effects": [
+        "fear",
+        "disgust",
+        "panic"
+      ],
+      "possible_behavioural_responses": [
+        "repeated body-checking",
+        "unsafe self-examination"
+      ]
+    },
+    "manipulated_media": {
+      "kind": "technique",
+      "possible_goal": "induce reactions through misleading audiovisual material",
+      "possible_emotional_effects": [
+        "confusion",
+        "anger",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "believing staged content",
+        "reacting impulsively"
+      ]
+    },
+    "pwned-devices": {
+      "kind": "technical_context",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": [
+        "confusion",
+        "anxiety",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "checking device integrity",
+        "repeating verification"
+      ]
+    },
+    "air_gap_limitations": {
+      "kind": "technical_context",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "there_is_no_privacy": {
+      "kind": "technical_context",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "streisand-effect": {
+      "kind": "reference",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "how_to_fork": {
+      "kind": "reference",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    },
+    "conclusion": {
+      "kind": "overview",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A"
+    }
+  }
+}
