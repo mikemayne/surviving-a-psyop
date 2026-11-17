@@ -814,5 +814,17 @@
       "accusation_baiting",
       "legal_intimidation"
     ]
+  },
+  "how_to_fork": {
+    "intro": "A beginner-friendly guide to forking this website, personalising its content and design, and publishing your own version for free with optional ChatGPT guidance.",
+    "questions": [
+      "How can I fork and republish this website with GitHub Pages?",
+      "Can ChatGPT guide me through creating and maintaining a personal version without coding?"
+    ],
+    "related": [
+      "how_to_collaborate",
+      "introduction",
+      "conclusion"
+    ]
   }
 }

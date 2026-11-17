@@ -8,9 +8,25 @@ The original writing is preserved in individual text files. The public site prov
 
 **Content warning:** Some chapters discuss suicide, self-harm, threats, sexual humiliation and psychological abuse. Please read at your own pace.
 
+## Fork this website and make your own
+
+You can make and publish your own copy **without installing anything or editing code**.
+
+1. [Fork this repository](https://github.com/mikemayne/surviving-a-psyop/fork) into your GitHub account.
+2. Open `site-config.json` in your fork and choose **Edit** (the pencil icon). Change `title`, `tagline`, `description`, `heroHeading`, `heroLead` and `coverText` to suit your site. Commit your changes.
+3. In your fork, open **Settings → Pages → Build and deployment** and set **Source** to **GitHub Actions**. If necessary, enable workflows in the **Actions** tab.
+4. Run **Actions → Build and deploy book → Run workflow**, or push a change to your fork's `main` branch. The deployed website normally appears at `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/` (or `https://YOUR-USERNAME.github.io/` for a repository named `YOUR-USERNAME.github.io`).
+5. Visit your new site and its chapter pages. Edit or replace the original `.txt` chapters and homepage copy with your own material; [the Spread the word guide](https://mikemayne.github.io/surviving-a-psyop/#read/how_to_fork) offers a prefilled ChatGPT walkthrough.
+
+**Your published links are configured automatically.** GitHub Actions detects your fork's account/repository and generates the correct canonical links, chapter catalogue, `llms.txt`, sitemap, robots file and GitHub source links. You do **not** need to manually replace URLs throughout the project. If you use a custom domain, set `siteUrl` in `site-config.json` to its full HTTPS address (including any path) and configure the domain in GitHub Pages. The optional `repository` setting is for overriding automatic detection, such as in a local build.
+
+The original writing is copied into your fork unchanged until **you** edit it; the configuration changes site-wide branding and publishing metadata, not the contents of every chapter. A public fork also reveals your GitHub username and its relationship to the source repository. Check the content, privacy settings and commit author information before publishing. A fork does **not** inherit the original repository's branch-protection rules or required checks: configure those yourself before accepting public contributions. The deploy workflow remains read-only with respect to repository files and requires no paid services.
+
+To preview a complete built website locally with Node.js 22 or newer, run `node scripts/build-site.mjs` and serve the resulting `_site/` directory with a local HTTP server. To test the fork deployment logic, run `node scripts/test-fork-build.mjs`.
+
 ## Publish the site safely
 
-The GitHub Actions workflow at `.github/workflows/build-pages.yml` builds the website and sitemap **without committing generated pages to `main`**. The build job only reads the repository; the separate deploy job can publish the generated artifact to GitHub Pages, but cannot modify repository files. External GitHub Actions are pinned to full commit SHAs.
+The GitHub Actions workflow at `.github/workflows/build-pages.yml` builds the fork-aware website and sitemap **without committing generated pages to `main`**. The build job only reads the repository; the separate deploy job can publish the generated artifact to GitHub Pages, but cannot modify repository files. External GitHub Actions are pinned to full commit SHAs.
 
 **Required one-time setting:** select **Settings → Pages → Build and deployment → Source → GitHub Actions**. If GitHub Pages is still set to **Deploy from a branch**, the Actions deployment will not function; change the setting rather than restoring repository write permissions.
 

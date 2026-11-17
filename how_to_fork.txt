@@ -1,0 +1,91 @@
+# Spread the word
+
+This website is free to copy, modify and republish. You can use it as the starting point for your own book, guide, collection of experiences or entirely different project. I would be delighted if you forked my repository and built on my experiences by adding your own. Equally, I welcome pull requests that follow the [contribution guidelines](https://mikemayne.github.io/surviving-a-psyop/#read/how_to_collaborate).
+
+You don't need to know how to program. GitHub can host your website for free, and ChatGPT can help you customise it, write content and maintain it.
+
+You can change absolutely everything: the title, design, chapters, advice and subject matter. You can also keep the original structure and simply replace the writing with your own.
+
+Let ChatGPT guide you through creating, customising and publishing your own copy of this website, one step at a time.
+
+[Create your website with ChatGPT](https://chatgpt.com/?temporary-chat=true&q=I%20want%20to%20fork%20https%3A%2F%2Fgithub.com%2Fmikemayne%2Fsurviving-a-psyop%20and%20publish%20my%20own%20free%20website.%20Guide%20me%20in%20plain%20language%2C%20one%20step%20at%20a%20time%2C%20and%20wait%20for%20me%20to%20complete%20each%20step.%20Start%20by%20asking%20whether%20I%20have%20a%20GitHub%20account.%20Explain%20how%20to%20fork%20the%20repository%20and%20edit%20its%20site-config.json%20file%20to%20set%20title%2C%20tagline%2C%20description%2C%20heroHeading%2C%20heroLead%20and%20coverText%20without%20programming.%20The%20GitHub%20Actions%20build%20automatically%20detects%20the%20fork's%20repository%20and%20generates%20the%20correct%20site%20URL%2C%20sitemap%2C%20chapter%20links%2C%20source%20links%20and%20metadata.%20Only%20set%20siteUrl%20in%20the%20configuration%20if%20I%20use%20a%20custom%20domain.%20Guide%20me%20to%20enable%20the%20Actions%20workflow%2C%20choose%20GitHub%20Actions%20under%20Settings%20%3E%20Pages%2C%20run%20Build%20and%20deploy%20book%2C%20and%20check%20the%20published%20site.%20Help%20me%20replace%20or%20edit%20the%20original%20chapters%20and%20any%20other%20original%20author%20copy%2C%20and%20verify%20the%20links.%20If%20you%20can%20access%20my%20fork%20through%20connected%20GitHub%20tools%2C%20offer%20to%20prepare%20reviewed%20changes%20via%20a%20branch%20and%20pull%20request%2C%20but%20ask%20before%20making%20changes%20or%20publishing%20anything.%20Explain%20that%20public%20forks%2C%20usernames%20and%20commits%20can%20identify%20me%2C%20and%20that%20repository%20branch%20protection%20and%20required%20checks%20are%20not%20copied%20automatically.%20Preserve%20the%20secure%20read-only%20build%20workflow%20and%20never%20ask%20for%20passwords%20or%20access%20tokens.)
+
+## Step 1. Create a GitHub account
+
+Visit [github.com](https://github.com) and create a free account.
+
+GitHub stores your website's files, keeps a history of changes and provides the tools to publish your site.
+
+Choose your username carefully. Your public account, contributions and website may be associated with that username.
+
+## Step 2. Fork this website
+
+Open the [source repository](https://github.com/mikemayne/surviving-a-psyop).
+
+Click **Fork** in the top-right corner, then **Create fork**.
+
+Forking creates your own copy of the entire project, including its design, chapters and website publishing instructions.
+
+Your copy belongs to you. You can change it independently without affecting the original.
+
+## Step 3. Connect ChatGPT
+
+Open ChatGPT and connect your GitHub account through **Settings → Plugins**.
+
+Give ChatGPT access to your new repository.
+
+You can now ask it to explain the website, suggest changes, write new pages and help prepare updates. Depending on your connected tools and permissions, you may be able to have it make those changes directly.
+
+For example, ask:
+
+> I've forked https://github.com/mikemayne/surviving-a-psyop and want to make my own website. Please examine my repository, help me replace the original author's content and branding, update the publishing configuration for my GitHub username, and guide me through publishing it with GitHub Pages. Preserve the website's existing security safeguards where practical. Explain any changes before making them.
+
+You can work through the project using ordinary conversation. You don't need to learn programming languages to get started.
+
+## Step 4. Publish your website
+
+In your forked GitHub repository, open **Settings → Pages**.
+
+Under **Build and deployment**, select **GitHub Actions** as the source.
+
+Open the **Actions** tab and enable workflows if GitHub asks you to. Run the existing **Build and deploy book** workflow, or commit a change to the main branch to trigger it.
+
+The website address, source links, chapter catalogue, sitemap and search metadata are generated automatically for your fork. Open `site-config.json` to change the site's title, tagline, description, hero heading, introductory text and cover wording. You only need to enter `siteUrl` if you use a custom domain.
+
+Your website will normally be available at:
+
+`https://YOUR-USERNAME.github.io/surviving-a-psyop/`
+
+If you rename the repository, the address changes accordingly.
+
+## Step 5. Make it your own
+
+Start changing things. You can edit `site-config.json` directly on GitHub without programming, and ask ChatGPT to help you rewrite the introduction, change the colours, remove chapters or create new ones.
+
+The original project includes an interactive reader, individual text files, searchable chapter pages and a sitemap. You can reuse these features for almost any subject.
+
+If you want to add a chapter, ChatGPT can help update the chapter file, navigation, indexes and search metadata together.
+
+You can also ask it to review your changes for broken links, formatting problems and accessibility issues.
+
+## Step 6. Protect your project
+
+Your fork includes the original site's automated build and text-validation workflow files, but GitHub repository settings such as branch protection and required checks are not automatically copied.
+
+Ask ChatGPT to help you configure pull-request reviews, required validation checks and safe publishing permissions before accepting contributions.
+
+Consider keeping an independent backup of your repository. GitHub preserves revision history, but a separate backup provides additional protection.
+
+Remember that a public website, repository and commit history can reveal information about you. Review the content and your account's privacy settings before publishing. A fork also retains a visible connection to the original repository.
+
+## Step 7. Share your work
+
+Once your website is published, you can share the address with anyone.
+
+If you want search engines to discover it, you can submit your sitemap using Google Search Console or Bing Webmaster Tools. Indexing is not guaranteed.
+
+You can invite contributions, accept suggestions through GitHub or simply maintain your own writing.
+
+The original work is dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). You can copy, adapt and republish it without asking permission or providing attribution.
+
+**This is your project now. Take it in whatever direction you choose.**
