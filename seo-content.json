@@ -359,6 +359,18 @@
       "moral_blackmail"
     ]
   },
+  "using_concern_as_a_vehicle_for_intimidation": {
+    "intro": "Explains how claims of concern or protection can be used to justify intimidating restrictions or demands, and how to evaluate those demands on their merits.",
+    "questions": [
+      "How can I distinguish necessary safeguarding or healthcare boundaries from coercive demands framed as care?",
+      "How can I acknowledge someone's concern without agreeing to an unnecessary or humiliating demand?"
+    ],
+    "related": [
+      "false_assistance",
+      "humiliation_rituals",
+      "deprivation_of_basic_necessities"
+    ]
+  },
   "you_can_run_but_you_cant_hide": {
     "intro": "Explores the false choice between fleeing and hiding, and challenges claims that ordinary lawful decisions automatically imply guilt.",
     "questions": [
