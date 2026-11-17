@@ -57,6 +57,7 @@ Patterns of pressure, interpretation and social influence.
 - [Weaponised literalism](https://mikemayne.github.io/surviving-a-psyop/weaponised_literalism.txt)
 - [Loaded questions and implied confessions](https://mikemayne.github.io/surviving-a-psyop/loaded_questions.txt)
 - [False assistance](https://mikemayne.github.io/surviving-a-psyop/false_assistance.txt)
+- [Using Concern as a Vehicle for Intimidation](https://mikemayne.github.io/surviving-a-psyop/using_concern_as_a_vehicle_for_intimidation.txt)
 - [You can run, but you can't hide](https://mikemayne.github.io/surviving-a-psyop/you_can_run_but_you_cant_hide.txt)
 - [False endings](https://mikemayne.github.io/surviving-a-psyop/false_endings.txt)
 - [False completion](https://mikemayne.github.io/surviving-a-psyop/false_completion.txt)
