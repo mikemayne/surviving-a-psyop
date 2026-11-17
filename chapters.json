@@ -125,6 +125,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/gaslit_by_friends.txt"
     },
     {
+      "id": "obstruction_of_communication",
+      "title": "Obstruction of Communication",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/obstruction_of_communication.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/obstruction_of_communication",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/obstruction_of_communication.txt"
+    },
+    {
       "id": "negging_psychological_manipulation",
       "title": "Negging",
       "category": "Recognising manipulation",
@@ -242,6 +251,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/reputation_to_live_up_to.txt"
     },
     {
+      "id": "manufactured_confusion",
+      "title": "Manufactured Confusion",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/manufactured_confusion.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/manufactured_confusion",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_confusion.txt"
+    },
+    {
       "id": "logic_traps",
       "title": "Logic traps",
       "category": "Recognising manipulation",
@@ -276,6 +294,15 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/false_assistance.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/false_assistance",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_assistance.txt"
+    },
+    {
+      "id": "using_concern_as_a_vehicle_for_intimidation",
+      "title": "Using Concern as a Vehicle for Intimidation",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/using_concern_as_a_vehicle_for_intimidation.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/using_concern_as_a_vehicle_for_intimidation",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/using_concern_as_a_vehicle_for_intimidation.txt"
     },
     {
       "id": "you_can_run_but_you_cant_hide",
@@ -348,6 +375,15 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/interpretation_trick.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/interpretation_trick",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/interpretation_trick.txt"
+    },
+    {
+      "id": "retrospective_reinterpretation_of_behaviour",
+      "title": "Retrospective Reinterpretation of Behaviour",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/retrospective_reinterpretation_of_behaviour.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/retrospective_reinterpretation_of_behaviour",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/retrospective_reinterpretation_of_behaviour.txt"
     },
     {
       "id": "talking",
@@ -467,6 +503,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/body_shaming.txt"
     },
     {
+      "id": "humiliation_rituals",
+      "title": "Humiliation Rituals",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/humiliation_rituals.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/humiliation_rituals",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/humiliation_rituals.txt"
+    },
+    {
       "id": "bodily_functions",
       "title": "Bodily functions",
       "category": "Intimidation & pressure",
@@ -494,6 +539,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/dont_do_it_yourself.txt"
     },
     {
+      "id": "cumulative_psychological_pressure",
+      "title": "Cumulative Psychological Pressure",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/cumulative_psychological_pressure.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/cumulative_psychological_pressure",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cumulative_psychological_pressure.txt"
+    },
+    {
       "id": "sleep_deprivation",
       "title": "Sleep deprivation",
       "category": "Intimidation & pressure",
@@ -501,6 +555,15 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/sleep_deprivation.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/sleep_deprivation",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sleep_deprivation.txt"
+    },
+    {
+      "id": "deprivation_of_basic_necessities",
+      "title": "Deprivation of Basic Necessities as Punishment",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/deprivation_of_basic_necessities.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/deprivation_of_basic_necessities",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/deprivation_of_basic_necessities.txt"
     },
     {
       "id": "sexual_coercion",
@@ -528,6 +591,15 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/indefinite_abuse.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/indefinite_abuse",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/indefinite_abuse.txt"
+    },
+    {
+      "id": "threatening_consequences_for_seeking_help",
+      "title": "Threatening Consequences for Seeking Help",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/threatening_consequences_for_seeking_help.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/threatening_consequences_for_seeking_help",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/threatening_consequences_for_seeking_help.txt"
     },
     {
       "id": "dream_manipulation",

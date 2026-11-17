@@ -39,6 +39,7 @@ Start with the introduction and practical ways of responding.
 Patterns of pressure, interpretation and social influence.
 
 - [Gaslighting by friends](https://mikemayne.github.io/surviving-a-psyop/gaslit_by_friends.txt)
+- [Obstruction of Communication](https://mikemayne.github.io/surviving-a-psyop/obstruction_of_communication.txt)
 - [Negging](https://mikemayne.github.io/surviving-a-psyop/negging_psychological_manipulation.txt)
 - [Good cop, bad cop](https://mikemayne.github.io/surviving-a-psyop/good_cop_bad_cop.txt)
 - [Guilt tripping](https://mikemayne.github.io/surviving-a-psyop/guilt_tripping.txt)
@@ -46,15 +47,18 @@ Patterns of pressure, interpretation and social influence.
 - [Accusation baiting](https://mikemayne.github.io/surviving-a-psyop/accusation_baiting.txt)
 - [Staged Third-Party Reactions](https://mikemayne.github.io/surviving-a-psyop/staged_third_party_reactions.txt)
 - [We Only Do This to Really Bad People](https://mikemayne.github.io/surviving-a-psyop/we_only_do_this_to_really_bad_people.txt)
+- [Victim blaming](https://mikemayne.github.io/surviving-a-psyop/victim_blaming.txt)
 - [Accusations of False Reports](https://mikemayne.github.io/surviving-a-psyop/false_report_accusations.txt)
 - [Claim inflation](https://mikemayne.github.io/surviving-a-psyop/claim_inflation.txt)
 - [Claiming Influence Over Others](https://mikemayne.github.io/surviving-a-psyop/claiming_influence.txt)
 - [Claiming Control Over Predictable Events](https://mikemayne.github.io/surviving-a-psyop/claiming_control_over_predictable_events.txt)
 - [Giving Someone a Reputation to Live Up To](https://mikemayne.github.io/surviving-a-psyop/reputation_to_live_up_to.txt)
+- [Manufactured Confusion](https://mikemayne.github.io/surviving-a-psyop/manufactured_confusion.txt)
 - [Logic traps](https://mikemayne.github.io/surviving-a-psyop/logic_traps.txt)
 - [Weaponised literalism](https://mikemayne.github.io/surviving-a-psyop/weaponised_literalism.txt)
 - [Loaded questions and implied confessions](https://mikemayne.github.io/surviving-a-psyop/loaded_questions.txt)
 - [False assistance](https://mikemayne.github.io/surviving-a-psyop/false_assistance.txt)
+- [Using Concern as a Vehicle for Intimidation](https://mikemayne.github.io/surviving-a-psyop/using_concern_as_a_vehicle_for_intimidation.txt)
 - [You can run, but you can't hide](https://mikemayne.github.io/surviving-a-psyop/you_can_run_but_you_cant_hide.txt)
 - [False endings](https://mikemayne.github.io/surviving-a-psyop/false_endings.txt)
 - [False completion](https://mikemayne.github.io/surviving-a-psyop/false_completion.txt)
@@ -63,6 +67,7 @@ Patterns of pressure, interpretation and social influence.
 - [Loaded moral accusations](https://mikemayne.github.io/surviving-a-psyop/moral_accusations.txt)
 - [Moral blackmail](https://mikemayne.github.io/surviving-a-psyop/moral_blackmail.txt)
 - [The interpretation trick](https://mikemayne.github.io/surviving-a-psyop/interpretation_trick.txt)
+- [Retrospective Reinterpretation of Behaviour](https://mikemayne.github.io/surviving-a-psyop/retrospective_reinterpretation_of_behaviour.txt)
 - [Covert communication](https://mikemayne.github.io/surviving-a-psyop/talking.txt)
 - [The service shield](https://mikemayne.github.io/surviving-a-psyop/service_shield.txt)
 - [The guilty always run](https://mikemayne.github.io/surviving-a-psyop/the_guity_always_run.txt)
@@ -81,17 +86,23 @@ Descriptions of emotionally forceful and coercive tactics.
 - [Name and shame](https://mikemayne.github.io/surviving-a-psyop/name_and_shame.txt)
 - [Flashmobs](https://mikemayne.github.io/surviving-a-psyop/flashmobs.txt)
 - [Body shaming](https://mikemayne.github.io/surviving-a-psyop/body_shaming.txt)
+- [Humiliation Rituals](https://mikemayne.github.io/surviving-a-psyop/humiliation_rituals.txt)
 - [Bodily functions](https://mikemayne.github.io/surviving-a-psyop/bodily_functions.txt)
 - [Incitement to violence](https://mikemayne.github.io/surviving-a-psyop/incitement_to_violence.txt)
+- [Don't do it yourself](https://mikemayne.github.io/surviving-a-psyop/dont_do_it_yourself.txt)
+- [Cumulative Psychological Pressure](https://mikemayne.github.io/surviving-a-psyop/cumulative_psychological_pressure.txt)
 - [Sleep deprivation](https://mikemayne.github.io/surviving-a-psyop/sleep_deprivation.txt)
+- [Deprivation of Basic Necessities as Punishment](https://mikemayne.github.io/surviving-a-psyop/deprivation_of_basic_necessities.txt)
 - [Sexual coercion](https://mikemayne.github.io/surviving-a-psyop/sexual_coercion.txt)
 - [Choose your death](https://mikemayne.github.io/surviving-a-psyop/choose_your_death.txt)
 - [Indefinite abuse](https://mikemayne.github.io/surviving-a-psyop/indefinite_abuse.txt)
+- [Threatening Consequences for Seeking Help](https://mikemayne.github.io/surviving-a-psyop/threatening_consequences_for_seeking_help.txt)
 
 ### Technology & perception
 
 Technical ideas, media, security and interpretation.
 
+- [Dream Manipulation](https://mikemayne.github.io/surviving-a-psyop/dream_manipulation.txt)
 - [Cold reading](https://mikemayne.github.io/surviving-a-psyop/cold_reading.txt)
 - [AI-assisted cold reading](https://mikemayne.github.io/surviving-a-psyop/cold_reading_ai_assisted.txt)
 - [Predicting bodily movements](https://mikemayne.github.io/surviving-a-psyop/predicting_bodily_movements.txt)

@@ -155,6 +155,18 @@
       "dont_tolerate_mistreatment"
     ]
   },
+  "obstruction_of_communication": {
+    "intro": "Explains how unjustified interference with calls, messages or correspondence can isolate someone from independent support, and how to respond proportionately.",
+    "questions": [
+      "When does a restriction on communication become unreasonable or coercive?",
+      "How can I seek independent advice if a call or message is being obstructed?"
+    ],
+    "related": [
+      "false_assistance",
+      "dont_tolerate_mistreatment",
+      "legal_intimidation"
+    ]
+  },
   "negging_psychological_manipulation": {
     "intro": "Explains belittling remarks and backhanded compliments as forms of social pressure.",
     "questions": [
@@ -287,6 +299,18 @@
       "stay_grounded"
     ]
   },
+  "manufactured_confusion": {
+    "intro": "Explains how contradictory instructions, shifting explanations and changing rules can create confusion and dependence on repeated clarification.",
+    "questions": [
+      "How can I distinguish deliberate confusion from an ordinary misunderstanding?",
+      "How can I respond when instructions keep changing or no stable answer is given?"
+    ],
+    "related": [
+      "logic_traps",
+      "impossible_compliance",
+      "impossible_standards"
+    ]
+  },
   "logic_traps": {
     "intro": "Explains false dilemmas, circular reasoning and double binds, with suggestions for rejecting unsupported premises.",
     "questions": [
@@ -333,6 +357,18 @@
       "logic_traps",
       "impossible_compliance",
       "moral_blackmail"
+    ]
+  },
+  "using_concern_as_a_vehicle_for_intimidation": {
+    "intro": "Explains how claims of concern or protection can be used to justify intimidating restrictions or demands, and how to evaluate those demands on their merits.",
+    "questions": [
+      "How can I distinguish necessary safeguarding or healthcare boundaries from coercive demands framed as care?",
+      "How can I acknowledge someone's concern without agreeing to an unnecessary or humiliating demand?"
+    ],
+    "related": [
+      "false_assistance",
+      "humiliation_rituals",
+      "deprivation_of_basic_necessities"
     ]
   },
   "you_can_run_but_you_cant_hide": {
@@ -429,6 +465,18 @@
       "moral_accusations",
       "claim_inflation",
       "criminilisation"
+    ]
+  },
+  "retrospective_reinterpretation_of_behaviour": {
+    "intro": "Examines how ordinary actions can be assigned condemnatory meanings after the fact, particularly when accusations and standards change in response to reasonable explanations.",
+    "questions": [
+      "How can I distinguish a genuine misunderstanding from repeated retroactive accusations?",
+      "What should I do when someone assigns hidden intentions to ordinary behaviour without identifying a clear rule or harm?"
+    ],
+    "related": [
+      "interpretation_trick",
+      "moral_accusations",
+      "manufactured_confusion"
     ]
   },
   "talking": {
@@ -587,6 +635,18 @@
       "bodily_functions"
     ]
   },
+  "humiliation_rituals": {
+    "intro": "Describes coercive demands to perform or endure degrading acts as conditions of acceptance or assistance, and how to protect dignity and set boundaries.",
+    "questions": [
+      "How can I distinguish a necessary uncomfortable request from an unnecessary humiliation ritual?",
+      "What is a safe, proportionate response to a degrading demand from someone in authority?"
+    ],
+    "related": [
+      "body_shaming",
+      "bodily_functions",
+      "public_shaming"
+    ]
+  },
   "bodily_functions": {
     "intro": "Explores the embarrassment that can arise when ordinary bodily functions are treated as shameful or suspicious.",
     "questions": [
@@ -611,6 +671,18 @@
       "take_back_control"
     ]
   },
+  "cumulative_psychological_pressure": {
+    "intro": "Explains how repeated stressful experiences can accumulate into exhaustion and vigilance even when they have different causes, with practical ways to recover attention.",
+    "questions": [
+      "How can repeated minor disruptions affect sleep, concentration and everyday functioning?",
+      "What can I do to reduce cumulative stress without analysing every unclear incident?"
+    ],
+    "related": [
+      "sleep_deprivation",
+      "stay_grounded",
+      "take_back_control"
+    ]
+  },
   "sleep_deprivation": {
     "intro": "Examines how inadequate sleep can affect attention, judgement and responses to stressful interactions.",
     "questions": [
@@ -621,6 +693,18 @@
       "sleep_discipline",
       "take_back_control",
       "personal_security_notes"
+    ]
+  },
+  "deprivation_of_basic_necessities": {
+    "intro": "Describes the coercive withholding of essential needs such as food, water, hygiene, rest and medical attention, while distinguishing punitive restrictions from legitimate care constraints.",
+    "questions": [
+      "How can I distinguish a genuine care or safety restriction from punitive withholding of an essential need?",
+      "What practical steps can I take if I am denied food, water, hygiene or necessary medical care?"
+    ],
+    "related": [
+      "sleep_deprivation",
+      "obstruction_of_communication",
+      "dont_tolerate_mistreatment"
     ]
   },
   "sexual_coercion": {
@@ -657,6 +741,18 @@
       "false_endings",
       "sleep_discipline",
       "take_back_control"
+    ]
+  },
+  "threatening_consequences_for_seeking_help": {
+    "intro": "Describes intimidation designed to discourage someone from seeking help, including threatened retaliation for reporting concerns or contacting independent advisers.",
+    "questions": [
+      "How can I distinguish an honest warning about a complaint's practical consequences from a coercive threat?",
+      "Where can I obtain independent advice about reporting safely if someone is threatening retaliation?"
+    ],
+    "related": [
+      "obstruction_of_communication",
+      "legal_intimidation",
+      "dont_tolerate_mistreatment"
     ]
   },
   "dream_manipulation": {
