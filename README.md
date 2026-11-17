@@ -87,7 +87,7 @@ An automated file check may reject invalid submissions, but **the owner will rev
 - [Use with AI on the website](https://mikemayne.github.io/surviving-a-psyop/#use-ai) explains how to ask an assistant about the booklet and has a copyable starter prompt.
 - [`llms.txt`](llms.txt) lists all chapters as direct plain-text links for AI assistants and readers. The `llms.txt` convention is voluntary; not every AI tool will fetch it automatically.
 - [`chapters.json`](chapters.json) provides a machine-readable chapter catalogue (title, category, reader URL, source URL).
-- [`strategy-metadata.json`](strategy-metadata.json) maps all 84 approved chapters to possible objectives, emotional effects and behavioural responses. Entries are qualitative comparison aids, not evidence of anyone's intentions; `N/A` means insufficient chapter-specific support.
+- [`strategy-metadata.json`](strategy-metadata.json) maps all 85 approved chapters to possible objectives, emotional effects and behavioural responses. Entries are qualitative comparison aids, not evidence of anyone's intentions; `N/A` means insufficient chapter-specific support.
 - Every chapter is available directly as `https://mikemayne.github.io/surviving-a-psyop/<chapter-id>.txt`, with no JavaScript required.
 
 **Maintainers:** when adding or renaming a chapter, update the chapter list in `index.html`, `llms.txt`, `chapters.json`, `seo-content.json` and `strategy-metadata.json` together. Existing chapter edits are picked up by the reader immediately; use the generator or workflow to update the static HTML copies.
