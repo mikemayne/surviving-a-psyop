@@ -49,6 +49,7 @@ try {
   build('ignored-env/ignored-repository');
   const home = published('index.html');
   assert.ok(home.includes('My &amp; Your Handbook'));
+  assert.ok(home.includes('document.title = ch.title + " — " + "My & Your Handbook";'));
   assert.ok(home.includes('My handbook'));
   assert.ok(home.includes('Welcome to my guide.'));
   assert.ok(home.includes('My<br>Book'));
