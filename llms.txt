@@ -106,6 +106,7 @@ Technical ideas, media, security and interpretation.
 Additional writing and closing reflections.
 
 - [The Streisand effect](https://mikemayne.github.io/surviving-a-psyop/streisand-effect.txt)
+- [Spread the word](https://mikemayne.github.io/surviving-a-psyop/how_to_fork.txt)
 - [Conclusion](https://mikemayne.github.io/surviving-a-psyop/conclusion.txt)
 
 ## Using this content with AI
