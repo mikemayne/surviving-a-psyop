@@ -1,58 +1,57 @@
-name: Regenerate searchable chapters
+# Build the published site without committing generated files to the repository.
+# Deployments only run from main, after the content has been merged.
+name: Build and deploy book
+
 on:
   push:
     branches: [main]
-    paths:
-      - '*.txt'
-      - 'chapters.json'
-      - 'seo-content.json'
-      - 'scripts/generate-seo.mjs'
-      - '.github/workflows/build-pages.yml'
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+# No repository write token is available to the workflow by default.
+permissions: {}
 
 concurrency:
   group: github-pages
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    environment: github-pages
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout reviewed source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
-      - name: Regenerate and commit searchable pages
+      - name: Generate searchable chapter pages and sitemap
+        run: node scripts/generate-seo.mjs
+      - name: Package only public site files
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # A later commit can land while this job is running. Always rebuild
-          # from the latest main, and retry without overwriting other changes.
-          for attempt in 1 2 3 4 5; do
-            git fetch origin main
-            git reset --hard origin/main
-            node scripts/generate-seo.mjs
-            git add topics sitemap.xml
-            if git diff --cached --quiet; then
-              echo "Searchable pages are already up to date."
-              exit 0
-            fi
-            git commit -m "Regenerate search-friendly chapters"
-            if git push origin HEAD:main; then
-              exit 0
-            fi
-            echo "Main changed during generation (attempt ${attempt}); retrying."
-          done
-          echo "Failed to push generated pages after five attempts." >&2
-          exit 1
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+          mkdir -p _site
+          cp index.html *.txt *.json llms.txt robots.txt sitemap.xml _site/
+          cp -R topics _site/
+          test -s _site/index.html
+          test -s _site/topics/index.html
+      - name: Upload generated website
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
-          path: .
-      - uses: actions/deploy-pages@v4
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy reviewed website
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
