@@ -28,15 +28,14 @@ jobs:
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
-      - name: Generate searchable chapter pages and sitemap
-        run: node scripts/generate-seo.mjs
-      - name: Package only public site files
+      - name: Build fork-aware website and searchable chapter pages
+        run: node scripts/build-site.mjs
+      - name: Validate published output
         run: |
-          mkdir -p _site
-          cp index.html *.txt *.json llms.txt robots.txt sitemap.xml _site/
-          cp -R topics _site/
           test -s _site/index.html
           test -s _site/topics/index.html
+          test -s _site/chapters.json
+          test -s _site/sitemap.xml
       - name: Upload generated website
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
