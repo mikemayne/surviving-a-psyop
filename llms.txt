@@ -26,6 +26,7 @@ Start with the introduction and practical ways of responding.
 - [Personal security notes](https://mikemayne.github.io/surviving-a-psyop/personal_security_notes.txt)
 - [Telephone calls](https://mikemayne.github.io/surviving-a-psyop/phone_calls.txt)
 - [Social media](https://mikemayne.github.io/surviving-a-psyop/social_media.txt)
+- [How to collaborate](https://mikemayne.github.io/surviving-a-psyop/how_to_collaborate.txt)
 
 ### Recognising manipulation
 
