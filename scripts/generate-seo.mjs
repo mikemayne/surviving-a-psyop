@@ -30,7 +30,7 @@ function chapterHTML(source) {
   const flush=()=>{if(para.length)out.push('<p>'+fmt(para.splice(0).join(' ').trim())+'</p>')};
   const close=()=>{if(list){out.push('</'+list+'>');list=null}};
   for(const line of source.replace(/\r\n/g,'\n').split('\n')) {
-    if(!line.trim()){flush();close();continue}
+    if(!line.trim()){flush();continue}
     const heading=line.match(/^\s*(#{1,4})\s+(.+)$/);
     const bullet=line.match(/^\s*[-*]\s+(.+)$/);
     const numbered=line.match(/^\s*\d+[.)]\s+(.+)$/);
