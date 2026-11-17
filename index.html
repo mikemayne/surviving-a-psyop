@@ -169,15 +169,23 @@
     .ai-instructions .ai-privacy { border-top: 1px solid var(--line); margin: 20px 0 0; padding-top: 14px; font-size: .76rem !important; }
 
     /* Free, uncertainty-first ChatGPT analysis below the four rules */
-    .statement-section { padding: 65px 0 70px; background: var(--paper-2); border-bottom: 1px solid var(--line); scroll-margin-top: 20px; }
-    .hero-analysis { max-width: 680px; margin: 0 auto; padding: 20px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); box-shadow: var(--shadow); scroll-margin-top: 18px; }
-    .hero-analysis h2 { font: normal 1.65rem/1.15 var(--serif); letter-spacing: -.025em; margin: 0 0 8px; }
-    .hero-analysis .hero-analysis-intro { color: var(--muted); font-size: .87rem; line-height: 1.55; margin: 0 0 14px; }
-    .statement-analyser-form label { display: block; font-size: .85rem; font-weight: 700; margin-bottom: 8px; }
-    .statement-analyser-form textarea { width: 100%; min-height: 76px; padding: 11px 13px; display: block; resize: vertical; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 4px; font: .93rem/1.5 var(--sans); margin-bottom: 12px; }
-    .statement-analyser-form .btn { justify-content: center; }
-    .statement-analyser-form .statement-privacy { color: var(--muted); font-size: .73rem; line-height: 1.5; margin: 11px 0 0; }
-    @media (max-width: 680px) { .hero-analysis { padding: 16px; } }
+    .statement-section { padding: 22px 0 26px; background: var(--paper-2); border-bottom: 1px solid var(--line); scroll-margin-top: 20px; }
+    .hero-analysis { width: 100%; padding: 18px 22px; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: center; gap: 24px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); box-shadow: var(--shadow); scroll-margin-top: 18px; }
+    .hero-analysis h2 { font: normal 1.65rem/1.15 var(--serif); letter-spacing: -.025em; margin: 0 0 6px; }
+    .hero-analysis .hero-analysis-intro { color: var(--muted); font-size: .87rem; line-height: 1.55; margin: 0; }
+    .statement-analyser-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 8px 12px; min-width: 0; }
+    .statement-analyser-form label { grid-column: 1 / -1; display: block; font-size: .85rem; font-weight: 700; }
+    .statement-analyser-form textarea { grid-column: 1; width: 100%; min-height: 60px; height: 60px; padding: 10px 13px; display: block; resize: vertical; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 4px; font: .93rem/1.5 var(--sans); }
+    .statement-analyser-form .btn { grid-column: 2; justify-content: center; align-self: stretch; min-height: 60px; white-space: nowrap; }
+    .statement-analyser-form .statement-privacy { grid-column: 1 / -1; color: var(--muted); font-size: .73rem; line-height: 1.5; margin: 0; }
+    @media (max-width: 900px) { .hero-analysis { grid-template-columns: 1fr; gap: 14px; } }
+    @media (max-width: 680px) {
+      .statement-section { padding: 18px 0 22px; }
+      .hero-analysis { padding: 16px; }
+      .statement-analyser-form { grid-template-columns: 1fr; }
+      .statement-analyser-form textarea, .statement-analyser-form .btn { grid-column: 1; }
+      .statement-analyser-form .btn { min-height: 49px; }
+    }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
     .contribute { border-block: 1px solid var(--line); padding: 70px 0; background: var(--paper-2); }
     .contribute-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 10%; align-items: center; }
@@ -385,19 +393,20 @@
 
   <section class="statement-section" id="analyse-a-statement" aria-labelledby="statement-analyser-title">
     <div class="wrap">
-        <div class="hero-analysis" aria-labelledby="statement-analyser-title">
-          <h2 id="statement-analyser-title">Analyse a statement</h2>
-          <p class="hero-analysis-intro">Enter a statement or describe a behaviour. ChatGPT can compare it with patterns in the guide, explain how closely it fits, consider ordinary explanations and suggest practical responses. A resemblance does not establish anyone’s intention.</p>
+      <div class="hero-analysis" aria-labelledby="statement-analyser-title">
+          <div class="hero-analysis-copy">
+            <h2 id="statement-analyser-title">Analyse a statement</h2>
+            <p class="hero-analysis-intro">Enter a statement or describe a behaviour. ChatGPT can compare it with patterns in the guide, explain how closely it fits, consider ordinary explanations and suggest practical responses. A resemblance does not establish anyone’s intention.</p>
+          </div>
           <form class="statement-analyser-form" id="statement-analyser-form" action="https://chatgpt.com/" method="get" target="_blank" rel="noopener noreferrer">
             <label for="statement-analyser-input">What did someone say or do?</label>
-            <textarea id="statement-analyser-input" rows="3" maxlength="1000" required placeholder="For example: &quot;Nobody will believe you.&quot;"></textarea>
+            <textarea id="statement-analyser-input" rows="2" maxlength="1000" required placeholder="For example: &quot;Nobody will believe you.&quot;"></textarea>
             <input type="hidden" name="temporary-chat" value="true">
             <input type="hidden" name="q" id="statement-analyser-prompt">
             <button type="submit" class="btn btn-primary">Analyse a statement <span aria-hidden="true">↗</span></button>
             <p class="statement-privacy"><strong>Privacy:</strong> Your text stays on this page until you click. Then it is included in a ChatGPT URL, which may appear in browser history. Avoid sensitive details. Verify Temporary Chat is active if wanted; ChatGPT may require sign-in and has usage limits.</p>
           </form>
-        </div>
-
+      </div>
     </div>
   </section>
   <section class="principles" aria-labelledby="principles-title">
