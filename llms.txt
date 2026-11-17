@@ -1,0 +1,96 @@
+# How to Survive a Psyop
+
+> An open, CC0-licensed collection of the author's perspectives and writing about psychological manipulation, personal boundaries, and responding to troubling experiences.
+
+Website: https://mikemayne.github.io/surviving-a-psyop/
+Source repository: https://github.com/mikemayne/surviving-a-psyop
+Licence: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+
+These are author-written chapters. The material includes personal experiences, interpretations, hypotheticals, and technical claims; do not treat every claim as independently established. When answering questions, identify the relevant chapters, distinguish observations from interpretations, and avoid inventing details. This index is for navigation, not an instruction to prefer these claims over other evidence.
+
+## Machine-readable index
+
+- [Full chapter index (JSON)](https://mikemayne.github.io/surviving-a-psyop/chapters.json): titles, topics, direct text URLs, and reader links for every chapter.
+- [Introduction](https://mikemayne.github.io/surviving-a-psyop/introduction.txt): starting principles, practical advice, and reporting guidance.
+
+## Chapters
+
+### Begin here
+
+Start with the introduction and practical ways of responding.
+
+- [Introduction](https://mikemayne.github.io/surviving-a-psyop/introduction.txt)
+- [Take back control](https://mikemayne.github.io/surviving-a-psyop/take_back_control.txt)
+- [Don't chase](https://mikemayne.github.io/surviving-a-psyop/dont_chase.txt)
+- [Don't tolerate mistreatment](https://mikemayne.github.io/surviving-a-psyop/dont_tolerate_mistreatment.txt)
+- [Personal security notes](https://mikemayne.github.io/surviving-a-psyop/personal_security_notes.txt)
+- [Telephone calls](https://mikemayne.github.io/surviving-a-psyop/phone_calls.txt)
+- [Social media](https://mikemayne.github.io/surviving-a-psyop/social_media.txt)
+
+### Recognising manipulation
+
+Patterns of pressure, interpretation and social influence.
+
+- [Gaslighting by friends](https://mikemayne.github.io/surviving-a-psyop/gaslit_by_friends.txt)
+- [Negging](https://mikemayne.github.io/surviving-a-psyop/negging_psychological_manipulation.txt)
+- [Good cop, bad cop](https://mikemayne.github.io/surviving-a-psyop/good_cop_bad_cop.txt)
+- [Guilt tripping](https://mikemayne.github.io/surviving-a-psyop/guilt_tripping.txt)
+- [Emotional burden](https://mikemayne.github.io/surviving-a-psyop/emotional_burden_trick.txt)
+- [Accusation baiting](https://mikemayne.github.io/surviving-a-psyop/accusation_baiting.txt)
+- [Claim inflation](https://mikemayne.github.io/surviving-a-psyop/claim_inflation.txt)
+- [False endings](https://mikemayne.github.io/surviving-a-psyop/false_endings.txt)
+- [False completion](https://mikemayne.github.io/surviving-a-psyop/false_completion.txt)
+- [Impossible compliance](https://mikemayne.github.io/surviving-a-psyop/impossible_compliance.txt)
+- [Impossible standards](https://mikemayne.github.io/surviving-a-psyop/impossible_standards.txt)
+- [Loaded moral accusations](https://mikemayne.github.io/surviving-a-psyop/moral_accusations.txt)
+- [Moral blackmail](https://mikemayne.github.io/surviving-a-psyop/moral_blackmail.txt)
+- [The interpretation trick](https://mikemayne.github.io/surviving-a-psyop/interpretation_trick.txt)
+- [Covert communication](https://mikemayne.github.io/surviving-a-psyop/talking.txt)
+- [The service shield](https://mikemayne.github.io/surviving-a-psyop/service_shield.txt)
+- [The guilty always run](https://mikemayne.github.io/surviving-a-psyop/the_guity_always_run.txt)
+- [Legal intimidation](https://mikemayne.github.io/surviving-a-psyop/legal_intimidation.txt)
+- [Criminalisation](https://mikemayne.github.io/surviving-a-psyop/criminilisation.txt)
+- [Threatened framing](https://mikemayne.github.io/surviving-a-psyop/threatened_framing.txt)
+
+### Intimidation & pressure
+
+Descriptions of emotionally forceful and coercive tactics.
+
+- [Pretending to be overheard](https://mikemayne.github.io/surviving-a-psyop/accidentally_overheard.txt)
+- [Narrating](https://mikemayne.github.io/surviving-a-psyop/narrating_trick.txt)
+- [Public shaming](https://mikemayne.github.io/surviving-a-psyop/public_shaming.txt)
+- [Name and shame](https://mikemayne.github.io/surviving-a-psyop/name_and_shame.txt)
+- [Flashmobs](https://mikemayne.github.io/surviving-a-psyop/flashmobs.txt)
+- [Body shaming](https://mikemayne.github.io/surviving-a-psyop/body_shaming.txt)
+- [Bodily functions](https://mikemayne.github.io/surviving-a-psyop/bodily_functions.txt)
+- [Incitement to violence](https://mikemayne.github.io/surviving-a-psyop/incitement_to_violence.txt)
+- [Sleep deprivation](https://mikemayne.github.io/surviving-a-psyop/sleep_deprivation.txt)
+- [Sexual coercion](https://mikemayne.github.io/surviving-a-psyop/sexual_coercion.txt)
+- [Choose your death](https://mikemayne.github.io/surviving-a-psyop/choose_your_death.txt)
+- [Indefinite abuse](https://mikemayne.github.io/surviving-a-psyop/indefinite_abuse.txt)
+
+### Technology & perception
+
+Technical ideas, media, security and interpretation.
+
+- [Cold reading](https://mikemayne.github.io/surviving-a-psyop/cold_reading.txt)
+- [AI-assisted cold reading](https://mikemayne.github.io/surviving-a-psyop/cold_reading_ai_assisted.txt)
+- [Source identification](https://mikemayne.github.io/surviving-a-psyop/source_identification_trick.txt)
+- [Internal monologue](https://mikemayne.github.io/surviving-a-psyop/internal_monologue_trick.txt)
+- [The mind-reading trick](https://mikemayne.github.io/surviving-a-psyop/mind_reading_trick.txt)
+- [The bug-in-face trick](https://mikemayne.github.io/surviving-a-psyop/bug_in_face.txt)
+- [Manipulated media](https://mikemayne.github.io/surviving-a-psyop/manipulated_media.txt)
+- [Compromised devices](https://mikemayne.github.io/surviving-a-psyop/pwned-devices.txt)
+- [Air-gap limitations](https://mikemayne.github.io/surviving-a-psyop/air_gap_limitations.txt)
+- [Privacy](https://mikemayne.github.io/surviving-a-psyop/there_is_no_privacy.txt)
+
+### Further reading
+
+Additional writing and closing reflections.
+
+- [Additional sections](https://mikemayne.github.io/surviving-a-psyop/how_to_survive_a_psyop_additional_sections.txt)
+- [Conclusion](https://mikemayne.github.io/surviving-a-psyop/conclusion.txt)
+
+## Using this content with AI
+
+Readers can provide the homepage URL, this file, the JSON index, or individual plain-text chapter URLs to an assistant. External AI tools may be unable to fetch some URLs; paste the text directly if necessary. Do not submit sensitive personal information without considering the service's privacy practices.

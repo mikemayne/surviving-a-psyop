@@ -1,0 +1,41 @@
+# Telephone Calls — Don't Trust Caller ID or Familiar Voices
+
+### THE TECHNIQUE
+
+Telephone calls can be used for impersonation, intimidation, fraud and psychological manipulation. Modern technology makes it increasingly difficult to establish someone's identity simply from their telephone number or the sound of their voice.
+
+**Caller ID spoofing** allows someone to make a telephone call appear to originate from a number other than the one actually being used. This can include the published numbers of banks, government departments, police forces or people you know.
+
+AI voice cloning introduces another vulnerability. Modern speech synthesis systems can produce convincing imitations of someone's voice using surprisingly short audio samples. Some systems require only a few seconds of recorded speech to generate a recognisable imitation, although quality varies.
+
+It is therefore possible for someone to appear to telephone from a familiar number while speaking in a familiar voice, without actually being the person they claim to be.
+
+### WHY IT WORKS
+
+People naturally associate familiar voices and telephone numbers with particular individuals. Hearing someone who sounds like a friend, relative or trusted professional can encourage immediate confidence in their identity.
+
+Scammers and impersonators can exploit this trust to obtain information, make threats, create false emergencies or encourage people to act without thinking.
+
+A particularly effective technique is to manufacture urgency, making the recipient feel they must respond immediately rather than independently verifying the caller.
+
+### PRACTICAL RESPONSE
+
+**You are under no obligation to answer calls from strangers.** If you do not recognise a number, it is perfectly reasonable to ignore the call and allow the person to leave a voicemail. Bear in mind that legitimate organisations sometimes call from withheld or unfamiliar numbers.
+
+When I answer an unexpected call, I prefer to let the other person speak first rather than immediately identifying myself. This is a simple way to establish why they are calling without volunteering information. However, a natural-sounding conversation is not proof that the caller is human or that their identity is genuine.
+
+If a caller claims to represent an organisation, obtain their name, department and any relevant reference number. Then end the call and contact the organisation using independently verified contact details.
+
+Never rely exclusively on the displayed telephone number or a familiar voice to authenticate someone's identity.
+
+If someone becomes abusive, threatening or manipulative, **simply hang up**. You do not have to explain yourself, defend your actions or continue listening. Preserve relevant call details if you need to report a credible threat.
+
+Avoid engaging with suspicious callers simply to establish who they are or what they want. Attempting to catch someone impersonating another person can create unnecessary opportunities for further manipulation.
+
+### THE CENTRAL PRINCIPLE
+
+**Treat unexpected telephone calls as unverified communications until you have established the caller's identity through an independent channel.**
+
+You do not need to answer every call, identify every unknown caller or confront people who behave suspiciously.
+
+If a call seems important, verify it through ordinary channels. Otherwise, ignore it and get on with your day.

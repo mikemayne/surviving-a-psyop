@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f7f6f0">
+  <meta name="description" content="How to Survive a Psyop — an open, freely reusable collection of writing about psychological manipulation, personal boundaries and practical responses.">
+  <meta property="og:title" content="How to Survive a Psyop">
+  <meta property="og:description" content="An open field guide. Start with the first page, or explore the full collection.">
+  <meta property="og:type" content="website">
+  <title>How to Survive a Psyop — An Open Field Guide</title>
+  <style>
+    :root {
+      --paper: #f7f6f0;
+      --paper-2: #eeeee7;
+      --surface: #fffef9;
+      --ink: #23302d;
+      --muted: #68736d;
+      --accent: #356a60;
+      --accent-light: #e1ece6;
+      --line: #d9ddd3;
+      --orange: #a85f36;
+      --shadow: 0 22px 55px rgba(30,50,42,.08);
+      --serif: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif;
+    }
+    [data-theme="dark"] {
+      --paper: #141d1a;
+      --paper-2: #1d2924;
+      --surface: #202c26;
+      --ink: #edf2e9;
+      --muted: #adbab1;
+      --accent: #98caba;
+      --accent-light: #284439;
+      --line: #37473e;
+      --orange: #e4a177;
+      --shadow: 0 22px 55px rgba(0,0,0,.22);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    button, input { font: inherit; }
+    button { cursor: pointer; }
+    :focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; }
+    ::selection { background: var(--accent-light); color: var(--ink); }
+    .wrap { width: min(1160px, calc(100% - 56px)); margin-inline: auto; }
+    .hidden { display: none !important; }
+    .eyebrow { text-transform: uppercase; font-size: .7rem; font-weight: 750; letter-spacing: .19em; color: var(--accent); }
+    .eyebrow .mark { color: var(--orange); padding-right: .45rem; }
+    .muted { color: var(--muted); }
+    .header { min-height: 78px; border-bottom: 1px solid var(--line); }
+    .header-inner { min-height: 78px; display: flex; align-items: center; gap: 24px; justify-content: space-between; }
+    .brand { text-decoration: none; display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+    .brand-mark { background: var(--accent); color: var(--paper); width: 37px; height: 37px; display: grid; place-items: center; font: italic 26px var(--serif); border-radius: 3px; transform: rotate(-3deg); }
+    .brand-text { display: flex; flex-direction: column; gap: 2px; line-height: 1.1; }
+    .brand-text strong { font-size: .92rem; letter-spacing: -.025em; }
+    .brand-text small { color: var(--muted); font-size: .7rem; letter-spacing: .07em; }
+    .header-nav { display: flex; align-items: center; gap: 26px; }
+    .header-nav a { text-decoration: none; font-size: .84rem; color: var(--muted); font-weight: 600; }
+    .header-nav a:hover, .footer a:hover { color: var(--accent); }
+    .theme-toggle { border: 1px solid var(--line); background: var(--surface); color: var(--ink); width: 38px; height: 38px; border-radius: 50%; }
+    .hero { padding: 94px 0 92px; border-bottom: 1px solid var(--line); overflow: hidden; }
+    .hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; align-items: center; gap: 8%; }
+    .hero h1 { font: normal clamp(3.75rem, 7vw, 7.05rem)/.98 var(--serif); letter-spacing: -.062em; max-width: 700px; margin: 27px 0 28px; }
+    .hero h1 em { color: var(--accent); font-weight: normal; }
+    .hero-lead { color: var(--muted); font-size: 1.11rem; line-height: 1.75; max-width: 530px; }
+    .buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 34px; }
+    .btn { border: 1px solid var(--ink); border-radius: 4px; min-height: 49px; padding: 0 19px; display: inline-flex; align-items: center; gap: 16px; text-decoration: none; font-size: .85rem; font-weight: 720; transition: transform .2s, background .2s; }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: var(--ink); color: var(--paper); }
+    .btn-secondary { border-color: var(--line); color: var(--ink); background: transparent; }
+    .tiny-note { margin-top: 23px; color: var(--muted); font-size: .8rem; display: flex; align-items: center; gap: 10px; }
+    .tiny-note:before { content: ""; width: 23px; height: 1px; background: var(--orange); }
+    .cover { aspect-ratio: 4/5; position: relative; background: #315f55; border-radius: 3px 11px 11px 3px; color: #f4f3e9; box-shadow: 15px 25px 40px rgba(30,48,42,.16), inset 11px 0 13px rgba(0,0,0,.12); overflow: hidden; padding: 37px; display: flex; flex-direction: column; justify-content: space-between; max-width: 428px; margin-left: auto; }
+    .cover:before, .cover:after { content:""; position: absolute; border: 1px solid rgba(226,243,222,.22); border-radius: 50%; width: 380px; height: 380px; left: 19%; top: 16%; }
+    .cover:after { width: 270px; height: 270px; left: 32%; top: 25%; }
+    .cover > * { position: relative; z-index: 1; }
+    .cover-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; text-transform: uppercase; font-size: .67rem; letter-spacing: .2em; line-height: 1.8; }
+    .cover-top .sun { width: 42px; height: 42px; border: 1px solid #a8c9b8; border-radius: 50%; display: block; position: relative; }
+    .cover-top .sun:after { content:""; position: absolute; top: 50%; left: -12px; right: -12px; height: 1px; background: #a8c9b8; transform: rotate(-34deg); }
+    .cover-center { font: normal clamp(2.6rem, 4vw, 4.2rem)/1.04 var(--serif); letter-spacing: -.05em; max-width: 280px; }
+    .cover-bottom { border-top: 1px solid rgba(250,250,240,.4); padding-top: 18px; display: flex; justify-content: space-between; gap: 10px; font-size: .67rem; letter-spacing: .15em; text-transform: uppercase; }
+
+    /* The four central rules from the introduction */
+    .rules { padding: 90px 0 95px; background: var(--surface); border-bottom: 1px solid var(--line); scroll-margin-top: 20px; }
+    .rules-heading { display: flex; justify-content: space-between; align-items: end; gap: 35px; margin-bottom: 37px; }
+    .rules-heading h2 { font: normal clamp(2.8rem, 5vw, 4.6rem)/1.05 var(--serif); letter-spacing: -.055em; margin: 14px 0 0; }
+    .rules-heading p:not(.eyebrow) { max-width: 345px; font-size: .93rem; line-height: 1.75; color: var(--muted); margin: 0 0 3px; }
+    .rules-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px; }
+    .rule-card { background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 30px 32px 34px; position: relative; }
+    .rule-number { font: normal 2.3rem/1 var(--serif); letter-spacing: -.08em; color: var(--orange); display: block; margin-bottom: 35px; }
+    .rule-card h3 { font: normal clamp(1.4rem,2vw,1.85rem)/1.15 var(--serif); letter-spacing: -.03em; margin: 0 0 17px; }
+    .rule-card p { color: var(--muted); font-size: .91rem; line-height: 1.75; margin: 0; }
+    .rules-bottom { display: flex; justify-content: space-between; align-items: center; gap: 22px; margin-top: 26px; }
+    .rules-bottom p { color: var(--muted); font-size: .84rem; line-height: 1.7; max-width: 590px; margin: 0; }
+    .rules-bottom a { color: var(--accent); font-size: .85rem; font-weight: 750; white-space: nowrap; text-underline-offset: 4px; }
+    .principles { border-bottom: 1px solid var(--line); }
+    .principles-inner { display: grid; grid-template-columns: repeat(3, 1fr); }
+    .principle { padding: 33px 28px; border-right: 1px solid var(--line); }
+    .principle:first-child { padding-left: 0; }
+    .principle:last-child { border-right: none; }
+    .principle small { color: var(--orange); font-size: .7rem; letter-spacing: .12em; }
+    .principle strong { display: block; font: normal 1.25rem var(--serif); margin: 8px 0; }
+    .principle p { font-size: .81rem; line-height: 1.65; color: var(--muted); margin: 0; }
+    .section-head { display: flex; gap: 30px; justify-content: space-between; align-items: end; margin-bottom: 36px; }
+    .section-head h2 { font: normal clamp(2.4rem, 4.2vw, 4rem)/1.1 var(--serif); letter-spacing: -.05em; margin: 14px 0 0; }
+    .catalogue { padding: 89px 0 105px; scroll-margin-top: 36px; }
+    .search-box { display: flex; align-items: center; gap: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 5px; padding: 0 14px; width: min(300px, 100%); height: 49px; }
+    .search-box svg { width: 17px; fill: none; stroke: var(--muted); stroke-width: 1.8; }
+    .search-box input { width: 100%; min-width: 0; border: none; background: transparent; outline: none; color: var(--ink); font-size: .86rem; }
+    .search-box:focus-within { border-color: var(--accent); }
+    .category { border-top: 1px solid var(--line); padding: 29px 0 33px; display: grid; grid-template-columns: 245px 1fr; gap: 40px; }
+    .category-title { font: normal 1.55rem var(--serif); margin: 0 0 9px; letter-spacing: -.025em; }
+    .category-note { font-size: .82rem; color: var(--muted); line-height: 1.6; max-width: 220px; margin: 0; }
+    .chapter-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px 14px; align-content: start; }
+    .chapter-card { background: var(--surface); border: 1px solid var(--line); text-decoration: none; display: flex; align-items: center; gap: 13px; min-height: 60px; padding: 12px 16px; border-radius: 4px; transition: border .2s, transform .2s; }
+    .chapter-card:hover { border-color: var(--accent); transform: translateX(3px); }
+    .chapter-num { color: var(--orange); font: .72rem var(--sans); min-width: 23px; }
+    .chapter-label { font-size: .88rem; line-height: 1.4; font-weight: 620; flex: 1; }
+    .chapter-arrow { font-size: 1.15rem; color: var(--accent); }
+    .empty-search { color: var(--muted); font-size: .9rem; padding: 24px 0; }
+
+    /* Provider-neutral AI reading guide */
+    .use-ai { padding: 85px 0 92px; border-bottom: 1px solid var(--line); scroll-margin-top: 20px; }
+    .use-ai-grid { display: grid; grid-template-columns: .85fr 1.15fr; align-items: center; gap: 8%; }
+    .use-ai h2 { font: normal clamp(2.5rem, 4.3vw, 4rem)/1.09 var(--serif); letter-spacing: -.05em; margin: 18px 0 24px; }
+    .use-ai h2 em { color: var(--accent); font-weight: normal; }
+    .use-ai p:not(.eyebrow) { font-size: .94rem; line-height: 1.78; color: var(--muted); }
+    .use-ai-links { display: flex; flex-direction: column; align-items: flex-start; gap: 13px; margin-top: 28px; }
+    .use-ai-links a { font-size: .9rem; color: var(--accent); text-decoration: underline; font-weight: 720; text-underline-offset: 4px; }
+    .ai-instructions { padding: 30px; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); min-width: 0; }
+    .ai-instructions .ai-step { color: var(--orange) !important; text-transform: uppercase; font-size: .68rem !important; font-weight: 750; letter-spacing: .16em; margin-top: 0; }
+    .ai-instructions h3 { font: normal 1.8rem/1.15 var(--serif); letter-spacing: -.025em; margin: 8px 0 8px; }
+    .ai-instructions .ai-instruction-text { margin: 0 0 17px; font-size: .83rem !important; }
+    .ai-prompt { width: 100%; height: 185px; min-height: 155px; display: block; resize: vertical; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; padding: 16px; color: var(--ink); font: .8rem/1.6 var(--sans); }
+    .ai-copy-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 14px; }
+    .ai-copy-row #ai-copy-status { color: var(--muted); font-size: .72rem; line-height: 1.5; }
+    .ai-copy-row .btn { white-space: nowrap; }
+    .ai-instructions .ai-privacy { border-top: 1px solid var(--line); margin: 20px 0 0; padding-top: 14px; font-size: .76rem !important; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+    .contribute { border-block: 1px solid var(--line); padding: 70px 0; background: var(--paper-2); }
+    .contribute-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 10%; align-items: center; }
+    .contribute h2 { font: normal clamp(2.3rem, 4vw, 3.8rem)/1.1 var(--serif); letter-spacing: -.04em; margin: 14px 0 18px; }
+    .contribute p { color: var(--muted); line-height: 1.75; max-width: 530px; font-size: .94rem; }
+    .contribute-panel { background: var(--surface); border: 1px solid var(--line); padding: 27px; box-shadow: var(--shadow); }
+    .contribute-panel strong { font: normal 1.4rem var(--serif); }
+    .contribute-panel ol { margin: 15px 0 0; padding-left: 20px; font-size: .9rem; color: var(--muted); line-height: 2; }
+    .footer { padding: 32px 0; }
+    .footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 25px; }
+    .footer p { color: var(--muted); margin: 0; font-size: .77rem; line-height: 1.7; }
+    .footer a { text-decoration: underline; text-underline-offset: 3px; }
+    .footer-links { display: flex; align-items: center; gap: 20px; white-space: nowrap; color: var(--muted); font-size: .77rem; }
+    /* Reading interface */
+    .reader { min-height: calc(100vh - 78px); display: grid; grid-template-columns: 305px minmax(0, 1fr); }
+    /* Keep the mobile-only overlay out of the desktop grid. Without this,
+       it takes the first grid cell and pushes the actual reader into a narrow row. */
+    .sidebar-shade { display: none; }
+    .reader-sidebar { border-right: 1px solid var(--line); background: var(--paper-2); padding: 32px 24px 45px; position: sticky; top: 0; max-height: 100vh; overflow-y: auto; scrollbar-color: var(--line) transparent; }
+    .sidebar-back { font-size: .78rem; font-weight: 700; color: var(--accent); text-decoration: none; display: inline-flex; align-items: center; gap: 10px; margin-bottom: 26px; }
+    .sidebar-search { width: 100%; }
+    .sidebar-group { margin-top: 26px; }
+    .sidebar-group-title { color: var(--muted); text-transform: uppercase; font-size: .67rem; letter-spacing: .13em; font-weight: 800; margin-bottom: 10px; }
+    .sidebar-link { display: block; padding: 9px 12px; border-radius: 3px; color: var(--muted); text-decoration: none; font-size: .81rem; line-height: 1.4; border-left: 2px solid transparent; }
+    .sidebar-link:hover { color: var(--ink); background: var(--surface); }
+    .sidebar-link.active { background: var(--surface); color: var(--accent); border-left-color: var(--accent); font-weight: 740; }
+    .reader-main { min-width: 0; }
+    .read-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 20px; border-bottom: 1px solid var(--line); padding: 20px min(7.5%, 90px); font-size: .75rem; color: var(--muted); }
+    .read-toolbar a { text-decoration: none; color: var(--accent); font-weight: 700; }
+    .reading-progress { height: 3px; background: var(--line); position: sticky; top: 0; z-index: 10; }
+    .reading-progress > div { background: var(--accent); height: 100%; width: 0; transition: width .1s; }
+    .article-shell { max-width: 800px; margin: auto; padding: 72px 42px 90px; }
+    .article-meta { display: flex; justify-content: space-between; gap: 20px; font-size: .7rem; font-weight: 750; letter-spacing: .13em; text-transform: uppercase; color: var(--accent); }
+    .article-shell h1 { font: normal clamp(2.8rem, 5vw, 4.7rem)/1.07 var(--serif); letter-spacing: -.05em; margin: 22px 0 34px; overflow-wrap: anywhere; }
+    .article-divider { height: 1px; background: var(--line); margin-bottom: 42px; }
+    .article-content { font: 1.075rem/1.91 var(--serif); overflow-wrap: break-word; }
+    .article-content h1, .article-content h2, .article-content h3, .article-content h4 { font-family: var(--serif); font-weight: normal; letter-spacing: -.02em; line-height: 1.22; margin: 2em 0 .65em; }
+    .article-content h1 { font-size: 2.1rem; }
+    .article-content h2 { font-size: 1.8rem; }
+    .article-content h3 { font-size: 1.35rem; }
+    .article-content h4 { font-size: 1.15rem; }
+    .article-content p { margin: 0 0 1.25em; }
+    .article-content ul, .article-content ol { padding-left: 1.4em; margin: 0 0 1.5em; }
+    .article-content li { padding-left: .35em; margin-bottom: .6em; }
+    .article-content li::marker { color: var(--orange); }
+    .article-content a { color: var(--accent); text-underline-offset: 3px; }
+    .article-content blockquote { border-left: 3px solid var(--orange); padding: 5px 0 5px 20px; margin: 25px 0; color: var(--muted); }
+    .article-content pre { background: var(--paper-2); padding: 20px; overflow-x: auto; border-radius: 4px; font: .8rem/1.6 monospace; }
+    .article-content code { font-size: .83em; background: var(--paper-2); border-radius: 3px; padding: .12em .25em; }
+    .article-content pre code { background: none; padding: 0; font-size: inherit; }
+    .article-content hr { border: none; height: 1px; background: var(--line); margin: 36px 0; }
+    .article-footnote { border-top: 1px solid var(--line); margin-top: 54px; padding-top: 18px; font-size: .77rem; color: var(--muted); line-height: 1.7; }
+    .article-footnote a { color: var(--accent); }
+    .chapter-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 48px; }
+    .chapter-controls a { border: 1px solid var(--line); border-radius: 4px; text-decoration: none; padding: 19px; min-height: 100px; display: flex; flex-direction: column; justify-content: center; gap: 7px; transition: border-color .2s; }
+    .chapter-controls a:hover { border-color: var(--accent); }
+    .chapter-controls a:last-child { text-align: right; }
+    .chapter-controls small { text-transform: uppercase; font-size: .66rem; letter-spacing: .14em; color: var(--muted); }
+    .chapter-controls strong { font-size: .87rem; line-height: 1.4; }
+    .mobile-reader-nav { display: none; }
+    @media (max-width: 920px) {
+      .hero-grid { gap: 4%; }
+      .hero { padding: 70px 0; }
+      .hero h1 { font-size: clamp(3.5rem, 7vw, 5.5rem); }
+      .cover { padding: 26px; }
+      .category { grid-template-columns: 190px 1fr; gap: 22px; }
+      .reader { grid-template-columns: 245px minmax(0,1fr); }
+      .reader-sidebar { padding-inline: 13px; }
+      .article-shell { padding: 55px 30px 80px; }
+    }
+    @media (max-width: 680px) {
+      .wrap { width: min(100% - 34px, 520px); }
+      .header-inner { min-height: 68px; }
+      .header { min-height: 68px; }
+      .brand-text strong { font-size: .82rem; }
+      .brand-text small { font-size: .6rem; }
+      .header-nav { gap: 14px; }
+      .header-nav .desktop-link { display: none; }
+      .hero { padding: 50px 0 55px; }
+      .hero-grid, .contribute-grid { grid-template-columns: 1fr; gap: 44px; }
+      .hero h1 { font-size: clamp(3.5rem, 13vw, 5rem); margin: 20px 0; }
+      .hero-lead { font-size: .99rem; }
+      .cover { width: 80%; margin: 0 auto; max-width: 320px; }
+      .cover-center { font-size: 3rem; }
+      .principles-inner { grid-template-columns: 1fr; }
+      .principle, .principle:first-child { padding: 20px 0; border-right: 0; border-bottom: 1px solid var(--line); }
+      .principle:last-child { border-bottom: 0; }
+      .rules { padding: 58px 0 66px; }
+      .rules-heading { align-items: start; flex-direction: column; gap: 18px; }
+      .rules-heading h2 { font-size: 3rem; }
+      .rules-grid { grid-template-columns: 1fr; }
+      .rule-card { padding: 24px; }
+      .rule-number { margin-bottom: 20px; }
+      .rules-bottom { flex-direction: column; align-items: start; gap: 14px; }
+      .catalogue { padding: 62px 0 68px; }
+      .section-head { align-items: start; flex-direction: column; gap: 22px; margin-bottom: 28px; }
+      .section-head h2 { font-size: 2.9rem; }
+      .search-box { width: 100%; }
+      .category { grid-template-columns: 1fr; gap: 22px; }
+      .category-note { max-width: 100%; }
+      .chapter-grid { grid-template-columns: 1fr; }
+      .use-ai { padding: 58px 0 66px; }
+      .use-ai-grid { grid-template-columns: 1fr; gap: 30px; }
+      .ai-instructions { padding: 20px; }
+      .ai-copy-row { align-items: start; flex-direction: column; }
+      .contribute { padding: 60px 0; }
+      .footer-inner { align-items: start; flex-direction: column; gap: 18px; }
+      .reader { display: block; }
+      .reader-sidebar { position: fixed; z-index: 50; top: 0; left: 0; height: 100dvh; width: min(84vw, 330px); max-height: none; box-shadow: 12px 0 55px rgba(0,0,0,.24); transform: translateX(-110%); transition: transform .25s; }
+      .reader-sidebar.open { transform: translateX(0); }
+      .sidebar-shade { position: fixed; z-index: 49; inset: 0; background: rgba(12,26,21,.45); display: none; }
+      .sidebar-shade.visible { display: block; }
+      .mobile-reader-nav { display: block; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); color: var(--ink); padding: 10px 13px; font-size: .75rem; font-weight: 700; }
+      .read-toolbar { padding: 13px 18px; }
+      .read-toolbar .toolbar-label { display: none; }
+      .article-shell { padding: 43px 23px 70px; }
+      .article-shell h1 { font-size: 2.8rem; }
+      .article-content { font-size: 1.03rem; line-height: 1.8; }
+      .chapter-controls { gap: 8px; }
+      .chapter-controls a { padding: 13px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *:before, *:after { scroll-behavior: auto !important; transition-duration: 0s !important; }
+    }
+  </style>
+</head>
+<body>
+<header class="header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#home" aria-label="How to Survive a Psyop, home">
+      <span class="brand-mark" aria-hidden="true">h</span>
+      <span class="brand-text"><strong>How to Survive a Psyop</strong><small>AN OPEN FIELD GUIDE</small></span>
+    </a>
+    <nav class="header-nav" aria-label="Main navigation">
+      <a class="desktop-link" href="#rules">The four rules</a>
+      <a class="desktop-link" href="#catalogue">Chapters</a>
+      <a class="desktop-link" href="#use-ai">Use with AI</a>
+      <a class="desktop-link" href="#contribute">Contribute</a>
+      <a class="desktop-link" href="https://github.com/mikemayne/surviving-a-psyop" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle colour theme">◐</button>
+    </nav>
+  </div>
+</header>
+<main id="home-view">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow"><span class="mark">✳</span> A free &amp; open field guide</p>
+        <h1>How to survive a <em>psyop.</em></h1>
+        <p class="hero-lead">A collection of writing about psychological manipulation, personal boundaries and practical responses. Begin with the first page, then explore what interests you.</p>
+        <div class="buttons">
+          <a class="btn btn-primary" href="#rules">Read the four rules <span aria-hidden="true">↓</span></a>
+          <a class="btn btn-secondary" href="#read/introduction">Full introduction <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="tiny-note">Freely available. No sign-in. No tracking.</p>
+      </div>
+      <div class="cover" aria-label="Decorative book cover">
+        <div class="cover-top"><span>FIELD NOTES<br>AN OPEN HANDBOOK</span><span class="sun" aria-hidden="true"></span></div>
+        <div class="cover-center">Read.<br>Reflect.<br>Respond.</div>
+        <div class="cover-bottom"><span>Readers' edition</span><span>CC0 · OPEN</span></div>
+      </div>
+    </div>
+  </section>
+  <section class="rules" id="rules" aria-labelledby="rules-title">
+    <div class="wrap">
+      <div class="rules-heading">
+        <div><p class="eyebrow"><span class="mark">✳</span> Start here</p><h2 id="rules-title">Four rules to remember<span style="color:var(--orange)">.</span></h2></div>
+        <p>The main advice from the introduction, gathered in one place. You don't need to read the whole booklet to start.</p>
+      </div>
+      <div class="rules-grid">
+        <article class="rule-card"><span class="rule-number">01</span><h3>Stay calm</h3><p id="rule-text-1">Stay calm, the only external response to someone saying something unusual around or to you should be polite bafflement.  Don't react in any other way, just walk off and do something else. Remember you don't owe anyone an explanation for anything, just walk away.</p></article>
+        <article class="rule-card"><span class="rule-number">02</span><h3>Stick to a plan</h3><p id="rule-text-2">Stick to a plan.  Do only what you would do anyway.  If you are feeling completely overwhelmed and don't know what you should do or feel compelled to act, go to bed and stay there until you feel able to react normally.</p></article>
+        <article class="rule-card"><span class="rule-number">03</span><h3>Check before interpreting</h3><p id="rule-text-3">If you are unsure if a voice is indeed coming from your own mouth, make an innocuous noise like a thoughtful clicking or whistle.  You will be able to localise that sound and distinguish it from a sound coming from elsewhere.</p></article>
+        <article class="rule-card"><span class="rule-number">04</span><h3>Don't engage with hypotheticals</h3><p id="rule-text-4">If you're subjected to repeated hypothetical statements, instead of considering them analyse their motives.  Don't react to it, just get on with your day as best you can. If you're subjected to continuous hypotheticals, instead of analysing them in detail or considering the motives of the abuser just categorise them simply as &quot;up&quot; or &quot;down&quot; and ignore the content of the statement completely.</p></article>
+      </div>
+      <div class="rules-bottom">
+        <p>These are reproduced from the introduction. The full first page also covers the author's advice on documenting and reporting concerns.</p>
+        <a href="#read/introduction">Read the full introduction ↗</a>
+      </div>
+    </div>
+  </section>
+  <section class="principles" aria-label="Key ideas">
+    <div class="wrap principles-inner">
+      <div class="principle"><small>01 / PAUSE</small><strong>Choose your response.</strong><p>A little distance from an upsetting interaction can help you respond on your own terms.</p></div>
+      <div class="principle"><small>02 / DOCUMENT</small><strong>Stick to what you know.</strong><p>Record direct observations accurately, without filling gaps with assumptions.</p></div>
+      <div class="principle"><small>03 / CONNECT</small><strong>Use appropriate support.</strong><p>Bring concerns to people and services equipped to help, and avoid unnecessary confrontation.</p></div>
+    </div>
+  </section>
+  <section class="catalogue" id="catalogue">
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="eyebrow">The library</p><h2>Explore the chapters<span style="color:var(--orange)">.</span></h2></div>
+        <label class="search-box" aria-label="Find a chapter">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg>
+          <input id="home-search" type="search" placeholder="Find a chapter…" autocomplete="off">
+        </label>
+      </div>
+      <div id="chapter-catalogue"></div>
+      <p id="home-no-results" class="empty-search hidden">No matching chapter titles. Try a different term.</p>
+    </div>
+  </section>
+
+  <section class="use-ai" id="use-ai" aria-labelledby="use-ai-title">
+    <div class="wrap use-ai-grid">
+      <div>
+        <p class="eyebrow"><span class="mark">✳</span> Bring your own assistant</p>
+        <h2 id="use-ai-title">Read with AI.<br><em>For free.</em></h2>
+        <p>Already use ChatGPT, Claude or another AI assistant? You can point it at the booklet and ask it to locate relevant chapters, explain passages, or compare ideas. There's no built-in chatbot and no account needed on this site.</p>
+        <p>For tools that can't read our chapter reader, we've published a plain-text index and direct links to every chapter.</p>
+        <div class="use-ai-links">
+          <a href="./llms.txt">AI-readable chapter index ↗</a>
+          <a href="./chapters.json">Structured chapter catalogue ↗</a>
+        </div>
+      </div>
+      <div class="ai-instructions">
+        <p class="ai-step">01 &nbsp; OPEN YOUR AI ASSISTANT</p>
+        <h3>Copy this starter prompt</h3>
+        <p class="ai-instruction-text">Paste it into whichever assistant you prefer, then add your question. You can also provide a chapter's <code>.txt</code> link directly.</p>
+        <label for="ai-starter-prompt" class="sr-only">Suggested prompt to copy</label>
+        <textarea id="ai-starter-prompt" class="ai-prompt" readonly rows="10">Please use this freely available booklet as a source:
+https://mikemayne.github.io/surviving-a-psyop/llms.txt
+
+Find the sections relevant to my question and provide links to the original plain-text chapters. Summarise the author's advice accurately. Distinguish personal accounts, hypotheses and interpretations from independently established facts. If you cannot access a chapter, tell me which text file to paste instead of guessing.
+
+My question: </textarea>
+        <div class="ai-copy-row">
+          <span id="ai-copy-status" role="status" aria-live="polite">No information is sent from this website to an AI service.</span>
+          <button type="button" class="btn btn-primary" id="copy-ai-prompt">Copy prompt ↗</button>
+        </div>
+        <p class="ai-privacy">Please don't include names, private records or other sensitive information in an AI conversation unless you're comfortable with that service's privacy practices. Some assistants can't fetch links; in that case, paste the relevant text.</p>
+      </div>
+    </div>
+  </section>
+  <section class="contribute" id="contribute">
+    <div class="wrap contribute-grid">
+      <div>
+        <p class="eyebrow">A living document</p>
+        <h2>Make it better.<br>Make it your own.</h2>
+        <p>The source is on GitHub and the text is dedicated to the public domain under CC0 1.0 Universal. You can read, copy, translate, adapt or build on it — with no attribution required.</p>
+        <a class="btn btn-primary" href="https://github.com/mikemayne/surviving-a-psyop" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="contribute-panel">
+        <strong>Have something to add?</strong>
+        <ol>
+          <li>Fork the repository on GitHub.</li>
+          <li>Add a section or suggest a correction.</li>
+          <li>Open a pull request for review — or publish your own fork.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+</main>
+<main class="reader hidden" id="reader-view">
+  <div class="sidebar-shade" id="sidebar-shade"></div>
+  <aside class="reader-sidebar" id="reader-sidebar" aria-label="Book chapters">
+    <a class="sidebar-back" href="#home">← Back to the homepage</a>
+    <label class="search-box sidebar-search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg>
+      <input type="search" id="sidebar-search" placeholder="Find a chapter…" aria-label="Find a chapter">
+    </label>
+    <nav id="sidebar-chapters" aria-label="Chapter navigation"></nav>
+  </aside>
+  <div class="reader-main">
+    <div class="reading-progress" aria-hidden="true"><div id="reading-progress-bar"></div></div>
+    <div class="read-toolbar">
+      <button type="button" id="mobile-chapters" class="mobile-reader-nav" aria-expanded="false">☰ &nbsp; Chapters</button>
+      <span class="toolbar-label">THE FIELD GUIDE / READER'S EDITION</span>
+      <a href="#catalogue">All chapters ↗</a>
+    </div>
+    <article class="article-shell">
+      <div class="article-meta"><span id="article-category"></span><span id="article-number"></span></div>
+      <h1 id="article-title"></h1>
+      <div class="article-divider"></div>
+      <div class="article-content" id="article-content" aria-live="polite">Loading chapter…</div>
+      <div class="article-footnote">This is the author's original text. <a id="article-source" href="https://github.com/mikemayne/surviving-a-psyop">View source on GitHub ↗</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">CC0 1.0 Universal</a></div>
+      <nav class="chapter-controls" id="chapter-controls" aria-label="Previous and next chapters"></nav>
+    </article>
+  </div>
+</main>
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p>How to Survive a Psyop · Published under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">CC0 1.0 Universal</a>.<br>Built as a simple, open website with no analytics or cookies.</p>
+    <div class="footer-links"><a href="#home">Home</a><a href="#catalogue">Chapters</a><a href="#use-ai">Use with AI</a><a href="https://github.com/mikemayne/surviving-a-psyop" target="_blank" rel="noopener noreferrer">Source ↗</a></div>
+  </div>
+</footer>
+<script>
+(function () {
+  "use strict";
+  var GROUPS = [
+    {name:"Begin here", note:"Start with the introduction and practical ways of responding.", files:[
+      ["introduction","Introduction"],["take_back_control","Take back control"],["dont_chase","Don't chase"],["dont_tolerate_mistreatment","Don't tolerate mistreatment"],["personal_security_notes","Personal security notes"],["phone_calls","Telephone calls"],["social_media","Social media"]
+    ]},
+    {name:"Recognising manipulation", note:"Patterns of pressure, interpretation and social influence.", files:[
+      ["gaslit_by_friends","Gaslighting by friends"],["negging_psychological_manipulation","Negging"],["good_cop_bad_cop","Good cop, bad cop"],["guilt_tripping","Guilt tripping"],["emotional_burden_trick","Emotional burden"],["accusation_baiting","Accusation baiting"],["claim_inflation","Claim inflation"],["false_endings","False endings"],["false_completion","False completion"],["impossible_compliance","Impossible compliance"],["impossible_standards","Impossible standards"],["moral_accusations","Loaded moral accusations"],["moral_blackmail","Moral blackmail"],["interpretation_trick","The interpretation trick"],["talking","Covert communication"],["service_shield","The service shield"],["the_guity_always_run","The guilty always run"],["legal_intimidation","Legal intimidation"],["criminilisation","Criminalisation"],["threatened_framing","Threatened framing"]
+    ]},
+    {name:"Intimidation & pressure", note:"Descriptions of emotionally forceful and coercive tactics.", files:[
+      ["accidentally_overheard","Pretending to be overheard"],["narrating_trick","Narrating"],["public_shaming","Public shaming"],["name_and_shame","Name and shame"],["flashmobs","Flashmobs"],["body_shaming","Body shaming"],["bodily_functions","Bodily functions"],["incitement_to_violence","Incitement to violence"],["sleep_deprivation","Sleep deprivation"],["sexual_coercion","Sexual coercion"],["choose_your_death","Choose your death"],["indefinite_abuse","Indefinite abuse"]
+    ]},
+    {name:"Technology & perception", note:"Technical ideas, media, security and interpretation.", files:[
+      ["cold_reading","Cold reading"],["cold_reading_ai_assisted","AI-assisted cold reading"],["source_identification_trick","Source identification"],["internal_monologue_trick","Internal monologue"],["mind_reading_trick","The mind-reading trick"],["bug_in_face","The bug-in-face trick"],["manipulated_media","Manipulated media"],["pwned-devices","Compromised devices"],["air_gap_limitations","Air-gap limitations"],["there_is_no_privacy","Privacy"]
+    ]},
+    {name:"Further reading", note:"Additional writing and closing reflections.", files:[
+      ["how_to_survive_a_psyop_additional_sections","Additional sections"],["conclusion","Conclusion"]
+    ]}
+  ];
+  var chapters = [];
+  GROUPS.forEach(function(group) { group.files.forEach(function(item) { chapters.push({id:item[0], title:item[1], group:group.name, number:chapters.length+1}); }); });
+  var cache = {};
+  var current = null;
+  var home = document.getElementById("home-view");
+  var reader = document.getElementById("reader-view");
+  var sidebar = document.getElementById("reader-sidebar");
+  var shade = document.getElementById("sidebar-shade");
+  var mobile = document.getElementById("mobile-chapters");
+  var progressBar = document.getElementById("reading-progress-bar");
+  var repoRoot = "https://github.com/mikemayne/surviving-a-psyop";
+
+  function escapeHTML(value) {
+    return String(value).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+  }
+  function inline(text) {
+    var re = /(\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)|\*\*([^*]+)\*\*|\*([^*]+)\*|(https?:\/\/[^\s<>]+))/g;
+    var out = "", last = 0, match;
+    while ((match = re.exec(text)) !== null) {
+      out += escapeHTML(text.slice(last, match.index));
+      if (match[2]) {
+        out += '<a href="' + escapeHTML(match[3]) + '" target="_blank" rel="noopener noreferrer">' + escapeHTML(match[2]) + '</a>';
+      } else if (match[4]) { out += "<strong>" + escapeHTML(match[4]) + "</strong>"; }
+      else if (match[5]) { out += "<em>" + escapeHTML(match[5]) + "</em>"; }
+      else {
+        var url = match[6].replace(/[.,;:!?]+$/g,"");
+        var extra = match[6].slice(url.length);
+        out += '<a href="' + escapeHTML(url) + '" target="_blank" rel="noopener noreferrer">' + escapeHTML(url) + "</a>" + escapeHTML(extra);
+      }
+      last = re.lastIndex;
+    }
+    return out + escapeHTML(text.slice(last));
+  }
+  function renderText(source) {
+    var lines = source.replace(/\r\n/g,"\n").split("\n");
+    var result = [], para = [], list = null, inCode = false, code = [];
+    function flushPara() { if (para.length) { result.push("<p>" + inline(para.join(" ").trim()) + "</p>"); para = []; } }
+    function closeList() { if (list) { result.push("</" + list + ">"); list = null; } }
+    lines.forEach(function(line) {
+      if (/^\s*~~~/.test(line)) {
+        flushPara(); closeList();
+        if (inCode) { result.push("<pre><code>" + escapeHTML(code.join("\n")) + "</code></pre>"); code = []; inCode = false; }
+        else { inCode = true; }
+        return;
+      }
+      if (inCode) { code.push(line); return; }
+      if (!line.trim()) { flushPara(); closeList(); return; }
+      if (/^\s*(?:---+|\*\*\*+)\s*$/.test(line)) { flushPara(); closeList(); result.push("<hr>"); return; }
+      var heading = line.match(/^\s*(#{1,4})\s+(.+)$/);
+      if (heading) { flushPara(); closeList(); var n = heading[1].length; result.push("<h" + n + ">" + inline(heading[2]) + "</h" + n + ">"); return; }
+      var bullet = line.match(/^\s*[-*]\s+(.+)$/);
+      var ordered = line.match(/^\s*\d+[.)]\s+(.+)$/);
+      if (bullet || ordered) {
+        flushPara(); var kind = bullet ? "ul" : "ol";
+        if (list !== kind) { closeList(); result.push("<" + kind + ">"); list = kind; }
+        result.push("<li>" + inline((bullet || ordered)[1]) + "</li>"); return;
+      }
+      if (/^\s*>/.test(line)) { flushPara(); closeList(); result.push("<blockquote>" + inline(line.replace(/^\s*>\s?/,"")) + "</blockquote>"); return; }
+      closeList(); para.push(line.trim());
+    });
+    flushPara(); closeList();
+    if (inCode) result.push("<pre><code>" + escapeHTML(code.join("\n")) + "</code></pre>");
+    return result.join("\n");
+  }
+  function href(chapter) { return "#read/" + encodeURIComponent(chapter.id); }
+  function makeCatalogue(query) {
+    var q = (query || "").trim().toLowerCase(), found = 0;
+    var markup = GROUPS.map(function(group) {
+      var items = chapters.filter(function(ch) { return ch.group === group.name && (!q || (ch.title + " " + ch.id.replace(/_/g," ")).toLowerCase().includes(q)); });
+      if (!items.length) return "";
+      found += items.length;
+      return '<div class="category"><div><h3 class="category-title">' + escapeHTML(group.name) + '</h3><p class="category-note">' + escapeHTML(group.note) + '</p></div><div class="chapter-grid">' +
+        items.map(function(ch) { return '<a class="chapter-card" href="' + href(ch) + '"><span class="chapter-num">' + String(ch.number).padStart(2,"0") + '</span><span class="chapter-label">' + escapeHTML(ch.title) + '</span><span class="chapter-arrow" aria-hidden="true">↗</span></a>'; }).join("") + '</div></div>';
+    }).join("");
+    document.getElementById("chapter-catalogue").innerHTML = markup;
+    document.getElementById("home-no-results").classList.toggle("hidden", found !== 0);
+  }
+  function makeSidebar(query) {
+    var q = (query || "").trim().toLowerCase();
+    document.getElementById("sidebar-chapters").innerHTML = GROUPS.map(function(group) {
+      var items = chapters.filter(function(ch) { return ch.group === group.name && (!q || (ch.title + " " + ch.id.replace(/_/g," ")).toLowerCase().includes(q)); });
+      if (!items.length) return "";
+      return '<div class="sidebar-group"><div class="sidebar-group-title">' + escapeHTML(group.name) + '</div>' +
+        items.map(function(ch) { return '<a href="' + href(ch) + '" class="sidebar-link' + (current === ch.id ? " active" : "") + '">' + escapeHTML(ch.title) + "</a>"; }).join("") + "</div>";
+    }).join("");
+  }
+  function closeSidebar() { sidebar.classList.remove("open"); shade.classList.remove("visible"); mobile.setAttribute("aria-expanded","false"); }
+  function updateProgress() {
+    if (reader.classList.contains("hidden")) return;
+    var range = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+    progressBar.style.width = Math.min(100, Math.max(0, window.scrollY / range * 100)) + "%";
+  }
+  function displayReader(id) {
+    var ch = chapters.find(function(item) { return item.id === id; });
+    if (!ch) { location.hash = "#catalogue"; return; }
+    current = ch.id;
+    home.classList.add("hidden");
+    reader.classList.remove("hidden");
+    closeSidebar();
+    document.getElementById("article-title").textContent = ch.title;
+    document.getElementById("article-category").textContent = ch.group;
+    document.getElementById("article-number").textContent = String(ch.number).padStart(2,"0") + " / " + chapters.length;
+    document.getElementById("article-source").href = repoRoot + "/blob/main/" + encodeURIComponent(ch.id) + ".txt";
+    document.getElementById("article-content").innerHTML = "<p>Loading chapter…</p>";
+    document.title = ch.title + " — How to Survive a Psyop";
+    var sidebarSearch = document.getElementById("sidebar-search");
+    sidebarSearch.value = "";
+    makeSidebar("");
+    var prev = chapters[ch.number-2], next = chapters[ch.number];
+    document.getElementById("chapter-controls").innerHTML =
+      '<div>' + (prev ? '<a href="' + href(prev) + '"><small>← Previous</small><strong>' + escapeHTML(prev.title) + '</strong></a>' : "") + '</div>' +
+      '<div>' + (next ? '<a href="' + href(next) + '"><small>Next →</small><strong>' + escapeHTML(next.title) + '</strong></a>' : "") + '</div>';
+    window.scrollTo(0,0);
+    updateProgress();
+    if (cache[id]) { document.getElementById("article-content").innerHTML = cache[id]; return; }
+    fetch("./" + encodeURIComponent(id) + ".txt").then(function(response) {
+      if (!response.ok) throw new Error("Chapter unavailable");
+      return response.text();
+    }).then(function(text) {
+      cache[id] = renderText(text);
+      if (current === id) {
+        document.getElementById("article-content").innerHTML = cache[id];
+        updateProgress();
+      }
+    }).catch(function() {
+      if (current === id) document.getElementById("article-content").innerHTML =
+        '<p>This chapter could not be loaded. <a href="' + repoRoot + '/blob/main/' + encodeURIComponent(id) + '.txt">Read it on GitHub instead ↗</a></p>';
+    });
+  }
+  function route() {
+    var path = decodeURIComponent(location.hash.slice(1) || "home");
+    if (path.indexOf("read/") === 0) { displayReader(path.slice(5)); return; }
+    current = null;
+    reader.classList.add("hidden");
+    home.classList.remove("hidden");
+    document.title = "How to Survive a Psyop — An Open Field Guide";
+    closeSidebar();
+    if (path === "catalogue" || path === "contribute" || path === "rules" || path === "use-ai") {
+      setTimeout(function() { document.getElementById(path).scrollIntoView({behavior:"smooth",block:"start"}); }, 0);
+    } else window.scrollTo(0,0);
+  }
+
+  function syncHomepageRules() {
+    fetch("./introduction.txt").then(function(response) {
+      if (!response.ok) throw new Error("Introduction not available");
+      return response.text();
+    }).then(function(source) {
+      var section = source.match(/\*\*\s*How to survive\s*\*\*([\s\S]*?)\*\*\s*How to report\s*\*\*/i);
+      if (!section) return;
+      var matches = Array.from(section[1].matchAll(/(?:^|\n)\s*([1-4])\.\s*([^\n]+)/g));
+      if (matches.length !== 4) return;
+      matches.forEach(function(match) {
+        var target = document.getElementById("rule-text-" + match[1]);
+        if (target) target.textContent = match[2].trim();
+      });
+    }).catch(function() { /* Keep the original printed text as a fallback. */ });
+  }
+  syncHomepageRules();
+
+  (function enablePromptCopy() {
+    var copyButton = document.getElementById("copy-ai-prompt");
+    var promptInput = document.getElementById("ai-starter-prompt");
+    var copyStatus = document.getElementById("ai-copy-status");
+    function copied() { copyStatus.textContent = "Copied! Paste into your AI assistant."; }
+    function fallback() {
+      promptInput.focus();
+      promptInput.select();
+      try {
+        if (document.execCommand("copy")) { copied(); return; }
+      } catch (error) { /* Selection remains for manual copy. */ }
+      copyStatus.textContent = "Prompt selected — copy it using your keyboard.";
+    }
+    copyButton.addEventListener("click", function () {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(promptInput.value).then(copied).catch(fallback);
+      } else fallback();
+    });
+  })();
+  document.getElementById("home-search").addEventListener("input", function(e) { makeCatalogue(e.target.value); });
+  document.getElementById("sidebar-search").addEventListener("input", function(e) { makeSidebar(e.target.value); });
+  mobile.addEventListener("click",function() {
+    var open = !sidebar.classList.contains("open");
+    sidebar.classList.toggle("open",open); shade.classList.toggle("visible",open); mobile.setAttribute("aria-expanded",open?"true":"false");
+  });
+  shade.addEventListener("click",closeSidebar);
+  sidebar.addEventListener("click",function(e) { if (e.target.closest("a")) closeSidebar(); });
+  document.addEventListener("keydown",function(e) { if (e.key === "Escape") closeSidebar(); });
+  document.getElementById("theme-toggle").addEventListener("click",function() {
+    var dark = document.documentElement.dataset.theme !== "dark";
+    document.documentElement.dataset.theme = dark ? "dark" : "light";
+    try { localStorage.setItem("fieldguide-theme", dark ? "dark" : "light"); } catch (e) {}
+  });
+  try {
+    var preference = localStorage.getItem("fieldguide-theme");
+    if (preference === "dark" || (!preference && window.matchMedia("(prefers-color-scheme: dark)").matches)) document.documentElement.dataset.theme = "dark";
+  } catch(e) {}
+  window.addEventListener("hashchange",route);
+  window.addEventListener("scroll",updateProgress,{passive:true});
+  window.addEventListener("resize",updateProgress);
+  makeCatalogue("");
+  route();
+})();
+</script>
+</body>
+</html>

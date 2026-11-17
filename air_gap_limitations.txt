@@ -1,0 +1,43 @@
+### ELECTROMAGNETIC AUDIO INJECTION AND AIR-GAPPED DEVICES
+
+Disconnecting a computer, television or other electronic device from the internet is an effective way of preventing many forms of remote network-based interference. However, an air gap does not necessarily prevent every form of interference with the device's hardware.
+
+Electronic audio equipment can sometimes unintentionally receive electromagnetic signals. Headphone cables, circuit traces and other conductors may act as antennas, while nonlinear components in audio amplifiers can demodulate radio-frequency signals into audible sound.
+
+This phenomenon can produce buzzing, interference and, under suitable circumstances, intelligible speech. It is a recognised engineering problem rather than a conventional software exploit.
+
+In principle, deliberately modulated electromagnetic signals could exploit susceptible audio circuitry to introduce speech-like content without requiring an internet connection or malicious software on the receiving device.
+
+The bandwidth needed for intelligible, telephone-quality speech is relatively modest. However, successfully delivering controlled speech depends on the particular equipment, electromagnetic coupling, signal strength, distance and surrounding environment. It is not a universal capability of headphones or air-gapped computers.
+
+Research into electromagnetic injection has demonstrated attacks against vulnerable audio equipment, including the manipulation of audio signals. These findings should not be confused with proof that arbitrary messages can be delivered reliably to any disconnected device.
+
+**THE PSYCHOLOGICAL IMPLICATIONS**
+
+If deliberately exploited, this vulnerability could undermine someone's confidence that disconnecting from networked devices had eliminated an unwanted source of audio.
+
+The psychological effect could be particularly disturbing because the individual might reasonably expect an offline device to be isolated from external communications.
+
+An important distinction is that experiencing unexpected audio does not itself establish electromagnetic injection. Ordinary radio interference, equipment faults, software playback and other explanations may produce superficially similar effects.
+
+**PRACTICAL RESPONSE**
+
+Disconnecting devices from the internet remains a useful security measure. Electromagnetic interference does not render ordinary digital security precautions pointless.
+
+Where a specific audio anomaly can be reproduced, independent technical assessment can help distinguish hardware interference from software behaviour and other causes. Testing should be proportionate and should not become an open-ended search for hidden signals.
+
+**The central principle is that network isolation protects against network communications, whereas electromagnetic compatibility is a separate engineering concern. Neither should be confused with evidence that a particular device is under external control.**
+
+### TEMPEST AND THE LIMITATIONS OF AIR-GAPPED DEVICES
+
+An **air gap** is the physical isolation of an electronic device from external networks, including the internet. Although effective against many conventional cyberattacks, an air gap does not provide complete protection against every form of electronic surveillance or interference.
+
+**TEMPEST** is the study of unintended electromagnetic and other emissions from electronic equipment that can potentially reveal information being processed. Sensitive equipment may emit signals associated with its display, keyboard, memory or other components, some of which can be intercepted and analysed using specialised equipment.
+
+Related electromagnetic security techniques include active signal injection. Under suitable conditions, radio-frequency interference can couple into vulnerable audio circuitry and produce audible signals, potentially including intelligible speech, without requiring an internet connection.
+
+Other recognised limitations of air gaps include acoustic, optical and electromagnetic side channels, malicious removable media, physical access to equipment and previously installed malicious software. Some demonstrated attacks require the isolated device to have been compromised beforehand.
+
+These vulnerabilities have significant practical limitations involving distance, equipment design, signal strength, environmental conditions and access. They do not imply that arbitrary disconnected devices can routinely be monitored or controlled remotely.
+
+**The central principle is that an air gap isolates network communications, not every possible physical communication channel.** Nevertheless, disconnecting from the internet remains an effective security precaution, and the existence of these techniques does not mean an ordinary disconnected device is compromised.

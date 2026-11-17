@@ -1,0 +1,11 @@
+**Sleep deprivation**
+
+Repeated loud bangs against the wall occurred at what appeared to be almost exactly the moment I was falling asleep, repeatedly waking me and forcing me to begin the process again. The precision of the timing made the interruptions particularly frustrating, preventing restful sleep and creating a cycle of exhaustion and renewed attempts to sleep.
+
+**Psychological objective**
+
+The objective would be to maximise sleep deprivation and frustration while minimising the effort required to cause disruption. Prolonged sleep deprivation impairs concentration, memory, emotional regulation and judgement, potentially making an individual more susceptible to psychological manipulation, impulsive reactions and provocation.
+
+**Technical explanation**
+
+A microphone combined with a machine-learning model could potentially estimate when an individual is approaching sleep. One possible architecture would be a convolutional neural network (CNN) operating on mel-spectrograms of recorded audio, combined with a temporal model such as a long short-term memory (LSTM) network or Transformer. The CNN would extract acoustic features associated with breathing rate, respiratory regularity and body movement, while the temporal model would analyse how these features change over successive recording windows. Trained on recordings labelled with independently measured sleep stages, such a system could produce continuously updated probabilities of wakefulness, drowsiness and sleep. In principle, these estimates could inform the timing of an external disturbance. However, acoustic sleep-stage classification is considerably better established than precise advance prediction of sleep onset, and repeated accurately timed disturbances would not themselves establish that such a system was being used.

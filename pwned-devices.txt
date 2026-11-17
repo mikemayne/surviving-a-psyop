@@ -1,0 +1,43 @@
+# Compromised Devices and Manipulated Information
+
+A compromised computer or smartphone can be used to present false information to its owner, potentially making otherwise trustworthy sources appear to say things they do not.
+
+An attacker who has sufficient control over a device may be able to alter the contents of webpages as they are displayed, replace search results, interfere with messages, generate misleading notifications or present entirely fabricated communications.
+
+This does not necessarily require compromising the original website. A malicious browser extension, injected JavaScript, modified application or sufficiently privileged malware can alter information locally before it reaches the user's eyes. The genuine website may remain completely unchanged.
+
+**The psychological consequences**
+
+An individual who relies on a compromised device may be exposed to misleading information apparently originating from trusted institutions, medical professionals, friends, colleagues or government organisations.
+
+For example, someone taking prescription medication might encounter a fabricated warning that an ordinary food is prohibited. Someone researching the law might encounter an invented legal restriction. A person seeking help might see misleading contact details or instructions.
+
+Such misinformation could be designed to provoke fear, confusion, embarrassment or inappropriate behaviour. Alternatively, it could encourage someone to distrust legitimate information, make unnecessary changes to their behaviour or act against their own interests.
+
+Repeated exposure to contradictory information may also undermine confidence in ordinary sources of knowledge. An especially damaging consequence is the possibility of making someone doubt their own memory or judgement when information they previously encountered apparently changes or disappears.
+
+**The technical explanation**
+
+Modern browsers construct webpages locally from HTML, CSS and JavaScript. Once the content reaches the device, software with sufficient permissions can change what is rendered on the screen.
+
+This can be accomplished through browser extensions, malicious scripts, compromised applications or more extensive operating-system modifications.
+
+Even a correctly displayed HTTPS address and a valid security certificate do not guarantee that the final screen contents have not been altered by software running on the user's own device. HTTPS protects communication with the website; it does not guarantee the integrity of a compromised endpoint.
+
+However, an unexpected or incorrect webpage is not itself evidence of compromise. Websites change, search engines produce misleading summaries, errors occur, and information can be misunderstood or remembered incorrectly.
+
+**How to protect yourself**
+
+The most effective precaution is independent verification.
+
+When encountering surprising information, particularly concerning medication, legal obligations, finances or personal safety, consult a second authoritative source. Ideally, use a separate trusted device and connection rather than repeatedly checking the same potentially affected application.
+
+For medication, a pharmacist can verify the information against the official product documentation. For legal or financial matters, contact the relevant organisation using independently obtained contact details.
+
+Keep devices updated, minimise browser extensions, use reputable software and seek professional technical assistance if there are concrete signs of compromise.
+
+Avoid spending excessive time trying to determine whether particular pieces of information were deliberately altered. The important objective is to establish what is correct and make decisions using reliable information.
+
+**The principle is simple: a device is a means of accessing information, not an independent guarantee that the information displayed is authentic.**
+
+Assume they can hack everything.  They will generally not make it obvious when a device is hacked.

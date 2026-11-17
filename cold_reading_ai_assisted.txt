@@ -1,0 +1,84 @@
+# AI-Assisted Cold Reading — Creating the Illusion of Mind Reading
+
+AI-assisted cold reading is a potential extension of traditional cold reading in which machine learning models are used to predict what someone might be thinking about, based on personal information, behavioural patterns and recent events.
+
+The objective is not necessarily to reconstruct the exact words of someone's inner monologue. Instead, the technique relies on making sufficiently accurate predictions about the **subject of someone's thoughts** to create the impression that their mind is being read.
+
+### How It Works
+
+A large language model could be personalised using extensive information about an individual, including their vocabulary, interests, beliefs, experiences, relationships and previous conversations.
+
+Personalisation could be achieved through fine-tuning, although simply supplying the model with relevant information as context may be sufficient.
+
+The model could then receive continuous contextual updates about the individual's recent activities, conversations and surroundings. In a hypothetical scenario involving compromised electronic devices, some of this information might be obtained from microphones, cameras, messages or other accessible data.
+
+Observable emotional and behavioural information could also be incorporated. Changes in facial expressions, speech patterns or behaviour might provide additional clues, although these are imperfect indicators of someone's actual emotional state.
+
+The model would use this information to generate predictions about subjects likely to be occupying the individual's attention.
+
+### Selective Prediction and Confidence
+
+The technique becomes more convincing when predictions are expressed selectively.
+
+Rather than making frequent assertions, a system could generate numerous candidate predictions, estimate their likelihood of being correct, and express only those considered sufficiently plausible.
+
+Predictions could also be deliberately broad. For example, identifying that someone is thinking about a recent disagreement is considerably easier than predicting the exact words of their internal monologue.
+
+The person receiving the statement may interpret it as referring to a much more specific thought than was actually predicted.
+
+This exploits several familiar psychological mechanisms:
+
+- **Cold reading:** Making plausible guesses that appear to demonstrate extraordinary personal knowledge.
+- **The Barnum effect:** Using broadly applicable statements that individuals interpret as personally specific.
+- **Confirmation bias:** Encouraging attention to accurate predictions while inaccurate ones receive less attention.
+- **Selective reporting:** Expressing only predictions estimated to be relatively likely to succeed.
+- **Subject identification:** Predicting the general subject of someone's thoughts rather than their precise content.
+- **Personalisation:** Using accumulated knowledge about an individual to make increasingly contextually appropriate predictions.
+
+A system could also incorporate feedback from previous interactions to refine its predictions. This would not necessarily require retraining the underlying language model; observations could simply be added to a persistent personal profile.
+
+### Why It Could Appear Convincing
+
+Human thought is strongly influenced by immediate circumstances, recent conversations, personal concerns and familiar interests.
+
+A model with extensive contextual information might therefore make some strikingly accurate predictions about what someone is likely to be considering.
+
+For example, a person who has recently experienced an emotionally significant event might return to thinking about that event repeatedly. A model aware of the circumstances could identify it as a likely subject without having any direct access to the person's thoughts.
+
+The apparent accuracy could be amplified by selective reporting, vague wording and the individual's tendency to remember remarkable successes.
+
+Crucially, **a statement can appear to identify a specific private thought even when the underlying prediction was much broader**.
+
+### Technical Limitations
+
+Predicting the subject of someone's thoughts is not the same as reading their mind.
+
+A language model can estimate what someone might think in particular circumstances, but those estimates remain probabilistic. A person's actual thoughts may differ substantially from what their observable behaviour suggests.
+
+Confidence estimates may also be unreliable, particularly without training examples containing the person's independently reported thoughts.
+
+Furthermore, information inferred from facial expressions, vocal characteristics or body language cannot reliably establish the exact content of someone's internal monologue.
+
+Consequently, such a system might produce occasional convincing demonstrations of apparent mind reading without achieving consistently accurate predictions of private thought.
+
+### Psychological Effects
+
+Apparently accurate statements about private thoughts can be unsettling, particularly when accompanied by claims of extraordinary technological capabilities or secret knowledge.
+
+Repeated experiences of this kind might encourage someone to believe their thoughts are accessible to others, even when the apparent accuracy could be explained by prediction, coincidence, prior knowledge or conventional psychological techniques.
+
+Attempts to test the claimed capability may provide further information about the person's interests, concerns and reactions, potentially making subsequent predictions more personalised.
+
+### How to Respond
+
+**An apparently accurate prediction about your thoughts is not proof that anyone can read your mind.**
+
+There is no obligation to confirm or deny guesses, participate in tests, or investigate how another person arrived at a particular statement.
+
+Avoid becoming preoccupied with identifying the source of apparently private information or trying to defeat a hypothetical prediction system.
+
+If someone makes threats or attempts to coerce you, respond to those specific actions through appropriate channels rather than engaging with their claimed abilities.
+
+In most circumstances, the simplest response is to ignore the claim and continue with your normal activities.
+
+**The central principle is that predicting what someone might be thinking about is not the same as knowing what they are thinking, and neither gives anyone authority over them.**

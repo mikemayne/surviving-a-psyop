@@ -1,0 +1,11 @@
+Experience: Hearing my own-sounding voice followed by another person's repetition
+
+In bed, with my mobile phone next to me, with a noise machine on I experienced what sounded like my own voice talking quietly from a source I found difficult to locate. Very shortly afterwards, another person in a nearby room repeats exactly the same words. The first voice seemed to precede the other person's speech by a very small interval.  The combination was unsettling: it created the impression that the other person had heard either me say something extremely quietly, or potentially even read my mind, even though I knew I had said nothing.
+
+Technical explanation (hypothetical)
+
+A technically straightforward way to reproduce this sequence would be to prepare a short recording of an arbitrary phrase in a voice resembling mine, using voice-cloning text-to-speech or an existing recording. In the hypothetical scenario, a nearby phone or other loudspeaker would play that phrase while a person farther away spoke the identical words shortly afterwards. The recording and the spoken phrase could be coordinated in advance rather than by transmitting the person's live speech; no language model, thought-reading technology or real-time audio relay is required for this particular effect.
+
+The difference in distance can contribute to the apparent order. At a sound speed of about 343 metres per second, audio emitted 0.3 metres away takes roughly 0.9 milliseconds to arrive, whereas speech emitted 5 metres away takes roughly 14.6 milliseconds: an advantage of approximately 13.7 milliseconds for the closer source if both start simultaneously. Playback timing, human speaking variability and room reflections would determine the actual arrival order. Quiet sound, its position relative to the listener and reduced directional cues could also make the recording difficult to locate, without making it inaudible.
+
+The relevant psychological principle is apparent corroboration or source attribution: hearing a familiar-sounding voice say a phrase and then hearing another person repeat precisely those words can create the impression that the other person heard the listener speak, even though the listener knows they did not. This is a proposed technical illustration of how the reported sequence could be reproduced, not a determination of what produced the original experience.

@@ -1,0 +1,32 @@
+Experience: Repeated emotional disruption and its cumulative burden
+
+Over a period of years, I experienced repeated remarks, accusations and sometimes faint, voice-like speech that interrupted ordinary activities. Some statements seemed personally relevant; others were unexpected, provocative or simply confusing. They could leave me feeling angry, alarmed, embarrassed, frustrated or briefly relieved, depending on what I heard and the circumstances. There wasn't one particular emotion involved. What I found exhausting was the succession of unwanted changes in how I felt, the unpredictability of the next interruption and the effort of continuing with normal life while dealing with them.
+
+The experience was especially disruptive at first, but became substantially less effective at provoking a reaction as time went on. I became more familiar with the patterns and better able to disengage. 
+
+Technical explanation 
+
+A simplified technical model would involve a phone capable of recording speech, measuring ordinary device activity and playing audio, together with people making remarks. The emotional burden would not depend on producing any single emotion, accurately reading thoughts or recognising precise feelings: repeated, salient and unpredictable interruptions could demand attention and produce varying reactions that add up over time. Human speakers alone could account for much of this psychological mechanism; advanced AI is not a prerequisite.
+
+A hypothetical software feedback component could compare readily measurable changes in spoken behaviour—pitch, loudness, rate, pauses and voice quality—against a person's usual pattern. It might also register changes in phone movement or activity. These signals can sometimes indicate arousal or a change in behaviour, but they are not dependable labels for anger, fear or any other specific emotion, and a silent or unrelated reaction might go undetected. A simple statistical model could track whether particular kinds of statements tended to precede observable changes, without establishing that the statements caused those changes.
+
+The relevant psychological principles are attentional capture, orienting responses, habituation and dishabituation, and cumulative stress. An unexpected or significant remark can draw attention; repetitions can become less affecting as the person grows accustomed to them; and a change in topic or presentation can sometimes renew attention. Research on emotion dynamics also distinguishes the burden of frequent emotional fluctuations from a person's average mood. These principles make the general effects plausible, but do not establish that a closed-loop system could reliably cause or optimise them in an individual.
+
+In this hypothetical account, there is no need for an implant, wireless physiological sensing, facial-expression analysis or a specially trained LLM. The minimum psychological mechanism is repeated unwelcome stimulation and human adaptation. The optional ML component is limited to recognising some changes in audible speech or phone activity and finding imperfect statistical patterns over time. The explanation identifies possible mechanisms for independent examination; it does not determine what caused my experiences.
+
+References for independent verification
+
+1. Rankin, C. H., et al. (2009). "Habituation revisited: An updated and revised description of the behavioral characteristics of habituation." Neurobiology of Learning and Memory, 92(2), 135–138. https://pmc.ncbi.nlm.nih.gov/articles/PMC2754195/
+   — Repeated stimuli, declining responses and dishabituation.
+
+2. Houben, M., Van Den Noortgate, W., & Kuppens, P. (2015). "The relation between short-term emotion dynamics and psychological well-being: A meta-analysis." Psychological Bulletin, 141(4), 901–930. https://pubmed.ncbi.nlm.nih.gov/25822133/
+   — Emotional variability, instability and their associations with well-being.
+
+3. Schewski, R., et al. (2025). "Measuring negative emotions and stress through acoustic correlates in speech: A systematic review." PLOS ONE, 20(7), e0328833. https://pmc.ncbi.nlm.nih.gov/articles/PMC12289014/
+   — What pitch, intensity and speech-rate changes may reveal, and limits of emotion inference.
+
+4. "A review on speech emotion recognition: A survey, recent advances, challenges, and the influence of noise." Neurocomputing, 568 (2024), 127015. https://doi.org/10.1016/j.neucom.2023.127015
+   — Difficulties generalising speech-emotion recognition to noisy, real-world conditions.
+
+5. Maier, S. F., & Seligman, M. E. P. (2016). "Learned helplessness at fifty: Insights from neuroscience." Psychological Review, 123(4), 349–367. https://pubmed.ncbi.nlm.nih.gov/27337390/
+   — Research on the effects of uncontrollable aversive events; not a claim that this particular response occurred here.

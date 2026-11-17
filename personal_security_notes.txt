@@ -1,0 +1,53 @@
+# Personal Security — CCTV Without Constant Vigilance
+
+### THE PRINCIPLE
+
+I recommend installing external security cameras covering the front and rear of your property. They can deter opportunistic crime and provide useful evidence if something genuinely concerning occurs.
+
+Where possible, choose cameras without loudspeakers or two-way audio output. Removing an unnecessary speaker eliminates one potential avenue for unwanted audio if a device is compromised.
+
+**Good-quality microphones, however, can be an advantage where there is a legitimate reason to record audio.** Clear audio may be valuable evidence of verbal threats, intimidation or other incidents. Sensitive microphones can sometimes capture intelligible speech that would otherwise be lost in background noise.
+
+### PROTECTING YOUR RECORDINGS
+
+Choose a reputable manufacturer providing regular security updates. Use unique passwords, passkeys or strong multifactor authentication, and keep firmware updated.
+
+Consider systems with local recording and independent backups. Recordings might be deleted or altered following unauthorised access, and such interference will not necessarily leave identifiable traces.
+
+Position cameras to protect your property while minimising unnecessary coverage of neighbouring properties and public areas. Audio recording should be limited to what is necessary and lawful.
+
+### DON'T WATCH YOUR CAMERAS IN REAL TIME
+
+**My strongest recommendation is to avoid watching live camera feeds.**  Leave it a full 24 hours before you review any events.
+
+Cameras should preserve evidence, not become a source of constant vigilance.
+
+Watching live feeds can encourage impulsive responses to ambiguous events. It is easy to become distracted by ordinary movements, noises or behaviour that initially appear suspicious.
+
+Disable all notifications and let the cameras record without constantly checking them.
+
+**If you believe something unusual has happened, leave the footage until the following day before reviewing it**, provided there is no immediate safety concern.  Make sure the recordings a kept for a suitable amount of time.  If you don't expect there to be any evidence don't bother looking at all.  People behaving slightly strangely doesn't prove anything that the police can do anything about, so just ignore them completely is my advice.
+
+After a night's sleep, you are more likely to assess the recording calmly and distinguish meaningful evidence from ordinary activity.
+
+If someone is in immediate danger, call 999 and explain the situation.
+
+### DEALING WITH SUSPICIOUS INCIDENTS
+
+If a recording contains an apparent threat or evidence of a crime, preserve the original footage, including its timestamp and surrounding context.
+
+Describe precisely what can be seen or heard. Avoid speculating about motives or identities without reliable supporting evidence.  Only present the facts, and how the facts made you feel if you want, but don't interpret events or accuse anyone of anything.  Let the facts speak for themselves.
+
+Do not confront someone based on an ambiguous recording. Report credible threats through appropriate channels.  As a rule, don't confront anyone about anything ever.  Just walk away and do something else.
+
+Repeatedly reviewing the same material rarely improves its evidential value and can create unnecessary stress.  When you do review material, use headphones so you can hear quiet as well as loud details.  Try not to speculate too much about whats going on in the video, if you think it represents a crime consider reporting it through the non-emergency police channel.  What constitutes a crime can be researched on the internet, but avoid using anyones personal details when searching.  
+
+### THE CENTRAL PRINCIPLE
+
+**Install cameras, secure them properly, preserve useful evidence, and otherwise get on with your life.**
+
+A good security system should operate quietly in the background, protecting your property without requiring constant attention.
+
+The objective is to improve personal safety, not to achieve perfect surveillance of your surroundings.
+
+**A security system should give you greater freedom to enjoy your life, not make you feel obliged to watch everything happening around you.**

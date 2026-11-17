@@ -1,0 +1,14 @@
+Experience: The “That was for [person]” source-identification remark
+
+If you say something to yourself, without identifying who you are talking about and they say “That was for [person’s name].” They can't read your mind, they're just using a cheap ML trick.  This can be used in combination with the inner monologue trick to first try to convince you that you said something you didn't then say who it was for.  This is just the combination of two cheap ML tricks.  
+
+### Technical explanation
+
+The first component is **natural language generation**. A language model can produce short, first-person statements resembling someone's ordinary inner monologue. If those statements are presented in a familiar voice, repetition and suggestion may encourage the listener to experience them as personally relevant or mistakenly attribute their source.
+
+The second component is **entity prediction or contextual referent resolution**. A relatively small language model or classifier can rank likely people associated with a statement by analysing its semantic content, conversational context, previous topics and known relationships. Sentence embeddings, contextual similarity scores and probabilistic classification can all be used to select the most likely person, even when that person is not explicitly named.
+
+The psychological mechanism involves **priming, suggestion and source-monitoring errors**. Introducing a phrase can influence subsequent thoughts, while confidently assigning it to a named individual encourages the listener to interpret the phrase in that context.
+
+In combination, the two techniques can simulate knowledge of both what somebody is thinking and whom they are thinking about. The technical operations are simply generating plausible language and predicting a likely referent. Where speech is entirely internal and no behavioural information is available, the prediction must rely on contextual probabilities rather than direct observation of the thought.
+

@@ -1,0 +1,470 @@
+{
+  "title": "How to Survive a Psyop",
+  "description": "An openly licensed, author-written field guide covering psychological manipulation, boundaries, responses, and related topics. Chapters include personal perspectives and technical discussions; their claims have not been independently checked by this index.",
+  "homepage": "https://mikemayne.github.io/surviving-a-psyop/",
+  "repository": "https://github.com/mikemayne/surviving-a-psyop",
+  "license": "CC0 1.0 Universal",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "note": "Chapter .txt URLs link to plain text requiring no JavaScript. Read URLs open the site's formatted chapter reader. For reliable answers, cite the source chapter and distinguish first-person accounts or hypotheses from independently verified facts.",
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/introduction.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/introduction",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/introduction.txt"
+    },
+    {
+      "id": "take_back_control",
+      "title": "Take back control",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/take_back_control.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/take_back_control",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/take_back_control.txt"
+    },
+    {
+      "id": "dont_chase",
+      "title": "Don't chase",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/dont_chase.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/dont_chase",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/dont_chase.txt"
+    },
+    {
+      "id": "dont_tolerate_mistreatment",
+      "title": "Don't tolerate mistreatment",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/dont_tolerate_mistreatment.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/dont_tolerate_mistreatment",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/dont_tolerate_mistreatment.txt"
+    },
+    {
+      "id": "personal_security_notes",
+      "title": "Personal security notes",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/personal_security_notes.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/personal_security_notes",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/personal_security_notes.txt"
+    },
+    {
+      "id": "phone_calls",
+      "title": "Telephone calls",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/phone_calls.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/phone_calls",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/phone_calls.txt"
+    },
+    {
+      "id": "social_media",
+      "title": "Social media",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/social_media.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/social_media",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/social_media.txt"
+    },
+    {
+      "id": "gaslit_by_friends",
+      "title": "Gaslighting by friends",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/gaslit_by_friends.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/gaslit_by_friends",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/gaslit_by_friends.txt"
+    },
+    {
+      "id": "negging_psychological_manipulation",
+      "title": "Negging",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/negging_psychological_manipulation.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/negging_psychological_manipulation",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/negging_psychological_manipulation.txt"
+    },
+    {
+      "id": "good_cop_bad_cop",
+      "title": "Good cop, bad cop",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/good_cop_bad_cop.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/good_cop_bad_cop",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/good_cop_bad_cop.txt"
+    },
+    {
+      "id": "guilt_tripping",
+      "title": "Guilt tripping",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/guilt_tripping.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/guilt_tripping",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/guilt_tripping.txt"
+    },
+    {
+      "id": "emotional_burden_trick",
+      "title": "Emotional burden",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/emotional_burden_trick.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/emotional_burden_trick",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/emotional_burden_trick.txt"
+    },
+    {
+      "id": "accusation_baiting",
+      "title": "Accusation baiting",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/accusation_baiting.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/accusation_baiting",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accusation_baiting.txt"
+    },
+    {
+      "id": "claim_inflation",
+      "title": "Claim inflation",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/claim_inflation.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/claim_inflation",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/claim_inflation.txt"
+    },
+    {
+      "id": "false_endings",
+      "title": "False endings",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/false_endings.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/false_endings",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_endings.txt"
+    },
+    {
+      "id": "false_completion",
+      "title": "False completion",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/false_completion.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/false_completion",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_completion.txt"
+    },
+    {
+      "id": "impossible_compliance",
+      "title": "Impossible compliance",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/impossible_compliance.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/impossible_compliance",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/impossible_compliance.txt"
+    },
+    {
+      "id": "impossible_standards",
+      "title": "Impossible standards",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/impossible_standards.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/impossible_standards",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/impossible_standards.txt"
+    },
+    {
+      "id": "moral_accusations",
+      "title": "Loaded moral accusations",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/moral_accusations.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/moral_accusations",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/moral_accusations.txt"
+    },
+    {
+      "id": "moral_blackmail",
+      "title": "Moral blackmail",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/moral_blackmail.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/moral_blackmail",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/moral_blackmail.txt"
+    },
+    {
+      "id": "interpretation_trick",
+      "title": "The interpretation trick",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/interpretation_trick.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/interpretation_trick",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/interpretation_trick.txt"
+    },
+    {
+      "id": "talking",
+      "title": "Covert communication",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/talking.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/talking",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/talking.txt"
+    },
+    {
+      "id": "service_shield",
+      "title": "The service shield",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/service_shield.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/service_shield",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/service_shield.txt"
+    },
+    {
+      "id": "the_guity_always_run",
+      "title": "The guilty always run",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/the_guity_always_run.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/the_guity_always_run",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/the_guity_always_run.txt"
+    },
+    {
+      "id": "legal_intimidation",
+      "title": "Legal intimidation",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/legal_intimidation.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/legal_intimidation",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/legal_intimidation.txt"
+    },
+    {
+      "id": "criminilisation",
+      "title": "Criminalisation",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/criminilisation.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/criminilisation",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/criminilisation.txt"
+    },
+    {
+      "id": "threatened_framing",
+      "title": "Threatened framing",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/threatened_framing.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/threatened_framing",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/threatened_framing.txt"
+    },
+    {
+      "id": "accidentally_overheard",
+      "title": "Pretending to be overheard",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/accidentally_overheard.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/accidentally_overheard",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accidentally_overheard.txt"
+    },
+    {
+      "id": "narrating_trick",
+      "title": "Narrating",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/narrating_trick.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/narrating_trick",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/narrating_trick.txt"
+    },
+    {
+      "id": "public_shaming",
+      "title": "Public shaming",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/public_shaming.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/public_shaming",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/public_shaming.txt"
+    },
+    {
+      "id": "name_and_shame",
+      "title": "Name and shame",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/name_and_shame.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/name_and_shame",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/name_and_shame.txt"
+    },
+    {
+      "id": "flashmobs",
+      "title": "Flashmobs",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/flashmobs.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/flashmobs",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/flashmobs.txt"
+    },
+    {
+      "id": "body_shaming",
+      "title": "Body shaming",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/body_shaming.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/body_shaming",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/body_shaming.txt"
+    },
+    {
+      "id": "bodily_functions",
+      "title": "Bodily functions",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/bodily_functions.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/bodily_functions",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/bodily_functions.txt"
+    },
+    {
+      "id": "incitement_to_violence",
+      "title": "Incitement to violence",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/incitement_to_violence.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/incitement_to_violence",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/incitement_to_violence.txt"
+    },
+    {
+      "id": "sleep_deprivation",
+      "title": "Sleep deprivation",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/sleep_deprivation.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/sleep_deprivation",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sleep_deprivation.txt"
+    },
+    {
+      "id": "sexual_coercion",
+      "title": "Sexual coercion",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/sexual_coercion.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/sexual_coercion",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sexual_coercion.txt"
+    },
+    {
+      "id": "choose_your_death",
+      "title": "Choose your death",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/choose_your_death.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/choose_your_death",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/choose_your_death.txt"
+    },
+    {
+      "id": "indefinite_abuse",
+      "title": "Indefinite abuse",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/indefinite_abuse.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/indefinite_abuse",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/indefinite_abuse.txt"
+    },
+    {
+      "id": "cold_reading",
+      "title": "Cold reading",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/cold_reading.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/cold_reading",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cold_reading.txt"
+    },
+    {
+      "id": "cold_reading_ai_assisted",
+      "title": "AI-assisted cold reading",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/cold_reading_ai_assisted.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/cold_reading_ai_assisted",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cold_reading_ai_assisted.txt"
+    },
+    {
+      "id": "source_identification_trick",
+      "title": "Source identification",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/source_identification_trick.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/source_identification_trick",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/source_identification_trick.txt"
+    },
+    {
+      "id": "internal_monologue_trick",
+      "title": "Internal monologue",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/internal_monologue_trick.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/internal_monologue_trick",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/internal_monologue_trick.txt"
+    },
+    {
+      "id": "mind_reading_trick",
+      "title": "The mind-reading trick",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/mind_reading_trick.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/mind_reading_trick",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/mind_reading_trick.txt"
+    },
+    {
+      "id": "bug_in_face",
+      "title": "The bug-in-face trick",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/bug_in_face.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/bug_in_face",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/bug_in_face.txt"
+    },
+    {
+      "id": "manipulated_media",
+      "title": "Manipulated media",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/manipulated_media.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/manipulated_media",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manipulated_media.txt"
+    },
+    {
+      "id": "pwned-devices",
+      "title": "Compromised devices",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/pwned-devices.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/pwned-devices",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/pwned-devices.txt"
+    },
+    {
+      "id": "air_gap_limitations",
+      "title": "Air-gap limitations",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/air_gap_limitations.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/air_gap_limitations",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/air_gap_limitations.txt"
+    },
+    {
+      "id": "there_is_no_privacy",
+      "title": "Privacy",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/there_is_no_privacy.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/there_is_no_privacy",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/there_is_no_privacy.txt"
+    },
+    {
+      "id": "how_to_survive_a_psyop_additional_sections",
+      "title": "Additional sections",
+      "category": "Further reading",
+      "category_description": "Additional writing and closing reflections.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/how_to_survive_a_psyop_additional_sections.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/how_to_survive_a_psyop_additional_sections",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/how_to_survive_a_psyop_additional_sections.txt"
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "category": "Further reading",
+      "category_description": "Additional writing and closing reflections.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/conclusion.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/conclusion",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/conclusion.txt"
+    }
+  ]
+}
