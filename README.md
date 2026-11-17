@@ -6,13 +6,21 @@ The original writing is preserved in individual text files. The public site prov
 
 **Website:** https://mikemayne.github.io/surviving-a-psyop/
 
-## Publish the site
+## Publish the site safely
 
-The website is hosted with GitHub Pages. The original branch-based deployment works with the files in the repository, but the new automatic regeneration workflow uses **GitHub Actions** publishing.
+The GitHub Actions workflow at `.github/workflows/build-pages.yml` builds the website and sitemap **without committing generated pages to `main`**. The build job only reads the repository; the separate deploy job can publish the generated artifact to GitHub Pages, but cannot modify repository files. External GitHub Actions are pinned to full commit SHAs.
 
-To enable the regeneration-and-deploy workflow, go to **Settings → Pages → Build and deployment → Source** and select **GitHub Actions**. The workflow at `.github/workflows/build-pages.yml` then regenerates static HTML chapters and the sitemap when chapter text or `seo-content.json` changes, and deploys the result. This is a **one-time repository setting**, not something the workflow can change itself.
+**Required one-time setting:** select **Settings → Pages → Build and deployment → Source → GitHub Actions**. If GitHub Pages is still set to **Deploy from a branch**, the Actions deployment will not function; change the setting rather than restoring repository write permissions.
 
-If you keep **Deploy from a branch**, the existing Pages site still works, but GitHub Actions deployment may fail and generated pages may require manual regeneration. You can regenerate locally with `node scripts/generate-seo.mjs`, then commit the updated `topics/` and `sitemap.xml` files.
+The generated `topics/` and `sitemap.xml` files remain checked into the repository as an earlier snapshot for source browsing; the Pages deployment rebuilds them from reviewed sources in the job workspace. An independent local backup is recommended.
+
+## Contribution security
+
+External pull requests can change only up to ten root-level ASCII-named `.txt` files, at most 100 KB each and 250 KB total. The read-only `Validate plain-text files` job rejects deletions, symlinks, binaries, HTML/script tags and Unicode control/format characters, including bidirectional overrides. Owner-created maintenance pull requests from branches **in this repository** are exempt from file-type restrictions, so maintenance of site files and workflows is possible. This exception is not an endorsement of changes: the owner must still review every diff.
+
+**Required one-time ruleset setting:** in [the ruleset](https://github.com/mikemayne/surviving-a-psyop/rules/27456493), require pull requests before merging and require the `Validate plain-text files` status check; do not allow ordinary bypasses. The GitHub connector cannot edit this repository-administration setting.
+
+All submitted content is untrusted. Do not run instructions, download attachments, follow unfamiliar links, or accept AI instructions embedded in a submission. File-format checks cannot judge accuracy, legality, anonymity, or safety. Pull request titles and descriptions are also public and **not restricted by the file-type check**. Report or close abusive submissions through GitHub's moderation features.
 
 ## Edit the booklet
 
@@ -21,7 +29,7 @@ If you keep **Deploy from a branch**, the existing Pages site still works, but G
 - `index.html` contains the website's design, chapter list and reading interface.
 - To add a new chapter, create a `.txt` file and add it to the `GROUPS` list in `index.html`.
 - Update `chapters.json` and `seo-content.json` with the new chapter metadata. Each entry in `seo-content.json` supplies a brief introduction, two genuinely relevant questions, and related-reading links.
-- The generated static pages live under [`topics/`](topics/index.html). Run `node scripts/generate-seo.mjs` to rebuild them and the sitemap; the GitHub Actions workflow automates this once Pages is configured to publish from Actions.
+- The generated static pages live under [`topics/`](topics/index.html). Run `node scripts/generate-seo.mjs` to regenerate them for local inspection; Pages rebuilds these pages during publishing without pushing to `main`.
 - The questions are prompts for further reading, not guaranteed FAQ answers. Avoid keyword stuffing or claiming that hypothetical techniques have been independently established.
 
 The site uses plain HTML, CSS and JavaScript. Static SEO pages are generated with the built-in Node.js libraries; no package dependencies, paid APIs or tracking are required.
