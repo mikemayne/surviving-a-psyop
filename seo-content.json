@@ -730,5 +730,29 @@
       "take_back_control",
       "sleep_discipline"
     ]
+  },
+  "victim_blaming": {
+    "intro": "Examines how blame can be redirected onto someone who reports mistreatment, and ways to stay focused on conduct rather than labels.",
+    "questions": [
+      "What is victim blaming and role reversal?",
+      "How can I stay focused on facts when labels are disputed?"
+    ],
+    "related": [
+      "accusation_baiting",
+      "moral_accusations",
+      "dont_tolerate_mistreatment"
+    ]
+  },
+  "dont_do_it_yourself": {
+    "intro": "Discusses the importance of avoiding self-harm, retaliation or irreversible decisions in response to perceived provocation.",
+    "questions": [
+      "How can I avoid acting impulsively in response to pressure?",
+      "What safer options can I choose when a situation feels overwhelming?"
+    ],
+    "related": [
+      "incitement_to_violence",
+      "dont_chase",
+      "take_back_control"
+    ]
   }
 }
