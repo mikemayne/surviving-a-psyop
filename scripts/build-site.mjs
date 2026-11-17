@@ -71,6 +71,28 @@ for (const chapter of chapters.chapters) {
   chapter.read_url = site.siteUrl + '#read/' + chapter.id;
   chapter.github_url = site.repoUrl + '/blob/main/' + chapter.id + '.txt';
 }
+// Keep qualitative strategy annotations in sync with the approved chapter list.
+const strategyMetadata = JSON.parse(fs.readFileSync('strategy-metadata.json', 'utf8'));
+const approvedChapterIds = new Set(chapters.chapters.map(chapter => chapter.id));
+const strategyEntries = strategyMetadata.chapters;
+if (!strategyEntries || Object.keys(strategyEntries).length !== approvedChapterIds.size) {
+  throw Error('Strategy metadata must cover every approved chapter exactly once.');
+}
+for (const [id, entry] of Object.entries(strategyEntries)) {
+  if (!approvedChapterIds.has(id)) throw Error('Unknown strategy metadata chapter: ' + id);
+  if (!['guidance', 'reference', 'overview', 'technique', 'technical_context', 'experience_and_analysis'].includes(entry.kind)) {
+    throw Error('Invalid strategy metadata kind: ' + id);
+  }
+  for (const field of ['possible_goal', 'possible_emotional_effects', 'possible_behavioural_responses']) {
+    const value = entry[field];
+    const valid = value === 'N/A' || (field === 'possible_goal'
+      ? typeof value === 'string' && value.trim().length > 0
+      : Array.isArray(value) && value.length > 0 && value.every(item => typeof item === 'string' && item.trim().length > 0));
+    if (!valid) throw Error('Invalid strategy metadata field ' + id + '.' + field);
+  }
+}
+write('strategy-metadata.json', JSON.stringify(strategyMetadata, null, 2) + '\n');
+
 write('chapters.json', JSON.stringify(chapters, null, 2) + '\n');
 
 let llms = switchSiteLinks(fs.readFileSync('llms.txt', 'utf8'));
@@ -85,7 +107,7 @@ for (const name of fs.readdirSync('.')) {
   }
 }
 fs.cpSync('topics', path.join(output, 'topics'), { recursive: true });
-for (const required of ['index.html', 'chapters.json', 'llms.txt', 'robots.txt', 'sitemap.xml', 'topics/index.html']) {
+for (const required of ['index.html', 'chapters.json', 'strategy-metadata.json', 'llms.txt', 'robots.txt', 'sitemap.xml', 'topics/index.html']) {
   if (!fs.statSync(path.join(output, required)).size) throw new Error('Missing output: ' + required);
 }
 console.log('Built ' + site.title + ' at ' + site.siteUrl + ' from ' + site.repository);
