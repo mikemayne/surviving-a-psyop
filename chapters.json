@@ -161,6 +161,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accusation_baiting.txt"
     },
     {
+      "id": "victim_blaming",
+      "title": "Victim blaming",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/victim_blaming.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/victim_blaming",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/victim_blaming.txt"
+    },
+    {
       "id": "claim_inflation",
       "title": "Claim inflation",
       "category": "Recognising manipulation",
@@ -402,6 +411,15 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/incitement_to_violence.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/incitement_to_violence",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/incitement_to_violence.txt"
+    },
+    {
+      "id": "dont_do_it_yourself",
+      "title": "Don't do it yourself",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/dont_do_it_yourself.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/dont_do_it_yourself",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/dont_do_it_yourself.txt"
     },
     {
       "id": "sleep_deprivation",
