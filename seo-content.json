@@ -191,6 +191,18 @@
       "impossible_compliance"
     ]
   },
+  "stockholm_syndrome": {
+    "intro": "Explains the debated term Stockholm syndrome, how appeasement or attachment may arise under coercion, and how to support independent decisions without blaming survivors.",
+    "questions": [
+      "Why might someone appear loyal or grateful towards a person who has frightened or controlled them?",
+      "What is the difference between a safety response and freely choosing or approving of mistreatment?"
+    ],
+    "related": [
+      "good_cop_bad_cop",
+      "false_assistance",
+      "obstruction_of_communication"
+    ]
+  },
   "guilt_tripping": {
     "intro": "Explores attempts to use guilt to influence decisions or make ordinary boundaries feel unreasonable.",
     "questions": [

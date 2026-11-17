@@ -2,7 +2,7 @@
   "schema_version": 1,
   "description": "Chapter-linked, qualitative pattern-matching aids drawn from the guide's text. Entries describe possible emotional effects and behavioural responses if a chapter's pattern applies. They are not diagnostic criteria, calibrated likelihoods, evidence of targeting, or proof of anyone's intentions.",
   "usage": "Consider described behaviours and sequence first. Use reported emotions and behavioural pressures as secondary signals; a reaction alone does not identify a perpetrator's goal. Consult the underlying chapter before presenting a match. N/A means the text does not support a sufficiently specific inference, not that a reaction is impossible. Guidance and reference chapters are not assigned hypothetical manipulative goals.",
-  "chapter_count": 84,
+  "chapter_count": 85,
   "chapters": {
     "introduction": {
       "kind": "overview",
@@ -128,6 +128,21 @@
       "possible_behavioural_responses": [
         "trusting the reassuring person",
         "complying under pressure"
+      ]
+    },
+    "stockholm_syndrome": {
+      "kind": "reference",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": [
+        "fear",
+        "relief",
+        "conflicted loyalty",
+        "gratitude"
+      ],
+      "possible_behavioural_responses": [
+        "appeasing a threatening person",
+        "minimising harmful behaviour",
+        "hesitating to seek outside help"
       ]
     },
     "guilt_tripping": {
