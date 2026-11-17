@@ -215,6 +215,18 @@
       "dont_chase"
     ]
   },
+  "staged_third_party_reactions": {
+    "intro": "Explores how an apparently spontaneous third-party reaction can invite shame or speculation when the subject of the remark is unclear.",
+    "questions": [
+      "Why might a seemingly independent reaction seem more convincing than a direct insult?",
+      "How can I avoid filling in the missing context of an ambiguous remark?"
+    ],
+    "related": [
+      "accusation_baiting",
+      "interpretation_trick",
+      "dont_chase"
+    ]
+  },
   "claim_inflation": {
     "intro": "Explores how the seriousness or scope of an accusation may change as it is repeated.",
     "questions": [
