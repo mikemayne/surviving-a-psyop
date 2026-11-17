@@ -6,6 +6,7 @@
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#f7f6f0">
   <meta name="description" content="A collection of anonymized unpleasant experiences and advice on how to deal with them. Read the four rules, ask ChatGPT for advice, or browse the chapters.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"How to Survive a Psyop","url":"https://mikemayne.github.io/surviving-a-psyop/","description":"A collection of anonymized unpleasant experiences and advice on how to deal with them."}</script>
   <meta property="og:title" content="How to Survive a Psyop">
   <meta property="og:description" content="Anonymized experiences and practical advice for difficult situations. Start with the four rules, ask ChatGPT, or browse the chapters.">
   <meta property="og:type" content="website">
@@ -543,6 +544,47 @@ My question: </textarea>
     var range = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
     progressBar.style.width = Math.min(100, Math.max(0, window.scrollY / range * 100)) + "%";
   }
+  // Read shared editorial metadata; the original chapter text remains unchanged.
+  var chapterSEO = {};
+  function addChapterGuidance(id) {
+    var item = chapterSEO[id], target = document.getElementById("article-content");
+    if (!item || !target || current !== id || !cache[id] || target.querySelector(".chapter-extra")) return;
+    var section = document.createElement("section");
+    section.className = "chapter-extra";
+    var heading = document.createElement("h2");
+    heading.textContent = "Questions this chapter explores";
+    section.appendChild(heading);
+    var list = document.createElement("ul");
+    (item.questions || []).forEach(function(question) {
+      var li = document.createElement("li");
+      li.textContent = question;
+      list.appendChild(li);
+    });
+    section.appendChild(list);
+    var related = document.createElement("h2");
+    related.textContent = "Related reading";
+    section.appendChild(related);
+    var relatedList = document.createElement("ul");
+    (item.related || []).forEach(function(relatedId) {
+      var chapter = chapters.find(function(ch) { return ch.id === relatedId; });
+      if (!chapter) return;
+      var li = document.createElement("li"), a = document.createElement("a");
+      a.href = href(chapter);
+      a.textContent = chapter.title;
+      li.appendChild(a);
+      relatedList.appendChild(li);
+    });
+    section.appendChild(relatedList);
+    target.appendChild(section);
+  }
+  fetch("./seo-content.json").then(function(response) {
+    if (!response.ok) throw new Error("Chapter guidance unavailable");
+    return response.json();
+  }).then(function(data) {
+    chapterSEO = data;
+    if (current && cache[current]) addChapterGuidance(current);
+  }).catch(function() { /* Chapter text remains available without metadata. */ });
+
   function displayReader(id) {
     var ch = chapters.find(function(item) { return item.id === id; });
     if (!ch) { location.hash = "#catalogue"; return; }
@@ -565,7 +607,7 @@ My question: </textarea>
       '<div>' + (next ? '<a href="' + href(next) + '"><small>Next →</small><strong>' + escapeHTML(next.title) + '</strong></a>' : "") + '</div>';
     window.scrollTo(0,0);
     updateProgress();
-    if (cache[id]) { document.getElementById("article-content").innerHTML = cache[id]; return; }
+    if (cache[id]) { document.getElementById("article-content").innerHTML = cache[id]; addChapterGuidance(id); return; }
     fetch("./" + encodeURIComponent(id) + ".txt").then(function(response) {
       if (!response.ok) throw new Error("Chapter unavailable");
       return response.text();
@@ -573,6 +615,7 @@ My question: </textarea>
       cache[id] = renderText(text);
       if (current === id) {
         document.getElementById("article-content").innerHTML = cache[id];
+        addChapterGuidance(id);
         updateProgress();
       }
     }).catch(function() {
