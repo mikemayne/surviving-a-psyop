@@ -1,0 +1,37 @@
+name: Test fork-ready website
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'index.html'
+      - 'chapters.json'
+      - 'seo-content.json'
+      - 'llms.txt'
+      - 'site-config.json'
+      - '.github/workflows/build-pages.yml'
+      - '.github/workflows/test-fork-build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout untrusted code with no persisted credentials
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Check build scripts syntax
+        run: |
+          node --check scripts/site-settings.mjs
+          node --check scripts/generate-seo.mjs
+          node --check scripts/build-site.mjs
+          node --check scripts/test-fork-build.mjs
+      - name: Test fork publishing and customisation
+        run: node scripts/test-fork-build.mjs
