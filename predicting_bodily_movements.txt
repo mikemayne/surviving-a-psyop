@@ -1,0 +1,13 @@
+# Predicting Bodily Movements
+
+**Objective:** To associate ordinary, harmless physical movements with shameful accusations, potentially making an individual feel constantly observed and self-conscious.
+
+**Example:** Someone says, "A paedo scratches his ear" immediately before the individual scratches their ear. The timing makes an otherwise meaningless accusation appear significant.
+
+**Technical possibilities:** Some movements can be anticipated from subtle preparatory cues and video analysis. Electrical muscle activity can be measured using electromyography (EMG), usually with sensors placed on or close to the body. Predicting a visible movement from video is different from measuring muscle activation remotely.
+
+Other possible explanations for an apparently accurate prediction include recognising habitual movements, psychological suggestion, and coincidence. Mentioning an itch or a particular movement may itself draw attention to that part of the body.
+
+**Psychological mechanism:** Pairing a prediction with a shameful accusation can encourage excessive self-monitoring. Ordinary movements become associated with embarrassment, guilt or fear of being judged.
+
+**Defence:** Don't attempt to suppress ordinary bodily movements or engage with the accusation. Cover your webcam as a simple privacy precaution. Move normally and get on with your day.
