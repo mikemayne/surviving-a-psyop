@@ -707,6 +707,18 @@
       "take_back_control"
     ]
   },
+  "threatening_consequences_for_seeking_help": {
+    "intro": "Describes intimidation designed to discourage someone from seeking help, including threatened retaliation for reporting concerns or contacting independent advisers.",
+    "questions": [
+      "How can I distinguish an honest warning about a complaint's practical consequences from a coercive threat?",
+      "Where can I obtain independent advice about reporting safely if someone is threatening retaliation?"
+    ],
+    "related": [
+      "obstruction_of_communication",
+      "legal_intimidation",
+      "dont_tolerate_mistreatment"
+    ]
+  },
   "dream_manipulation": {
     "intro": "Explains how sounds incorporated into dreams, cold reading and post-waking suggestibility can create the impression that dreams are being influenced or observed, without establishing dream control.",
     "questions": [
