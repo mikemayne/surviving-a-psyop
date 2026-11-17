@@ -59,6 +59,18 @@
       "social_media"
     ]
   },
+  "feelings_can_change": {
+    "intro": "Practical advice on checking assumptions, assessing evidence and remembering that distressing emotional reactions can change over time.",
+    "questions": [
+      "How can I distinguish what happened from an assumption about it?",
+      "Why can emotions change, and when should I seek professional support?"
+    ],
+    "related": [
+      "introduction",
+      "sleep_discipline",
+      "take_back_control"
+    ]
+  },
   "personal_security_notes": {
     "intro": "Everyday personal-security considerations and ways to reduce avoidable exposure to problems.",
     "questions": [
@@ -191,6 +203,54 @@
       "legal_intimidation"
     ]
   },
+  "logic_traps": {
+    "intro": "Explains false dilemmas, circular reasoning and double binds, with suggestions for rejecting unsupported premises.",
+    "questions": [
+      "How can I recognise a false dilemma or circular argument?",
+      "What can I say when every response is framed as wrong?"
+    ],
+    "related": [
+      "loaded_questions",
+      "you_can_run_but_you_cant_hide",
+      "moral_accusations"
+    ]
+  },
+  "loaded_questions": {
+    "intro": "Looks at questions and conditional promises that appear to assume wrongdoing before any facts have been established.",
+    "questions": [
+      "What makes a question loaded with an unproven assumption?",
+      "How can I respond without accepting an implied confession?"
+    ],
+    "related": [
+      "logic_traps",
+      "accusation_baiting",
+      "false_assistance"
+    ]
+  },
+  "false_assistance": {
+    "intro": "Discusses instances in which controlling behaviour is presented as help or concern, particularly when relief is promised in exchange for compliance.",
+    "questions": [
+      "How can a claim of concern be used to justify unreasonable demands?",
+      "What distinguishes genuine assistance from coercive conditions?"
+    ],
+    "related": [
+      "logic_traps",
+      "impossible_compliance",
+      "moral_blackmail"
+    ]
+  },
+  "you_can_run_but_you_cant_hide": {
+    "intro": "Explores the false choice between fleeing and hiding, and challenges claims that ordinary lawful decisions automatically imply guilt.",
+    "questions": [
+      "Why does leaving or staying not establish guilt?",
+      "How can I make ordinary decisions without following an intimidator's rules?"
+    ],
+    "related": [
+      "the_guity_always_run",
+      "logic_traps",
+      "dont_chase"
+    ]
+  },
   "false_endings": {
     "intro": "Looks at promises or suggestions that an unpleasant situation has ended when that outcome is uncertain.",
     "questions": [
@@ -321,6 +381,18 @@
       "threatened_framing",
       "dont_tolerate_mistreatment",
       "claim_inflation"
+    ]
+  },
+  "hiding_behind_OSA": {
+    "intro": "Examines claims of official secrecy or classified authority used to deter questions or reporting, and the importance of checking the actual law.",
+    "questions": [
+      "Does invoking the Official Secrets Act automatically prohibit reporting concerns?",
+      "How can I describe what was said without speculating about any alleged technology?"
+    ],
+    "related": [
+      "legal_intimidation",
+      "service_shield",
+      "dont_tolerate_mistreatment"
     ]
   },
   "criminilisation": {
@@ -611,16 +683,16 @@
       "pwned-devices"
     ]
   },
-  "how_to_survive_a_psyop_additional_sections": {
-    "intro": "Further observations and ideas that complement the booklet's main chapters.",
+  "streisand-effect": {
+    "intro": "Describes how attempts to suppress information can attract attention, without encouraging confrontation or deliberate provocation.",
     "questions": [
-      "Which additional themes does the booklet examine?",
-      "Where should I start if an experience does not fit a single chapter?"
+      "What is the Streisand effect?",
+      "Why is it better to document and report concerns calmly than to provoke a reaction?"
     ],
     "related": [
-      "introduction",
-      "conclusion",
-      "dont_chase"
+      "dont_chase",
+      "dont_tolerate_mistreatment",
+      "how_to_collaborate"
     ]
   },
   "conclusion": {

@@ -53,6 +53,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sleep_discipline.txt"
     },
     {
+      "id": "feelings_can_change",
+      "title": "Look for evidence, and remember feelings can change",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/feelings_can_change.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/feelings_can_change",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/feelings_can_change.txt"
+    },
+    {
       "id": "personal_security_notes",
       "title": "Personal security notes",
       "category": "Begin here",
@@ -152,6 +161,42 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/claim_inflation.txt"
     },
     {
+      "id": "logic_traps",
+      "title": "Logic traps",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/logic_traps.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/logic_traps",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/logic_traps.txt"
+    },
+    {
+      "id": "loaded_questions",
+      "title": "Loaded questions and implied confessions",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/loaded_questions.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/loaded_questions",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/loaded_questions.txt"
+    },
+    {
+      "id": "false_assistance",
+      "title": "False assistance",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/false_assistance.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/false_assistance",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_assistance.txt"
+    },
+    {
+      "id": "you_can_run_but_you_cant_hide",
+      "title": "You can run, but you can't hide",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/you_can_run_but_you_cant_hide.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/you_can_run_but_you_cant_hide",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/you_can_run_but_you_cant_hide.txt"
+    },
+    {
       "id": "false_endings",
       "title": "False endings",
       "category": "Recognising manipulation",
@@ -249,6 +294,15 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/legal_intimidation.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/legal_intimidation",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/legal_intimidation.txt"
+    },
+    {
+      "id": "hiding_behind_OSA",
+      "title": "Hiding behind the Official Secrets Act",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/hiding_behind_OSA.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/hiding_behind_OSA",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/hiding_behind_OSA.txt"
     },
     {
       "id": "criminilisation",
@@ -467,13 +521,13 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/there_is_no_privacy.txt"
     },
     {
-      "id": "how_to_survive_a_psyop_additional_sections",
-      "title": "Additional sections",
+      "id": "streisand-effect",
+      "title": "The Streisand effect",
       "category": "Further reading",
       "category_description": "Additional writing and closing reflections.",
-      "url": "https://mikemayne.github.io/surviving-a-psyop/how_to_survive_a_psyop_additional_sections.txt",
-      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/how_to_survive_a_psyop_additional_sections",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/how_to_survive_a_psyop_additional_sections.txt"
+      "url": "https://mikemayne.github.io/surviving-a-psyop/streisand-effect.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/streisand-effect",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/streisand-effect.txt"
     },
     {
       "id": "conclusion",

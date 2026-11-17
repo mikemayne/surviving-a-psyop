@@ -26,6 +26,7 @@ Start with the introduction and practical ways of responding.
 - [Don't chase](https://mikemayne.github.io/surviving-a-psyop/dont_chase.txt)
 - [Don't tolerate mistreatment](https://mikemayne.github.io/surviving-a-psyop/dont_tolerate_mistreatment.txt)
 - [Reducing stress and sleep discipline](https://mikemayne.github.io/surviving-a-psyop/sleep_discipline.txt)
+- [Look for evidence, and remember feelings can change](https://mikemayne.github.io/surviving-a-psyop/feelings_can_change.txt)
 - [Personal security notes](https://mikemayne.github.io/surviving-a-psyop/personal_security_notes.txt)
 - [Telephone calls](https://mikemayne.github.io/surviving-a-psyop/phone_calls.txt)
 - [Social media](https://mikemayne.github.io/surviving-a-psyop/social_media.txt)
@@ -42,6 +43,10 @@ Patterns of pressure, interpretation and social influence.
 - [Emotional burden](https://mikemayne.github.io/surviving-a-psyop/emotional_burden_trick.txt)
 - [Accusation baiting](https://mikemayne.github.io/surviving-a-psyop/accusation_baiting.txt)
 - [Claim inflation](https://mikemayne.github.io/surviving-a-psyop/claim_inflation.txt)
+- [Logic traps](https://mikemayne.github.io/surviving-a-psyop/logic_traps.txt)
+- [Loaded questions and implied confessions](https://mikemayne.github.io/surviving-a-psyop/loaded_questions.txt)
+- [False assistance](https://mikemayne.github.io/surviving-a-psyop/false_assistance.txt)
+- [You can run, but you can't hide](https://mikemayne.github.io/surviving-a-psyop/you_can_run_but_you_cant_hide.txt)
 - [False endings](https://mikemayne.github.io/surviving-a-psyop/false_endings.txt)
 - [False completion](https://mikemayne.github.io/surviving-a-psyop/false_completion.txt)
 - [Impossible compliance](https://mikemayne.github.io/surviving-a-psyop/impossible_compliance.txt)
@@ -53,6 +58,7 @@ Patterns of pressure, interpretation and social influence.
 - [The service shield](https://mikemayne.github.io/surviving-a-psyop/service_shield.txt)
 - [The guilty always run](https://mikemayne.github.io/surviving-a-psyop/the_guity_always_run.txt)
 - [Legal intimidation](https://mikemayne.github.io/surviving-a-psyop/legal_intimidation.txt)
+- [Hiding behind the Official Secrets Act](https://mikemayne.github.io/surviving-a-psyop/hiding_behind_OSA.txt)
 - [Criminalisation](https://mikemayne.github.io/surviving-a-psyop/criminilisation.txt)
 - [Threatened framing](https://mikemayne.github.io/surviving-a-psyop/threatened_framing.txt)
 
@@ -92,7 +98,7 @@ Technical ideas, media, security and interpretation.
 
 Additional writing and closing reflections.
 
-- [Additional sections](https://mikemayne.github.io/surviving-a-psyop/how_to_survive_a_psyop_additional_sections.txt)
+- [The Streisand effect](https://mikemayne.github.io/surviving-a-psyop/streisand-effect.txt)
 - [Conclusion](https://mikemayne.github.io/surviving-a-psyop/conclusion.txt)
 
 ## Using this content with AI

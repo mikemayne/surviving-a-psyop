@@ -11,6 +11,13 @@ const esc = x => String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>
 const fmt = x => esc(x).replace(/\*\*([^*\n]+)\*\*/g,'<strong>$1</strong>').replace(/(^|[^\*])\*([^*\n]+)\*/g,'$1<em>$2</em>');
 const dir='topics';
 fs.mkdirSync(dir,{recursive:true});
+// Unreviewed supplementary chapters must not be indexed until approved.
+const draftIds = new Set(['how_to_survive_a_psyop_additional_sections','coercive_urgency','mnufactured_consensus','threats_to_loved_ones']);
+for (const c of chapters) if (draftIds.has(c.id)) throw Error('Draft awaiting review: '+c.id);
+// Drop generated pages which have been removed from the approved catalogue.
+for (const file of fs.readdirSync(dir)) {
+  if (file.endsWith('.html') && file !== 'index.html' && !titles[path.basename(file,'.html')]) fs.unlinkSync(path.join(dir,file));
+}
 
 function chapterHTML(source) {
   const out=[],para=[]; let list=null;
@@ -44,7 +51,7 @@ function page(title,desc,url,body,articleId) {
 }
 for(let i=0;i<chapters.length;i++){
   const c=chapters[i],m=details[c.id],prev=chapters[i-1],next=chapters[i+1];
-  if(!/^[a-z0-9_-]+$/.test(c.id)||!m||!Array.isArray(m.questions)||!Array.isArray(m.related))throw Error('Invalid SEO entry: '+c.id);
+  if(!/^[a-zA-Z0-9_-]+$/.test(c.id)||!m||!Array.isArray(m.questions)||!Array.isArray(m.related))throw Error('Invalid SEO entry: '+c.id);
   const text=fs.readFileSync(c.id+'.txt','utf8');
   const q='<section><h2>Questions this chapter explores</h2><ul>'+m.questions.map(s=>'<li>'+esc(s)+'</li>').join('')+'</ul></section>';
   const related='<section><h2>Related reading</h2><ul>'+m.related.map(id=>{if(!titles[id])throw Error('Unknown related chapter '+id);return '<li><a href="./'+id+'.html">'+esc(titles[id])+'</a></li>'}).join('')+'</ul></section>';
