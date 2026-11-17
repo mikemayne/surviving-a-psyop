@@ -1,0 +1,638 @@
+{
+  "introduction": {
+    "intro": "The starting point for the booklet: practical principles for responding calmly to confusing or unpleasant experiences.",
+    "questions": [
+      "How can I respond when an interaction leaves me feeling unsettled?",
+      "What should I do before drawing conclusions about unusual behaviour?"
+    ],
+    "related": [
+      "take_back_control",
+      "dont_chase",
+      "sleep_discipline"
+    ]
+  },
+  "take_back_control": {
+    "intro": "A discussion of how to make ordinary decisions on your own terms when someone else's behaviour feels intrusive or demanding.",
+    "questions": [
+      "How can I regain a sense of control without confronting anyone?",
+      "Why is it helpful to stick to ordinary plans and routines?"
+    ],
+    "related": [
+      "dont_chase",
+      "introduction",
+      "dont_tolerate_mistreatment"
+    ]
+  },
+  "dont_chase": {
+    "intro": "Explores the value of not pursuing provocations or trying to catch someone in the act.",
+    "questions": [
+      "Why can chasing a suspected provocation make a situation worse?",
+      "What can I do instead of investigating every upsetting incident?"
+    ],
+    "related": [
+      "take_back_control",
+      "dont_tolerate_mistreatment",
+      "introduction"
+    ]
+  },
+  "dont_tolerate_mistreatment": {
+    "intro": "Advice about setting boundaries, recording what happened and reporting concerns without unnecessary confrontation.",
+    "questions": [
+      "How can I address mistreatment without escalating a conflict?",
+      "When should I document a problem or use a formal complaint route?"
+    ],
+    "related": [
+      "take_back_control",
+      "legal_intimidation",
+      "introduction"
+    ]
+  },
+  "sleep_discipline": {
+    "intro": "Practical suggestions for protecting sleep, reducing interruptions and making stressful days more manageable.",
+    "questions": [
+      "How can I reduce day-to-day stress without becoming preoccupied with it?",
+      "What sleep habits may help when I am dealing with unpleasant experiences?"
+    ],
+    "related": [
+      "take_back_control",
+      "introduction",
+      "social_media"
+    ]
+  },
+  "personal_security_notes": {
+    "intro": "Everyday personal-security considerations and ways to reduce avoidable exposure to problems.",
+    "questions": [
+      "Which practical security habits are worth adopting?",
+      "How can I improve personal security without constant checking?"
+    ],
+    "related": [
+      "pwned-devices",
+      "phone_calls",
+      "there_is_no_privacy"
+    ]
+  },
+  "phone_calls": {
+    "intro": "Considerations for unexpected telephone calls, caller identity and choosing whether to engage.",
+    "questions": [
+      "How can I handle an unsolicited or unsettling phone call?",
+      "How much can I rely on the displayed telephone number or apparent voice?"
+    ],
+    "related": [
+      "personal_security_notes",
+      "manipulated_media",
+      "dont_chase"
+    ]
+  },
+  "social_media": {
+    "intro": "Looks at social-media boundaries and ways to reduce distraction, unwanted contact and exposure.",
+    "questions": [
+      "How can I use social media without inviting unnecessary conflict?",
+      "When does muting, blocking or limiting notifications make sense?"
+    ],
+    "related": [
+      "sleep_discipline",
+      "personal_security_notes",
+      "dont_chase"
+    ]
+  },
+  "how_to_collaborate": {
+    "intro": "A guide to sharing carefully anonymised accounts and suggesting improvements to the open booklet.",
+    "questions": [
+      "How can I contribute an experience without identifying myself or others?",
+      "What should I review before sending a public contribution?"
+    ],
+    "related": [
+      "introduction",
+      "personal_security_notes",
+      "social_media"
+    ]
+  },
+  "gaslit_by_friends": {
+    "intro": "Discusses friendship patterns that may undermine confidence, trust and personal boundaries.",
+    "questions": [
+      "What behaviours might suggest an unhealthy pattern in a friendship?",
+      "How can I respond if a friend repeatedly dismisses my recollections or boundaries?"
+    ],
+    "related": [
+      "negging_psychological_manipulation",
+      "guilt_tripping",
+      "dont_tolerate_mistreatment"
+    ]
+  },
+  "negging_psychological_manipulation": {
+    "intro": "Explains belittling remarks and backhanded compliments as forms of social pressure.",
+    "questions": [
+      "What is negging and how might it appear in ordinary conversation?",
+      "How can I respond to repeated put-downs without arguing about intent?"
+    ],
+    "related": [
+      "gaslit_by_friends",
+      "public_shaming",
+      "dont_tolerate_mistreatment"
+    ]
+  },
+  "good_cop_bad_cop": {
+    "intro": "Describes a contrasting-reactions tactic in which warmth and pressure may be alternated.",
+    "questions": [
+      "What is the good cop, bad cop technique?",
+      "How can alternating kindness and pressure affect a person's decisions?"
+    ],
+    "related": [
+      "guilt_tripping",
+      "emotional_burden_trick",
+      "impossible_compliance"
+    ]
+  },
+  "guilt_tripping": {
+    "intro": "Explores attempts to use guilt to influence decisions or make ordinary boundaries feel unreasonable.",
+    "questions": [
+      "How can I recognise guilt-based pressure?",
+      "How can I decline an unreasonable request without debating my character?"
+    ],
+    "related": [
+      "moral_blackmail",
+      "emotional_burden_trick",
+      "dont_tolerate_mistreatment"
+    ]
+  },
+  "emotional_burden_trick": {
+    "intro": "Considers situations in which one person is made to feel responsible for another person's feelings or choices.",
+    "questions": [
+      "When is someone asking me to take responsibility for their emotions?",
+      "How can I show concern while keeping healthy boundaries?"
+    ],
+    "related": [
+      "guilt_tripping",
+      "moral_blackmail",
+      "take_back_control"
+    ]
+  },
+  "accusation_baiting": {
+    "intro": "Discusses how a provocative accusation can divert attention from the original issue.",
+    "questions": [
+      "How can an accusation pull a conversation away from the facts?",
+      "What is a calm way to respond to an unsupported allegation?"
+    ],
+    "related": [
+      "moral_accusations",
+      "claim_inflation",
+      "dont_chase"
+    ]
+  },
+  "claim_inflation": {
+    "intro": "Explores how the seriousness or scope of an accusation may change as it is repeated.",
+    "questions": [
+      "What happens when an allegation becomes more dramatic over time?",
+      "How can I keep track of the original statement rather than later embellishments?"
+    ],
+    "related": [
+      "accusation_baiting",
+      "moral_accusations",
+      "legal_intimidation"
+    ]
+  },
+  "false_endings": {
+    "intro": "Looks at promises or suggestions that an unpleasant situation has ended when that outcome is uncertain.",
+    "questions": [
+      "Why might repeated promises of closure affect someone?",
+      "How can I avoid making decisions based on an unconfirmed ending?"
+    ],
+    "related": [
+      "false_completion",
+      "indefinite_abuse",
+      "take_back_control"
+    ]
+  },
+  "false_completion": {
+    "intro": "Discusses the appearance that a process or demand has been satisfied when no meaningful resolution has occurred.",
+    "questions": [
+      "How can I tell whether a matter has actually been resolved?",
+      "Why are clear written outcomes more useful than vague reassurance?"
+    ],
+    "related": [
+      "false_endings",
+      "impossible_compliance",
+      "dont_tolerate_mistreatment"
+    ]
+  },
+  "impossible_compliance": {
+    "intro": "Examines demands framed in ways that make successful compliance difficult or undefined.",
+    "questions": [
+      "What does an impossible demand look like?",
+      "How can I respond when the rules seem to change whenever I comply?"
+    ],
+    "related": [
+      "impossible_standards",
+      "moral_blackmail",
+      "take_back_control"
+    ]
+  },
+  "impossible_standards": {
+    "intro": "Explores repeated criticism based on standards that are inconsistent or unattainable.",
+    "questions": [
+      "How do unreasonable standards affect confidence and decision-making?",
+      "What is the difference between constructive feedback and constant fault-finding?"
+    ],
+    "related": [
+      "impossible_compliance",
+      "gaslit_by_friends",
+      "dont_tolerate_mistreatment"
+    ]
+  },
+  "moral_accusations": {
+    "intro": "Examines the use of sweeping moral accusations to pressure someone or derail a discussion.",
+    "questions": [
+      "Why can a morally loaded accusation be difficult to answer?",
+      "How can I focus on specific actions rather than an exaggerated label?"
+    ],
+    "related": [
+      "accusation_baiting",
+      "criminilisation",
+      "claim_inflation"
+    ]
+  },
+  "moral_blackmail": {
+    "intro": "Discusses appeals to a supposedly greater good as a way of discouraging legitimate questions or complaints.",
+    "questions": [
+      "What is moral blackmail?",
+      "How can I assess a request to stay silent for a claimed greater good?"
+    ],
+    "related": [
+      "guilt_tripping",
+      "service_shield",
+      "dont_tolerate_mistreatment"
+    ]
+  },
+  "interpretation_trick": {
+    "intro": "Explores how ordinary words or behaviour can be given an unexpectedly negative interpretation.",
+    "questions": [
+      "How might an innocent action be framed as evidence of something else?",
+      "How can I distinguish observation from someone else's interpretation?"
+    ],
+    "related": [
+      "moral_accusations",
+      "claim_inflation",
+      "criminilisation"
+    ]
+  },
+  "talking": {
+    "intro": "Discusses possible ambiguities in indirect communication and the temptation to infer hidden messages.",
+    "questions": [
+      "How can I avoid overinterpreting an ambiguous remark?",
+      "What is the difference between a direct statement and an inferred message?"
+    ],
+    "related": [
+      "accidentally_overheard",
+      "interpretation_trick",
+      "dont_chase"
+    ]
+  },
+  "service_shield": {
+    "intro": "Examines appeals to professional roles or public-service status as a defence against criticism.",
+    "questions": [
+      "Does a person's professional role settle whether their conduct was appropriate?",
+      "How can I raise concerns about conduct without assuming motives?"
+    ],
+    "related": [
+      "moral_blackmail",
+      "dont_tolerate_mistreatment",
+      "legal_intimidation"
+    ]
+  },
+  "the_guity_always_run": {
+    "intro": "Explores the flawed idea that avoiding confrontation automatically indicates guilt.",
+    "questions": [
+      "Does leaving a tense situation imply guilt?",
+      "Why might disengaging be a reasonable response to provocation?"
+    ],
+    "related": [
+      "dont_chase",
+      "incitement_to_violence",
+      "accusation_baiting"
+    ]
+  },
+  "legal_intimidation": {
+    "intro": "Looks at threatening references to courts or legal consequences and the value of checking formal information.",
+    "questions": [
+      "How can I respond to an intimidating legal claim?",
+      "When is independent legal guidance more useful than arguing?"
+    ],
+    "related": [
+      "threatened_framing",
+      "dont_tolerate_mistreatment",
+      "claim_inflation"
+    ]
+  },
+  "criminilisation": {
+    "intro": "Discusses framing ordinary actions as wrongdoing without a clear factual or legal basis.",
+    "questions": [
+      "How can everyday behaviour be unfairly described as criminal?",
+      "What should I check before accepting somebody's legal interpretation?"
+    ],
+    "related": [
+      "moral_accusations",
+      "legal_intimidation",
+      "interpretation_trick"
+    ]
+  },
+  "threatened_framing": {
+    "intro": "Examines threats that someone will fabricate accusations or arrange misleading appearances.",
+    "questions": [
+      "What can I do if someone threatens to make a false accusation?",
+      "How can I document a threat without confronting the person making it?"
+    ],
+    "related": [
+      "legal_intimidation",
+      "accusation_baiting",
+      "dont_tolerate_mistreatment"
+    ]
+  },
+  "accidentally_overheard": {
+    "intro": "Discusses remarks that appear to have been overheard and why their context may be unclear.",
+    "questions": [
+      "How reliable is a fragment of conversation overheard by chance?",
+      "How can I avoid reacting to remarks that may not concern me?"
+    ],
+    "related": [
+      "talking",
+      "narrating_trick",
+      "dont_chase"
+    ]
+  },
+  "narrating_trick": {
+    "intro": "Looks at unsolicited descriptions of someone else's actions and the effect of repeated commentary.",
+    "questions": [
+      "Why might persistent commentary feel intrusive?",
+      "How can I decide whether a remark requires any response?"
+    ],
+    "related": [
+      "accidentally_overheard",
+      "public_shaming",
+      "dont_chase"
+    ]
+  },
+  "public_shaming": {
+    "intro": "Discusses public embarrassment, social pressure and non-confrontational ways to protect boundaries.",
+    "questions": [
+      "What is public shaming and how does it affect behaviour?",
+      "How can I respond when I feel embarrassed or singled out in public?"
+    ],
+    "related": [
+      "name_and_shame",
+      "negging_psychological_manipulation",
+      "dont_tolerate_mistreatment"
+    ]
+  },
+  "name_and_shame": {
+    "intro": "Examines the social consequences of labelling or publicly identifying someone in a disparaging way.",
+    "questions": [
+      "What distinguishes legitimate criticism from public humiliation?",
+      "What should I do if a damaging label is repeated about someone?"
+    ],
+    "related": [
+      "public_shaming",
+      "moral_accusations",
+      "claim_inflation"
+    ]
+  },
+  "flashmobs": {
+    "intro": "Explores how coordinated-looking group behaviour can influence perception and reactions.",
+    "questions": [
+      "Why can group behaviour feel more convincing than an individual remark?",
+      "How can I avoid drawing conclusions about strangers' intentions from a crowd?"
+    ],
+    "related": [
+      "public_shaming",
+      "accidentally_overheard",
+      "dont_chase"
+    ]
+  },
+  "body_shaming": {
+    "intro": "Discusses remarks that criticise someone's appearance or private bodily characteristics.",
+    "questions": [
+      "How can I handle insulting comments about my body?",
+      "When is it appropriate to disengage from body-related criticism?"
+    ],
+    "related": [
+      "public_shaming",
+      "dont_tolerate_mistreatment",
+      "bodily_functions"
+    ]
+  },
+  "bodily_functions": {
+    "intro": "Explores the embarrassment that can arise when ordinary bodily functions are treated as shameful or suspicious.",
+    "questions": [
+      "Are ordinary bodily functions a reasonable basis for moral accusations?",
+      "How can I maintain boundaries around private bodily matters?"
+    ],
+    "related": [
+      "body_shaming",
+      "criminilisation",
+      "interpretation_trick"
+    ]
+  },
+  "incitement_to_violence": {
+    "intro": "Discusses provocative behaviour and the importance of avoiding retaliatory violence.",
+    "questions": [
+      "How can I respond when someone appears to be trying to provoke a fight?",
+      "Why is walking away safer than trying to win a confrontation?"
+    ],
+    "related": [
+      "dont_chase",
+      "the_guity_always_run",
+      "take_back_control"
+    ]
+  },
+  "sleep_deprivation": {
+    "intro": "Examines how inadequate sleep can affect attention, judgement and responses to stressful interactions.",
+    "questions": [
+      "How might poor sleep affect my interpretation of upsetting events?",
+      "What practical steps can help protect sleep during stressful periods?"
+    ],
+    "related": [
+      "sleep_discipline",
+      "take_back_control",
+      "personal_security_notes"
+    ]
+  },
+  "sexual_coercion": {
+    "intro": "Discusses threats, humiliation and violations of sexual boundaries in a non-graphic context.",
+    "questions": [
+      "What forms can sexual coercion or sexual blackmail take?",
+      "Where can someone seek help after threats involving intimate information?"
+    ],
+    "related": [
+      "threatened_framing",
+      "legal_intimidation",
+      "dont_tolerate_mistreatment"
+    ]
+  },
+  "choose_your_death": {
+    "intro": "Considers threats and coercive ultimatums involving harm, and the importance of safety over engagement.",
+    "questions": [
+      "How should I treat a threat involving serious harm?",
+      "Why is it important to seek safety rather than negotiate a threatening ultimatum?"
+    ],
+    "related": [
+      "indefinite_abuse",
+      "dont_chase",
+      "dont_tolerate_mistreatment"
+    ]
+  },
+  "indefinite_abuse": {
+    "intro": "Explores the distress caused by claims that an unpleasant situation will never end.",
+    "questions": [
+      "How can I respond to a statement that a bad situation is permanent?",
+      "What can I focus on when someone makes an open-ended threat?"
+    ],
+    "related": [
+      "false_endings",
+      "sleep_discipline",
+      "take_back_control"
+    ]
+  },
+  "cold_reading": {
+    "intro": "Introduces cold reading and the role of broad statements, observation and selective feedback.",
+    "questions": [
+      "How can a plausible guess appear surprisingly personal?",
+      "What is the difference between cold reading and genuinely knowing private information?"
+    ],
+    "related": [
+      "cold_reading_ai_assisted",
+      "mind_reading_trick",
+      "interpretation_trick"
+    ]
+  },
+  "cold_reading_ai_assisted": {
+    "intro": "Explores hypothetical uses of AI for personalised predictions and their technical limitations.",
+    "questions": [
+      "How might AI make cold reading seem more convincing?",
+      "What are the limits of predicting someone's thoughts from contextual information?"
+    ],
+    "related": [
+      "cold_reading",
+      "mind_reading_trick",
+      "internal_monologue_trick"
+    ]
+  },
+  "source_identification_trick": {
+    "intro": "Discusses how suggestions about who a statement concerns can influence interpretation and memory.",
+    "questions": [
+      "How might a person infer who a vague remark refers to?",
+      "Why does a confident guess not necessarily establish knowledge of private thoughts?"
+    ],
+    "related": [
+      "internal_monologue_trick",
+      "cold_reading_ai_assisted",
+      "interpretation_trick"
+    ]
+  },
+  "internal_monologue_trick": {
+    "intro": "Explores source confusion and suggestions about the origin of thoughts or speech.",
+    "questions": [
+      "How might suggestion affect the way a statement is attributed?",
+      "What are source-monitoring errors and how should they be interpreted cautiously?"
+    ],
+    "related": [
+      "source_identification_trick",
+      "cold_reading",
+      "mind_reading_trick"
+    ]
+  },
+  "mind_reading_trick": {
+    "intro": "Examines how apparently accurate observations may create an impression of mind reading.",
+    "questions": [
+      "Why can a good prediction feel like someone knows what I am thinking?",
+      "What information can and cannot be inferred from observable behaviour?"
+    ],
+    "related": [
+      "cold_reading",
+      "cold_reading_ai_assisted",
+      "source_identification_trick"
+    ]
+  },
+  "bug_in_face": {
+    "intro": "Discusses speculative ways observable facial cues might be used to infer feelings or topics.",
+    "questions": [
+      "What can facial expressions reveal about someone's emotional state?",
+      "What are the limits of interpreting a person's thoughts from their face?"
+    ],
+    "related": [
+      "cold_reading_ai_assisted",
+      "mind_reading_trick",
+      "source_identification_trick"
+    ]
+  },
+  "manipulated_media": {
+    "intro": "Explores altered images, recordings and other media alongside practical verification questions.",
+    "questions": [
+      "How can a digital recording be edited or presented misleadingly?",
+      "What checks are sensible before relying on online media?"
+    ],
+    "related": [
+      "personal_security_notes",
+      "pwned-devices",
+      "phone_calls"
+    ]
+  },
+  "pwned-devices": {
+    "intro": "Examines the consequences of compromised devices and sensible ways to verify digital information.",
+    "questions": [
+      "What could a compromised device allow an attacker to change or see?",
+      "What practical checks are useful if I suspect a security issue?"
+    ],
+    "related": [
+      "personal_security_notes",
+      "manipulated_media",
+      "air_gap_limitations"
+    ]
+  },
+  "air_gap_limitations": {
+    "intro": "Explores what separating a device from a network does and does not protect against.",
+    "questions": [
+      "What is an air gap in computer security?",
+      "Why does keeping a device offline not address every security risk?"
+    ],
+    "related": [
+      "pwned-devices",
+      "personal_security_notes",
+      "there_is_no_privacy"
+    ]
+  },
+  "there_is_no_privacy": {
+    "intro": "Discusses the limits of digital privacy and the choices people can still make about personal data.",
+    "questions": [
+      "What aspects of everyday digital activity may expose personal information?",
+      "How can I improve privacy without trying to eliminate every possible risk?"
+    ],
+    "related": [
+      "personal_security_notes",
+      "social_media",
+      "pwned-devices"
+    ]
+  },
+  "how_to_survive_a_psyop_additional_sections": {
+    "intro": "Further observations and ideas that complement the booklet's main chapters.",
+    "questions": [
+      "Which additional themes does the booklet examine?",
+      "Where should I start if an experience does not fit a single chapter?"
+    ],
+    "related": [
+      "introduction",
+      "conclusion",
+      "dont_chase"
+    ]
+  },
+  "conclusion": {
+    "intro": "Closing reflections on maintaining boundaries and making practical decisions in difficult circumstances.",
+    "questions": [
+      "What are the most useful principles to remember?",
+      "How can I move forward without staying engaged with unpleasant experiences?"
+    ],
+    "related": [
+      "introduction",
+      "take_back_control",
+      "sleep_discipline"
+    ]
+  }
+}
