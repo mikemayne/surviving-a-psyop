@@ -27,7 +27,7 @@ try {
   assert.ok(published('index.html').includes(repo));
   assert.ok(published('chapters.json').includes(base + 'introduction.txt'));
   assert.ok(published('chapters.json').includes(repo + '/blob/main/introduction.txt'));
-  assert.ok(published('llms.txt').includes(base + 'llms.txt'));
+  assert.ok(published('llms.txt').includes(base + 'chapters.json'));
   assert.ok(published('robots.txt').includes('Sitemap: ' + base + 'sitemap.xml'));
   assert.ok(published('sitemap.xml').includes(base + 'topics/index.html'));
   assert.ok(published('topics/index.html').includes(base + 'topics/index.html'));
