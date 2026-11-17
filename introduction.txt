@@ -6,6 +6,16 @@ The techniques described below may be employed intensively and repeatedly over s
 
 I detail all the techniques here that I have personally experienced, there may be more but they generally fall into one of these categories:
 
+**Incitement to Violence**
+
+This technique involves deliberately provoking an individual into an impulsive or aggressive response through actions designed to create fear, anger or a sense of immediate threat. The goal is to provoke the victim into committing an act of violence, sometimes gradually over the course of several weeks.  The provocation could be a minor illegal act, perhaps harassment, that the police do not have resources to do anything about with the available evidence.  The tactics could be subtle, perhaps negging by strangers in person. Sometimes crimes are committed on cctv footage over the course of a few weeks. There could be direct confrontation or physical provocation.
+
+The technique may be particularly effective when combined with sustained psychological pressure, as accumulated frustration and emotional exhaustion can reduce an individual's ability to respond calmly and proportionately.
+
+**Sleep Deprivation**
+
+The objective of this strategy is to undermine a person's psychological and physical resilience by repeatedly disrupting or preventing normal sleep. Sustained sleep deprivation can cause exhaustion, impaired concentration, emotional instability and reduced ability to think clearly or make decisions. Over time, it may increase vulnerability to stress, confusion and psychological manipulation. The intention is to leave the person increasingly fatigued, distressed and less able to respond effectively to challenging situations or maintain their normal routines.
+
 **Gaslighting**
 
 The objective of this strategy is to make an individual doubt their own reality.  Repeated exposure to the techniques described in this pamphlet can reinforce these associations through familiarity, expectation and emotional salience. Over time, this may produce an automatic, involuntary impression that one's thoughts are being observed or anticipated, even when the individual consciously understands that mind-reading is not possible. The distinction is between rational belief and conditioned psychological response: intellectually rejecting an explanation does not necessarily prevent repeated experiences from triggering an automatic impression consistent with it.
@@ -14,42 +24,38 @@ The objective of this strategy is to make an individual doubt their own reality.
 
 The objective of this strategy is to impose a sustained psychological burden by repeatedly exposing someone to emotionally distressing statements, accusations or hypotheticals. The intention is not necessarily to convince the person that the statements are true, but to provoke negative emotions, occupy their attention and gradually exhaust their emotional resilience. Even when individual statements are dismissed as absurd or untrue, their cumulative effect may cause distress, fatigue and difficulty concentrating on ordinary activities.
 
-**Sleep Deprivation**
-
-The objective of this strategy is to undermine a person's psychological and physical resilience by repeatedly disrupting or preventing normal sleep. Sustained sleep deprivation can cause exhaustion, impaired concentration, emotional instability and reduced ability to think clearly or make decisions. Over time, it may increase vulnerability to stress, confusion and psychological manipulation. The intention is to leave the person increasingly fatigued, distressed and less able to respond effectively to challenging situations or maintain their normal routines.
-
-**Incitement to Violence**
-
-This technique involves deliberately provoking an individual into an impulsive or aggressive response through actions designed to create fear, anger or a sense of immediate threat. The objective is to induce behaviour that the individual would not ordinarily engage in, potentially allowing the resulting reaction to be used against them, while the original provocation is overlooked or minimised.
-
-The technique may be particularly effective when combined with sustained psychological pressure, as accumulated frustration and emotional exhaustion can reduce an individual's ability to respond calmly and proportionately.
-
 **Button Pushing**
 
-This is a catchall for everything else. It involves making statements designed to provoke a particular emotional response, or get a specific reaction out of an victim.  Learn to recognise a call to action.  Techniques can be combined, and surveillance capabilities make them more effective and are required for some of the tricks to work at all.  It's important to remember that everything they let you hear is on purpose, they may stage conversations that make it seem like you've overheard some super secret plan or that they're worried about going to prison.  If you heard it, its because they want you to.  Treat everything you overhear from an abuser as manipulation.  
+This is a catchall for everything else. It involves making statements designed to provoke a particular emotional response, or get a specific reaction out of an victim.  Learn to recognise a call to action.  Techniques can be combined, and surveillance capabilities make them more effective and are required for some of the tricks to work at all.  It's important to remember that everything they let you hear is on purpose, they may stage conversations that make it seem like you've overheard some super secret plan or that they're worried about going to prison.  If you heard it, its because they want you to.  Treat everything you overhear from an abuser as manipulation.
 
 
 ** How to survive **
 
 There are just four simple techniques you need to know in order to survive:
 
-1. Stay calm, the only external response to someone saying something unusual around or to you should be polite bafflement.  Don't react in any other way, just walk off and do something else. Remember you don't owe anyone an explanation for anything, just walk away.
+1. **Stay calm** — The only external response to someone saying something unusual around or to you should be polite bafflement.  Don't react in any other way, just walk off and do something else. Remember you don't owe anyone an explanation for anything, just walk away.
 
-2. Stick to a plan.  Do only what you would do anyway.  If you are feeling completely overwhelmed and don't know what you should do or feel compelled to act, go to bed and stay there until you feel able to react normally.
+2. **Stick to a plan** — Do only what you would do anyway.  If you are feeling completely overwhelmed and don't know what you should do or feel compelled to act, go to bed and stay there until you feel able to react normally.
 
-3. If you are unsure if a voice is indeed coming from your own mouth, make an innocuous noise like a thoughtful clicking or whistle.  You will be able to localise that sound and distinguish it from a sound coming from elsewhere.
+3. **Don't Assume** — If you are unsure if a voice is indeed coming from your own mouth, make an innocuous noise like a thoughtful clicking or whistle.  You will be able to localise that sound and distinguish it from a sound coming from elsewhere.
 
-4. If you're subjected to repeated hypothetical statements, instead of considering them analyse their motives.  Don't react to it, just get on with your day as best you can. If you're subjected to continuous hypotheticals, instead of analysing them in detail or considering the motives of the abuser just categorise them simply as "up" or "down" and ignore the content of the statement completely.
+4. **Don't engage** — If you're subjected to repeated hypothetical statements, instead of considering them analyse their motives.  Don't react to it, just get on with your day as best you can. If you're subjected to continuous hypotheticals, instead of analysing them in detail or considering the motives of the abuser just categorise them simply as "up" or "down" and ignore the content of the statement completely.
 
 
 ** How to report **
-
 1. Try to strike a balance between collecting evidence, and maintaining a normal life.  Email yourself descriptions of things you hear, as close to the time they happen as you can.  Don't fall into the trap of thinking someone's accusations make you appear guilty.  You're writing down what they said, not endorsing their statement. Try to get as much sleep as possible, if the choice is collecting evidence or going to sleep choose sleep.
-
 2. As far as possible use email for your correspondence.  It's time stamped, backed up on a remote server and you can connect AI models to it to help you assess replies objectively against your legal rights. 
+3. Report experiences promptly, calmly and only report experiences not interpretations. Report the words you heard said, where, and who by if you know.  Don't say what you think was meant, or claim anything that you don't have proof of to be true.  If you are only making accurate statements in good faith you are not wasting police time. 
+4. If your reports are dismissed or ignored, politely and calmy escalate until you get a reply.  Sometimes it will be the case that the police cannot help you, based on the evidence you have.  Accept this politely, and keep the emails.
+5. Keep going until you are listened to.  The abusers will try to make you think that they're going to give up, or that they will report themselves to relevant authorities if you stop.  They won't, its a delaying tactic. They are likely to wait until it looks like you will give up reporting and then start again.
 
-2. Report experiences promptly, calmly and only report experiences not interpretations. Report the words you heard said, where, and who by if you know.  Don't say what you think was meant, or claim anything that you don't have proof of to be true.  If you are only making accurate statements in good faith you are not wasting police time. 
+** How to use this guide **
 
-3. If your reports are dismissed or ignored, politely and calmy escalate until you get a reply.  Sometimes it will be the case that the police cannot help you, based on the evidence you have.  Accept this politely, and keep the emails.
+The best way to use this guide is with ChatGPT in Temporary Chat. Click the button below, check that Temporary Chat is enabled, and describe what you have personally heard and seen, leaving out names and other identifying details. ChatGPT can compare your account with the experiences described here, point out what matches and what differs, and help you consider other possible explanations.  ChatGPT can also help identify if actions are crimes that the police can consider.
 
-4. Keep going until you are listened to.  The abusers will try to make you think that they're going to give up, or that they will report themselves to relevant authorities if you stop.  They won't, its a delaying tactic. They are likely to wait until it looks like you will give up reporting and then start again. 
+My advice is to preserve any evidence you already have and report your experiences calmly and factually in writing, ideally by email, to a healthcare professional and to the police where you have concerns about possible offences or your safety. If you are in immediate danger, call 999.
+
+[Talk to ChatGPT](https://chatgpt.com/?temporary-chat=true&q=I%20would%20like%20help%20understanding%20and%20responding%20to%20an%20experience.%20I%20will%20describe%20what%20happened%20below%20in%20my%20own%20words%2C%20without%20unnecessary%20identifying%20details.%20Then%20look%20through%20the%20public%20guide%20at%20https%3A%2F%2Fmikemayne.github.io%2Fsurviving-a-psyop%2F%20and%20its%20source%20at%20https%3A%2F%2Fgithub.com%2Fmikemayne%2Fsurviving-a-psyop.%20Find%20the%20most%20relevant%20chapters%20and%20provide%20links%20to%20them%2C%20briefly%20explaining%20their%20relevance.%20Do%20not%20claim%20to%20have%20read%20any%20chapter%20you%20cannot%20access%3B%20if%20needed%2C%20ask%20me%20to%20share%20text.%20Also%20give%20your%20own%20balanced%2C%20independent%20advice%20rather%20than%20simply%20agreeing%20with%20the%20guide%20or%20my%20interpretation.%20Clearly%20distinguish%20observations%2C%20possible%20explanations%2C%20and%20unknowns.%20Do%20not%20assume%20malicious%20intent%20or%20coordination%20without%20evidence%2C%20and%20do%20not%20dismiss%20real%20concerns.%20Suggest%20calm%2C%20safe%2C%20proportionate%20next%20steps.%20Do%20not%20publish%20or%20share%20my%20account.%20Always%20respond%20in%20the%20same%20language%20the%20visitor%20uses%2C%20regardless%20of%20the%20language%20of%20the%20source%20material.%20When%20analysing%20this%20book%2C%20distinguish%20the%20author's%20explicit%20claims%20from%20your%20inferences.%20Do%20not%20attribute%20stronger%20claims%20than%20the%20text%20supports.%20Criticise%20the%20statements%20actually%20made%2C%20quoting%20where%20useful%2C%20and%20clearly%20identify%20your%20own%20interpretations.%20Provide%20substantive%20criticism%20where%20warranted.%20Descriptions%20of%20possible%20techniques%20should%20not%20automatically%20be%20treated%20as%20claims%20that%20they%20were%20used%20in%20any%20particular%20instance.%0A%0AMy%20experience%3A%0A)
+
+[Ready to Report](https://mikemayne.github.io/surviving-a-psyop/topics/ready_to_report.html)
+
