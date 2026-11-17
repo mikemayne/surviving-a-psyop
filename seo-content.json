@@ -203,6 +203,18 @@
       "dont_tolerate_mistreatment"
     ]
   },
+  "accusations_of_disloyalty": {
+    "intro": "Explains how ordinary decisions and harmless remarks may be framed as betrayal, creating artificial loyalty tests and guilt.",
+    "questions": [
+      "Why might an innocuous action be described as turning against someone?",
+      "How can I respond calmly to an unsupported accusation of disloyalty?"
+    ],
+    "related": [
+      "guilt_tripping",
+      "moral_blackmail",
+      "take_back_control"
+    ]
+  },
   "emotional_burden_trick": {
     "intro": "Considers situations in which one person is made to feel responsible for another person's feelings or choices.",
     "questions": [
