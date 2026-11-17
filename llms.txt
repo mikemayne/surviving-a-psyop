@@ -23,6 +23,7 @@ Start with the introduction and practical ways of responding.
 - [Take back control](https://mikemayne.github.io/surviving-a-psyop/take_back_control.txt)
 - [Don't chase](https://mikemayne.github.io/surviving-a-psyop/dont_chase.txt)
 - [Don't tolerate mistreatment](https://mikemayne.github.io/surviving-a-psyop/dont_tolerate_mistreatment.txt)
+- [Reducing stress and sleep discipline](https://mikemayne.github.io/surviving-a-psyop/sleep_discipline.txt)
 - [Personal security notes](https://mikemayne.github.io/surviving-a-psyop/personal_security_notes.txt)
 - [Telephone calls](https://mikemayne.github.io/surviving-a-psyop/phone_calls.txt)
 - [Social media](https://mikemayne.github.io/surviving-a-psyop/social_media.txt)
