@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mikemayne.github.io/surviving-a-psyop/sitemap.xml
