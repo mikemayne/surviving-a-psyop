@@ -56,6 +56,7 @@ Owner-authored maintenance pull requests from branches **inside this repository*
 - `index.html` contains the website's design, chapter list and reading interface.
 - To add a new chapter, create a `.txt` file and add it to the `GROUPS` list in `index.html`.
 - Update `chapters.json` and `seo-content.json` with the new chapter metadata. Each entry in `seo-content.json` supplies a brief introduction, two genuinely relevant questions, and related-reading links.
+- Add an entry in `strategy-metadata.json` for each new chapter: use short possible goals, emotional effects and behavioural responses grounded in its text, or `N/A` when the inference is not reliable. The site build checks for missing entries.
 - The generated static pages live under [`topics/`](topics/index.html). Run `node scripts/generate-seo.mjs` to regenerate them for local inspection; Pages rebuilds these pages during publishing without pushing to `main`.
 - The questions are prompts for further reading, not guaranteed FAQ answers. Avoid keyword stuffing or claiming that hypothetical techniques have been independently established.
 
@@ -86,9 +87,10 @@ An automated file check may reject invalid submissions, but **the owner will rev
 - [Use with AI on the website](https://mikemayne.github.io/surviving-a-psyop/#use-ai) explains how to ask an assistant about the booklet and has a copyable starter prompt.
 - [`llms.txt`](llms.txt) lists all chapters as direct plain-text links for AI assistants and readers. The `llms.txt` convention is voluntary; not every AI tool will fetch it automatically.
 - [`chapters.json`](chapters.json) provides a machine-readable chapter catalogue (title, category, reader URL, source URL).
+- [`strategy-metadata.json`](strategy-metadata.json) maps all 84 approved chapters to possible objectives, emotional effects and behavioural responses. Entries are qualitative comparison aids, not evidence of anyone's intentions; `N/A` means insufficient chapter-specific support.
 - Every chapter is available directly as `https://mikemayne.github.io/surviving-a-psyop/<chapter-id>.txt`, with no JavaScript required.
 
-**Maintainers:** when adding or renaming a chapter, update the chapter list in `index.html`, `llms.txt`, `chapters.json` and `seo-content.json` together. Existing chapter edits are picked up by the reader immediately; use the generator or workflow to update the static HTML copies.
+**Maintainers:** when adding or renaming a chapter, update the chapter list in `index.html`, `llms.txt`, `chapters.json`, `seo-content.json` and `strategy-metadata.json` together. Existing chapter edits are picked up by the reader immediately; use the generator or workflow to update the static HTML copies.
 
 The site makes no AI requests and has no API key or usage charges. Visitors should review the privacy practices of any third-party assistant they choose to use.
 
