@@ -755,6 +755,18 @@
       "dont_tolerate_mistreatment"
     ]
   },
+  "preemptive_discrediting": {
+    "intro": "Explains how remarks such as 'Nobody will believe him' or claims about large amounts of unseen evidence can undermine confidence in being heard, without establishing what others think or whether the supposed evidence exists.",
+    "questions": [
+      "Why might a prediction of disbelief or a claim about undisclosed evidence discourage someone from seeking help?",
+      "How can I respond without assuming an ambiguous remark was intended for me or treating an unsupported claim as fact?"
+    ],
+    "related": [
+      "threatening_consequences_for_seeking_help",
+      "accidentally_overheard",
+      "ready_to_report"
+    ]
+  },
   "dream_manipulation": {
     "intro": "Explains how sounds incorporated into dreams, cold reading and post-waking suggestibility can create the impression that dreams are being influenced or observed, without establishing dream control.",
     "questions": [

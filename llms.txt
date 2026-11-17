@@ -97,6 +97,7 @@ Descriptions of emotionally forceful and coercive tactics.
 - [Choose your death](https://mikemayne.github.io/surviving-a-psyop/choose_your_death.txt)
 - [Indefinite abuse](https://mikemayne.github.io/surviving-a-psyop/indefinite_abuse.txt)
 - [Threatening Consequences for Seeking Help](https://mikemayne.github.io/surviving-a-psyop/threatening_consequences_for_seeking_help.txt)
+- [Pre-emptive Discrediting](https://mikemayne.github.io/surviving-a-psyop/preemptive_discrediting.txt)
 
 ### Technology & perception
 
