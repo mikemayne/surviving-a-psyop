@@ -11,6 +11,18 @@
       "sleep_discipline"
     ]
   },
+  "ready_to_report": {
+    "intro": "A practical guide to documenting troubling experiences, discussing them with your GP and reporting concerns to the police calmly and factually.",
+    "questions": [
+      "How should I document upsetting experiences and distinguish facts from interpretations?",
+      "How can I seek GP support and report concerns to the police in a clear, proportionate way?"
+    ],
+    "related": [
+      "introduction",
+      "dont_tolerate_mistreatment",
+      "stay_grounded"
+    ]
+  },
   "take_back_control": {
     "intro": "A discussion of how to make ordinary decisions on your own terms when someone else's behaviour feels intrusive or demanding.",
     "questions": [
