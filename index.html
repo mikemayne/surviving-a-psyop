@@ -71,7 +71,7 @@
     .author-note p { color: var(--muted); line-height: 1.8; font-size: .97rem; margin: 0 0 18px; }
     .author-note p strong { color: var(--ink); }
     .hero { padding: 94px 0 92px; border-bottom: 1px solid var(--line); overflow: hidden; }
-    .hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; align-items: center; gap: 8%; }
+    .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 6%; }
     .hero h1 { font: normal clamp(3.75rem, 7vw, 7.05rem)/.98 var(--serif); letter-spacing: -.062em; max-width: 700px; margin: 27px 0 28px; }
     .hero h1 em { color: var(--accent); font-weight: normal; }
     .hero-lead { color: var(--muted); font-size: 1.11rem; line-height: 1.75; max-width: 530px; }
@@ -82,14 +82,14 @@
     .btn-secondary { border-color: var(--line); color: var(--ink); background: transparent; }
     .tiny-note { margin-top: 23px; color: var(--muted); font-size: .8rem; display: flex; align-items: center; gap: 10px; }
     .tiny-note:before { content: ""; width: 23px; height: 1px; background: var(--orange); }
-    .cover { aspect-ratio: 4/5; position: relative; background: #315f55; border-radius: 3px 11px 11px 3px; color: #f4f3e9; box-shadow: 15px 25px 40px rgba(30,48,42,.16), inset 11px 0 13px rgba(0,0,0,.12); overflow: hidden; padding: 37px; display: flex; flex-direction: column; justify-content: space-between; max-width: 428px; margin-left: auto; }
+    .cover { aspect-ratio: 4/5; position: relative; background: #315f55; border-radius: 3px 11px 11px 3px; color: #f4f3e9; box-shadow: 15px 25px 40px rgba(30,48,42,.16), inset 11px 0 13px rgba(0,0,0,.12); overflow: hidden; padding: 37px; display: flex; flex-direction: column; justify-content: space-between; max-width: 480px; margin-left: auto; }
     .cover:before, .cover:after { content:""; position: absolute; border: 1px solid rgba(226,243,222,.22); border-radius: 50%; width: 380px; height: 380px; left: 19%; top: 16%; }
     .cover:after { width: 270px; height: 270px; left: 32%; top: 25%; }
     .cover > * { position: relative; z-index: 1; }
     .cover-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; text-transform: uppercase; font-size: .67rem; letter-spacing: .2em; line-height: 1.8; }
     .cover-top .sun { width: 42px; height: 42px; border: 1px solid #a8c9b8; border-radius: 50%; display: block; position: relative; }
     .cover-top .sun:after { content:""; position: absolute; top: 50%; left: -12px; right: -12px; height: 1px; background: #a8c9b8; transform: rotate(-34deg); }
-    .cover-center { font: normal clamp(2.6rem, 4vw, 4.2rem)/1.04 var(--serif); letter-spacing: -.05em; max-width: 280px; }
+    .cover-center { font: normal clamp(2.8rem, 4.2vw, 4.5rem)/1.04 var(--serif); letter-spacing: -.05em; max-width: 280px; }
     .cover-bottom { border-top: 1px solid rgba(250,250,240,.4); padding-top: 18px; display: flex; justify-content: space-between; gap: 10px; font-size: .67rem; letter-spacing: .15em; text-transform: uppercase; }
 
     /* The four central rules from the introduction */
@@ -204,7 +204,7 @@
     .article-content li { padding-left: .35em; margin-bottom: .6em; }
     .article-content li::marker { color: var(--orange); }
     .article-content a { color: var(--accent); text-underline-offset: 3px; }
-    .article-content a[href^="https://chatgpt.com/?temporary-chat=true&q="], .article-content a[href$="/topics/ready_to_report.html"] { display: inline-flex; align-items: center; max-width: 100%; padding: 14px 18px; margin: 6px 0 8px; background: var(--accent); color: var(--paper); font-weight: 750; text-decoration: none; border-radius: 4px; overflow-wrap: anywhere; }
+    .article-content a[href^="https://chatgpt.com/?temporary-chat=true&q="], .article-content a[href$="/topics/ready_to_report.html"] { display: inline-flex; align-items: center; justify-content: center; max-width: 100%; min-height: 64px; padding: 18px 28px; margin: 8px 12px 8px 0; background: var(--accent); color: var(--paper); font: 750 1.08rem/1.4 var(--sans); text-decoration: none; border-radius: 4px; overflow-wrap: anywhere; }
     .article-content a[href^="https://chatgpt.com/?temporary-chat=true&q="]:hover, .article-content a[href$="/topics/ready_to_report.html"]:hover { opacity: .9; }
     .article-content blockquote { border-left: 3px solid var(--orange); padding: 5px 0 5px 20px; margin: 25px 0; color: var(--muted); }
     .article-content pre { background: var(--paper-2); padding: 20px; overflow-x: auto; border-radius: 4px; font: .8rem/1.6 monospace; }
@@ -242,8 +242,8 @@
       .hero-grid, .contribute-grid { grid-template-columns: 1fr; gap: 44px; }
       .hero h1 { font-size: clamp(3.5rem, 13vw, 5rem); margin: 20px 0; }
       .hero-lead { font-size: .99rem; }
-      .cover { width: 80%; margin: 0 auto; max-width: 320px; }
-      .cover-center { font-size: 3rem; }
+      .cover { width: 88%; margin: 0 auto; max-width: 360px; }
+      .cover-center { font-size: 3.25rem; }
       .principles-inner { grid-template-columns: 1fr; }
       .principle, .principle:first-child { padding: 20px 0; border-right: 0; border-bottom: 1px solid var(--line); }
       .principle:last-child { border-bottom: 0; }
@@ -345,20 +345,16 @@
       <div class="principle"><small>03 / CONTRIBUTE</small><strong>Help others if you choose.</strong><p>If something useful isn't covered, consider submitting an anonymised description for review. You decide what, if anything, to share.</p></div>
     </div>
   </section>
-  <section class="interpretation-section" aria-label="Interpreting experiences">
-    <div class="wrap">
-      <div class="interpretation-note" aria-labelledby="interpreting-experiences-title">
-        <h3 id="interpreting-experiences-title">Interpreting your experiences</h3>
-        <p>Recognising a technique described in this book does not mean it is being used against you. <strong>Look for evidence, avoid jumping to conclusions, and seek independent advice when unsure.</strong> Keeping a factual record of your experiences and discussing it with a medical professional is a sensible first step.</p>
-        <p>The aim of this book is to help you respond constructively, in such a way that will be helpful whether someone is targeting you or not.</p>
-      </div>
-    </div>
-  </section>
   <section class="catalogue" id="catalogue">
     <div class="wrap">
       <div class="section-head">
         <div><p class="eyebrow">The library</p><h2>Explore the chapters<span style="color:var(--orange)">.</span></h2>
           <p class="chapter-content-warning"><strong>Content warning:</strong> Some chapters describe suicide, self-harm, threats, sexual humiliation and psychological abuse. Please read at your own pace.</p>
+          <div class="interpretation-note" aria-labelledby="interpreting-experiences-title">
+            <h3 id="interpreting-experiences-title">Interpreting your experiences</h3>
+            <p>Recognising a technique described in this book does not mean it is being used against you. <strong>Look for evidence, avoid jumping to conclusions, and seek independent advice when unsure.</strong> Keeping a factual record of your experiences and discussing it with a medical professional is a sensible first step.</p>
+            <p>The aim of this book is to help you respond constructively, in such a way that will be helpful whether someone is targeting you or not.</p>
+          </div>
         </div>
         <label class="search-box" aria-label="Find a chapter">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg>
@@ -596,7 +592,7 @@ My question:
         return;
       }
       if (inCode) { code.push(line); return; }
-      if (!line.trim()) { flushPara(); closeList(); return; }
+      if (!line.trim()) { flushPara(); return; }
       if (/^\s*(?:---+|\*\*\*+)\s*$/.test(line)) { flushPara(); closeList(); result.push("<hr>"); return; }
       var heading = line.match(/^\s*(#{1,4})\s+(.+)$/);
       if (heading) { flushPara(); closeList(); var n = heading[1].length; result.push("<h" + n + ">" + inline(heading[2]) + "</h" + n + ">"); return; }
