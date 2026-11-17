@@ -20,11 +20,11 @@
       --paper-2: #eeeee7;
       --surface: #fffef9;
       --ink: #23302d;
-      --muted: #68736d;
+      --muted: #606c65;
       --accent: #356a60;
       --accent-light: #e1ece6;
       --line: #d9ddd3;
-      --orange: #a85f36;
+      --orange: #94502a;
       --shadow: 0 22px 55px rgba(30,50,42,.08);
       --serif: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
       --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif;
@@ -45,6 +45,8 @@
     html { scroll-behavior: smooth; }
     body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
     a { color: inherit; }
+    .skip-link { position: fixed; top: -100px; left: 14px; z-index: 100; padding: 12px 18px; background: var(--surface); color: var(--ink); border: 2px solid var(--accent); border-radius: 4px; font-weight: 750; }
+    .skip-link:focus { top: 12px; }
     button, input { font: inherit; }
     button { cursor: pointer; }
     :focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; }
@@ -64,7 +66,12 @@
     .header-nav { display: flex; align-items: center; gap: 26px; }
     .header-nav a { text-decoration: none; font-size: .84rem; color: var(--muted); font-weight: 600; }
     .header-nav a:hover, .footer a:hover { color: var(--accent); }
-    .theme-toggle { border: 1px solid var(--line); background: var(--surface); color: var(--ink); width: 38px; height: 38px; border-radius: 50%; }
+    .mobile-site-nav { display: none; position: relative; }
+    .mobile-site-nav summary { display: flex; align-items: center; min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: 4px; font-size: .85rem; font-weight: 700; cursor: pointer; list-style: none; }
+    .mobile-site-nav summary::-webkit-details-marker { display: none; }
+    .mobile-site-links { position: absolute; right: 0; top: calc(100% + 8px); z-index: 60; display: flex; flex-direction: column; width: min(250px, calc(100vw - 30px)); padding: 6px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); box-shadow: var(--shadow); }
+    .mobile-site-links a { display: flex; align-items: center; min-height: 44px; padding: 10px 12px; color: var(--ink); font-size: .9rem; }
+    .theme-toggle { border: 1px solid var(--line); background: var(--surface); color: var(--ink); width: 44px; height: 44px; border-radius: 50%; }
     .author-note { padding: 64px 0 76px; border-top: 1px solid var(--line); }
     .author-note-inner { max-width: 800px; }
     .author-note h2 { font: normal clamp(1.8rem, 3vw, 2.5rem)/1.15 var(--serif); letter-spacing: -.03em; margin: 12px 0 24px; }
@@ -130,8 +137,8 @@
     .catalogue { padding: 89px 0 105px; scroll-margin-top: 36px; }
     .search-box { display: flex; align-items: center; gap: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 5px; padding: 0 14px; width: min(300px, 100%); height: 49px; }
     .search-box svg { width: 17px; fill: none; stroke: var(--muted); stroke-width: 1.8; }
-    .search-box input { width: 100%; min-width: 0; border: none; background: transparent; outline: none; color: var(--ink); font-size: .86rem; }
-    .search-box:focus-within { border-color: var(--accent); }
+    .search-box input { width: 100%; min-width: 0; border: none; background: transparent; outline: none; color: var(--ink); font-size: .92rem; }
+    .search-box:focus-within { border-color: var(--accent); outline: 3px solid var(--orange); outline-offset: 3px; }
     .category { border-top: 1px solid var(--line); padding: 29px 0 33px; display: grid; grid-template-columns: 245px 1fr; gap: 40px; }
     .category-title { font: normal 1.55rem var(--serif); margin: 0 0 9px; letter-spacing: -.025em; }
     .category-note { font-size: .82rem; color: var(--muted); line-height: 1.6; max-width: 220px; margin: 0; }
@@ -182,7 +189,7 @@
     .sidebar-back { font-size: .78rem; font-weight: 700; color: var(--accent); text-decoration: none; display: inline-flex; align-items: center; gap: 10px; margin-bottom: 26px; }
     .sidebar-search { width: 100%; }
     .sidebar-group { margin-top: 26px; }
-    .sidebar-group-title { color: var(--muted); text-transform: uppercase; font-size: .67rem; letter-spacing: .13em; font-weight: 800; margin-bottom: 10px; }
+    .sidebar-group-title { color: var(--muted); text-transform: uppercase; font-size: .8rem; letter-spacing: .09em; font-weight: 800; margin: 0 0 10px; }
     .sidebar-link { display: block; padding: 9px 12px; border-radius: 3px; color: var(--muted); text-decoration: none; font-size: .81rem; line-height: 1.4; border-left: 2px solid transparent; }
     .sidebar-link:hover { color: var(--ink); background: var(--surface); }
     .sidebar-link.active { background: var(--surface); color: var(--accent); border-left-color: var(--accent); font-weight: 740; }
@@ -240,6 +247,7 @@
       .brand-text small { font-size: .6rem; }
       .header-nav { gap: 14px; }
       .header-nav .desktop-link { display: none; }
+      .mobile-site-nav { display: block; }
       .hero { padding: 50px 0 55px; }
       .hero-grid, .contribute-grid { grid-template-columns: 1fr; gap: 44px; }
       .hero h1 { font-size: clamp(3.5rem, 13vw, 5rem); margin: 20px 0; }
@@ -284,12 +292,22 @@
       .chapter-controls { gap: 8px; }
       .chapter-controls a { padding: 13px; }
     }
+    @media (max-width: 380px) {
+      .header-inner { gap: 8px; }
+      .brand { gap: 8px; min-width: 0; flex-shrink: 1; }
+      .brand-mark { width: 30px; height: 30px; flex-shrink: 0; font-size: 22px; }
+      .brand-text strong { font-size: .72rem; }
+      .brand-text small { display: none; }
+      .header-nav { gap: 7px; }
+      .mobile-site-nav summary { padding-inline: 10px; }
+    }
     @media (prefers-reduced-motion: reduce) {
       *, *:before, *:after { scroll-behavior: auto !important; transition-duration: 0s !important; }
     }
   </style>
 </head>
 <body>
+<a href="#home-view" class="skip-link" id="skip-link">Skip to main content</a>
 <header class="header">
   <div class="wrap header-inner">
     <a class="brand" href="#home" aria-label="How to Survive a Psyop, home">
@@ -302,16 +320,27 @@
       <a class="desktop-link" href="#use-ai">Use with AI</a>
       <a class="desktop-link" href="#contribute">Contribute</a>
       <a class="desktop-link" href="https://github.com/mikemayne/surviving-a-psyop" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle colour theme">◐</button>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Dark mode is off" aria-pressed="false" title="Toggle colour theme">◐</button>
+      <details class="mobile-site-nav" id="mobile-site-nav">
+        <summary>Menu</summary>
+        <div class="mobile-site-links">
+          <a href="#rules">The four rules</a>
+          <a href="#catalogue">Chapters</a>
+          <a href="#use-ai">Use with AI</a>
+          <a href="#contribute">Contribute</a>
+          <a href="https://github.com/mikemayne/surviving-a-psyop" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </details>
     </nav>
   </div>
 </header>
 <main id="home-view">
+
   <section class="hero">
     <div class="wrap hero-grid">
       <div>
         <p class="eyebrow"><span class="mark">✳</span> A free &amp; open field guide</p>
-        <h1>How to survive a <em>psyop.</em></h1>
+        <h1 tabindex="-1">How to survive a <em>psyop.</em></h1>
         <p class="hero-lead">A collection of anonymized unpleasant experiences and advice on how to deal with them. Read the four survival rules first, then ask ChatGPT for advice on a specific experience or browse</p>
         <div class="buttons">
           <a class="btn btn-primary" href="#rules">Read the four rules <span aria-hidden="true">↓</span></a>
@@ -320,7 +349,7 @@
         </div>
         <p class="tiny-note">Freely available. No sign-in. No tracking.</p>
       </div>
-      <div class="cover" aria-label="Decorative book cover">
+      <div class="cover" role="img" aria-label="Book cover reading Just Do Nothing">
         <div class="cover-top"><span>FIELD NOTES<br>AN OPEN HANDBOOK</span><span class="sun" aria-hidden="true"></span></div>
         <div class="cover-center">Just<br>Do<br>Nothing.</div>
         <div class="cover-bottom"><span>Readers' edition</span><span>CC0 · OPEN</span></div>
@@ -330,7 +359,7 @@
   <section class="rules" id="rules" aria-labelledby="rules-title">
     <div class="wrap">
       <div class="rules-heading">
-        <div><p class="eyebrow"><span class="mark">✳</span> Start here</p><h2 id="rules-title">Four rules to survive<span style="color:var(--orange)">:</span></h2></div>
+        <div><p class="eyebrow"><span class="mark">✳</span> Start here</p><h2 id="rules-title" tabindex="-1">Four rules to survive<span style="color:var(--orange)">:</span></h2></div>
         <div class="rules-intro"><a class="btn btn-primary" href="./topics/ready_to_report.html">Ready to report? <span aria-hidden="true">↗</span></a></div>
       </div>
       <div class="rules-grid">
@@ -355,7 +384,7 @@
   <section class="catalogue" id="catalogue">
     <div class="wrap">
       <div class="section-head">
-        <div><p class="eyebrow">The library</p><h2>Explore the chapters<span style="color:var(--orange)">.</span></h2>
+        <div><p class="eyebrow">The library</p><h2 id="catalogue-title" tabindex="-1">Explore the chapters<span style="color:var(--orange)">.</span></h2>
           <p class="chapter-content-warning"><strong>Content warning:</strong> Some chapters describe suicide, self-harm, threats, sexual humiliation and psychological abuse. Please read at your own pace.</p>
           <div class="interpretation-note" aria-labelledby="interpreting-experiences-title">
             <h3 id="interpreting-experiences-title">Interpreting your experiences</h3>
@@ -363,11 +392,12 @@
             <p>The aim of this book is to help you respond constructively, in such a way that will be helpful whether someone is targeting you or not.</p>
           </div>
         </div>
-        <label class="search-box" aria-label="Find a chapter">
+        <label class="search-box">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg>
-          <input id="home-search" type="search" placeholder="Find a chapter…" autocomplete="off">
+          <input id="home-search" type="search" placeholder="Find a chapter…" autocomplete="off" aria-label="Find a chapter">
         </label>
       </div>
+      <p id="home-search-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
       <div id="chapter-catalogue"></div>
       <p class="muted" style="font-size:.84rem"><a href="./topics/index.html">Browse a search-engine-friendly index of all chapters</a></p>
       <p id="home-no-results" class="empty-search hidden">No matching chapter titles. Try a different term.</p>
@@ -378,7 +408,7 @@
     <div class="wrap contribute-grid">
       <div>
         <p class="eyebrow">A living document</p>
-        <h2>Reclaim Agency.<br>Help Others.</h2>
+        <h2 id="contribute-title" tabindex="-1">Reclaim Agency.<br>Help Others.</h2>
         <p>A simple method helped me regain control. Email yourself brief, factual notes about incidents when convenient.  Connect ChatGPT to your email and ask it to compare them to my experiences. Examining every detail obsessively can increase stress, so ideally check this no more than once a week.  Make sure you consider other explanations.</p>
         <a class="btn btn-primary" href="#read/how_to_collaborate">How to collaborate <span aria-hidden="true">↗</span></a>
         <p><a href="https://github.com/mikemayne/surviving-a-psyop" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a></p>
@@ -394,7 +424,7 @@
     <div class="wrap use-ai-grid">
       <div>
         <p class="eyebrow"><span class="mark">✳</span> Bring your own assistant</p>
-        <h2 id="use-ai-title">Read with AI.<br><em>For free.</em></h2>
+        <h2 id="use-ai-title" tabindex="-1">Read with AI.<br><em>For free.</em></h2>
         <p>Already use ChatGPT, Claude or another AI assistant? You can point it at the booklet and ask it to locate relevant chapters, explain passages, or compare ideas. There's no built-in chatbot and no account needed on this site.</p>
         <p>For tools that can't read our chapter reader, we've published a plain-text index and direct links to every chapter.</p>
         <div class="use-ai-links">
@@ -438,27 +468,29 @@ My question:
   </section>
 </main>
 <main class="reader hidden" id="reader-view">
-  <div class="sidebar-shade" id="sidebar-shade"></div>
-  <aside class="reader-sidebar" id="reader-sidebar" aria-label="Book chapters">
+  <div class="sidebar-shade" id="sidebar-shade" aria-hidden="true"></div>
+  <aside class="reader-sidebar" id="reader-sidebar" aria-label="Book chapters" tabindex="-1">
     <a class="sidebar-back" href="#home">← Back to the homepage</a>
     <label class="search-box sidebar-search">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg>
       <input type="search" id="sidebar-search" placeholder="Find a chapter…" aria-label="Find a chapter">
     </label>
+    <p id="sidebar-search-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
     <nav id="sidebar-chapters" aria-label="Chapter navigation"></nav>
   </aside>
   <div class="reader-main">
     <div class="reading-progress" aria-hidden="true"><div id="reading-progress-bar"></div></div>
     <div class="read-toolbar">
-      <button type="button" id="mobile-chapters" class="mobile-reader-nav" aria-expanded="false">☰ &nbsp; Chapters</button>
+      <button type="button" id="mobile-chapters" class="mobile-reader-nav" aria-controls="reader-sidebar" aria-expanded="false">☰ &nbsp; Chapters</button>
       <span class="toolbar-label">THE FIELD GUIDE / READER'S EDITION</span>
       <a href="#catalogue">All chapters ↗</a>
     </div>
     <article class="article-shell">
       <div class="article-meta"><span id="article-category"></span><span id="article-number"></span></div>
-      <h1 id="article-title"></h1>
+      <h1 id="article-title" tabindex="-1"></h1>
       <div class="article-divider"></div>
-      <div class="article-content" id="article-content" aria-live="polite">Loading chapter…</div>
+      <p class="sr-only" id="reader-announcement" role="status" aria-live="polite" aria-atomic="true"></p>
+      <div class="article-content" id="article-content">Loading chapter…</div>
       <div class="article-footnote">This is the author's original text. <a id="article-source" href="https://github.com/mikemayne/surviving-a-psyop">View source on GitHub ↗</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">CC0 1.0 Universal</a></div>
       <nav class="chapter-controls" id="chapter-controls" aria-label="Previous and next chapters"></nav>
     </article>
@@ -616,7 +648,7 @@ My question:
       if (!line.trim()) { flushPara(); return; }
       if (/^\s*(?:---+|\*\*\*+)\s*$/.test(line)) { flushPara(); closeList(); result.push("<hr>"); return; }
       var heading = line.match(/^\s*(#{1,4})\s+(.+)$/);
-      if (heading) { flushPara(); closeList(); var n = heading[1].length; result.push("<h" + n + ">" + inline(heading[2]) + "</h" + n + ">"); return; }
+      if (heading) { flushPara(); closeList(); var n = Math.min(6, heading[1].length + 1); result.push("<h" + n + ">" + inline(heading[2]) + "</h" + n + ">"); return; }
       var bullet = line.match(/^\s*[-*]\s+(.+)$/);
       var ordered = line.match(/^\s*\d+[.)]\s+(.+)$/);
       if (bullet || ordered) {
@@ -643,17 +675,55 @@ My question:
     }).join("");
     document.getElementById("chapter-catalogue").innerHTML = markup;
     document.getElementById("home-no-results").classList.toggle("hidden", found !== 0);
+    document.getElementById("home-search-status").textContent = q ? found + (found === 1 ? " chapter found." : " chapters found.") : "";
   }
   function makeSidebar(query) {
-    var q = (query || "").trim().toLowerCase();
+    var q = (query || "").trim().toLowerCase(), found = 0;
     document.getElementById("sidebar-chapters").innerHTML = GROUPS.map(function(group) {
       var items = chapters.filter(function(ch) { return ch.group === group.name && (!q || (ch.title + " " + ch.id.replace(/_/g," ")).toLowerCase().includes(q)); });
       if (!items.length) return "";
-      return '<div class="sidebar-group"><div class="sidebar-group-title">' + escapeHTML(group.name) + '</div>' +
+      found += items.length;
+      return '<div class="sidebar-group"><h2 class="sidebar-group-title">' + escapeHTML(group.name) + '</h2>' +
         items.map(function(ch) { return '<a href="' + href(ch) + '" class="sidebar-link' + (current === ch.id ? " active" : "") + '">' + escapeHTML(ch.title) + "</a>"; }).join("") + "</div>";
     }).join("");
+    document.getElementById("sidebar-search-status").textContent = q ? found + (found === 1 ? " chapter found." : " chapters found.") : "";
   }
-  function closeSidebar() { sidebar.classList.remove("open"); shade.classList.remove("visible"); mobile.setAttribute("aria-expanded","false"); }
+  function syncSidebarAccessibility() {
+    var smallScreen = window.matchMedia("(max-width: 680px)").matches;
+    var open = smallScreen && sidebar.classList.contains("open") && !reader.classList.contains("hidden");
+    sidebar.inert = smallScreen && !open;
+    document.querySelector(".reader-main").inert = open;
+    document.querySelector(".header").inert = open;
+    document.querySelector(".footer").inert = open;
+    document.getElementById("skip-link").inert = open;
+    if (smallScreen) {
+      sidebar.setAttribute("aria-hidden", open ? "false" : "true");
+      if (open) { sidebar.setAttribute("role", "dialog"); sidebar.setAttribute("aria-modal", "true"); }
+      else { sidebar.removeAttribute("role"); sidebar.removeAttribute("aria-modal"); }
+    } else {
+      sidebar.removeAttribute("aria-hidden");
+      sidebar.removeAttribute("role");
+      sidebar.removeAttribute("aria-modal");
+      sidebar.classList.remove("open");
+      shade.classList.remove("visible");
+      mobile.setAttribute("aria-expanded", "false");
+    }
+  }
+  function closeSidebar(restoreFocus) {
+    var wasOpen = sidebar.classList.contains("open");
+    sidebar.classList.remove("open");
+    shade.classList.remove("visible");
+    mobile.setAttribute("aria-expanded", "false");
+    syncSidebarAccessibility();
+    if (restoreFocus && wasOpen && !reader.classList.contains("hidden")) mobile.focus();
+  }
+  function openSidebar() {
+    sidebar.classList.add("open");
+    shade.classList.add("visible");
+    mobile.setAttribute("aria-expanded", "true");
+    syncSidebarAccessibility();
+    document.getElementById("sidebar-search").focus();
+  }
   function updateProgress() {
     if (reader.classList.contains("hidden")) return;
     var range = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
@@ -700,18 +770,25 @@ My question:
     if (current && cache[current]) addChapterGuidance(current);
   }).catch(function() { /* Chapter text remains available without metadata. */ });
 
-  function displayReader(id) {
+  var articleTitle = document.getElementById("article-title");
+  var articleContent = document.getElementById("article-content");
+  var readerAnnouncement = document.getElementById("reader-announcement");
+  var themeButton = document.getElementById("theme-toggle");
+  var mobileSiteNav = document.getElementById("mobile-site-nav");
+  function displayReader(id, focusHeading) {
     var ch = chapters.find(function(item) { return item.id === id; });
     if (!ch) { location.hash = "#catalogue"; return; }
     current = ch.id;
     home.classList.add("hidden");
     reader.classList.remove("hidden");
-    closeSidebar();
-    document.getElementById("article-title").textContent = ch.title;
+    closeSidebar(false);
+    articleTitle.textContent = ch.title;
     document.getElementById("article-category").textContent = ch.group;
     document.getElementById("article-number").textContent = String(ch.number).padStart(2,"0") + " / " + chapters.length;
     document.getElementById("article-source").href = repoRoot + "/blob/main/" + encodeURIComponent(ch.id) + ".txt";
-    document.getElementById("article-content").innerHTML = "<p>Loading chapter…</p>";
+    articleContent.innerHTML = "<p>Loading chapter…</p>";
+    articleContent.setAttribute("aria-busy", "true");
+    readerAnnouncement.textContent = "Loading chapter: " + ch.title;
     document.title = ch.title + " — How to Survive a Psyop";
     var sidebarSearch = document.getElementById("sidebar-search");
     sidebarSearch.value = "";
@@ -721,34 +798,55 @@ My question:
       '<div>' + (prev ? '<a href="' + href(prev) + '"><small>← Previous</small><strong>' + escapeHTML(prev.title) + '</strong></a>' : "") + '</div>' +
       '<div>' + (next ? '<a href="' + href(next) + '"><small>Next →</small><strong>' + escapeHTML(next.title) + '</strong></a>' : "") + '</div>';
     window.scrollTo(0,0);
+    if (focusHeading) articleTitle.focus({preventScroll:true});
     updateProgress();
-    if (cache[id]) { document.getElementById("article-content").innerHTML = cache[id]; addChapterGuidance(id); return; }
+    if (cache[id]) {
+      articleContent.innerHTML = cache[id];
+      addChapterGuidance(id);
+      articleContent.removeAttribute("aria-busy");
+      readerAnnouncement.textContent = "Chapter ready: " + ch.title;
+      return;
+    }
     fetch("./" + encodeURIComponent(id) + ".txt").then(function(response) {
       if (!response.ok) throw new Error("Chapter unavailable");
       return response.text();
     }).then(function(text) {
       cache[id] = renderText(text);
       if (current === id) {
-        document.getElementById("article-content").innerHTML = cache[id];
+        articleContent.innerHTML = cache[id];
         addChapterGuidance(id);
+        articleContent.removeAttribute("aria-busy");
+        readerAnnouncement.textContent = "Chapter ready: " + ch.title;
         updateProgress();
       }
     }).catch(function() {
-      if (current === id) document.getElementById("article-content").innerHTML =
-        '<p>This chapter could not be loaded. <a href="' + repoRoot + '/blob/main/' + encodeURIComponent(id) + '.txt">Read it on GitHub instead ↗</a></p>';
+      if (current === id) {
+        articleContent.innerHTML = '<p>This chapter could not be loaded. <a href="' + repoRoot + '/blob/main/' + encodeURIComponent(id) + '.txt">Read it on GitHub instead ↗</a></p>';
+        articleContent.removeAttribute("aria-busy");
+        readerAnnouncement.textContent = "This chapter could not be loaded.";
+      }
     });
   }
-  function route() {
+  function route(moveFocus) {
     var path = decodeURIComponent(location.hash.slice(1) || "home");
-    if (path.indexOf("read/") === 0) { displayReader(path.slice(5)); return; }
+    mobileSiteNav.open = false;
+    if (path.indexOf("read/") === 0) { displayReader(path.slice(5), moveFocus); return; }
+    var fromReader = !reader.classList.contains("hidden");
     current = null;
     reader.classList.add("hidden");
     home.classList.remove("hidden");
     document.title = "How to Survive a Psyop — An Open Field Guide";
-    closeSidebar();
+    closeSidebar(false);
     if (path === "catalogue" || path === "contribute" || path === "rules" || path === "use-ai") {
-      setTimeout(function() { document.getElementById(path).scrollIntoView({behavior:"smooth",block:"start"}); }, 0);
-    } else window.scrollTo(0,0);
+      setTimeout(function() {
+        var section = document.getElementById(path);
+        section.scrollIntoView({behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"});
+        if (moveFocus && fromReader) section.querySelector("h2").focus({preventScroll:true});
+      }, 0);
+    } else {
+      window.scrollTo(0,0);
+      if (moveFocus && fromReader) document.querySelector(".hero h1").focus({preventScroll:true});
+    }
   }
 
   function syncHomepageRules() {
@@ -789,16 +887,46 @@ My question:
   })();
   document.getElementById("home-search").addEventListener("input", function(e) { makeCatalogue(e.target.value); });
   document.getElementById("sidebar-search").addEventListener("input", function(e) { makeSidebar(e.target.value); });
-  mobile.addEventListener("click",function() {
-    var open = !sidebar.classList.contains("open");
-    sidebar.classList.toggle("open",open); shade.classList.toggle("visible",open); mobile.setAttribute("aria-expanded",open?"true":"false");
+  mobile.addEventListener("click", function() {
+    if (sidebar.classList.contains("open")) closeSidebar(true);
+    else openSidebar();
   });
-  shade.addEventListener("click",closeSidebar);
-  sidebar.addEventListener("click",function(e) { if (e.target.closest("a")) closeSidebar(); });
-  document.addEventListener("keydown",function(e) { if (e.key === "Escape") closeSidebar(); });
-  document.getElementById("theme-toggle").addEventListener("click",function() {
+  shade.addEventListener("click", function() { closeSidebar(true); });
+  sidebar.addEventListener("click", function(e) {
+    if (e.target.closest("a")) {
+      closeSidebar(false);
+      if (e.target.closest("a").getAttribute("href") === location.hash) articleTitle.focus({preventScroll:true});
+    }
+  });
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") {
+      if (sidebar.classList.contains("open")) { e.preventDefault(); closeSidebar(true); }
+      if (mobileSiteNav.open) mobileSiteNav.open = false;
+    }
+    if (e.key === "Tab" && sidebar.classList.contains("open")) {
+      var focusable = Array.from(sidebar.querySelectorAll('a[href], input:not([disabled]), button:not([disabled])'));
+      if (!focusable.length) { e.preventDefault(); sidebar.focus(); return; }
+      var first = focusable[0], last = focusable[focusable.length - 1];
+      if (e.shiftKey && (document.activeElement === first || document.activeElement === sidebar)) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  });
+  mobileSiteNav.addEventListener("click", function(e) { if (e.target.closest("a")) mobileSiteNav.open = false; });
+  document.getElementById("skip-link").addEventListener("click", function(e) {
+    e.preventDefault();
+    var target = reader.classList.contains("hidden") ? document.querySelector(".hero h1") : articleTitle;
+    target.focus();
+    target.scrollIntoView({block:"start"});
+  });
+  function syncThemeButton() {
+    var dark = document.documentElement.dataset.theme === "dark";
+    themeButton.setAttribute("aria-pressed", dark ? "true" : "false");
+    themeButton.setAttribute("aria-label", dark ? "Dark mode is on" : "Dark mode is off");
+  }
+  themeButton.addEventListener("click",function() {
     var dark = document.documentElement.dataset.theme !== "dark";
     document.documentElement.dataset.theme = dark ? "dark" : "light";
+    syncThemeButton();
     try { localStorage.setItem("fieldguide-theme", dark ? "dark" : "light"); } catch (e) {}
   });
   try {
@@ -824,11 +952,13 @@ My question:
     window.addEventListener("resize", sizeCover);
     sizeCover();
   })();
-  window.addEventListener("hashchange",route);
+  syncThemeButton();
+  window.addEventListener("hashchange", function() { route(true); });
   window.addEventListener("scroll",updateProgress,{passive:true});
-  window.addEventListener("resize",updateProgress);
+  window.addEventListener("resize", function() { updateProgress(); syncSidebarAccessibility(); });
   makeCatalogue("");
-  route();
+  route(false);
+  syncSidebarAccessibility();
 })();
 </script>
 </body>
