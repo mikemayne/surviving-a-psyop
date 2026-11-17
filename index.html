@@ -327,7 +327,7 @@
   <section class="rules" id="rules" aria-labelledby="rules-title">
     <div class="wrap">
       <div class="rules-heading">
-        <div><p class="eyebrow"><span class="mark">✳</span> Start here</p><h2 id="rules-title">Four rules to remember<span style="color:var(--orange)">.</span></h2></div>
+        <div><p class="eyebrow"><span class="mark">✳</span> Start here</p><h2 id="rules-title">Four rules to survive<span style="color:var(--orange)">:</span></h2></div>
         <div class="rules-intro"><a class="btn btn-primary" href="./topics/ready_to_report.html">Ready to report? <span aria-hidden="true">↗</span></a></div>
       </div>
       <div class="rules-grid">
@@ -741,7 +741,7 @@ My question:
       if (matches.length !== 4) return;
       matches.forEach(function(match) {
         var target = document.getElementById("rule-text-" + match[1]);
-        if (target) target.textContent = match[2].trim();
+        if (target) target.innerHTML = inline(match[2].trim());
       });
     }).catch(function() { /* Keep the original printed text as a fallback. */ });
   }
