@@ -1,0 +1,59 @@
+# How to collaborate
+
+This is an open project. If you've experienced an upsetting, confusing or manipulative interaction, you may have a useful perspective to contribute. You don't have to know why something happened, or who was responsible, to describe what you observed and what helped you respond.
+
+You can write your own version of this guide, suggest a correction, or offer a new section. **Sharing is entirely optional.** There is no obligation to disclose personal experiences.
+
+## 1. Start with a more private conversation
+
+You can use [ChatGPT](https://chatgpt.com/) to organise your thoughts and draft an account. Start a new **Temporary Chat** rather than a normal saved conversation. Temporary chats stay out of your chat history and aren't used to improve OpenAI's models while temporary, although a copy may be kept for up to 30 days for safety purposes. Temporary Chat is **not** an anonymous or confidential reporting service.
+
+If you want ChatGPT to work directly with GitHub in the same conversation, select **Personalized** when starting Temporary Chat; **Unpersonalized** does not use connected plugins. If you would rather not connect an account, you can simply ask ChatGPT to produce text and upload it yourself.
+
+Even in Temporary Chat, avoid entering names or sensitive details that aren't necessary. You can replace them with neutral descriptions before telling your story.
+
+## 2. Create a GitHub account and fork the guide
+
+Create a free account at [github.com](https://github.com/) if you don't have one. Consider a username that doesn't identify you, and enable GitHub's private-email setting if privacy matters.
+
+Visit [the source repository](https://github.com/mikemayne/surviving-a-psyop) and select **Fork** to create your own copy. The chapters are plain text files, so you don't need to learn a programming language to contribute.
+
+In ChatGPT, go to **Settings > Plugins**, find GitHub, connect your account if the plugin is available to you, and review the permissions you are granting. Ask ChatGPT to work on **your fork**, not the original repository. A connected plugin can help read the existing chapters, prepare a new file and make changes you approve.
+
+**Important:** This is a public repository. Your public fork, commit history, GitHub username and any pull request can be viewed by other people. A pseudonym or private email setting does not guarantee anonymity. You can do all the writing without forking or publishing anything.
+
+## 3. Describe your experience in your own words
+
+Tell ChatGPT what you directly saw, heard or experienced; enough context to make the event understandable; how it affected you; and what you did in response. Distinguish what you observed from any interpretation or suspicion about its cause. It's fine to be uncertain.
+
+Then ask ChatGPT to turn the experience into a **general, self-contained section in the style of this guide**: explain a possible pattern of manipulation or pressure, give a short illustrative example, and suggest calm, practical responses. The aim is to describe a recognisable situation, not to make accusations about particular people.
+
+For example, you can use this prompt:
+
+> Read the existing sections of this guide for their style and length. Based on the experience I describe, write a new plain-text section describing the general pattern and practical ways to respond. Separate direct observations from interpretations. Do not invent events, identities, intentions or explanations. Replace names, locations, dates, unique quotations and other identifying details with broad descriptions. Show me the draft for review, and do not publish or upload anything without my approval.
+
+## 4. Remove identifying information — then check again
+
+Ask ChatGPT to review the draft specifically for information that might identify **you or someone else**. Check names, usernames, workplaces, schools, exact dates and places, distinctive personal relationships, unusual wording, links, photographs, documents, and details that could identify someone when combined.
+
+Don't assume that replacing names is enough: a distinctive incident can reveal identities even without names. Review the final text yourself, and consider asking a trusted person to check it independently. AI can miss clues, so complete anonymity cannot be guaranteed. Don't upload raw evidence, private records or identifiable material to a public repository.
+
+Keep the description fair: present events as observations or personal recollections, not established facts about another person's motives, and avoid naming or accusing identifiable individuals. If you have material relevant to an official investigation, consider appropriate professional advice before publishing it.
+
+## 5. Decide whether and how to share
+
+If you're comfortable publishing, ask ChatGPT to create a new `.txt` file in your GitHub fork, using the existing chapter format. **Inspect the exact file and commit before approving the upload.**
+
+You then have several choices:
+
+- **Suggest it for this guide:** open a **pull request** from your fork to the original repository, explaining that you're offering a new section. A pull request is public and may be reviewed, discussed, edited or declined.
+- **Publish your own version:** keep your fork and share its link if you wish. You can adapt the guide to your own priorities.
+- **Keep it to yourself:** save the draft locally, share it privately with someone you trust, or do nothing. You don't need to publish to make the writing worthwhile.
+
+Check the final publication view, filename, Git commit author details, and any discussion text for identifying information. Changes can remain visible in Git history and external archives even if you later delete them.
+
+Contributions offered for inclusion in this repository should be available under its [CC0 1.0 Universal dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+
+**The central principle:** retain control over your account. Use AI to help you write clearly, protect other people's privacy as carefully as your own, and share only what you freely choose to share.
+
+For more information: [ChatGPT Temporary Chat](https://help.openai.com/en/articles/8914046-temporary-chat-in-chatgpt) and [GitHub's guide to forking a repository](https://docs.github.com/en/get-started/start-your-journey/fork-a-repo).
