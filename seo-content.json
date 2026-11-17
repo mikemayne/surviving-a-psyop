@@ -611,6 +611,18 @@
       "bodily_functions"
     ]
   },
+  "humiliation_rituals": {
+    "intro": "Describes coercive demands to perform or endure degrading acts as conditions of acceptance or assistance, and how to protect dignity and set boundaries.",
+    "questions": [
+      "How can I distinguish a necessary uncomfortable request from an unnecessary humiliation ritual?",
+      "What is a safe, proportionate response to a degrading demand from someone in authority?"
+    ],
+    "related": [
+      "body_shaming",
+      "bodily_functions",
+      "public_shaming"
+    ]
+  },
   "bodily_functions": {
     "intro": "Explores the embarrassment that can arise when ordinary bodily functions are treated as shameful or suspicious.",
     "questions": [
