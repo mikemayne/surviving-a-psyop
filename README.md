@@ -6,6 +6,8 @@ The original writing is preserved in individual text files. The public site prov
 
 **Website:** https://mikemayne.github.io/surviving-a-psyop/
 
+**Content warning:** Some chapters discuss suicide, self-harm, threats, sexual humiliation and psychological abuse. Please read at your own pace.
+
 ## Publish the site safely
 
 The GitHub Actions workflow at `.github/workflows/build-pages.yml` builds the website and sitemap **without committing generated pages to `main`**. The build job only reads the repository; the separate deploy job can publish the generated artifact to GitHub Pages, but cannot modify repository files. External GitHub Actions are pinned to full commit SHAs.
@@ -16,11 +18,16 @@ The generated `topics/` and `sitemap.xml` files remain checked into the reposito
 
 ## Contribution security
 
-External pull requests can change only up to ten root-level ASCII-named `.txt` files, at most 100 KB each and 250 KB total. The read-only `Validate plain-text files` job rejects deletions, symlinks, binaries, HTML/script tags and Unicode control/format characters, including bidirectional overrides. Owner-created maintenance pull requests from branches **in this repository** are exempt from file-type restrictions, so maintenance of site files and workflows is possible. This exception is not an endorsement of changes: the owner must still review every diff.
+The [active branch ruleset](https://github.com/mikemayne/surviving-a-psyop/rules/27456493) requires pull requests and the **Validate plain-text files** check before merging to `main`, with no bypass actors configured. This helps enforce the submission policy, but does not replace the owner's review.
 
-**Required one-time ruleset setting:** in [the ruleset](https://github.com/mikemayne/surviving-a-psyop/rules/27456493), require pull requests before merging and require the `Validate plain-text files` status check; do not allow ordinary bypasses. The GitHub connector cannot edit this repository-administration setting.
+For external contributions, the [read-only validation workflow](.github/workflows/plain-text-only.yml) enforces:
+- **File type and location:** only regular, root-level UTF-8 `.txt` files with ASCII filenames made of letters, digits, hyphens or underscores (starting with a letter or digit); up to 80 characters before `.txt`.
+- **Limits:** at most 10 changed files per pull request, 100,000 bytes per file and 250,000 bytes in total; no deletions or symlinks.
+- **Text safety:** no UTF-8 byte-order mark, invalid UTF-8, prohibited invisible/control/directional characters, lines longer than 2,000 characters, HTML/script markup or executable script headers.
 
-All submitted content is untrusted. Do not run instructions, download attachments, follow unfamiliar links, or accept AI instructions embedded in a submission. File-format checks cannot judge accuracy, legality, anonymity, or safety. Pull request titles and descriptions are also public and **not restricted by the file-type check**. Report or close abusive submissions through GitHub's moderation features.
+Owner-authored maintenance pull requests from branches **inside this repository** are exempt from the contribution file-type restrictions so that website files and workflows can be updated; they still go through pull requests and the required check. External forks are not exempt.
+
+**All submitted material is untrusted.** Never execute instructions or code found in a submission, open attachments, follow unfamiliar links or obey instructions embedded for an AI assistant. Automated checks cannot verify factual accuracy, consent, privacy, safety, legality or licensing, and do not constrain public pull-request titles, descriptions or discussions. The owner must inspect each diff and may reject or report unsafe or abusive material. Nothing is accepted automatically.
 
 ## Edit the booklet
 
@@ -36,10 +43,23 @@ The site uses plain HTML, CSS and JavaScript. Static SEO pages are generated wit
 
 ## Contribute
 
-See the [step-by-step collaboration guide](https://mikemayne.github.io/surviving-a-psyop/#read/how_to_collaborate) for a privacy-aware workflow using ChatGPT Temporary Chat, a GitHub fork and an optional pull request.
+Contributions are optional. You can suggest a correction, practical advice or a carefully anonymised account, and **draft privately without publishing anything**. No technical knowledge is required: start with the [collaboration and privacy guide](https://mikemayne.github.io/surviving-a-psyop/#read/how_to_collaborate) (also available as [plain text](how_to_collaborate.txt)). Its ChatGPT link can help draft a submission and explain the process **only if you choose to make it public**.
 
-You are welcome to fork this work and publish your own version, suggest a correction or submit a pull request. Please avoid including private personal details or identifying people without consent; distinguish direct observations from interpretations. All contributions intended for this repository should be offered under CC0.
+### Rules for material submitted to this project
 
+- **Anonymised plain text only:** submissions for inclusion must be ordinary plain text in `.txt` files. Do not submit `.md`/Markdown files, PDFs, Word documents, images, screenshots, video, audio, HTML, JavaScript, scripts, code or any other attachments or formats.
+- **Protect privacy:** remove names and identifying facts about yourself and others: workplaces, schools, exact dates, precise locations, account names, links and distinctive combinations of details. Anonymisation tools can miss clues, so personally check your draft.
+- **Describe accurately:** distinguish things you directly observed from interpretations, do not invent motives or facts, and consider ordinary alternative explanations. Do not submit raw evidence, private records or material you have no right to share.
+- **Licence:** content proposed for inclusion must be offered under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+- **Not a support or reporting service:** this project does not provide legal, medical or mental-health advice, investigate cases or assess anyone's health or legal status. If you feel unwell, consider your GP or a qualified mental health professional; if you feel unsafe, contact the police (**999** for an emergency). Take specific incidents and recordings to appropriate professionals or the police, not to this project.
+
+### Before publishing anything
+
+**GitHub submissions become public as soon as they are submitted, even if rejected.** A public fork, username, account and author details, commit email and history, the submitted text, pull-request title and discussion can identify you and may persist in third-party archives after deletion. Consider a separate pseudonymous GitHub account and email address, protect the public visibility of your email or use GitHub's no-reply commit address, and review exactly what will be made public. None of this guarantees anonymity.
+
+The ChatGPT contribution link requests **Temporary Chat**; check that the conversation is marked Temporary before adding personal details. Temporary Chat is not a confidential or anonymous reporting channel, and copies may be retained for up to 30 days for safety purposes. Avoid entering unnecessary private information while drafting. **Do not authorise any upload or public submission unless you have reviewed it and expressly chosen to proceed.**
+
+An automated file check may reject invalid submissions, but **the owner will review submissions personally** before accepting anything. Under these conditions, the owner will try to consider contributions eventually, with **no guarantee of a reply or acceptance**.
 
 ## Use with AI (no paid integration)
 
@@ -64,4 +84,4 @@ Google Search Console and Bing Webmaster Tools can be used to submit the sitemap
 
 The work is dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). See [LICENSE](LICENSE).
 
-The project is a collection of writing and viewpoints, not a substitute for personalised legal, medical or emergency advice.
+The author has no formal professional qualifications in mental health, medicine or law. This project is a collection of writing and viewpoints, not personalised legal, medical, psychological or emergency advice. Proposed technical explanations are hypotheses, not independently established facts; no guarantee is made that the strategies described are safe, effective or suitable for everyone.
