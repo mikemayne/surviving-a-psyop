@@ -50,8 +50,8 @@ const structuredData = JSON.stringify({
 }).replace(/</g, () => String.fromCharCode(92) + 'u003c');
 html = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/,
   '<script type="application/ld+json">' + structuredData + '</script>');
-html = html.replace(/<h1>How to survive a <em>psyop\.<\/em><\/h1>/,
-  '<h1>' + (site.heroHeading === 'How to survive a psyop.'
+html = html.replace(/(<h1(?:\s[^>]*)?>)How to survive a <em>psyop\.<\/em><\/h1>/,
+  (_match, headingOpen) => headingOpen + (site.heroHeading === 'How to survive a psyop.'
     ? 'How to survive a <em>psyop.</em>' : escapeHTML(site.heroHeading)) + '</h1>');
 html = html.replace(/(<p class="hero-lead">)[\s\S]*?(<\/p>)/,
   (_match, start, end) => start + escapeHTML(site.heroLead) + end);
