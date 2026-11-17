@@ -65,6 +65,7 @@ Patterns of pressure, interpretation and social influence.
 - [Loaded moral accusations](https://mikemayne.github.io/surviving-a-psyop/moral_accusations.txt)
 - [Moral blackmail](https://mikemayne.github.io/surviving-a-psyop/moral_blackmail.txt)
 - [The interpretation trick](https://mikemayne.github.io/surviving-a-psyop/interpretation_trick.txt)
+- [Retrospective Reinterpretation of Behaviour](https://mikemayne.github.io/surviving-a-psyop/retrospective_reinterpretation_of_behaviour.txt)
 - [Covert communication](https://mikemayne.github.io/surviving-a-psyop/talking.txt)
 - [The service shield](https://mikemayne.github.io/surviving-a-psyop/service_shield.txt)
 - [The guilty always run](https://mikemayne.github.io/surviving-a-psyop/the_guity_always_run.txt)
