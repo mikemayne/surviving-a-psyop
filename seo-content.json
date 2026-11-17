@@ -671,6 +671,18 @@
       "take_back_control"
     ]
   },
+  "cumulative_psychological_pressure": {
+    "intro": "Explains how repeated stressful experiences can accumulate into exhaustion and vigilance even when they have different causes, with practical ways to recover attention.",
+    "questions": [
+      "How can repeated minor disruptions affect sleep, concentration and everyday functioning?",
+      "What can I do to reduce cumulative stress without analysing every unclear incident?"
+    ],
+    "related": [
+      "sleep_deprivation",
+      "stay_grounded",
+      "take_back_control"
+    ]
+  },
   "sleep_deprivation": {
     "intro": "Examines how inadequate sleep can affect attention, judgement and responses to stressful interactions.",
     "questions": [
