@@ -741,7 +741,7 @@ My question:
       if (matches.length !== 4) return;
       matches.forEach(function(match) {
         var target = document.getElementById("rule-text-" + match[1]);
-        if (target) target.textContent = match[2].trim();
+        if (target) target.innerHTML = inline(match[2].trim());
       });
     }).catch(function() { /* Keep the original printed text as a fallback. */ });
   }
