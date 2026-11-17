@@ -599,6 +599,18 @@
       "internal_monologue_trick"
     ]
   },
+  "predicting_bodily_movements": {
+    "intro": "Explores how a remark apparently anticipating an ordinary movement can be paired with an accusation, and offers practical advice about disengagement and webcam privacy.",
+    "questions": [
+      "Can subtle movement cues help predict a person's next movement?",
+      "How can I respond to a disturbing remark that seems timed to an ordinary movement?"
+    ],
+    "related": [
+      "narrating_trick",
+      "bodily_functions",
+      "personal_security_notes"
+    ]
+  },
   "source_identification_trick": {
     "intro": "Discusses how suggestions about who a statement concerns can influence interpretation and memory.",
     "questions": [
