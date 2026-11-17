@@ -1,0 +1,23 @@
+# Claiming Control Over Predictable Events
+
+### The technique
+
+Someone takes advantage of an event that occurs on a predictable schedule and claims responsibility for making it happen.
+
+For example, a television has an automatic shut-off timer set to 30 minutes. Someone who knows this announces, just before the timer expires, that they're going to turn the television off. When it switches off automatically, they claim to have caused it.
+
+The same approach could exploit scheduled software updates, automatic lighting, recurring notifications, machinery operating on timers, or other predictable events.
+
+### How it works
+
+The trick is to make **knowledge of when something will happen appear to be the ability to make it happen**.
+
+Accurately timed statements can create an impression of control, particularly if repeated successes are emphasised while unsuccessful predictions are ignored.
+
+No unusual technology or special access is required. The person making the claim only needs to know or anticipate when an ordinary event will occur.
+
+### How to respond
+
+**Prediction is not control.** Consider whether an event has a routine explanation, such as a timer, automatic function or regular schedule.
+
+If appropriate, check the relevant settings or schedule. There is no need to repeatedly test every event or engage with claims of control. Recognise that knowing when something will happen is not evidence of causing it.
