@@ -38,6 +38,12 @@ html = replaceMeta(html, 'name', 'description', site.description);
 html = replaceMeta(html, 'property', 'og:title', site.title);
 html = replaceMeta(html, 'property', 'og:description', site.description);
 html = replaceMeta(html, 'property', 'og:url', site.siteUrl);
+const safeJsString = (value) => JSON.stringify(value).replace(/</g, () => String.fromCharCode(92) + 'u003c');
+html = html.replace(/document\.title = ch\.title \+ "[^"]*";/,
+  'document.title = ch.title + " — " + ' + safeJsString(site.title) + ';');
+html = html.replace(/document\.title = "[^"]*";/,
+  'document.title = ' + safeJsString(site.title + ' — ' + site.tagline) + ';');
+
 const structuredData = JSON.stringify({
   '@context': 'https://schema.org', '@type': 'WebSite',
   name: site.title, url: site.siteUrl, description: site.description
