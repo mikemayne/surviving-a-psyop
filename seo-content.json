@@ -155,6 +155,18 @@
       "dont_tolerate_mistreatment"
     ]
   },
+  "obstruction_of_communication": {
+    "intro": "Explains how unjustified interference with calls, messages or correspondence can isolate someone from independent support, and how to respond proportionately.",
+    "questions": [
+      "When does a restriction on communication become unreasonable or coercive?",
+      "How can I seek independent advice if a call or message is being obstructed?"
+    ],
+    "related": [
+      "false_assistance",
+      "dont_tolerate_mistreatment",
+      "legal_intimidation"
+    ]
+  },
   "negging_psychological_manipulation": {
     "intro": "Explains belittling remarks and backhanded compliments as forms of social pressure.",
     "questions": [
