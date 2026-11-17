@@ -251,6 +251,18 @@
       "dont_chase"
     ]
   },
+  "claiming_control_over_predictable_events": {
+    "intro": "Explains how knowing the timing of an automatic or regularly scheduled event can be mistaken for having caused it.",
+    "questions": [
+      "How can a person appear to control an event simply by knowing its schedule?",
+      "What routine explanations should I consider for an accurately timed prediction?"
+    ],
+    "related": [
+      "claiming_influence",
+      "interpretation_trick",
+      "stay_grounded"
+    ]
+  },
   "reputation_to_live_up_to": {
     "intro": "Explains how assigning someone a flattering identity can influence behaviour, and how exaggerated praise may encourage unrealistic beliefs about their abilities.",
     "questions": [
