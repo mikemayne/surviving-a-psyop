@@ -623,6 +623,18 @@
       "take_back_control"
     ]
   },
+  "dream_manipulation": {
+    "intro": "Explains how sounds incorporated into dreams, cold reading and post-waking suggestibility can create the impression that dreams are being influenced or observed, without establishing dream control.",
+    "questions": [
+      "Can spoken sounds heard during sleep influence dream content?",
+      "How might cold reading or suggestibility after waking make someone seem to know what I dreamed?"
+    ],
+    "related": [
+      "cold_reading",
+      "sleep_discipline",
+      "mind_reading_trick"
+    ]
+  },
   "cold_reading": {
     "intro": "Introduces cold reading and the role of broad statements, observation and selective feedback.",
     "questions": [
