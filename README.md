@@ -25,6 +25,8 @@ The site uses plain HTML, CSS and JavaScript. No build tools, packages or third-
 
 ## Contribute
 
+See the [step-by-step collaboration guide](https://mikemayne.github.io/surviving-a-psyop/#read/how_to_collaborate) for a privacy-aware workflow using ChatGPT Temporary Chat, a GitHub fork and an optional pull request.
+
 You are welcome to fork this work and publish your own version, suggest a correction or submit a pull request. Please avoid including private personal details or identifying people without consent; distinguish direct observations from interpretations. All contributions intended for this repository should be offered under CC0.
 
 
