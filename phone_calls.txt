@@ -18,8 +18,7 @@ Scammers and impersonators can exploit this trust to obtain information, make th
 
 A particularly effective technique is to manufacture urgency, making the recipient feel they must respond immediately rather than independently verifying the caller.
 
-### PRACTICAL RESPONSE
-
+### Further considerations
 **You are under no obligation to answer calls from strangers.** If you do not recognise a number, it is perfectly reasonable to ignore the call and allow the person to leave a voicemail. Bear in mind that legitimate organisations sometimes call from withheld or unfamiliar numbers.
 
 When I answer an unexpected call, I prefer to let the other person speak first rather than immediately identifying myself. This is a simple way to establish why they are calling without volunteering information. However, a natural-sounding conversation is not proof that the caller is human or that their identity is genuine.
@@ -39,3 +38,15 @@ Avoid engaging with suspicious callers simply to establish who they are or what 
 You do not need to answer every call, identify every unknown caller or confront people who behave suspiciously.
 
 If a call seems important, verify it through ordinary channels. Otherwise, ignore it and get on with your day.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**
