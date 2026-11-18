@@ -107,6 +107,14 @@ The model could continuously update its estimates of which people, topics and as
 
 Rather than accurately reconstructing private thoughts, the system would be predicting likely associations and occasionally influencing them through its own statements.
 
+## Object-description prediction and priming
+
+The same idea could apply to the names someone might give objects. Imagine someone strokes their beard and another person asks, "Did he just call that his Marx beard?"
+
+A personalised LLM with years of the person's speech, jokes and invented descriptions, plus their film and YouTube viewing history, could generate plausible names. The gesture identifies the object; the model suggests an association. It need not have seen the exact name before.
+
+Like "That was for Sarah", the question could both make a prediction and introduce an association. If the phrase was already in the person's thoughts, the remark might feel accurate. If not, hearing it might bring that phrase to mind. The gesture itself does not reveal an unspoken description, and predicting an exact invented name is considerably harder than suggesting a plausible one.
+
 ## Multimodal Sensor Fusion and Real-Time Feedback
 
 The hypothetical system could combine real-time data from every available source to improve its predictions, including microphones, cameras, information obtained from compromised phones, Wi-Fi sensing, mmWave radar and historical information about the individual.
