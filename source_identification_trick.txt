@@ -12,3 +12,14 @@ The psychological mechanism involves **priming, suggestion and source-monitoring
 
 In combination, the two techniques can simulate knowledge of both what somebody is thinking and whom they are thinking about. The technical operations are simply generating plausible language and predicting a likely referent. Where speech is entirely internal and no behavioural information is available, the prediction must rely on contextual probabilities rather than direct observation of the thought.
 
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**

@@ -15,3 +15,15 @@ You are welcome to suggest a correction, practical advice or an anonymised accou
 [Contribute with ChatGPT — no technical knowledge needed](https://chatgpt.com/?temporary-chat=true&q=I%20want%20to%20contribute%20to%20the%20open%20book%20at%20https%3A%2F%2Fgithub.com%2Fmikemayne%2Fsurviving-a-psyop.%20Guide%20me%20in%20ordinary%20language%2C%20one%20question%20at%20a%20time%2C%20without%20assuming%20I%20know%20anything%20about%20GitHub.%20First%20ask%20what%20anonymised%20practical%20advice%2C%20correction%20or%20experience%20I%20want%20to%20suggest.%20Help%20me%20create%20a%20short%20general-purpose%20plain-text%20.txt%20contribution%20in%20the%20style%20of%20the%20book.%20Never%20invent%20facts%20or%20motives%3B%20separate%20direct%20observations%20from%20interpretations%20and%20consider%20ordinary%20explanations.%20Remove%20details%20that%20could%20identify%20anyone.%20Do%20not%20ask%20me%20for%20sensitive%20records%2C%20images%20or%20recordings%3B%20the%20author%20cannot%20provide%20health%20or%20legal%20help%20or%20assess%20anyone's%20health%20or%20legal%20status.%20Let%20me%20review%20and%20revise%20the%20draft%20privately%20without%20creating%20an%20account.%20Only%20if%20I%20explicitly%20choose%20to%20submit%2C%20explain%20that%20public%20GitHub%20forks%2C%20usernames%2C%20account%20and%20commit%20details%2C%20file%20history%20and%20discussions%20could%20identify%20me%20and%20persist%20even%20if%20rejected.%20Help%20me%20protect%20my%20privacy%2C%20prepare%20only%20an%20anonymised%20.txt%20file%2C%20and%20review%20the%20exact%20public%20material%20before%20asking%20my%20explicit%20permission%20for%20every%20upload%20or%20submission.%20If%20GitHub%20actions%20are%20unavailable%2C%20guide%20me%20through%20the%20necessary%20clicks%2C%20one%20at%20a%20time.%20Do%20not%20publish%20without%20my%20consent.%20Begin%20by%20asking%20what%20I%20want%20to%20contribute.)
 
 ChatGPT will ask what you want to contribute and help you draft it first. It should only discuss account setup or publication if you choose to proceed. Depending on your version of ChatGPT, the link may fill in or send the suggested prompt automatically; if it doesn't work, you can ask ChatGPT to help you contribute to this book directly.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**
