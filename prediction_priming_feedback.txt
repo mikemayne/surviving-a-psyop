@@ -1,0 +1,66 @@
+# Prediction-Priming Feedback: The Illusion of Mind Reading
+
+## The proposed technique
+
+An apparently accurate comment about what somebody is thinking does not have to reproduce their inner monologue word for word. Identifying a relevant person, subject, concern or emotional theme might be enough to feel uncanny.
+
+This chapter explores a hypothetical feedback effect: a prediction about a person's thoughts is spoken aloud, and the statement itself may influence which thoughts become accessible next. Repeating that process could create an impression of mind reading even when the initial guesses are often wrong. This is a proposed combination of known psychological effects, not an established mind-reading system.
+
+## How it might work
+
+**Predicting a likely association.** Previous conversations, relationships, recent activities and conversational context can help a model estimate which subjects a person may discuss next. A tentative estimate of emotion might help rank associated people or memories, but expressions and voice do not reliably reveal exact feelings or thoughts. Even years of recorded speech would be a history of what was said, not a transcript of private thought.
+
+**Matching the statement to uncertainty.** A confident prediction could be expressed narrowly; a less confident prediction could be framed as a broad topic or relationship. A broad statement has more ways to seem relevant. The numerical confidence produced by a language model would not automatically be a calibrated probability of a private thought.
+
+**Priming the next association.** Saying a person's name or mentioning a subject can make related ideas more accessible. If a guess was initially wrong, it might still influence what comes to mind afterwards. The statement has not corrected the original guess; it has potentially changed the subsequent state being predicted. Priming is not automatic, permanent or precise.
+
+**Possible source confusion.** A recently heard phrase or idea may feel familiar, and people can sometimes misremember whether information was heard or internally generated. That does not mean a listener will ordinarily mistake suggestions for their own thoughts.
+
+**Selective memory and reinforcement.** An unusually close match may stand out more than an ordinary miss. Repeated apparent successes could increase belief in the claimed ability, particularly if broad or ambiguous statements are interpreted generously. But failures can also be memorable, and continued repetition can reduce credibility rather than strengthen it.
+
+## Why an approximate match can feel extraordinary
+
+Imagine somebody has been discussing a difficult meeting with a manager. A remark such as "You're worried about what your manager thinks" may capture the meaning of a concern without matching any exact words. It could seem impressively specific even though the inference follows from ordinary context.
+
+Now imagine the speaker says "That was about Sarah" when the listener had somebody else in mind. Hearing Sarah's name might bring her to mind anyway. If the listener later recalls the association but not its timing, the remark could seem more accurate than it originally was.
+
+These examples illustrate different processes: a genuine contextual guess, an association introduced by a remark, and possible confusion about the source or timing of a thought. They should not be counted as the same kind of prediction success.
+
+## The feedback problem
+
+A system that makes a suggestion and then observes a response may inadvertently learn from behaviour that its own suggestion helped produce. The next prediction could therefore appear better informed without the system having independently identified the person's original thoughts.
+
+The proposed cycle is:
+
+Contextual information → prediction → spoken statement → possible priming → observable response → updated prediction.
+
+The central distinction is between **prediction accuracy measured before a statement** and **apparent accuracy judged after a statement**. Without that distinction, a demonstration can look stronger than it is.
+
+## What the research supports
+
+- **Cold reading and subjective validation:** Broad, personalised-seeming statements can create an impression of special insight. See *The Cold Reading Technique* (1988): https://pubmed.ncbi.nlm.nih.gov/3360083/
+- **Semantic priming and associative memory:** Related words and concepts can influence subsequent processing; this is not the same as reliably determining a person's next spontaneous thought. See the review of semantic similarity and false memory: https://pmc.ncbi.nlm.nih.gov/articles/PMC8200635/
+- **Source monitoring:** People sometimes make errors when judging where remembered information originated. See *Source Monitoring and Memory Distortion*: https://pmc.ncbi.nlm.nih.gov/articles/PMC1692093/
+- **Cold-reading strategies:** Different forms of guessing, prior knowledge and feedback can contribute to apparent accuracy. See *An Overview of Cold Reading Strategies*: https://nectar.northampton.ac.uk/id/eprint/5965/
+
+## Research gap
+
+The main open question is whether combining personalised predictions, uncertainty-dependent wording, repeated priming, source-monitoring errors and selective recall produces a sustained increase in the *perceived* accuracy of thought predictions. The individual mechanisms have research behind them; this complete proposed feedback loop has not been demonstrated here.
+
+A controlled, consent-based study could compare real prediction accuracy with participants' retrospective impressions, while distinguishing guesses made before a prompt from thoughts reported after it.
+
+## Further considerations
+
+An unusually relevant remark does not, by itself, identify how the speaker obtained the information or show that a deliberate technique was used. Coincidence, shared context, ordinary inference and memory can all matter. Avoid turning an impression into a conclusion about who was responsible or what technology was involved.
+
+If a remark is upsetting, it is enough to record the words and their circumstances, if convenient. There is no need to test a claimed mind-reading ability or reconstruct every passing thought.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't react, you don't give them anything to work with.**
