@@ -65,7 +65,7 @@ for(let i=0;i<chapters.length;i++){
   const q='<section><h2>Questions this chapter explores</h2><ul>'+m.questions.map(s=>'<li>'+esc(s)+'</li>').join('')+'</ul></section>';
   const related='<section><h2>Related reading</h2><ul>'+m.related.map(id=>{if(!titles[id])throw Error('Unknown related chapter '+id);return '<li><a href="./'+id+'.html">'+esc(titles[id])+'</a></li>'}).join('')+'</ul></section>';
   const nav='<div class="chapter-nav">'+(prev?'<a href="./'+prev.id+'.html">← '+esc(prev.title)+'</a>':'<span></span>')+(next?'<a href="./'+next.id+'.html">'+esc(next.title)+' →</a>':'<span></span>')+'</div>';
-  const body='<main id="main-content" tabindex="-1"><p class="eyebrow">'+esc(c.category)+'</p><h1>'+esc(c.title)+'</h1>'+
+  const body='<main id="main-content" tabindex="-1">'+(c.category === 'Begin here' ? '' : '<p class="eyebrow">'+esc(c.category)+'</p>')+'<h1>'+esc(c.title)+'</h1>'+
     '<p class="intro">From <a href="../">'+esc(site.title)+'</a> — start with the <a href="../#rules">four rules</a>.</p>'+
     '<p class="intro">'+esc(m.intro)+'</p><article>'+chapterHTML(text)+q+'</article>'+related+nav+
     '<footer><a href="./index.html">All chapters</a> · <a href="../#read/'+c.id+'">Interactive reader</a> · <a href="../'+c.id+'.txt">Original text</a> · CC0 1.0 Universal</footer></main>';
@@ -73,7 +73,7 @@ for(let i=0;i<chapters.length;i++){
 }
 const groups=new Map();
 chapters.forEach(c=>{if(!groups.has(c.category))groups.set(c.category,[]);groups.get(c.category).push(c)});
-const sections=[...groups.entries()].map(([group,items])=>'<section><h2>'+esc(group)+'</h2><ul>'+items.map(c=>'<li><a href="./'+c.id+'.html">'+esc(c.title)+'</a></li>').join('')+'</ul></section>').join('\n');
+const sections=[...groups.entries()].map(([group,items])=>'<section'+(group === 'Begin here' ? ' aria-label="Opening chapters"' : '')+'>'+(group === 'Begin here' ? '' : '<h2>'+esc(group)+'</h2>')+'<ul>'+items.map(c=>'<li><a href="./'+c.id+'.html">'+esc(c.title)+'</a></li>').join('')+'</ul></section>').join('\n');
 const index='<main id="main-content" tabindex="-1"><h1>Browse all chapters</h1><p class="intro">'+esc(site.description)+' Browse the chapters below.</p>'+sections+'<footer><a href="../">Back to homepage</a> · CC0 1.0 Universal</footer></main>';
 fs.writeFileSync(path.join(dir,'index.html'),page('All chapters',site.description,base+'topics/index.html',index));
 const urls=[base,base+'topics/index.html',...chapters.map(c=>base+'topics/'+c.id+'.html')];
