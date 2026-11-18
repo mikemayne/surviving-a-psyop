@@ -177,6 +177,7 @@
     .search-box input { width: 100%; min-width: 0; border: none; background: transparent; outline: none; color: var(--ink); font-size: .92rem; }
     .search-box:focus-within { border-color: var(--accent); outline: 3px solid var(--orange); outline-offset: 3px; }
     .category { border-top: 1px solid var(--line); padding: 29px 0 33px; display: grid; grid-template-columns: 245px 1fr; gap: 40px; }
+    .category--unlabelled { grid-template-columns: minmax(0, 1fr); }
     .category-title { font: normal 1.55rem var(--serif); margin: 0 0 9px; letter-spacing: -.025em; }
     .category-note { font-size: .82rem; color: var(--muted); line-height: 1.6; max-width: 220px; margin: 0; }
     .chapter-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px 14px; align-content: start; }
@@ -907,7 +908,10 @@ My question:
       var items = chapters.filter(function(ch) { return ch.group === group.name && (!q || (ch.title + " " + ch.id.replace(/_/g," ")).toLowerCase().includes(q)); });
       if (!items.length) return "";
       found += items.length;
-      return '<div class="category"><div><h3 class="category-title">' + escapeHTML(group.name) + '</h3><p class="category-note">' + escapeHTML(group.note) + '</p></div><div class="chapter-grid">' +
+      var isIntroGroup = group.name === "Begin here";
+      return '<div class="category' + (isIntroGroup ? ' category--unlabelled' : '') + '">' +
+        (isIntroGroup ? '' : '<div><h3 class="category-title">' + escapeHTML(group.name) + '</h3><p class="category-note">' + escapeHTML(group.note) + '</p></div>') +
+        '<div class="chapter-grid">' +
         items.map(function(ch) { return '<a class="chapter-card" href="' + href(ch) + '"><span class="chapter-num">' + String(ch.number).padStart(2,"0") + '</span><span class="chapter-label">' + escapeHTML(ch.title) + '</span><span class="chapter-arrow" aria-hidden="true">↗</span></a>'; }).join("") + '</div></div>';
     }).join("");
     document.getElementById("chapter-catalogue").innerHTML = markup;
@@ -920,7 +924,7 @@ My question:
       var items = chapters.filter(function(ch) { return ch.group === group.name && (!q || (ch.title + " " + ch.id.replace(/_/g," ")).toLowerCase().includes(q)); });
       if (!items.length) return "";
       found += items.length;
-      return '<div class="sidebar-group"><h2 class="sidebar-group-title">' + escapeHTML(group.name) + '</h2>' +
+      return '<div class="sidebar-group">' + (group.name === "Begin here" ? '' : '<h2 class="sidebar-group-title">' + escapeHTML(group.name) + '</h2>') +
         items.map(function(ch) { return '<a href="' + href(ch) + '" class="sidebar-link' + (current === ch.id ? " active" : "") + '">' + escapeHTML(ch.title) + "</a>"; }).join("") + "</div>";
     }).join("");
     document.getElementById("sidebar-search-status").textContent = q ? found + (found === 1 ? " chapter found." : " chapters found.") : "";
@@ -1022,7 +1026,7 @@ My question:
     reader.classList.remove("hidden");
     closeSidebar(false);
     articleTitle.textContent = ch.title;
-    document.getElementById("article-category").textContent = ch.group;
+    document.getElementById("article-category").textContent = ch.group === "Begin here" ? "" : ch.group;
     document.getElementById("article-number").textContent = String(ch.number).padStart(2,"0") + " / " + chapters.length;
     document.getElementById("article-source").href = repoRoot + "/blob/main/" + encodeURIComponent(ch.id) + ".txt";
     articleContent.innerHTML = "<p>Loading chapter…</p>";
