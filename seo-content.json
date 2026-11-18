@@ -1162,5 +1162,17 @@
       "sleep_deprivation_reinforcement",
       "internal_monologue_trick"
     ]
+  },
+  "prediction_priming_feedback": {
+    "intro": "A proposed feedback effect combining personalised prediction, vague or precise claims, priming, memory and apparent mind-reading accuracy.",
+    "questions": [
+      "How can an incorrect prediction influence what someone thinks about next?",
+      "Why might subjective prediction accuracy differ from accuracy measured before a statement?"
+    ],
+    "related": [
+      "cold_reading_ai_assisted",
+      "primed_thought_attribution",
+      "thought_attribution_suggestion_repetition"
+    ]
   }
 }
