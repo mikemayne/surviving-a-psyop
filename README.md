@@ -54,6 +54,7 @@ Owner-authored maintenance pull requests from branches **inside this repository*
 ## Edit the booklet
 
 - Each chapter lives in its own `.txt` file at the root of this repository.
+- **Research-gap editorial standard:** In research-oriented chapters, briefly state what the cited studies directly support and identify the single most important untested step in the proposed mechanism. Keep the gap to one or two specific sentences rather than a catalogue of generic limitations. Mention serious ethical obstacles only when testing the missing step would require coercion, prolonged distress or other harmful conditions; do not describe ordinary consensual experiments as inherently unethical. Never imply that a gap is proof of a proposed explanation. Practical chapters need no research-gap section unless they make a specific research claim.
 - **Editorial non-engagement rule:** Practical advice about provocative or manipulative-sounding remarks must never recommend answering, debating, questioning, explaining or trying to persuade the speaker, even politely. Recommend ignoring the provocation completely. Independent safety measures, lawful reporting, evidence preservation and professional support remain appropriate.
 - The website loads those files directly, so changing a chapter updates the reading experience without copy-pasting it into HTML.
 - `index.html` contains the website's design, chapter list and reading interface.
