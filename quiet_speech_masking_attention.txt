@@ -1,0 +1,57 @@
+# Quiet Speech, Masking and Selective Attention
+
+**Effects:** Increase stress, Increase confusion, Undermine confidence.
+
+**Induced emotions:** Fear, frustration, uncertainty.
+
+**Possible objectives:** Enable other forms of abuse in public spaces, increase the effectiveness of other techniques, and discredit the person if they complain.
+
+## The proposed technique
+
+I experienced extremely quiet negging in front of other people, but only in voices I recognised and associated with extreme stress. It was perhaps only a few dB above the background noise. The background was generally music, mostly instrumental music, but sometimes a noise machine while I was trying to sleep.
+
+I was the only person listening out for the negging. Nobody else appeared to notice it.
+
+Could that difference in attention explain why? **A quiet voice can be audible to somebody who is listening for it, even when other people don't notice it.** A signal only 3 dB above the background noise isn't necessarily difficult to hear. It depends on the sound, the listener's attention and how the speech overlaps the noise.
+
+If somebody deliberately took advantage of this effect, they might be able to make provocative remarks in public while reducing the chance that other people notice them. The proposed objective would be to **enable other forms of abuse in public spaces and discredit the person if they complain**.
+
+## How it might work
+
+**Selective attention.** The brain doesn't pay equal attention to every sound. If you're listening out for a particular voice, you may hear it while other people, who are concentrating on something else, don't consciously notice it.
+
+**A familiar voice.** Research shows that people can understand familiar voices more easily than unfamiliar ones in some kinds of background sound. One study measured an advantage of about 5 dB when the background contained competing speech. That figure doesn't directly apply to instrumental music or noise machines.
+
+**A voice associated with extreme stress.** A voice that has repeatedly been associated with frightening or stressful experiences may attract more attention. The additional advantage in dB, when combined with familiarity and deliberate listening, hasn't been established.
+
+**Music and background noise.** Instrumental music and noise machines can mask quiet speech, but not necessarily make it inaudible. What gets through depends on the frequencies, changes in volume, gaps in the sound and where people are listening from. Different people may also be hearing different mixes of the speech and background noise.
+
+These effects don't have to make the voice louder. They may make one person **more likely to notice and understand it** than somebody who isn't listening for it.
+
+## What happens after prolonged stress?
+
+There's another possible effect.
+
+If someone becomes stressed enough and spends a long time listening out for a particular voice, they might start to hear speech in ambiguous background audio even when the words aren't there. Music and noise can contain patterns that the brain interprets as voices.
+
+Research on auditory expectation and signal detection shows that expecting speech can increase both correct detections and false alarms. Stress can also affect how readily people report hearing something. Experiments on learned auditory expectations show that people can sometimes hear an expected sound when no sound was played.
+
+So two things could happen: a person might become particularly good at noticing faint speech, **and** become more likely to hear imagined speech in music or noise. The second effect could continue after the original stressful experiences have stopped.
+
+## Research
+
+- **Holmes and Johnsrude (2020):** Familiar voices can improve speech understanding against competing speech, with an advantage of around 5 dB in one condition. This isn't a 5 dB improvement in general hearing sensitivity. https://pubmed.ncbi.nlm.nih.gov/32105143/
+- **Hoskin, Hunter and Woodruff (2014):** Expectation and stress affect reports of speech in noise, including false detections. https://doi.org/10.1111/bjop.12048
+- **Powers, Mathys and Corlett (2017):** Learned expectations caused some participants to report hearing a tone when it was absent. The experiment used tones, not spoken insults. https://doi.org/10.1126/science.aan3458
+
+## Research gap
+
+The combined effect of **a familiar voice associated with extreme stress, extremely quiet speech, background music or a noise machine, and one person actively listening while others aren't** needs direct measurement. The individual effects have been researched, but there is no established combined dB advantage.
+
+## Response
+
+**Don't engage or keep listening out for it.** Continuous checking can reinforce attention to ambiguous sounds. Record what happened later if useful, then get on with your day.
+
+If anyone is in immediate danger, call **999**.
+
+See [Record, Ignore, Report](https://mikemayne.github.io/surviving-a-psyop/#read/record_ignore_report).

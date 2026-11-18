@@ -1201,5 +1201,18 @@
       "feelings_can_change",
       "priming_ambiguous_accusations"
     ]
+  },
+  "quiet_speech_masking_attention": {
+    "intro": "Why someone listening for a quiet, familiar voice might notice speech that others miss under instrumental music or background noise, and how stress and expectation can also create false detections.",
+    "questions": [
+      "Can a quiet familiar voice be noticed when other people are not paying attention?",
+      "How do instrumental music, a sleep noise machine and selective attention affect speech detection?",
+      "Can prolonged stress and expectation make someone hear speech in ambiguous background audio?"
+    ],
+    "related": [
+      "primed_thought_attribution",
+      "thought_attribution_suggestion_repetition",
+      "habituation_and_recovery"
+    ]
   }
 }

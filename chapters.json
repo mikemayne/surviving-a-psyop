@@ -836,6 +836,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/thought_attribution_suggestion_repetition.txt"
     },
     {
+      "id": "quiet_speech_masking_attention",
+      "title": "Quiet Speech, Masking and Selective Attention",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/quiet_speech_masking_attention.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/quiet_speech_masking_attention",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/quiet_speech_masking_attention.txt"
+    },
+    {
       "id": "bug_in_face",
       "title": "The bug-in-face trick",
       "category": "Technology & perception",
