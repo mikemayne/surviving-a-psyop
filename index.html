@@ -357,14 +357,9 @@
     }
 
     /* The same bold safety card, expanded on its own page for instant scanning. */
-    .what-to-do { padding: clamp(44px, 6vw, 80px) 0 100px; min-height: calc(100vh - 180px); }
-    .what-to-do-heading { text-align: center; }
-    .what-to-do-heading h1 {
-      font: 850 clamp(2.8rem, 5.4vw, 4.8rem)/1.06 var(--sans);
-      letter-spacing: -.055em; margin: 12px 0 0;
-    }
+    .what-to-do { padding: clamp(24px, 4vw, 55px) 0 100px; min-height: calc(100vh - 180px); }
     .binary-panel {
-      width: min(100%, 820px); margin: clamp(30px, 5vw, 48px) auto 0;
+      width: min(100%, 820px); margin: clamp(12px, 2.5vw, 28px) auto 0;
       padding: clamp(22px, 4.5vw, 50px); background: var(--surface);
       border: 1px solid var(--line); border-radius: 6px; box-shadow: var(--shadow);
     }
@@ -374,9 +369,18 @@
     }
     .binary-panel .binary-option { min-height: clamp(124px, 15vw, 164px); }
     .binary-panel .binary-answer { font-size: clamp(1.7rem, 3.3vw, 2.6rem); }
+    .binary-explanation {
+      max-width: 65ch;
+      margin: clamp(24px, 4vw, 36px) auto 0;
+      padding-top: clamp(22px, 3vw, 28px);
+      border-top: 1px solid var(--line);
+      color: var(--ink);
+      font-size: clamp(1.05rem, 1.7vw, 1.2rem);
+      line-height: 1.75;
+    }
     @media (max-width: 720px) {
       .what-to-do { padding-bottom: 65px; }
-      .binary-panel { margin-top: 30px; }
+      .binary-panel { margin-top: 14px; }
       .binary-option { grid-template-columns: 50px minmax(0, 1fr); min-height: 110px; }
       .cover .binary-option { min-height: 110px; }
     }
@@ -591,14 +595,10 @@ My question:
     </div>
   </section>
 </main>
-<main id="what-to-do-view" class="what-to-do hidden" aria-labelledby="what-to-do-title">
+<main id="what-to-do-view" class="what-to-do hidden" aria-labelledby="what-to-do-question">
   <div class="wrap">
-    <header class="what-to-do-heading">
-      <p class="eyebrow"><span class="mark">✳</span> Practical response</p>
-      <h1 id="what-to-do-title" tabindex="-1">What to do</h1>
-    </header>
     <section class="binary-panel" aria-labelledby="what-to-do-question">
-      <h2 class="binary-question" id="what-to-do-question">Are you in danger?</h2>
+      <h1 class="binary-question" id="what-to-do-question" tabindex="-1">Are you in danger?</h1>
       <div class="binary-options">
         <a class="binary-option binary-option--urgent" href="tel:999">
           <span class="binary-condition">YES</span>
@@ -610,6 +610,7 @@ My question:
           <span class="sr-only">Record what was said if convenient; otherwise ignore.</span>
         </div>
       </div>
+      <p class="binary-explanation">It's hard to do nothing, but engaging with abusers in any way is always a mistake. The best way to stop the abuse is to Record the behavior, and report it to someone as soon as you feel able.</p>
     </section>
   </div>
 </main>
@@ -994,7 +995,7 @@ My question:
       whatToDo.classList.remove("hidden");
       document.title = "What to do — How to Survive a Psyop";
       window.scrollTo(0, 0);
-      if (moveFocus) document.getElementById("what-to-do-title").focus({preventScroll:true});
+      if (moveFocus) document.getElementById("what-to-do-question").focus({preventScroll:true});
       return;
     }
     whatToDo.classList.add("hidden");
@@ -1090,7 +1091,7 @@ My question:
   mobileSiteNav.addEventListener("click", function(e) { if (e.target.closest("a")) mobileSiteNav.open = false; });
   document.getElementById("skip-link").addEventListener("click", function(e) {
     e.preventDefault();
-    var target = !reader.classList.contains("hidden") ? articleTitle : !whatToDo.classList.contains("hidden") ? document.getElementById("what-to-do-title") : document.querySelector(".hero h1");
+    var target = !reader.classList.contains("hidden") ? articleTitle : !whatToDo.classList.contains("hidden") ? document.getElementById("what-to-do-question") : document.querySelector(".hero h1");
     target.focus();
     target.scrollIntoView({block:"start"});
   });
