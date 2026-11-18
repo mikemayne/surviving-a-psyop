@@ -54,6 +54,7 @@ Patterns of pressure, interpretation and social influence.
 - [Accusation baiting](https://mikemayne.github.io/surviving-a-psyop/accusation_baiting.txt)
 - [Staged Third-Party Reactions](https://mikemayne.github.io/surviving-a-psyop/staged_third_party_reactions.txt)
 - [Fake Shock: Feigned Sympathy](https://mikemayne.github.io/surviving-a-psyop/fake_shock.txt)
+- [Induced Sympathy](https://mikemayne.github.io/surviving-a-psyop/induced_sympathy.txt)
 - [We Only Do This to Really Bad People](https://mikemayne.github.io/surviving-a-psyop/we_only_do_this_to_really_bad_people.txt)
 - [Victim blaming](https://mikemayne.github.io/surviving-a-psyop/victim_blaming.txt)
 - [Accusations of False Reports](https://mikemayne.github.io/surviving-a-psyop/false_report_accusations.txt)
