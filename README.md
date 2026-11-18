@@ -52,6 +52,7 @@ Owner-authored maintenance pull requests from branches **inside this repository*
 ## Edit the booklet
 
 - Each chapter lives in its own `.txt` file at the root of this repository.
+- **Editorial non-engagement rule:** Practical advice about provocative or manipulative-sounding remarks must never recommend answering, debating, questioning, explaining or trying to persuade the speaker, even politely. Recommend ignoring the provocation completely. Independent safety measures, lawful reporting, evidence preservation and professional support remain appropriate.
 - The website loads those files directly, so changing a chapter updates the reading experience without copy-pasting it into HTML.
 - `index.html` contains the website's design, chapter list and reading interface.
 - To add a new chapter, create a `.txt` file and add it to the `GROUPS` list in `index.html`.
