@@ -20,6 +20,12 @@ Observable emotional and behavioural information could also be incorporated. Cha
 
 The model would use this information to generate predictions about subjects likely to be occupying the individual's attention.
 
+### Predicting personal descriptions of objects
+
+A personalised LLM might predict how someone would name an object using their characteristic humour, vocabulary, comparisons and cultural references. Viewing history could help identify familiar characters or historical figures; actual speech samples would be more informative about naming habits.
+
+For example, when someone strokes their beard, "Did he just call that his Marx beard?" could be a suggested nickname rather than a report of something actually said or thought. The question could also prime that association.
+
 ### Selective Prediction and Confidence
 
 The technique becomes more convincing when predictions are expressed selectively.
