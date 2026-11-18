@@ -109,6 +109,7 @@
       font: 850 clamp(1.55rem, 2.8vw, 2.3rem)/1.15 var(--sans);
       letter-spacing: -.025em; overflow-wrap: normal;
     }
+    .binary-answer--stacked { line-height: 1.08; }
     a.binary-option { text-decoration: none; }
     a.binary-option:hover { background: var(--paper-2); }
     .cover {
@@ -133,6 +134,7 @@
     .cover .binary-option--calm { border-left-color: #b5e2ca; }
     .cover a.binary-option:hover { background: rgba(11,37,29,.34); }
     .cover .binary-answer { font-size: clamp(1.4rem, 2.05vw, 1.85rem); }
+    .cover .binary-answer--stacked { font-size: clamp(1.2rem, 1.85vw, 1.65rem); }
 
     /* The four central rules from the introduction */
     .rules { padding: 90px 0 95px; background: var(--surface); border-bottom: 1px solid var(--line); scroll-margin-top: 20px; }
@@ -370,6 +372,7 @@
     .binary-panel .binary-options { gap: clamp(10px, 1.5vw, 14px); }
     .binary-panel .binary-option { min-height: clamp(88px, 10vw, 116px); }
     .binary-panel .binary-answer { font-size: clamp(1.7rem, 3.3vw, 2.6rem); }
+    .binary-panel .binary-answer--stacked { font-size: clamp(1.4rem, 2.75vw, 2.1rem); }
     .binary-explanation {
       max-width: 34ch;
       margin: clamp(16px, 2.4vw, 22px) auto 0;
@@ -474,7 +477,7 @@
           </a>
           <a class="binary-option binary-option--calm" href="#what-to-do">
             <span class="binary-condition">NO</span>
-            <strong class="binary-answer">Record, Ignore, Report</strong>
+            <strong class="binary-answer binary-answer--stacked">Record,<br>Ignore,<br>Report</strong>
             <span class="sr-only">Record what was said if convenient; otherwise ignore. Read more on the What to do page.</span>
           </a>
         </div>
@@ -630,7 +633,7 @@ My question:
         </a>
         <a class="binary-option binary-option--calm" href="#read/record_ignore_report">
           <span class="binary-condition">NO</span>
-          <strong class="binary-answer">Record, Ignore, Report</strong>
+          <strong class="binary-answer binary-answer--stacked">Record,<br>Ignore,<br>Report</strong>
           <span class="sr-only">Read the Record, Ignore, Report guide.</span>
         </a>
       </div>
@@ -680,9 +683,11 @@ My question:
 <script>
 (function () {
   "use strict";
+  // BEGIN CHAPTER GROUPS — automatically regenerated from chapters.json when published.
   var GROUPS = [
     {name:"Begin here", note:"Start with the introduction and practical ways of responding.", files:[
       ["introduction","Introduction"],
+      ["record_ignore_report","Record, Ignore, Report"],
       ["never_engage","Never Engage: The Most Important Rule"],
       ["ready_to_report","Ready to report?"],
       ["take_back_control","Take back control"],
@@ -780,6 +785,7 @@ My question:
       ["conclusion","Conclusion"]
     ]}
   ];
+  // END CHAPTER GROUPS
   var chapters = [];
   GROUPS.forEach(function(group) { group.files.forEach(function(item) { chapters.push({id:item[0], title:item[1], group:group.name, number:chapters.length+1}); }); });
   var cache = {};

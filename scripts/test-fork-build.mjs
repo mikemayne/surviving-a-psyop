@@ -21,6 +21,21 @@ function published(name) {
 
 try {
   build('example-user/my-handbook');
+  // The compiled reader must contain every approved chapter in order.
+  // Without this, a valid #read/id route can fall back to #catalogue.
+  const approvedChapters = JSON.parse(published('chapters.json')).chapters;
+  const compiledGroups = published('index.html').match(/var GROUPS = (\[[^\n]+\]);/);
+  assert.ok(compiledGroups, 'Published reader chapter groups must be present');
+  const compiledChapters = JSON.parse(compiledGroups[1]).flatMap(group =>
+    group.files.map(([id, title]) => ({ id, title, category: group.name, category_description: group.note }))
+  );
+  assert.deepEqual(compiledChapters, approvedChapters.map(chapter => ({
+    id: chapter.id, title: chapter.title,
+    category: chapter.category, category_description: chapter.category_description
+  })), 'Published reader and chapters.json must agree for every chapter');
+  assert.ok(published('index.html').includes('href="#read/record_ignore_report"'),
+    'The Record, Ignore, Report decision tile must link to its chapter');
+
   const base = 'https://example-user.github.io/my-handbook/';
   const repo = 'https://github.com/example-user/my-handbook';
   assert.ok(published('index.html').includes(base));
@@ -78,7 +93,8 @@ try {
   assert.ok(home.includes('class="cover"'), 'Homepage safety card is present');
   assert.ok(home.includes('Are you in danger?'), 'Safety question is present');
   assert.ok(home.includes('Call 999'), 'Emergency response is present');
-  assert.ok(home.includes('Record, Ignore'), 'Non-emergency response is present');
+  assert.equal(home.split('<strong class="binary-answer binary-answer--stacked">Record,<br>Ignore,<br>Report</strong>').length - 1, 2,
+    'Both decision tiles show Record, Ignore, Report as three stacked lines');
   assert.ok(home.includes('id="what-to-do-view"'), 'Separate What to do page is retained');
   assert.ok(home.includes('A Personal Guide'));
   assert.ok(home.includes('https://guide.example.com/'));
