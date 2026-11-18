@@ -13,7 +13,7 @@ export function escapeHTML(value) {
 }
 
 export function resolveSiteSettings(config, environment = process.env) {
-  const keys = ['title', 'tagline', 'description', 'heroHeading', 'heroLead', 'coverText'];
+  const keys = ['title', 'tagline', 'description', 'heroHeading', 'heroLead'];
   for (const key of keys) {
     if (typeof config[key] !== 'string' || !config[key].trim()) {
       throw new Error('site-config.json: "' + key + '" must contain text');
