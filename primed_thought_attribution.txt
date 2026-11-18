@@ -42,7 +42,11 @@ Experiments comparing **heard** and **imagined** words examine how people rememb
 
 Source: *Brain Mechanisms Underlying Reality Monitoring for Heard and Imagined Words*. https://pmc.ncbi.nlm.nih.gov/articles/PMC6069600/
 
-**Taken together:** quiet speech may prime related processing; repeated speech can sometimes recur in the mind; and people can sometimes misremember whether words were heard or imagined. These are three distinct findings, not proof that the entire proposed technique would work as described. The practical response remains the same: recognising a phrase in your thoughts tells you nothing certain about another person's access to your mind.
+**Taken together:** quiet speech can prime related processing, repeated phrases can recur in the mind, and source-memory errors can occur.
+
+## Research gap
+
+Whether a staged accusation can make someone experience a recently heard phrase as a self-generated thought has not been established. This can be investigated in consenting volunteers without recreating coercive circumstances.
 
 ## Further considerations
 
