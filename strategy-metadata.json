@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "description": "Chapter-linked qualitative metadata for comparing possible objectives, emotional effects, behavioural responses and cumulative effects. These represent hypothetical mechanisms, not proof of coordination or motive.",
-  "usage": "Compare reported events and their order first. Use emotions only when a visitor describes them. For a connected-events hypothetical, match relevant chapter effect tags and potential transitions to see whether several techniques could build toward the same broader objective, without inventing missing stages. Lead with 'If the events are connected, then the likely goal is X' when a coherent candidate emerges, and do not append repeated verification disclaimers. Then prioritise proportionate guide-based survival and reporting advice. N/A means no specific inference is supported.",
+  "usage": "Compare the reported conduct, context and chronology first. Keep distinct (1) a chapter's possible intended objective, (2) the visitor's reported emotional impact, and (3) the actual behavioural response or outcome. An intended action does not have to occur for that goal to remain a possible hypothesis: for example, staying calm or feeling only frustration does not by itself rule out an attempted provocation, and anger does not prove one. Emotions and responses are secondary context, never a motive-detection test. For a connected-events hypothetical, examine shared effect tags and possible transitions without inventing stages. Lead with 'If the events are connected, then the likely goal is X' only when a coherent candidate emerges, and avoid repetitive disclaimers; prioritise safe, proportionate coping and reporting advice. N/A means no specific inference is supported.",
   "chapter_count": 85,
   "chapters": {
     "introduction": {
@@ -1456,5 +1456,12 @@
       "to": "heightened_vigilance",
       "relationship": "possible contributing effect, not a guaranteed outcome"
     }
-  ]
+  ],
+  "field_interpretation": {
+    "possible_goal": "A hypothesised objective described by the chapter; not a finding about any actual incident, and not dependent on whether an emotional reaction or behaviour happened.",
+    "possible_emotional_effects": "Emotions the pattern could produce or seek to evoke. These are possible effects, not diagnostic conditions; absence of a particular emotion alone does not remove a possible goal.",
+    "possible_behavioural_responses": "Actions the pattern could put pressure on a person to take, not actions they must take. Successful disengagement or restraint can mean a hypothesised attempt did not achieve its aim.",
+    "possible_cumulative_effects": "Potential mechanisms through which different experiences could build on each other; evaluate only as conditional possibilities rather than observed steps unless reported.",
+    "actual_feelings_and_response": "Gather from the visitor's own account, separately from chapter metadata. Use these to describe impact and adjust coping advice, not as a pass/fail measure of another person's alleged motive."
+  }
 }
