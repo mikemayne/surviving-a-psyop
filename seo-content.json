@@ -359,6 +359,18 @@
       "stay_grounded"
     ]
   },
+  "temptation_to_win": {
+    "intro": "Explains why obviously weak insults and arguments can invite unwanted debate, how criticism followed by flattery can prolong engagement, and why recording briefly then disengaging may help.",
+    "questions": [
+      "Why can an easily disproved insult feel especially tempting to argue against?",
+      "How can a shift from criticism to exaggerated praise keep someone involved in an unwanted exchange?"
+    ],
+    "related": [
+      "never_engage",
+      "outcome_inflation_deflation",
+      "good_cop_bad_cop"
+    ]
+  },
   "manufactured_confusion": {
     "intro": "Explains how contradictory instructions, shifting explanations and changing rules can create confusion and dependence on repeated clarification.",
     "questions": [
