@@ -46,6 +46,12 @@ try {
   assert.ok(published('robots.txt').includes('Sitemap: ' + base + 'sitemap.xml'));
   assert.ok(published('sitemap.xml').includes(base + 'topics/index.html'));
   assert.ok(published('topics/index.html').includes(base + 'topics/index.html'));
+  assert.ok(!published('topics/index.html').includes('<h2>Begin here</h2>'),
+    'Opening chapter list has no redundant visible category heading');
+  assert.ok(!published('topics/introduction.html').includes('<p class="eyebrow">Begin here</p>'),
+    'Opening chapter page has no redundant category eyebrow');
+  assert.ok(published('topics/introduction.html').includes('<h1>Introduction</h1>'),
+    'Opening chapter still has a descriptive main heading');
   assert.ok(!published('index.html').includes('https://mikemayne.github.io/surviving-a-psyop/'));
   assert.ok(!published('index.html').includes('https://github.com/mikemayne/surviving-a-psyop'));
 
@@ -96,6 +102,9 @@ try {
   assert.equal(home.split('<strong class="binary-answer binary-answer--stacked">Record,<br>Ignore,<br>Report</strong>').length - 1, 2,
     'Both decision tiles show Record, Ignore, Report as three stacked lines');
   assert.ok(home.includes('id="what-to-do-view"'), 'Separate What to do page is retained');
+  assert.ok(home.includes('category--unlabelled'), 'Reader suppresses the redundant first catalogue category');
+  assert.ok(home.includes('ch.group === "Begin here" ? "" : ch.group'),
+    'Reader suppresses the redundant chapter label without changing grouping');
   assert.ok(home.includes('A Personal Guide'));
   assert.ok(home.includes('https://guide.example.com/'));
   assert.ok(home.includes('https://github.com/sample-author/my-book'));
