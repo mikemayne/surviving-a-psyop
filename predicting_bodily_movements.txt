@@ -12,6 +12,10 @@ Other possible explanations for an apparently accurate prediction include recogn
 
 **Defence:** Don't attempt to suppress ordinary bodily movements or engage with the accusation. Cover your webcam as a simple privacy precaution. Move normally and get on with your day.
 
+## Research gap
+
+Video can sometimes reveal preparatory movement cues, but reliable prediction of specific small movements before they occur, across ordinary environments and different people, remains unestablished. This can be tested consensually with blinded predictions.
+
 ## Response
 
 **Don't engage at all. Record if convenient, then get on with your day.**
