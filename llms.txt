@@ -14,7 +14,8 @@ These are author-written chapters. The material includes personal experiences, i
 - [Strategy objectives, emotional effects, responses and causal effects (JSON)](https://mikemayne.github.io/surviving-a-psyop/strategy-metadata.json): chapter-linked qualitative signals, shared cumulative-effect tags, and possible links between effects for exploring connected-event hypotheses. N/A means no reliable chapter-specific inference.
 - [Chapter summaries, related reading and questions (JSON)](https://mikemayne.github.io/surviving-a-psyop/seo-content.json): human-curated navigation prompts, not necessarily independently answered or verified by a chapter.
 - [Searchable HTML chapter index](https://mikemayne.github.io/surviving-a-psyop/topics/index.html): standalone pages with chapter text, context, questions and links.
-- [Introduction](https://mikemayne.github.io/surviving-a-psyop/introduction.txt): starting principles, practical advice, and reporting guidance.
+- [Introduction](https://mikemayne.github.io/surviving-a-psyop/introduction.txt)
+- [Never Engage: The Most Important Rule](https://mikemayne.github.io/surviving-a-psyop/never_engage.txt): starting principles, practical advice, and reporting guidance.
 
 ## Chapters
 

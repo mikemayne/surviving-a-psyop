@@ -11,6 +11,18 @@
       "sleep_discipline"
     ]
   },
+  "never_engage": {
+    "intro": "Why provocative remarks are tempting to answer, how debate can prolong an unwanted interaction, and ways to disengage without losing time or sleep.",
+    "questions": [
+      "Why do I feel compelled to respond to an insulting or obviously false remark?",
+      "How do conversational reciprocity and turn-taking make it harder to ignore a provocation?"
+    ],
+    "related": [
+      "introduction",
+      "dont_chase",
+      "take_back_control"
+    ]
+  },
   "ready_to_report": {
     "intro": "A practical guide to documenting troubling experiences, discussing them with your GP and reporting concerns to the police calmly and factually.",
     "questions": [
