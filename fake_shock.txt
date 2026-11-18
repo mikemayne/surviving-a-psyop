@@ -1,8 +1,8 @@
 # Fake Shock: Feigned Sympathy
 
-**Effects:** Shame, uncertainty.
+**Effects:** Increase distress, Increase shame, Increase confusion.
 
-**Possible objectives:** Reinforce an accusation.
+**Possible objectives:** Increase the effectiveness of other techniques, Provoke a reaction.
 
 ## The Technique
 
