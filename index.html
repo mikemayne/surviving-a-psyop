@@ -167,6 +167,8 @@
     .principle small { color: var(--orange); font-size: .7rem; letter-spacing: .12em; }
     .principle strong { display: block; font: normal 1.25rem var(--serif); margin: 8px 0; }
     .principle p { font-size: .81rem; line-height: 1.65; color: var(--muted); margin: 0; }
+    .single-principle { width: 100%; padding: clamp(42px, 6vw, 76px) 0; background: var(--surface); border-bottom: 1px solid var(--line); }
+    .single-principle h2 { font: normal clamp(2.15rem, 4.8vw, 4.8rem)/1.1 var(--serif); letter-spacing: -.05em; text-align: center; margin: 0; }
     .section-head { display: flex; gap: 30px; justify-content: space-between; align-items: end; margin-bottom: 36px; }
     .section-head h2 { font: normal clamp(2.4rem, 4.2vw, 4rem)/1.1 var(--serif); letter-spacing: -.05em; margin: 14px 0 0; }
     .chapter-content-warning { color: var(--muted); font-size: .88rem; line-height: 1.6; margin: 13px 0 0; max-width: 39rem; }
@@ -205,7 +207,7 @@
     .ai-copy-row .btn { white-space: nowrap; }
     .ai-instructions .ai-privacy { border-top: 1px solid var(--line); margin: 20px 0 0; padding-top: 14px; font-size: .76rem !important; }
 
-    /* Free, uncertainty-first ChatGPT analysis below the four rules */
+    /* Free, uncertainty-first ChatGPT analysis */
     .statement-section { padding: 22px 0 26px; background: var(--paper-2); border-bottom: 1px solid var(--line); scroll-margin-top: 20px; }
     .hero-analysis { width: 100%; padding: 18px 22px; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: center; gap: 24px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); box-shadow: var(--shadow); scroll-margin-top: 18px; }
     .hero-analysis h2 { font: normal 1.65rem/1.15 var(--serif); letter-spacing: -.025em; margin: 0 0 6px; }
@@ -528,6 +530,22 @@
     </div>
   </section>
 
+  <section class="principles" aria-labelledby="principles-title">
+    <div class="wrap principles-heading">
+      <h2 id="principles-title" class="principles-title">Three ways to help</h2>
+      <div class="rules-intro"><a class="btn btn-primary" href="#contribute">Contribute <span aria-hidden="true">↗</span></a></div>
+    </div>
+    <div class="wrap principles-inner">
+      <div class="principle"><small>01 / RECORD</small><strong>Keep your own record.</strong><p>Create a dedicated email account and send yourself factual descriptions of incidents. Once recorded, put them aside and get on with your life.</p></div>
+      <div class="principle"><small>02 / REVIEW</small><strong>Look for useful patterns.</strong><p>Connect the account to ChatGPT and periodically compare your observations with this book, considering alternative explanations as well.</p></div>
+      <div class="principle"><small>03 / CONTRIBUTE</small><strong>Help others if you choose.</strong><p>If something useful isn't covered, consider submitting an anonymised description for review. You decide what, if anything, to share.</p></div>
+    </div>
+  </section>
+  <section class="single-principle" aria-labelledby="single-principle-title">
+    <div class="wrap">
+      <h2 id="single-principle-title">1 Principle: Deny Control.</h2>
+    </div>
+  </section>
   <section class="statement-section" id="analyse-a-statement" aria-labelledby="statement-analyser-title">
     <div class="wrap">
       <div class="hero-analysis" aria-labelledby="statement-analyser-title">
@@ -551,17 +569,6 @@
             <p class="statement-privacy"><strong>Privacy:</strong> Your text stays on this page until you click. Then it is included in a ChatGPT URL, which may appear in browser history. Avoid sensitive details. Verify Temporary Chat is active if wanted; ChatGPT may require sign-in and has usage limits.</p>
           </form>
       </div>
-    </div>
-  </section>
-  <section class="principles" aria-labelledby="principles-title">
-    <div class="wrap principles-heading">
-      <h2 id="principles-title" class="principles-title">Three ways to help</h2>
-      <div class="rules-intro"><a class="btn btn-primary" href="#contribute">Contribute <span aria-hidden="true">↗</span></a></div>
-    </div>
-    <div class="wrap principles-inner">
-      <div class="principle"><small>01 / RECORD</small><strong>Keep your own record.</strong><p>Create a dedicated email account and send yourself factual descriptions of incidents. Once recorded, put them aside and get on with your life.</p></div>
-      <div class="principle"><small>02 / REVIEW</small><strong>Look for useful patterns.</strong><p>Connect the account to ChatGPT and periodically compare your observations with this book, considering alternative explanations as well.</p></div>
-      <div class="principle"><small>03 / CONTRIBUTE</small><strong>Help others if you choose.</strong><p>If something useful isn't covered, consider submitting an anonymised description for review. You decide what, if anything, to share.</p></div>
     </div>
   </section>
   <section class="catalogue" id="catalogue">
