@@ -22,6 +22,8 @@ You can make and publish your own copy **without installing anything or editing 
 
 The original writing is copied into your fork unchanged until **you** edit it; the configuration changes site-wide branding and publishing metadata, not the contents of every chapter. A public fork also reveals your GitHub username and its relationship to the source repository. Check the content, privacy settings and commit author information before publishing. A fork does **not** inherit the original repository's branch-protection rules or required checks: configure those yourself before accepting public contributions. The deploy workflow remains read-only with respect to repository files and requires no paid services.
 
+**Editing the homepage survival rules:** Change the four numbered rules under **How to survive** in `introduction.txt` only. `index.html` contains build-time placeholders rather than separate rule text; the GitHub Pages build generates the homepage headings and text directly from `introduction.txt`. The build and tests fail if the rule format or placeholders are changed incorrectly. Do not edit the homepage rule cards directly in `index.html`.
+
 To preview a complete built website locally with Node.js 22 or newer, run `node scripts/build-site.mjs` and serve the resulting `_site/` directory with a local HTTP server. To test the fork deployment logic, run `node scripts/test-fork-build.mjs`.
 
 ## Publish the site safely
@@ -88,7 +90,7 @@ An automated file check may reject invalid submissions, but **the owner will rev
 - [Use with AI on the website](https://mikemayne.github.io/surviving-a-psyop/#use-ai) explains how to ask an assistant about the booklet and has a copyable starter prompt.
 - [`llms.txt`](llms.txt) lists all chapters as direct plain-text links for AI assistants and readers. The `llms.txt` convention is voluntary; not every AI tool will fetch it automatically.
 - [`chapters.json`](chapters.json) provides a machine-readable chapter catalogue (title, category, reader URL, source URL).
-- [`strategy-metadata.json`](strategy-metadata.json) maps all 86 approved chapters to possible objectives, emotional effects, behavioural responses and cumulative-effect tags. Its shared taxonomy and possible transitions help compare **combined effects across chapters**, rather than giving every event an isolated goal. These are conditional, qualitative comparisons, not evidence of a specific person's intent; `N/A` means insufficient chapter-specific support.
+- [`strategy-metadata.json`](strategy-metadata.json) maps all 87 approved chapters to possible objectives, emotional effects, behavioural responses and cumulative-effect tags. Its shared taxonomy and possible transitions help compare **combined effects across chapters**, rather than giving every event an isolated goal. These are conditional, qualitative comparisons, not evidence of a specific person's intent; `N/A` means insufficient chapter-specific support.
 - Every chapter is available directly as `https://mikemayne.github.io/surviving-a-psyop/<chapter-id>.txt`, with no JavaScript required.
 
 **Maintainers:** when adding or renaming a chapter, update the chapter list in `index.html`, `llms.txt`, `chapters.json`, `seo-content.json` and `strategy-metadata.json` together. Existing chapter edits are picked up by the reader immediately; use the generator or workflow to update the static HTML copies.
