@@ -1239,5 +1239,18 @@
       "primed_thought_attribution",
       "quiet_speech_masking_attention"
     ]
+  },
+  "cross_conversation_sentence_assembly": {
+    "intro": "Explores how priming might make fragments of different conversations seem to form a personally meaningful sentence, and how monitoring for more fragments could lead to persistent hypervigilance.",
+    "questions": [
+      "Why might a combination of separate conversations feel meaningful to one listener but not to others?",
+      "How can searching for hidden sentences in everyday conversations reinforce hypervigilance?",
+      "Why is ignoring ambiguous remarks safer than reacting to them?"
+    ],
+    "related": [
+      "talking",
+      "accidentally_overheard",
+      "never_engage"
+    ]
   }
 }
