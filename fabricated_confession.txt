@@ -1,5 +1,9 @@
 # The Fabricated Confession
 
+**Effects:** Confusion, reputational fear.
+
+**Possible objectives:** Create apparent admissions.
+
 **Example:** "He just said [insert admission of a crime]."
 
 ## The Pattern
