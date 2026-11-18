@@ -1139,6 +1139,18 @@
       "stay_grounded"
     ]
   },
+  "the_time_gap": {
+    "intro": "Advice on setting troubling interactions aside, avoiding real-time searches or analysis in response, and deciding independently when something needs attention.",
+    "questions": [
+      "Why can reacting or searching in real time make an upsetting interaction harder to set aside?",
+      "How can I make decisions on my own schedule while still acting promptly when safety is at risk?"
+    ],
+    "related": [
+      "never_engage",
+      "record_ignore_report",
+      "take_back_control"
+    ]
+  },
   "primed_thought_attribution": {
     "intro": "A hypothetical sequence in which hearing a phrase makes it mentally accessible before someone claims the listener just thought it. Explains priming, source monitoring and why apparent thought-reading does not follow.",
     "questions": [

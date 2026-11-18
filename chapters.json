@@ -35,6 +35,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/how_to_record.txt"
     },
     {
+      "id": "the_time_gap",
+      "title": "The Time Gap",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/the_time_gap.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/the_time_gap",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/the_time_gap.txt"
+    },
+    {
       "id": "never_engage",
       "title": "Never Engage: The Most Important Rule",
       "category": "Begin here",

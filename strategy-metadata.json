@@ -1543,6 +1543,13 @@
       "possible_behavioural_responses": "N/A",
       "possible_cumulative_effects": "N/A"
     },
+    "the_time_gap": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
+    },
     "prediction_priming_feedback": {
       "kind": "technique",
       "possible_goal": "create an impression of knowing another person's private thoughts",
