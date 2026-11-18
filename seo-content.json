@@ -1175,5 +1175,31 @@
       "primed_thought_attribution",
       "thought_attribution_suggestion_repetition"
     ]
+  },
+  "priming_ambiguous_accusations": {
+    "intro": "A proposed sequence in which a phrase primes an idea, a later ambiguous accusation invites the listener to supply a referent, and unsuccessful attempts may still act as repetition or provocation.",
+    "questions": [
+      "Does the priming voice have to sound like my own?",
+      "How can an ambiguous accusation seem personal without identifying anybody?",
+      "What if none of the attempts has an effect?"
+    ],
+    "related": [
+      "primed_thought_attribution",
+      "fabricated_confession",
+      "habituation_and_recovery"
+    ]
+  },
+  "habituation_and_recovery": {
+    "intro": "The hopeful possibility that repeated provocations can lose emotional impact, how responses can return after a break, and why no fixed reset period can be inferred.",
+    "questions": [
+      "Why might a repeated insult eventually have less impact?",
+      "Can habituation return after a fortnight or a month?",
+      "Why is non-engagement preferable to analysing each remark?"
+    ],
+    "related": [
+      "never_engage",
+      "feelings_can_change",
+      "priming_ambiguous_accusations"
+    ]
   }
 }
