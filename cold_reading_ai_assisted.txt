@@ -86,6 +86,10 @@ In most circumstances, the simplest response is to ignore the claim and continue
 
 **The central principle is that predicting what someone might be thinking about is not the same as knowing what they are thinking, and neither gives anyone authority over them.**
 
+## Claims presented as explanations
+
+During a period of sleep deprivation, I was told that "super-advanced bugs" had been deployed in my house and could hear my subvocalisations. I was also told that I say everything I think out loud. I do not. No known listening bug can hear silent subvocalisations or unspoken thoughts from across a room.
+
 ## Response
 
 **Don't engage at all. Record if convenient, then get on with your day.**
