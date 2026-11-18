@@ -13,7 +13,7 @@ The original writing is preserved in individual text files. The public site prov
 You can make and publish your own copy **without installing anything or editing code**.
 
 1. [Fork this repository](https://github.com/mikemayne/surviving-a-psyop/fork) into your GitHub account.
-2. Open `site-config.json` in your fork and choose **Edit** (the pencil icon). Change `title`, `tagline`, `description`, `heroHeading`, `heroLead` and `coverText` to suit your site. Commit your changes.
+2. Open `site-config.json` in your fork and choose **Edit** (the pencil icon). Change `title`, `tagline`, `description`, `heroHeading`, and `heroLead` to suit your site. Commit your changes.
 3. In your fork, open **Settings → Pages → Build and deployment** and set **Source** to **GitHub Actions**. If necessary, enable workflows in the **Actions** tab.
 4. Run **Actions → Build and deploy book → Run workflow**, or push a change to your fork's `main` branch. The deployed website normally appears at `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/` (or `https://YOUR-USERNAME.github.io/` for a repository named `YOUR-USERNAME.github.io`).
 5. Visit your new site and its chapter pages. Edit or replace the original `.txt` chapters and homepage copy with your own material; [the Spread the word guide](https://mikemayne.github.io/surviving-a-psyop/#read/how_to_fork) offers a prefilled ChatGPT walkthrough.
