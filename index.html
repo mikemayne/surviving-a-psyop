@@ -680,9 +680,11 @@ My question:
 <script>
 (function () {
   "use strict";
+  // BEGIN CHAPTER GROUPS — automatically regenerated from chapters.json when published.
   var GROUPS = [
     {name:"Begin here", note:"Start with the introduction and practical ways of responding.", files:[
       ["introduction","Introduction"],
+      ["record_ignore_report","Record, Ignore, Report"],
       ["never_engage","Never Engage: The Most Important Rule"],
       ["ready_to_report","Ready to report?"],
       ["take_back_control","Take back control"],
@@ -780,6 +782,7 @@ My question:
       ["conclusion","Conclusion"]
     ]}
   ];
+  // END CHAPTER GROUPS
   var chapters = [];
   GROUPS.forEach(function(group) { group.files.forEach(function(item) { chapters.push({id:item[0], title:item[1], group:group.name, number:chapters.length+1}); }); });
   var cache = {};
