@@ -1,0 +1,48 @@
+# Sleep Deprivation and Repeated Reinforcement
+
+## The Proposed Technique
+
+Sleep deprivation can make it harder to concentrate, evaluate information and remember where a particular idea came from. A misleading statement or interpretation that is encountered repeatedly during this period may also become increasingly familiar.
+
+The proposed manipulation combines these effects: a temporary period of impaired judgement might make repeated misleading ideas easier to accept, while their familiarity could continue to influence someone's interpretations after they are sleeping normally again.
+
+**The central possibility is that the period of increased vulnerability could be temporary, but a belief or association acquired during it might last longer.**
+
+## How It Might Work
+
+- **Reduced scrutiny:** Exhaustion may make it harder to check a claim against other explanations or earlier evidence.
+- **Misinformation and memory:** Some experiments have found that sleep-deprived participants are more susceptible to misleading information and false memories.
+- **Repetition and familiarity:** The illusory truth effect describes how repeated statements may feel more credible simply because they are familiar, not because fresh evidence supports them.
+- **Persistence:** Familiar interpretations can remain accessible after a person's immediate state changes. Returning to normal sleep does not automatically re-evaluate every belief formed during a difficult period.
+
+For example, someone might encounter the same misleading explanation several times while exhausted. Later, a similar remark might bring that explanation to mind automatically. **Recognising an explanation is not the same as verifying it.**
+
+## Possible Objective
+
+If these effects were deliberately exploited, the objective could be to establish a mistaken interpretation that continues to influence decisions even after sleep improves. The immediate effect would not necessarily be a dramatic reaction; it might be a lasting tendency to favour one explanation over alternatives.
+
+## What the Research Establishes — and Does Not
+
+Research provides separate support for sleep deprivation increasing some forms of false memory, and for repetition increasing the perceived truth of statements. The illusory truth effect has been measured after delays of days or weeks.
+
+These findings do **not** establish that combining sleep deprivation with repeated psychological tricks reliably creates lasting beliefs. Sleep loss can also impair learning, and effects vary with circumstances. The persistence of an interpretation cannot by itself reveal how it arose or whether anyone intended to influence it.
+
+Further reading:
+
+- [Frenda et al. (2014), *Sleep Deprivation and False Memories*](https://pubmed.ncbi.nlm.nih.gov/25031301/).
+- [Lo et al. (2016), *Sleep deprivation increases formation of false memory*](https://pubmed.ncbi.nlm.nih.gov/27381857/).
+- [Henderson et al. (2021), *The Trajectory of Truth: A Longitudinal Study of the Illusory Truth Effect*](https://pubmed.ncbi.nlm.nih.gov/34164597/).
+
+## Response
+
+When an idea feels compelling because it has come up repeatedly, ask what independent evidence supports it. Protect your sleep, defer important decisions until rested where possible, and distinguish the original observation from the explanation you have attached to it.
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**

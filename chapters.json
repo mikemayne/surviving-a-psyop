@@ -656,6 +656,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sleep_deprivation.txt"
     },
     {
+      "id": "sleep_deprivation_reinforcement",
+      "title": "Sleep Deprivation and Repeated Reinforcement",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/sleep_deprivation_reinforcement.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/sleep_deprivation_reinforcement",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sleep_deprivation_reinforcement.txt"
+    },
+    {
       "id": "deprivation_of_basic_necessities",
       "title": "Deprivation of Basic Necessities as Punishment",
       "category": "Intimidation & pressure",

@@ -803,6 +803,18 @@
       "personal_security_notes"
     ]
   },
+  "sleep_deprivation_reinforcement": {
+    "intro": "A proposed interaction between sleep loss, susceptibility to misleading information and repetition that could make an interpretation feel convincing after sleep improves.",
+    "questions": [
+      "Could repeated misleading statements feel more credible when someone is sleep-deprived?",
+      "Can a familiar interpretation persist after sleep recovers, and what does research actually show?"
+    ],
+    "related": [
+      "sleep_deprivation",
+      "cumulative_psychological_pressure",
+      "sleep_discipline"
+    ]
+  },
   "deprivation_of_basic_necessities": {
     "intro": "Describes the coercive withholding of essential needs such as food, water, hygiene, rest and medical attention, while distinguishing punitive restrictions from legitimate care constraints.",
     "questions": [
