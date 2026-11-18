@@ -123,7 +123,7 @@ Do not become drawn into repeated tests intended to establish what another perso
 
 If you have specific indications that a device has been compromised, ordinary cybersecurity precautions are appropriate: update its software, review application permissions and account access, and seek competent technical assistance where necessary. An apparently accurate guess, by itself, is not a reliable indicator of device compromise.
 
-If someone makes threats, demands or attempts to coerce you, respond to those specific actions rather than their claimed abilities. Record and report genuine incidents where appropriate.
+If someone makes threats, demands or attempts to coerce you, do not reply or debate their claimed abilities. Record the words if convenient, and report credible threats to the police through the appropriate channel. If anyone is in immediate danger, call 999.
 
 **The central principle is simple: someone appearing to know something about you does not give them authority over you, and you are under no obligation to comply with their demands.**
 
