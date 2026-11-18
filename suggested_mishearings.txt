@@ -39,6 +39,10 @@ The claim "he thought they said ..." doesn't demonstrate that anybody knows what
 
 Phonetic confusion, contextual speech perception and post-event suggestion are established research areas. The proposed use of language-model-generated alternatives to create an impression of knowing a particular person's private perception has not been directly demonstrated.
 
+## Claims presented as explanations
+
+During a period of sleep deprivation, I was told that "super-advanced bugs" had been deployed in my house and could hear my subvocalisations. I was also told that I say everything I think out loud. I do not. No known listening bug can hear silent subvocalisations or unspoken thoughts from across a room. Neither claim establishes an ability to read minds.
+
 ## Response
 
 **Don't engage with the claim or try to verify it in real time.** If recording the event is useful, distinguish what was actually heard from somebody else's suggested interpretation, and do it later.
