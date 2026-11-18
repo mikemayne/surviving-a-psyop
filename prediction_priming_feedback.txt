@@ -2,65 +2,149 @@
 
 ## The proposed technique
 
-An apparently accurate comment about what somebody is thinking does not have to reproduce their inner monologue word for word. Identifying a relevant person, subject, concern or emotional theme might be enough to feel uncanny.
+The hypothesis is that it may be possible to create the illusion of reading someone's mind by continuously combining prediction, priming and source misattribution.
 
-This chapter explores a hypothetical feedback effect: a prediction about a person's thoughts is spoken aloud, and the statement itself may influence which thoughts become accessible next. Repeating that process could create an impression of mind reading even when the initial guesses are often wrong. This is a proposed combination of known psychological effects, not an established mind-reading system.
+A system could use a large language model (LLM) to predict what someone is likely to think about next, who they are likely to be thinking about, and their approximate emotional state.
+
+These predictions could be based on extensive information about the individual, potentially including years of recorded speech, their relationships, previous conversations, recurring subjects, emotional associations and broader context.
+
+The objective would not be to predict someone's internal monologue word for word. Predicting the general subject, the person being considered or the emotional meaning of a thought might be sufficiently accurate to create the impression of mind reading.
 
 ## How it might work
 
-**Predicting a likely association.** Previous conversations, relationships, recent activities and conversational context can help a model estimate which subjects a person may discuss next. A tentative estimate of emotion might help rank associated people or memories, but expressions and voice do not reliably reveal exact feelings or thoughts. Even years of recorded speech would be a history of what was said, not a transcript of private thought.
+The technique combines three approaches:
 
-**Matching the statement to uncertainty.** A confident prediction could be expressed narrowly; a less confident prediction could be framed as a broad topic or relationship. A broad statement has more ways to seem relevant. The numerical confidence produced by a language model would not automatically be a calibrated probability of a private thought.
+1. **Predicting thoughts and conversations.** Using conversational history, current context and estimated emotional state to predict what the person is likely to discuss or think about next.
 
-**Priming the next association.** Saying a person's name or mentioning a subject can make related ideas more accessible. If a guess was initially wrong, it might still influence what comes to mind afterwards. The statement has not corrected the original guess; it has potentially changed the subsequent state being predicted. Priming is not automatic, permanent or precise.
+2. **Predicting who someone is thinking about.** Using the subject of a conversation, previous associations and emotional state to estimate which person is most likely to be occupying their thoughts. A statement such as "That was for Sarah" could appear to identify someone the individual was thinking about.
 
-**Possible source confusion.** A recently heard phrase or idea may feel familiar, and people can sometimes misremember whether information was heard or internally generated. That does not mean a listener will ordinarily mistake suggestions for their own thoughts.
+3. **Priming and source misattribution.** Introducing words or ideas that may subsequently enter the person's thoughts, then claiming that the individual had already thought or said them. In some circumstances, confusion about the origin of a familiar phrase could make the claim seem convincing.
 
-**Selective memory and reinforcement.** An unusually close match may stand out more than an ordinary miss. Repeated apparent successes could increase belief in the claimed ability, particularly if broad or ambiguous statements are interpreted generously. But failures can also be memorable, and continued repetition can reduce credibility rather than strengthen it.
+These three approaches could be used repeatedly in combination.
 
-## Why an approximate match can feel extraordinary
+Crucially, **a failed prediction could still have a useful effect**.
 
-Imagine somebody has been discussing a difficult meeting with a manager. A remark such as "You're worried about what your manager thinks" may capture the meaning of a concern without matching any exact words. It could seem impressively specific even though the inference follows from ordinary context.
+Suppose the model predicts that someone is thinking about Sarah and a voice says, "That was for Sarah."
 
-Now imagine the speaker says "That was about Sarah" when the listener had somebody else in mind. Hearing Sarah's name might bring her to mind anyway. If the listener later recalls the association but not its timing, the remark could seem more accurate than it originally was.
+If the prediction is correct, the individual may feel that somebody has read their mind.
 
-These examples illustrate different processes: a genuine contextual guess, an association introduced by a remark, and possible confusion about the source or timing of a thought. They should not be counted as the same kind of prediction success.
+If the prediction is incorrect, hearing Sarah's name may bring her to mind anyway. This could influence the person's subsequent thoughts, making later predictions involving Sarah more likely to be correct.
 
-## The feedback problem
+In this way, prediction and priming could reinforce one another. The prediction changes the very thing the system is attempting to predict.
 
-A system that makes a suggestion and then observes a response may inadvertently learn from behaviour that its own suggestion helped produce. The next prediction could therefore appear better informed without the system having independently identified the person's original thoughts.
+## Combining the techniques: listener-supplied specificity
 
-The proposed cycle is:
+The techniques could be combined. A system could use source misattribution to introduce a vague statement related to someone the listener knows, then say out loud, "That was for X."
 
-Contextual information → prediction → spoken statement → possible priming → observable response → updated prediction.
+The listener might then fill in what the statement was about themselves. Even if the statement was vague, naming someone they know could bring to mind their own memories, associations and emotions. The listener could supply much of the missing detail, making the statement seem more specific than it actually was.
 
-The central distinction is between **prediction accuracy measured before a statement** and **apparent accuracy judged after a statement**. Without that distinction, a demonstration can look stronger than it is.
+The process could keep going throughout the day, using different combinations of source misattribution, priming and predictions. When the model had high confidence, it could make a more specific claim. When confidence was low, it could make a vague statement that still primes a person or subject and leaves the listener to fill in the gaps.
 
-## What the research supports
+The proposed effect would not require every prediction to be correct. Some remarks might seem strikingly accurate, others might introduce a subject that comes to mind afterwards, and others might gain their apparent specificity from the listener's interpretation. These different effects could contribute to the overall impression without anyone actually knowing the listener's private thoughts.
 
-- **Cold reading and subjective validation:** Broad, personalised-seeming statements can create an impression of special insight. See *The Cold Reading Technique* (1988): https://pubmed.ncbi.nlm.nih.gov/3360083/
-- **Semantic priming and associative memory:** Related words and concepts can influence subsequent processing; this is not the same as reliably determining a person's next spontaneous thought. See the review of semantic similarity and false memory: https://pmc.ncbi.nlm.nih.gov/articles/PMC8200635/
-- **Source monitoring:** People sometimes make errors when judging where remembered information originated. See *Source Monitoring and Memory Distortion*: https://pmc.ncbi.nlm.nih.gov/articles/PMC1692093/
-- **Cold-reading strategies:** Different forms of guessing, prior knowledge and feedback can contribute to apparent accuracy. See *An Overview of Cold Reading Strategies*: https://nectar.northampton.ac.uk/id/eprint/5965/
+## Confidence-dependent statements
+
+The model could assign an estimated probability to each prediction and vary the specificity of the statement accordingly.
+
+When confidence is high, it could make a specific prediction about a person, subject or thought.
+
+When confidence is lower, it could make a vaguer statement that is less likely to be obviously wrong but still primes the individual towards the predicted subject.
+
+For example:
+
+- **High confidence:** "You were thinking about Sarah."
+- **Medium confidence:** "You were thinking about someone at work."
+- **Low confidence:** "Something at work has been bothering you."
+
+These confidence levels would be estimates rather than reliable measurements of someone's private thoughts.
+
+The important feature is that a high-confidence statement offers the possibility of a striking apparent success, while a low-confidence statement can introduce a relevant association without making a precise claim.
+
+The system could then use subsequent speech and behaviour to update its predictions.
+
+## Reinforcement and selective recall
+
+Humans do not necessarily remember successful and unsuccessful predictions equally.
+
+An apparently accurate prediction about a private thought can be surprising and emotionally significant, making it particularly memorable.
+
+An incorrect prediction may be much less memorable, especially when the statement was vague or when the subject subsequently entered the person's thoughts through priming.
+
+Over time, the individual could remember the striking successes disproportionately while overlooking many of the failures.
+
+This could create a cumulative reinforcement effect.
+
+Each apparently successful prediction makes the claimed ability seem more credible. Greater credibility may make subsequent predictions feel more significant, even when the underlying predictive accuracy has not improved.
+
+Repeated exposure to the same subjects and associations might also make them more mentally accessible, potentially influencing subsequent predictions.
+
+The proposed effect therefore does not require a high proportion of predictions to be correct. It requires enough memorable apparent successes to outweigh the subjective significance of the failures.
+
+## Extensive personal information
+
+A large amount of historical information could make the predictions more personalised.
+
+For example, seven years of recorded speech could provide information about an individual's:
+
+- Vocabulary, speech patterns and habitual expressions.
+- Friends, family, colleagues and other relationships.
+- Recurring conversational subjects and personal concerns.
+- Emotional associations with particular people and events.
+- Typical conversational sequences and responses.
+- Interests, memories and experiences frequently discussed.
+
+This information could be combined with current speech, approximate emotional state, recent events and broader context.
+
+The model could continuously update its estimates of which people, topics and associations were most likely to become relevant next.
+
+Rather than accurately reconstructing private thoughts, the system would be predicting likely associations and occasionally influencing them through its own statements.
+
+## The cumulative effect
+
+The central hypothesis is that these mechanisms could reinforce one another over an extended period.
+
+**Prediction provides occasional genuine matches.**
+
+**Priming can influence subsequent thoughts towards an otherwise incorrect prediction.**
+
+**Source misattribution can sometimes make an externally introduced idea feel internally generated.**
+
+**Vague statements may lead the listener to supply their own specific meaning.**
+
+**Selective recall makes apparent successes more memorable than ordinary failures.**
+
+**Repetition and reinforcement could make the apparent ability seem increasingly credible.**
+
+None of these mechanisms requires technology capable of directly reading thoughts.
+
+The proposed illusion arises from combining ordinary psychological effects with personalised probabilistic predictions.
+
+The more information available about the individual, the more opportunities the model may have to produce contextually appropriate predictions.
+
+The more frequently predictions and suggestions are introduced, the more opportunities there may be for striking coincidences, semantic matches and priming effects.
+
+The result could be an increasingly convincing subjective impression that somebody has access to the individual's private thoughts, even when they do not.
 
 ## Research gap
 
-The main open question is whether combining personalised predictions, uncertainty-dependent wording, repeated priming, source-monitoring errors and selective recall produces a sustained increase in the *perceived* accuracy of thought predictions. The individual mechanisms have research behind them; this complete proposed feedback loop has not been demonstrated here.
+Prediction from conversational context, semantic priming, source-monitoring errors, confirmation bias and selective recall are all recognised areas of research.
 
-A controlled, consent-based study could compare real prediction accuracy with participants' retrospective impressions, while distinguishing guesses made before a prompt from thoughts reported after it.
+The proposed interaction between these mechanisms, including listener-supplied interpretations and their cumulative effects under continuous repetition, requires further investigation.
 
-## Further considerations
+The central unanswered question is whether repeated personalised prediction and priming can produce a sustained difference between actual predictive accuracy and the individual's perceived accuracy.
 
-An unusually relevant remark does not, by itself, identify how the speaker obtained the information or show that a deliberate technique was used. Coincidence, shared context, ordinary inference and memory can all matter. Avoid turning an impression into a conclusion about who was responsible or what technology was involved.
+A controlled experiment could measure this distinction using consenting participants, comparing predictions recorded before a statement with thoughts reported independently before and after hearing it.
 
-If a remark is upsetting, it is enough to record the words and their circumstances, if convenient. There is no need to test a claimed mind-reading ability or reconstruct every passing thought.
+A prolonged coercive experiment would present substantial ethical problems.
 
 ## Response
 
+An apparently accurate statement about your thoughts does not establish that somebody can read your mind. It also does not, by itself, establish that someone is deliberately using the proposed technique.
+
+There is no need to test the claimed ability, correct inaccurate predictions or respond to statements about what you supposedly thought.
+
 **Don't engage at all. Record if convenient, then get on with your day.**
 
-If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
-
-Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+If you or someone else is in immediate danger, get to safety and call **999**.
 
 **If you don't react, you don't give them anything to work with.**
