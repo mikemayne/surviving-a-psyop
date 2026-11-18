@@ -117,6 +117,7 @@ Technical ideas, media, security and interpretation.
 - [Dream Manipulation](https://mikemayne.github.io/surviving-a-psyop/dream_manipulation.txt)
 - [Cold reading](https://mikemayne.github.io/surviving-a-psyop/cold_reading.txt)
 - [AI-assisted cold reading](https://mikemayne.github.io/surviving-a-psyop/cold_reading_ai_assisted.txt)
+- [Prediction-Priming Feedback: The Illusion of Mind Reading](https://mikemayne.github.io/surviving-a-psyop/prediction_priming_feedback.txt)
 - [Predicting bodily movements](https://mikemayne.github.io/surviving-a-psyop/predicting_bodily_movements.txt)
 - [Source identification](https://mikemayne.github.io/surviving-a-psyop/source_identification_trick.txt)
 - [Internal monologue](https://mikemayne.github.io/surviving-a-psyop/internal_monologue_trick.txt)
