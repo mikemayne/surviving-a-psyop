@@ -402,7 +402,7 @@
     .binary-explanation strong { font-weight: 900; }
     .binary-links {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: clamp(10px, 2vw, 16px);
       margin-top: clamp(22px, 3vw, 32px);
     }
@@ -418,6 +418,7 @@
       font-weight: 800;
     }
     @media (max-width: 900px) {
+      .binary-links { grid-template-columns: 1fr; }
       .binary-panel {
         width: min(100%, 660px);
         grid-template-columns: minmax(0, 1fr);
@@ -683,8 +684,9 @@ My question:
       <div class="binary-content">
         <p class="binary-explanation">The best way to stop the abuse is:<br><strong>Record</strong> the behavior,<br><strong>Ignore</strong> the behavior,<br><strong>Report</strong> as soon as you are calm.</p>
         <nav class="binary-links" aria-label="Read further guidance">
-          <a class="btn btn-primary" href="#read/ready_to_report">Ready to Report?</a>
+          <a class="btn btn-primary" href="#read/how_to_record">How to Record</a>
           <a class="btn btn-secondary" href="#i-cant-ignore">I Cant Ignore</a>
+          <a class="btn btn-secondary" href="#read/ready_to_report">Ready To Report?</a>
         </nav>
       </div>
     </section>
@@ -733,6 +735,7 @@ My question:
     {name:"Begin here", note:"Start with the introduction and practical ways of responding.", files:[
       ["introduction","Introduction"],
       ["record_ignore_report","Record, Ignore, Report"],
+      ["how_to_record","How to Record"],
       ["never_engage","Never Engage: The Most Important Rule"],
       ["ready_to_report","Ready to report?"],
       ["take_back_control","Take back control"],
