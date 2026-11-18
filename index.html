@@ -358,39 +358,43 @@
       .mobile-site-nav summary { padding-inline: 10px; }
     }
 
-    /* The same bold safety card, expanded on its own page for instant scanning. */
+    /* What to do: large explanation on the left, safety choices on the right. */
     .what-to-do { padding: clamp(12px, 2vw, 28px) 0 32px; min-height: 100vh; }
     .binary-panel {
-      width: min(100%, 820px); margin: clamp(8px, 1.5vw, 18px) auto 0;
-      padding: clamp(16px, 3vw, 30px); background: var(--surface);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      grid-template-areas: "content choices";
+      align-items: center;
+      gap: clamp(24px, 4vw, 56px);
+      width: min(100%, 1140px); margin: clamp(8px, 1.5vw, 18px) auto 0;
+      padding: clamp(18px, 3vw, 36px); background: var(--surface);
       border: 1px solid var(--line); border-radius: 6px; box-shadow: var(--shadow);
     }
+    .binary-choices { grid-area: choices; min-width: 0; }
+    .binary-content { grid-area: content; min-width: 0; }
     .binary-panel .binary-question {
-      font-size: clamp(2rem, 4.5vw, 3.7rem);
+      font-size: clamp(2rem, 3vw, 3rem);
       text-align: center; margin-bottom: clamp(14px, 2vw, 20px);
     }
     .binary-panel .binary-options { gap: clamp(10px, 1.5vw, 14px); }
     .binary-panel .binary-option { min-height: clamp(88px, 10vw, 116px); }
-    .binary-panel .binary-answer { font-size: clamp(1.7rem, 3.3vw, 2.6rem); }
-    .binary-panel .binary-answer--stacked { font-size: clamp(1.4rem, 2.75vw, 2.1rem); }
+    .binary-panel .binary-answer { font-size: clamp(1.7rem, 3vw, 2.4rem); }
+    .binary-panel .binary-answer--stacked { font-size: clamp(1.4rem, 2.5vw, 2rem); }
     .binary-explanation {
-      max-width: 34ch;
-      margin: clamp(16px, 2.4vw, 22px) auto 0;
-      padding-top: clamp(12px, 1.8vw, 18px);
-      border-top: 1px solid var(--line);
+      margin: 0;
       color: var(--ink);
-      font-size: clamp(1.4rem, 2.6vw, 2rem);
+      font-size: clamp(1.65rem, 2.4vw, 2.25rem);
       font-weight: 650;
       line-height: 1.32;
       letter-spacing: -.018em;
-      text-align: center;
+      text-align: left;
     }
     .binary-explanation strong { font-weight: 900; }
     .binary-links {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: clamp(10px, 2vw, 16px);
-      margin-top: clamp(14px, 2vw, 20px);
+      margin-top: clamp(22px, 3vw, 32px);
     }
     .binary-links .btn {
       box-sizing: border-box;
@@ -402,6 +406,16 @@
       line-height: 1.3;
       font-size: clamp(.9rem, 1.8vw, 1.05rem);
       font-weight: 800;
+    }
+    @media (max-width: 900px) {
+      .binary-panel {
+        width: min(100%, 660px);
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-areas: "choices" "content";
+        gap: clamp(20px, 3vw, 26px);
+      }
+      .binary-content { border-top: 1px solid var(--line); padding-top: clamp(18px, 3vw, 24px); }
+      .binary-explanation { font-size: clamp(1.4rem, 3.4vw, 1.9rem); }
     }
     @media (max-width: 720px) {
       .what-to-do { padding-top: 8px; padding-bottom: 20px; }
@@ -625,23 +639,27 @@ My question:
 <main id="what-to-do-view" class="what-to-do hidden" aria-labelledby="what-to-do-question">
   <div class="wrap">
     <section class="binary-panel" aria-labelledby="what-to-do-question">
-      <h1 class="binary-question" id="what-to-do-question" tabindex="-1">Are you in danger?</h1>
-      <div class="binary-options">
-        <a class="binary-option binary-option--urgent" href="tel:999">
-          <span class="binary-condition">YES</span>
-          <strong class="binary-answer">Call 999</strong>
-        </a>
-        <a class="binary-option binary-option--calm" href="#read/record_ignore_report">
-          <span class="binary-condition">NO</span>
-          <strong class="binary-answer binary-answer--stacked">Record,<br>Ignore,<br>Report</strong>
-          <span class="sr-only">Read the Record, Ignore, Report guide.</span>
-        </a>
+      <div class="binary-choices">
+        <h1 class="binary-question" id="what-to-do-question" tabindex="-1">Are you in danger?</h1>
+        <div class="binary-options">
+          <a class="binary-option binary-option--urgent" href="tel:999">
+            <span class="binary-condition">YES</span>
+            <strong class="binary-answer">Call 999</strong>
+          </a>
+          <a class="binary-option binary-option--calm" href="#read/record_ignore_report">
+            <span class="binary-condition">NO</span>
+            <strong class="binary-answer binary-answer--stacked">Record,<br>Ignore,<br>Report</strong>
+            <span class="sr-only">Read the Record, Ignore, Report guide.</span>
+          </a>
+        </div>
       </div>
-      <p class="binary-explanation">The best way to stop the abuse is to <strong>Record</strong> the behavior and <strong>Report</strong> as soon as you are calm.</p>
-      <nav class="binary-links" aria-label="Read further guidance">
-        <a class="btn btn-primary" href="#read/ready_to_report">Ready to Report?</a>
-        <a class="btn btn-secondary" href="#read/never_engage">Why not Engage?</a>
-      </nav>
+      <div class="binary-content">
+        <p class="binary-explanation">The best way to stop the abuse is: <strong>Record</strong> the behavior, <strong>Ignore</strong> the behavior, <strong>Report</strong> as soon as you are calm.</p>
+        <nav class="binary-links" aria-label="Read further guidance">
+          <a class="btn btn-primary" href="#read/ready_to_report">Ready to Report?</a>
+          <a class="btn btn-secondary" href="#read/never_engage">Why not Engage?</a>
+        </nav>
+      </div>
     </section>
   </div>
 </main>
