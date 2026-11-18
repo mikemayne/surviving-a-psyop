@@ -1278,10 +1278,10 @@
     ]
   },
   "pretend_planning": {
-    "intro": "Explains how an indistinct, seemingly purposeful conversation can capture a listener's attention, interrupt what they are doing and create an opening for other forms of pressure.",
+    "intro": "Explains how indistinct, seemingly purposeful speech might draw someone's attention away from another activity; includes everyday descriptions of the pattern and reassurance when an indistinct conversation is their only concern.",
     "questions": [
-      "Why can a conversation that is just too quiet to follow grab someone's attention?",
-      "How can I avoid getting distracted by trying to make out an indistinct conversation?"
+      "Why might a barely audible conversation distract me from what I am doing?",
+      "If all I have noticed is an indistinct conversation next door, do I need to do anything?"
     ],
     "related": [
       "accidentally_overheard",
