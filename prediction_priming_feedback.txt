@@ -40,6 +40,10 @@ The listener might then fill in what the statement was about themselves. Even if
 
 The process could keep going throughout the day, using different combinations of source misattribution, priming and predictions. When the model had high confidence, it could make a more specific claim. When confidence was low, it could make a vague statement that still primes a person or subject and leaves the listener to fill in the gaps.
 
+Another possibility is to wait until the LLM is fairly confident that a specific topic is already on the person's mind. A related phrase could then be introduced through the proposed source-misattribution technique to reinforce that topic further. Afterwards, someone could say aloud, "That was for X."
+
+In that sequence, the model would first predict a likely topic, the phrase might make the topic more mentally accessible, and "That was for X" would link it to someone the listener knows. The listener might then fill in the specifics themselves. A statement could therefore feel accurate without having identified the original thought; the apparent match could partly arise from what was introduced afterwards.
+
 The proposed effect would not require every prediction to be correct. Some remarks might seem strikingly accurate, others might introduce a subject that comes to mind afterwards, and others might gain their apparent specificity from the listener's interpretation. These different effects could contribute to the overall impression without anyone actually knowing the listener's private thoughts.
 
 ## Confidence-dependent statements
