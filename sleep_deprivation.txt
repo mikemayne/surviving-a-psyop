@@ -9,3 +9,15 @@ The objective would be to maximise sleep deprivation and frustration while minim
 **Technical explanation**
 
 A microphone combined with a machine-learning model could potentially estimate when an individual is approaching sleep. One possible architecture would be a convolutional neural network (CNN) operating on mel-spectrograms of recorded audio, combined with a temporal model such as a long short-term memory (LSTM) network or Transformer. The CNN would extract acoustic features associated with breathing rate, respiratory regularity and body movement, while the temporal model would analyse how these features change over successive recording windows. Trained on recordings labelled with independently measured sleep stages, such a system could produce continuously updated probabilities of wakefulness, drowsiness and sleep. In principle, these estimates could inform the timing of an external disturbance. However, acoustic sleep-stage classification is considerably better established than precise advance prediction of sleep onset, and repeated accurately timed disturbances would not themselves establish that such a system was being used.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**
