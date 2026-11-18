@@ -287,6 +287,18 @@
       "dont_chase"
     ]
   },
+  "fake_shock": {
+    "intro": "Explores how apparent shock or sympathy may influence trust and decisions about reporting, while distinguishing genuine concern from possible performance.",
+    "questions": [
+      "How might apparent shock encourage trust or discourage someone from reporting a concern?",
+      "Why is an emotional reaction alone insufficient to establish a speaker's intentions?"
+    ],
+    "related": [
+      "good_cop_bad_cop",
+      "staged_third_party_reactions",
+      "false_assistance"
+    ]
+  },
   "we_only_do_this_to_really_bad_people": {
     "intro": "Explains how claiming that harsh treatment is reserved for 'really bad people' can imply guilt without evidence, justify cruelty and discourage seeking help.",
     "questions": [
