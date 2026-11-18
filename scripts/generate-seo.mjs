@@ -73,7 +73,7 @@ for(let i=0;i<chapters.length;i++){
 }
 const groups=new Map();
 chapters.forEach(c=>{if(!groups.has(c.category))groups.set(c.category,[]);groups.get(c.category).push(c)});
-const sections=[...groups.entries()].map(([group,items])=>'<section'+(group === 'Begin here' ? ' aria-label="Opening chapters"' : '')+'>'+(group === 'Begin here' ? '' : '<h2>'+esc(group)+'</h2>')+'<ul>'+items.map(c=>'<li><a href="./'+c.id+'.html">'+esc(c.title)+'</a></li>').join('')+'</ul></section>').join('\n');
+const sections=[...groups.entries()].map(([group,items])=>'<section><h2>'+esc(group)+'</h2><ul>'+items.map(c=>'<li><a href="./'+c.id+'.html">'+esc(c.title)+'</a></li>').join('')+'</ul></section>').join('\n');
 const index='<main id="main-content" tabindex="-1"><h1>Browse all chapters</h1><p class="intro">'+esc(site.description)+' Browse the chapters below.</p>'+sections+'<footer><a href="../">Back to homepage</a> · CC0 1.0 Universal</footer></main>';
 fs.writeFileSync(path.join(dir,'index.html'),page('All chapters',site.description,base+'topics/index.html',index));
 const urls=[base,base+'topics/index.html',...chapters.map(c=>base+'topics/'+c.id+'.html')];
