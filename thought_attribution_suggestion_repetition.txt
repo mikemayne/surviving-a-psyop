@@ -20,6 +20,14 @@ The further hypothesis is that repeated accusations made during sleep deprivatio
 
 A proposed objective would be to create confusion about the authorship of thoughts, or the impression that someone else knows what a person was thinking. The mechanism would depend on familiarity and attribution, not actual mind-reading.
 
+## Cumulative Reinforcement (Proposed)
+
+The hypothesis does not require every accusation to be accepted. Even when someone immediately rejects a false attribution, repeated exposure could make the **idea**, rather than the exact words, increasingly familiar or accessible.
+
+If a later accusation coincides with a genuine source-memory error, that experience might strengthen the association between recognising the idea and feeling that it was self-generated. On this account, **rejected accusations could prime later encounters, while occasional misattributions could reinforce the apparent authorship**. The two effects might interact over time rather than operating as independent attempts.
+
+Familiarity does not guarantee this feedback loop: repetition can also strengthen someone's recognition that an accusation is mistaken.
+
 ## What the Research Supports
 
 **1. External-to-internal source errors — Supported.** Garrison et al. (2017) found that healthy volunteers sometimes misremembered perceived information as imagined. Their study concerns later judgments about the source of words, not an immediate experience of inner speech.
@@ -44,7 +52,7 @@ A proposed objective would be to create confusion about the authorship of though
 
 ## What Remains Unproven
 
-Whether repeatedly exploiting these effects during sleep deprivation could condition someone to experience the same false attribution after normal sleep resumes. Testing this under the proposed conditions would present serious ethical difficulties.
+Whether repeated accusations—including those consciously rejected—can reinforce later false self-attribution, particularly after recovery from sleep deprivation. Testing a prolonged, coercive version of this hypothesis would present serious ethical difficulties.
 
 ## Response
 
