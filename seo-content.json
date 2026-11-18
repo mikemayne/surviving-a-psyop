@@ -1164,10 +1164,11 @@
     ]
   },
   "prediction_priming_feedback": {
-    "intro": "A proposed feedback effect combining personalised prediction, vague or precise claims, priming, memory and apparent mind-reading accuracy.",
+    "intro": "A hypothesis combining personalised prediction, priming, source misattribution and multimodal sensor fusion to explain apparent thought-reading and reaction feedback.",
     "questions": [
-      "How can an incorrect prediction influence what someone thinks about next?",
-      "Why might subjective prediction accuracy differ from accuracy measured before a statement?"
+      "How might spoken predictions and priming change the listener's subsequent associations?",
+      "What could microphones, cameras, Wi-Fi sensing or mmWave radar observe during a reaction?",
+      "Why can observable feedback increase a model's confidence without proving a prediction of private thoughts was correct?"
     ],
     "related": [
       "cold_reading_ai_assisted",
