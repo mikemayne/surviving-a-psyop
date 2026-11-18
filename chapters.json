@@ -260,6 +260,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_report_accusations.txt"
     },
     {
+      "id": "fabricated_confession",
+      "title": "The Fabricated Confession",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/fabricated_confession.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/fabricated_confession",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/fabricated_confession.txt"
+    },
+    {
       "id": "claim_inflation",
       "title": "Claim inflation",
       "category": "Recognising manipulation",

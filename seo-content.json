@@ -1067,6 +1067,18 @@
       "legal_intimidation"
     ]
   },
+  "fabricated_confession": {
+    "intro": "Examines a claim that someone has just confessed to a crime, the difference between an accusation and an actual admission, and how to avoid reacting to an unsupported assertion.",
+    "questions": [
+      "Why does 'He just said ...' sound like evidence when it may be only an allegation?",
+      "When is a false attribution better described as gaslighting, and how can I record the facts without reacting?"
+    ],
+    "related": [
+      "false_report_accusations",
+      "loaded_questions",
+      "never_engage"
+    ]
+  },
   "how_to_fork": {
     "intro": "A beginner-friendly guide to forking this website, personalising its content and design, and publishing your own version for free with optional ChatGPT guidance.",
     "questions": [
