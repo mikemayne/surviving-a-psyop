@@ -383,10 +383,10 @@
         <div class="rules-intro"><a class="btn btn-primary" href="./topics/ready_to_report.html">Ready to report? <span aria-hidden="true">↗</span></a></div>
       </div>
       <div class="rules-grid">
-        <article class="rule-card"><span class="rule-number">01</span><h3>Stay calm</h3><p id="rule-text-1">Stay calm, the only external response to someone saying something unusual around or to you should be polite bafflement.  Don't react in any other way, just walk off and do something else. Remember you don't owe anyone an explanation for anything, just walk away.</p></article>
-        <article class="rule-card"><span class="rule-number">02</span><h3>Stick to a plan</h3><p id="rule-text-2">Stick to a plan.  Do only what you would do anyway.  If you are feeling completely overwhelmed and don't know what you should do or feel compelled to act, go to bed and stay there until you feel able to react normally.</p></article>
-        <article class="rule-card"><span class="rule-number">03</span><h3>Don't Assume</h3><p id="rule-text-3">Don't assume anything you are told by an abuser is true. If you are unsure if a voice is coming from your own mouth, make an innocuous noise like a thoughtful clicking or whistle. You will be able to localise that sound and distinguish it from a sound coming from elsewhere.</p></article>
-        <article class="rule-card"><span class="rule-number">04</span><h3>Don't engage</h3><p id="rule-text-4">If you don't react you don't give them anything to work with.  Record what they say in an email if convenient, then ignore them completely and get on with your day</p></article>
+        <article class="rule-card"><span class="rule-number">01</span><h3><!-- Generated from introduction.txt by the site build; edit introduction.txt instead. --></h3><p id="rule-text-1"><!-- Generated from introduction.txt by the site build; edit introduction.txt instead. --></p></article>
+        <article class="rule-card"><span class="rule-number">02</span><h3><!-- Generated from introduction.txt by the site build; edit introduction.txt instead. --></h3><p id="rule-text-2"><!-- Generated from introduction.txt by the site build; edit introduction.txt instead. --></p></article>
+        <article class="rule-card"><span class="rule-number">03</span><h3><!-- Generated from introduction.txt by the site build; edit introduction.txt instead. --></h3><p id="rule-text-3"><!-- Generated from introduction.txt by the site build; edit introduction.txt instead. --></p></article>
+        <article class="rule-card"><span class="rule-number">04</span><h3><!-- Generated from introduction.txt by the site build; edit introduction.txt instead. --></h3><p id="rule-text-4"><!-- Generated from introduction.txt by the site build; edit introduction.txt instead. --></p></article>
       </div>
     </div>
   </section>
@@ -899,22 +899,7 @@ My question:
     }
   }
 
-  function syncHomepageRules() {
-    fetch("./introduction.txt").then(function(response) {
-      if (!response.ok) throw new Error("Introduction not available");
-      return response.text();
-    }).then(function(source) {
-      var section = source.match(/\*\*\s*How to survive\s*\*\*([\s\S]*?)\*\*\s*How to report\s*\*\*/i);
-      if (!section) return;
-      var matches = Array.from(section[1].matchAll(/(?:^|\n)\s*([1-4])\.\s*([^\n]+)/g));
-      if (matches.length !== 4) return;
-      matches.forEach(function(match) {
-        var target = document.getElementById("rule-text-" + match[1]);
-        if (target) target.innerHTML = inline(match[2].trim());
-      });
-    }).catch(function() { /* Keep the original printed text as a fallback. */ });
-  }
-  syncHomepageRules();
+  // Homepage rules are generated from introduction.txt at build time.
 
 
   (function enableStatementAnalyser() {
