@@ -82,10 +82,6 @@ html = html.replace(/(<h1(?:\s[^>]*)?>)How to survive a <em>psyop\.<\/em><\/h1>/
     ? 'How to survive a <em>psyop.</em>' : escapeHTML(site.heroHeading)) + '</h1>');
 html = html.replace(/(<p class="hero-lead">)[\s\S]*?(<\/p>)/,
   (_match, start, end) => start + escapeHTML(site.heroLead) + end);
-html = html.replace(/(<div class="cover-center">)[\s\S]*?(<\/div>)/,
-  (_match, start, end) => start + (site.coverText === 'Just Do Nothing.'
-    ? 'Just<br>Do<br>Nothing.'
-    : site.coverText.split('\n').map(escapeHTML).join('<br>')) + end);
 html = generateHomepageRules(html);
 write('index.html', html);
 
