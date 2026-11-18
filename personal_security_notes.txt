@@ -18,7 +18,7 @@ Position cameras to protect your property while minimising unnecessary coverage 
 
 ### DON'T WATCH YOUR CAMERAS IN REAL TIME
 
-**My strongest recommendation is to avoid watching live camera feeds.**  Leave it a full 24 hours before you review any events.
+**My strongest recommendation is to avoid watching live camera feeds.** For a suspected non-violent incident that does not require an immediate response, let the camera record and wait until the next day to review the relevant footage. For example, if you suspect someone has scratched a parked car, there is generally no reason to watch a live feed or investigate it immediately.
 
 Cameras should preserve evidence, not become a source of constant vigilance.
 
@@ -26,7 +26,7 @@ Watching live feeds can encourage impulsive responses to ambiguous events. It is
 
 Disable all notifications and let the cameras record without constantly checking them.
 
-**If you believe something unusual has happened, leave the footage until the following day before reviewing it**, provided there is no immediate safety concern.  Make sure the recordings a kept for a suitable amount of time.  If you don't expect there to be any evidence don't bother looking at all.  People behaving slightly strangely doesn't prove anything that the police can do anything about, so just ignore them completely is my advice.
+**If you believe something unusual has happened, leave the footage until the following day before reviewing it**, provided nobody is in immediate danger and no urgent action is needed. Make sure the recording will be retained long enough; if it may be overwritten, save the original promptly without spending time repeatedly watching it. Do not delay getting help or reporting a time-sensitive offence because of this advice.  If you don't expect there to be any evidence don't bother looking at all.  People behaving slightly strangely doesn't prove anything that the police can do anything about, so just ignore them completely is my advice.
 
 After a night's sleep, you are more likely to assess the recording calmly and distinguish meaningful evidence from ordinary activity.
 
@@ -51,3 +51,15 @@ A good security system should operate quietly in the background, protecting your
 The objective is to improve personal safety, not to achieve perfect surveillance of your surroundings.
 
 **A security system should give you greater freedom to enjoy your life, not make you feel obliged to watch everything happening around you.**
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**

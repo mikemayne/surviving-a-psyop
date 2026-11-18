@@ -17,6 +17,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/introduction.txt"
     },
     {
+      "id": "never_engage",
+      "title": "Never Engage: The Most Important Rule",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/never_engage.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/never_engage",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/never_engage.txt"
+    },
+    {
       "id": "ready_to_report",
       "title": "Ready to report?",
       "category": "Begin here",
@@ -267,6 +276,15 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/reputation_to_live_up_to.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/reputation_to_live_up_to",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/reputation_to_live_up_to.txt"
+    },
+    {
+      "id": "outcome_inflation_deflation",
+      "title": "Outcome Inflation and Deflation",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/outcome_inflation_deflation.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/outcome_inflation_deflation",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/outcome_inflation_deflation.txt"
     },
     {
       "id": "manufactured_confusion",

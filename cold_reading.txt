@@ -113,8 +113,7 @@ This uncertainty can encourage the target to search for increasingly elaborate e
 
 The resulting preoccupation can itself become disruptive, regardless of how the apparent knowledge was obtained.
 
-### How to Respond
-
+### Further considerations
 **You do not need to explain how someone obtained apparently private information to decide how to respond.**
 
 Avoid treating accurate guesses as proof of extraordinary capabilities. Remember that coincidences, prior knowledge, ordinary observation and statistical predictions can produce surprisingly convincing results.
@@ -130,3 +129,15 @@ If someone makes threats, demands or attempts to coerce you, respond to those sp
 Learning from the Target's Responses
 
 Cold reading can also function as a process of information gathering. Every response to a guess, whether verbal or behavioural, may provide additional information about the individual. Modern machine learning systems could potentially accumulate this feedback to refine a personalised model of someone's interests, behaviour and likely responses. This need not involve repeatedly retraining an entire language model; information from previous interactions can simply be incorporated into the context used to generate subsequent predictions. Over time, such a system might produce increasingly convincing demonstrations of apparent personal knowledge. However, reactions are ambiguous, and predicting someone's responses is not equivalent to reading their thoughts.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**

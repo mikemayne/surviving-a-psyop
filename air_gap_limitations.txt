@@ -20,7 +20,7 @@ The psychological effect could be particularly disturbing because the individual
 
 An important distinction is that experiencing unexpected audio does not itself establish electromagnetic injection. Ordinary radio interference, equipment faults, software playback and other explanations may produce superficially similar effects.
 
-**PRACTICAL RESPONSE**
+**Further considerations**
 
 Disconnecting devices from the internet remains a useful security measure. Electromagnetic interference does not render ordinary digital security precautions pointless.
 
@@ -41,3 +41,15 @@ Other recognised limitations of air gaps include acoustic, optical and electroma
 These vulnerabilities have significant practical limitations involving distance, equipment design, signal strength, environmental conditions and access. They do not imply that arbitrary disconnected devices can routinely be monitored or controlled remotely.
 
 **The central principle is that an air gap isolates network communications, not every possible physical communication channel.** Nevertheless, disconnecting from the internet remains an effective security precaution, and the existence of these techniques does not mean an ordinary disconnected device is compromised.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**

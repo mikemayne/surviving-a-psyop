@@ -11,6 +11,18 @@
       "sleep_discipline"
     ]
   },
+  "never_engage": {
+    "intro": "Why provocative remarks are tempting to answer, how debate can prolong an unwanted interaction, and ways to disengage without losing time or sleep.",
+    "questions": [
+      "Why do I feel compelled to respond to an insulting or obviously false remark?",
+      "How do conversational reciprocity and turn-taking make it harder to ignore a provocation?"
+    ],
+    "related": [
+      "introduction",
+      "dont_chase",
+      "take_back_control"
+    ]
+  },
   "ready_to_report": {
     "intro": "A practical guide to documenting troubling experiences, discussing them with your GP and reporting concerns to the police calmly and factually.",
     "questions": [
@@ -319,6 +331,18 @@
     ],
     "related": [
       "claiming_influence",
+      "negging_psychological_manipulation",
+      "stay_grounded"
+    ]
+  },
+  "outcome_inflation_deflation": {
+    "intro": "Explores how sweeping predictions of success or failure can distort motivation, decisions and satisfaction, and how to assess them using evidence rather than hype or dismissal.",
+    "questions": [
+      "How can exaggerated predictions of success or failure influence someone's decisions?",
+      "How do I judge a project fairly when other people make extreme predictions about it?"
+    ],
+    "related": [
+      "reputation_to_live_up_to",
       "negging_psychological_manipulation",
       "stay_grounded"
     ]

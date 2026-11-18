@@ -13,3 +13,15 @@ Frustration and anger are entirely understandable responses to genuine mistreatm
 **The central principle is that you can refuse to tolerate mistreatment without becoming confrontational. Be reasonable, be persistent, give people the benefit of the doubt where appropriate, and hold them accountable for what they actually do rather than what you suspect they might intend.**
 
 Connecting an email address to an AI is a very helpful for this process, it will help you draft impartial emails, is aware of your rights and laws and can help coordinate activity. I suggest making a separate email address for this, and turning off model training from your data (the model can tell you how to do that).
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**
