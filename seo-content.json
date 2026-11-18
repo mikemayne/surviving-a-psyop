@@ -11,6 +11,18 @@
       "sleep_discipline"
     ]
   },
+  "record_ignore_report": {
+    "intro": "A practical guide to recording what happened without getting drawn into provocation, setting it aside until calm, seeking health support and reporting concerns factually.",
+    "questions": [
+      "What is a manageable way to record troubling remarks without letting them dominate my day?",
+      "When and how should I share concerns with my GP, a mental health professional or the police?"
+    ],
+    "related": [
+      "never_engage",
+      "ready_to_report",
+      "introduction"
+    ]
+  },
   "never_engage": {
     "intro": "Why provocative remarks are tempting to answer, how debate can prolong an unwanted interaction, and ways to disengage without losing time or sleep.",
     "questions": [
