@@ -26,6 +26,10 @@ References
 [4] Johnson, Hashtroudi & Lindsay (1993), Source Monitoring, Psychological Bulletin. https://pubmed.ncbi.nlm.nih.gov/8346328/
 [5] The Self, Agency and Spatial Externalizations of Inner Verbal Thoughts, and Auditory Verbal Hallucinations (2019). https://pmc.ncbi.nlm.nih.gov/articles/PMC6768100/
 
+## Research gap
+
+Language generation, voice cloning and ambiguous sound localisation have been studied separately. Their combined ability to create a persistent experience of self-like, externally generated inner speech in everyday conditions is untested. Controlled, voluntary listening studies could examine short exposures without recreating prolonged distress.
+
 ## Response
 
 **Don't engage at all. Record if convenient, then get on with your day.**
