@@ -1,0 +1,63 @@
+# Primed Thought Attribution
+
+## The proposed technique
+
+Imagine someone hears a short phrase in a voice resembling their own. Shortly afterwards, another person claims, "You were just thinking that," or, "You just said that."
+
+The phrase may have become mentally accessible simply because the person heard it. Their immediate reaction could be, "I was just thinking that." If the remark were deliberately staged, the aim would be to turn that moment of recognition into an apparent demonstration of access to private thoughts.
+
+This is a **hypothetical manipulation pattern**, not a method of reading minds.
+
+## How it might work
+
+- **Auditory priming:** Hearing a phrase can make its words or meaning easier to recall or think about moments later.
+- **Mental repetition:** People sometimes repeat recently heard words in their internal dialogue without consciously deciding to do so.
+- **Familiar-sounding speech:** A voice resembling one's own could add a sense of familiarity, though that would not reliably cause someone to accept the words as self-generated thoughts.
+- **Source monitoring:** A person may have difficulty distinguishing a phrase they heard, mentally repeated or independently thought of, particularly when attention or memory is uncertain.
+- **Confident attribution:** A claim such as "You were thinking that" could exploit the resulting familiarity and invite a mistaken conclusion about what the speaker knows.
+
+The crucial distinction is between **a phrase passing through your mind** and **a phrase originating independently in your mind**. Recognition alone does not establish its origin.
+
+## Possible objective
+
+If this sequence were deliberately arranged to mislead someone, its purpose could be to create the impression that another person can hear, predict or read private thoughts. The same impression might also be used to unsettle someone or make them doubt their memory of what they heard and thought.
+
+The proposed effect does not require actual thought-reading. Nor does it reliably work: priming is variable, and someone may correctly recognise the phrase as something they just heard. Hearing a familiar phrase or having a coincidentally similar thought is not, by itself, evidence that anyone planted it or was monitoring the listener.
+
+## Research context: how quiet can a priming phrase be?
+
+Daltrozzo, Signoret, Tillmann and Perrin (2011) tested auditory semantic priming using quiet spoken primes at **10 dBA**, followed by target words at **45 dBA**. Participants detected the faint primes on about **87.4%** of trials, but subsequently categorised them as words or nonwords at approximately chance level (**52%**). A subgroup showed a semantic priming effect of approximately **48 milliseconds** in response time. The experiment illustrates that word meaning may affect subsequent processing even when a quiet word cannot reliably be identified. **10 dBA is not a general minimum threshold**: the results depend on the laboratory conditions, masking, hearing and stimulus characteristics. Crucially, semantic facilitation is not evidence that the participants spontaneously repeated the exact prime as inner speech.
+
+Source: Daltrozzo et al. (2011), *Subliminal Semantic Priming in Speech*. https://doi.org/10.1371/journal.pone.0020273
+
+## Research context: exact phrases returning to mind
+
+An experiment reported by Loutrari (published online in 2024) compared phrases presented once with spoken phrases played repeatedly. Across **111 participants**, repeated phrases were harder to suppress during a subsequent one-minute period: participants pressed a button whenever a phrase came back to mind. This provides more direct evidence that an externally heard phrase can recur as **involuntary verbal imagery** in the short term. It does **not** show that hearing a single faint phrase will reliably create a spontaneous exact inner monologue, or that a person will mistake the returning phrase for an independently originated thought.
+
+Source: Loutrari, *A phrase in a loop: A rethink of verbatim repetition in the speech-to-song illusion and a new approach to the study of involuntary auditory imagery*. https://doi.org/10.1177/10298649241262672
+
+## Research context: remembering a thought's source
+
+Experiments comparing **heard** and **imagined** words examine how people remember whether something was externally presented or internally generated. Such source-monitoring mistakes can occur, but this is distinct from proving that a staged remark could reliably make someone believe another person knew their thoughts.
+
+Source: *Brain Mechanisms Underlying Reality Monitoring for Heard and Imagined Words*. https://pmc.ncbi.nlm.nih.gov/articles/PMC6069600/
+
+**Taken together:** quiet speech may prime related processing; repeated speech can sometimes recur in the mind; and people can sometimes misremember whether words were heard or imagined. These are three distinct findings, not proof that the entire proposed technique would work as described. The practical response remains the same: recognising a phrase in your thoughts tells you nothing certain about another person's access to your mind.
+
+## Further considerations
+
+If somebody claims to know what you were thinking, their statement does not establish that they do. They may be guessing, repeating a phrase already available to both of you, or simply be mistaken.
+
+There is no need to check their supposed ability, debate the claim or reconstruct every fleeting thought. Keep any record to what was actually heard and observed, separately from possible explanations.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**

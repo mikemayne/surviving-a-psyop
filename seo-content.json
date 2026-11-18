@@ -1126,5 +1126,17 @@
       "ready_to_report",
       "stay_grounded"
     ]
+  },
+  "primed_thought_attribution": {
+    "intro": "A hypothetical sequence in which hearing a phrase makes it mentally accessible before someone claims the listener just thought it. Explains priming, source monitoring and why apparent thought-reading does not follow.",
+    "questions": [
+      "How can hearing a phrase make it come to mind shortly afterwards?",
+      "Why does recognising a thought not prove someone knows what I was thinking?"
+    ],
+    "related": [
+      "mind_reading_trick",
+      "internal_monologue_trick",
+      "source_identification_trick"
+    ]
   }
 }

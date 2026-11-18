@@ -1390,6 +1390,24 @@
         "privacy_concern"
       ]
     },
+    "primed_thought_attribution": {
+      "kind": "technique",
+      "possible_goal": "make a primed phrase appear to be a privately generated thought and suggest access to private thinking",
+      "possible_emotional_effects": [
+        "surprise",
+        "confusion",
+        "unease"
+      ],
+      "possible_behavioural_responses": [
+        "questioning the origin of a thought",
+        "seeking an explanation for an apparent match"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "rumination",
+        "perceived_scrutiny"
+      ]
+    },
     "bug_in_face": {
       "kind": "technique",
       "possible_goal": "provoke unsafe physical attempts to remove an alleged object",

@@ -782,6 +782,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/mind_reading_trick.txt"
     },
     {
+      "id": "primed_thought_attribution",
+      "title": "Primed Thought Attribution",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/primed_thought_attribution.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/primed_thought_attribution",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/primed_thought_attribution.txt"
+    },
+    {
       "id": "bug_in_face",
       "title": "The bug-in-face trick",
       "category": "Technology & perception",
