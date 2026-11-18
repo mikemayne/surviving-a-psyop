@@ -1226,5 +1226,18 @@
       "thought_attribution_suggestion_repetition",
       "habituation_and_recovery"
     ]
+  },
+  "suggested_mishearings": {
+    "intro": "A hypothetical use of AI-generated similar-sounding words to suggest what somebody supposedly heard. Explains perceptual priming, post-event suggestion, and why a plausible guess is not knowledge of another person's private perception.",
+    "questions": [
+      "Why can two similar-sounding words be confused when speech is unclear?",
+      "Can suggesting a different word affect what I subsequently remember hearing?",
+      "Does an accurate guess about what I heard demonstrate access to my thoughts?"
+    ],
+    "related": [
+      "interpretation_trick",
+      "primed_thought_attribution",
+      "quiet_speech_masking_attention"
+    ]
   }
 }
