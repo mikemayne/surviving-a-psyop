@@ -120,6 +120,7 @@ Technical ideas, media, security and interpretation.
 - [Source identification](https://mikemayne.github.io/surviving-a-psyop/source_identification_trick.txt)
 - [Internal monologue](https://mikemayne.github.io/surviving-a-psyop/internal_monologue_trick.txt)
 - [The mind-reading trick](https://mikemayne.github.io/surviving-a-psyop/mind_reading_trick.txt)
+- [Primed Thought Attribution](https://mikemayne.github.io/surviving-a-psyop/primed_thought_attribution.txt)
 - [The bug-in-face trick](https://mikemayne.github.io/surviving-a-psyop/bug_in_face.txt)
 - [Manipulated media](https://mikemayne.github.io/surviving-a-psyop/manipulated_media.txt)
 - [Compromised devices](https://mikemayne.github.io/surviving-a-psyop/pwned-devices.txt)
