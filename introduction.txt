@@ -33,7 +33,7 @@ This is a catchall for everything else. It involves making statements designed t
 
 There are just four simple techniques you need to know in order to survive:
 
-1. **Stay calm** — If someone makes a provocative, insulting or accusatory remark, you do not have to argue, explain yourself or try to prove them wrong. Disengage and walk away if it is safe to do so. Avoid threatening, chasing or retaliating. This is advice about **not escalating provocation**, not about giving up your right to protect yourself from physical harm or to report an offence. If you are in immediate danger, get to safety and call 999.
+1. **Stay calm** — Even a reasonable-sounding question, challenge or explanation draws you into a discussion with someone making a provocative remark. Do not engage at all. Ignore the remark completely and carry on with your day, moving away if necessary. This is about verbal provocation, not forgoing physical safety or factual reporting. If you are in immediate danger, get to safety and call 999.
 
 2. **Stick to a plan** — Do only what you would do anyway.  If you are feeling completely overwhelmed and don't know what you should do or feel compelled to act, go to bed and stay there until you feel able to react normally.
 
@@ -43,7 +43,7 @@ There are just four simple techniques you need to know in order to survive:
 
 
 ** How to report **
-1. Try to strike a balance between collecting evidence, and maintaining a normal life.  Email yourself descriptions of things you hear, as close to the time they happen as you can.  Don't fall into the trap of thinking someone's accusations make you appear guilty.  You're writing down what they said, not endorsing their statement. Try to get as much sleep as possible, if the choice is collecting evidence or going to sleep choose sleep.
+1. Try to strike a balance between collecting evidence and maintaining a normal life. Do not respond to provocative statements at all. If useful and convenient, write down the exact words in an email to yourself, then put them aside. Email yourself descriptions of things you hear as close to the time they happen as you reasonably can.  Don't fall into the trap of thinking someone's accusations make you appear guilty.  You're writing down what they said, not endorsing their statement. Try to get as much sleep as possible, if the choice is collecting evidence or going to sleep choose sleep.
 2. As far as possible use email for your correspondence.  It's time stamped, backed up on a remote server and you can connect AI models to it to help you assess replies objectively against your legal rights. 
 3. Report experiences promptly, calmly and only report experiences not interpretations. Report the words you heard said, where, and who by if you know.  Don't say what you think was meant, or claim anything that you don't have proof of to be true.  If you are only making accurate statements in good faith you are not wasting police time. 
 4. If your reports are dismissed or ignored, politely and calmy escalate until you get a reply.  Sometimes it will be the case that the police cannot help you, based on the evidence you have.  Accept this politely, and keep the emails.
