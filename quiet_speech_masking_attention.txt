@@ -1,0 +1,84 @@
+# Quiet Speech, Masking and Selective Attention
+
+**Effects:** Increase vigilance, Increase confusion, Undermine confidence, Increase isolation.
+
+**Induced emotions:** Fear, frustration, uncertainty, embarrassment.
+
+**Possible objectives:** Enable discreet verbal provocation in public, make complaints harder for other people to corroborate, and increase the effectiveness of other psychological pressures.
+
+## The proposed technique
+
+Imagine someone hearing an extremely quiet insult or other provocative remark while instrumental music is playing, or against the sound of a noise machine used for sleep. They recognise the voice and associate it with previous extreme stress. They are actively listening for it. Other people nearby are paying attention to their own conversations or activities rather than listening for that voice.
+
+The question is whether the first person could notice or understand speech that the others overlook. **Auditory attention and voice familiarity make that difference possible.** In a hypothetical deliberately abusive situation, an objective could be to make remarks noticed by one person but missed by bystanders, so that a later complaint is difficult to corroborate.
+
+The proposed asymmetry does not require inaudible sound or unusual technology. It concerns **which sounds receive attention and which speech a listener can extract from a mixture**.
+
+## How it might work
+
+- **Low-level speech and masking.** A background sound can obscure parts of speech without completely preventing detection or understanding. An overall signal-to-noise ratio of around +3 dB can permit audible, sometimes intelligible speech; the precise result depends on spectral overlap, timing, room acoustics, hearing and the words spoken. +3 dB is not a universal threshold.
+- **Instrumental music.** Instruments overlap some speech frequencies, but musical rhythms, changes in level and gaps between notes can provide brief opportunities to hear parts of speech. Instrumental music lacks the competing words that make another English-speaking voice a particularly strong *informational* masker.
+- **Sleep noise machines.** Steadier broadband or shaped noise can mask speech acoustically. Different spectra and levels produce different effects, and some fluctuating or tonal sounds can themselves be mistaken for speech-like patterns.
+- **Selective attention.** Someone listening for a particular voice can prioritise it while another listener, concentrating on something else, may not consciously notice the same speech.
+- **Voice familiarity.** Recognising a speaker can make their speech easier to follow in some masking conditions. Research has found an approximately 5 dB familiar-voice advantage against competing intelligible English speech. That figure must not be transferred directly to instrumental music or a noise machine.
+- **Learned emotional salience.** A voice associated with strong previous stress may receive additional attention. The size of any added detection advantage in decibels has not been established for this specific combination.
+
+The important distinction is between **detecting a sound**, **recognising a voice** and **understanding its words**. They have different thresholds and can be affected differently by attention.
+
+## Why other people might not notice
+
+An actively attentive listener and a distracted bystander are not performing the same listening task. Different positions in the room, competing conversations, hearing sensitivity and attention can further increase the difference.
+
+A bystander saying they heard nothing reports what *they noticed*, not a calibrated measurement of whether a sound was present or audible at another position. Conversely, differences in attention do not by themselves identify what any ambiguous sound contained.
+
+## A second effect: stress, expectation and perceived speech
+
+Stress and expectation could also change what happens *after* repeated experiences of listening for a particular voice.
+
+Signal detection theory distinguishes sensitivity to a real signal from the *response criterion* used to decide that a signal was heard. Under uncertainty, someone can become quicker to report faint speech. This may increase correct detections **and** false alarms.
+
+Experimental work has found that expectation can increase false reports of speech in noise. Other work shows that negative emotion combined with reduced cognitive resources can increase auditory false alarms. Conditioning experiments have also demonstrated that a learned association can sometimes produce a confident auditory percept when the expected tone is absent.
+
+This offers a separate, testable hypothesis: heightened vigilance and stress might make a listener increasingly likely to hear speech-like content in ambiguous music or noise, even when no corresponding phrase is present. Such a percept can feel clear and immediate. It need not involve consciously inventing anything.
+
+The two processes should not be confused: **extracting genuinely present quiet speech** and **perceiving speech within ambiguous sound** can both occur, and careful experiments can measure them separately.
+
+## Potential objective in a deliberately abusive scenario
+
+The proposed purpose would be to permit insults, negging or other provocations when others are present but unlikely to notice, and then exploit the lack of corroboration if the person complains. The combination could cause frustration, self-doubt and an increased tendency to monitor the environment for further remarks.
+
+The later expectation-driven effect could become harmful independently of any ongoing speaker: the person might continue scanning background audio and interpreting ambiguous sounds as meaningful speech.
+
+This is a hypothesis about how several established perceptual processes might interact, rather than an experimentally established harassment technique.
+
+## What the research supports
+
+**Familiar voices can improve speech intelligibility.** Holmes and Johnsrude (2020) found about a 5 dB advantage for familiar speech against competing English speech, with a much smaller or absent advantage under other maskers.
+https://pubmed.ncbi.nlm.nih.gov/32105143/
+
+**Attention changes speech processing during music.** Research on the musical cocktail-party effect found that directing attention to speech rather than concurrent music affected neural speech tracking. The study used songs with vocals, so it does not quantify the effect for instrumental music alone.
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10634879/
+
+**Stress and expectation influence auditory reports.** Hoskin, Hunter and Woodruff (2014) found that semantic expectation increased both sensitivity and the tendency to report speech in white noise. Stress shifted response bias especially among participants with higher trait anxiety.
+https://doi.org/10.1111/bjop.12048
+
+**Negative emotion and cognitive load can increase false alarms.** A 2019 auditory signal-detection experiment found more false alarms when negative emotion coincided with fewer available cognitive resources.
+https://pubmed.ncbi.nlm.nih.gov/31188062/
+
+**Expectations matter more when sound is unreliable.** Szymanek and colleagues (2024) experimentally examined how speech expectations and added noise alter voice detection and false alarms.
+https://pubmed.ncbi.nlm.nih.gov/38880020/
+
+**Conditioning can induce auditory experiences.** Powers, Mathys and Corlett (2017) showed that learned expectations could cause participants to report hearing an expected tone when it was absent. The study tested tones, not complex spoken insults.
+https://doi.org/10.1126/science.aan3458
+
+## Research gap
+
+The untested combination is **familiarity with a stress-associated voice, active listening, and faint speech under instrumental music or noise-machine masking**, compared with bystanders who are not attending to that voice. An ethical controlled experiment could measure correct detections, speech intelligibility and false alarms separately. There is no validated combined decibel advantage for these effects.
+
+## Response
+
+**Don't engage with or continuously listen out for provocative remarks.** Do what you would ordinarily do. If something needs documenting, record what you directly observed later, without repeatedly checking ambiguous audio in real time. Repeated monitoring can itself strengthen the attentional habit.
+
+If there is immediate danger, call **999**.
+
+See [Record, Ignore, Report](https://mikemayne.github.io/surviving-a-psyop/#read/record_ignore_report).
