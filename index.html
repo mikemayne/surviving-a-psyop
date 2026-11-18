@@ -484,7 +484,7 @@
       <div>
         <p class="eyebrow"><span class="mark">✳</span> A free &amp; open field guide</p>
         <h1 tabindex="-1">How to survive a <em>psyop.</em></h1>
-        <p class="hero-lead">Read the survival rules first. Scroll past the rules and there is a ChatGPT analyzer for any individual statement. Understanding the techniques helped me dismiss them. Click Ask ChatGPT and press Enter to accept the prompt and then discuss events conversationally.</p>
+        <p class="hero-lead">If there is an ongoing situation follow the instructions in What To Do.  If you are here because you think something happened to you in the past, start with the four survival rules, read the intro, or explore the site conversationally with ChatGPT.</p>
         <div class="buttons">
           <a class="btn btn-secondary" href="#rules">Read the four rules <span aria-hidden="true">↓</span></a>
           <a class="btn btn-secondary" href="#read/introduction">Read the introduction <span aria-hidden="true">→</span></a>
@@ -1108,8 +1108,15 @@ My question:
         if (moveFocus && (fromReader || fromWhatToDo || fromCantIgnore)) section.querySelector("h2").focus({preventScroll:true});
       }, 0);
     } else {
-      window.scrollTo(0,0);
-      if (moveFocus && (fromReader || fromWhatToDo || fromCantIgnore)) document.querySelector(".hero h1").focus({preventScroll:true});
+      var heroHeading = document.querySelector(".hero h1");
+      if (!moveFocus) {
+        // On the initial homepage load, show the introduction instead of leading with the navigation.
+        document.querySelector(".hero").scrollIntoView({behavior:"instant", block:"start"});
+        heroHeading.focus({preventScroll:true});
+      } else {
+        window.scrollTo(0,0);
+        if (fromReader || fromWhatToDo || fromCantIgnore) heroHeading.focus({preventScroll:true});
+      }
     }
   }
 
