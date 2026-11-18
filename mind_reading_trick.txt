@@ -9,3 +9,15 @@ A technically straightforward way to reproduce this sequence would be to prepare
 The difference in distance can contribute to the apparent order. At a sound speed of about 343 metres per second, audio emitted 0.3 metres away takes roughly 0.9 milliseconds to arrive, whereas speech emitted 5 metres away takes roughly 14.6 milliseconds: an advantage of approximately 13.7 milliseconds for the closer source if both start simultaneously. Playback timing, human speaking variability and room reflections would determine the actual arrival order. Quiet sound, its position relative to the listener and reduced directional cues could also make the recording difficult to locate, without making it inaudible.
 
 The relevant psychological principle is apparent corroboration or source attribution: hearing a familiar-sounding voice say a phrase and then hearing another person repeat precisely those words can create the impression that the other person heard the listener speak, even though the listener knows they did not. This is a proposed technical illustration of how the reported sequence could be reproduced, not a determination of what produced the original experience.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**
