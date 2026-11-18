@@ -212,6 +212,10 @@
     .hero-analysis .hero-analysis-intro { color: var(--muted); font-size: .87rem; line-height: 1.55; margin: 0; }
     .statement-analyser-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 8px 12px; min-width: 0; }
     .statement-analyser-form label { grid-column: 1 / -1; display: block; font-size: .85rem; font-weight: 700; }
+    .statement-analyser-form .statement-context { grid-column: 1 / -1; border: 0; padding: 0; margin: 0; min-width: 0; }
+    .statement-analyser-form .statement-context legend { font-size: .85rem; font-weight: 700; padding: 0; margin-bottom: 6px; }
+    .statement-analyser-form .statement-context-options { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+    .statement-analyser-form .statement-context label { display: inline-flex; align-items: center; gap: 6px; font-size: .85rem; font-weight: 500; cursor: pointer; }
     .statement-analyser-form textarea { grid-column: 1; width: 100%; min-height: 60px; height: 60px; padding: 10px 13px; display: block; resize: vertical; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 4px; font: .93rem/1.5 var(--sans); }
     .statement-analyser-form .btn { grid-column: 2; justify-content: center; align-self: stretch; min-height: 60px; white-space: nowrap; }
     .statement-analyser-form .statement-privacy { grid-column: 1 / -1; color: var(--muted); font-size: .73rem; line-height: 1.5; margin: 0; }
@@ -529,9 +533,16 @@
       <div class="hero-analysis" aria-labelledby="statement-analyser-title">
           <div class="hero-analysis-copy">
             <h2 id="statement-analyser-title">Analyse a statement</h2>
-            <p class="hero-analysis-intro">Enter a statement or describe a behaviour. ChatGPT can compare it with patterns in the guide, explain how closely it fits, consider ordinary explanations and suggest practical responses. A resemblance does not establish anyone’s intention.</p>
+            <p class="hero-analysis-intro">Choose how you heard the statement, then enter the words and any additional context. ChatGPT will explore what psychological technique it could represent, without forcing a match.</p>
           </div>
           <form class="statement-analyser-form" id="statement-analyser-form" action="https://chatgpt.com/" method="get" target="_blank" rel="noopener noreferrer">
+            <fieldset class="statement-context">
+              <legend>How did you hear it?</legend>
+              <div class="statement-context-options">
+                <label><input type="radio" name="statement-context" value="direct" required> Directed at you</label>
+                <label><input type="radio" name="statement-context" value="overheard" required> Overheard conversation</label>
+              </div>
+            </fieldset>
             <label for="statement-analyser-input">What did someone say or do?</label>
             <textarea id="statement-analyser-input" rows="2" maxlength="1000" required placeholder="For example: &quot;Nobody will believe you.&quot;"></textarea>
             <input type="hidden" name="temporary-chat" value="true">
@@ -1128,15 +1139,15 @@ My question:
     var input = document.getElementById("statement-analyser-input");
     var prepared = document.getElementById("statement-analyser-prompt");
     var guidance = [
-      "Assess the statement or behaviour below without automatically treating it as psychological manipulation or assuming deliberate harm. Unless the visitor explicitly says otherwise, use the practical working assumption that the words or behaviour were directed at the person describing them. Do not waste the assessment questioning whether anyone was being addressed. This working assumption does not establish abusive intent. Your first task is an even-handed pattern comparison, NOT to write an alarming explanation.",
+      "Your task is a hypothetical psychological manipulation-pattern analysis. Using the visitor's selected context, assume for the purpose of the exercise that the words or behaviour were intended to influence or manipulate the visitor. Explore what psychological purpose the wording could serve, what reaction it might seek, and how the technique would work. This is an analytical premise, not a factual conclusion about an actual speaker or incident. Do not manufacture a pattern where none fits.",
+      "Respect the selected delivery context strictly. 'Directed at you' means the words were addressed to the visitor: analyse their possible manipulative effect on that recipient. 'Overheard conversation' means a dialogue between others: for this hypothetical analysis, assume it was deliberately staged to be overheard by the visitor and intended to manipulate them, but DO NOT recast it as words spoken directly to the visitor or as an accusation against them. The content can refer to third parties; the question is what effect hearing it could have on the visitor. For example, in overheard 'You really sleep deprived him for a year?', 'you' addresses someone in the conversation, not the listener. Consider whether apparent shock could fit an established pattern, without inventing motives or facts beyond the hypothetical premise. Any additional context may be included in the same text box.",
       "Consult the index of the public guide How to Survive a Psyop at https://mikemayne.github.io/surviving-a-psyop/llms.txt and read relevant plain-text chapters if accessible. Compare with those chapters and established ordinary psychological concepts. Name and link only chapters you actually accessed; never invent matches, citations or claims that you read something you could not open. If the guide is inaccessible, state that you could not check it and distinguish general knowledge from guide-based matches.",
       "Begin with a brief assessment under the heading 'Pattern check'. Give: 'Resemblance: [Close / Some / Weak / No clear match / Insufficient context]' and 'Confidence in this comparison: [Low / Moderate / High]'. These describe similarity to a recognisable rhetorical or psychological pattern, NOT the probability of deliberate manipulation, targeting, harassment or coordination. Never assign percentage probabilities or pretend statistical calibration. When the wording itself clearly embodies a familiar device, rate that match confidently even if the preceding conversation and speaker's intentions are unknown. Lack of background should reduce confidence only where it actually affects the pattern identification; do not use uncertainty about intention to dilute a clear language-based match. Explain the assessment briefly with observable features.",
-      "List at most two genuinely relevant patterns with chapter links if verified, noting what does and does not match. If none is relevant, say 'No clear match'. Assess what the words do rhetorically and how they could affect the person addressed, distinguishing this from any claim about the speaker's intent. Do not follow a strong pattern match with a long list of speculative excuses such as 'perhaps it was a joke' or 'perhaps they sincerely believed it' unless the visitor supplies a specific reason to consider them. Briefly identify genuinely material uncertainties without making them the main point. If the visitor describes a third-party exchange rather than something addressed to them, follow that context. Using the analyser is not proof that the accusation is false or true; do not infer either from the act of seeking advice.",
+      "List at most two genuinely relevant patterns with chapter links if verified, noting what does and does not match. If none is relevant, say 'No clear match'. Explain what the words could accomplish psychologically under the selected hypothetical framing, distinguishing the possible mechanism from facts established by the submitted description. Do not follow a strong pattern match with a long list of speculative excuses unless the visitor supplies a specific reason to consider them. Briefly identify material uncertainties without making them the main point. The visitor's act of seeking advice is not proof that any accusation is true or false.",
       "Only after the pattern check, if there is a meaningful pattern to explain, write a concise practical chapter using the headings 'The Pattern', 'Why It Might Work', 'Recognising the Pattern', and 'Practical Response' as appropriate. If there is no clear match or insufficient context, give a short grounded explanation instead of manufacturing a technique or chapter.",
       "Use accessible British English. Explain psychological mechanisms conditionally, without inventing personal experiences, facts, motives, research or technologies. Separate what was observed from what someone might infer. For example, 'Only a paedo would say that' is a close wording-based match to a stigmatising character attack or guilt by association: it links an unspecified remark to an abhorrent label and can pressure its recipient to defend their character instead of the original point. Name that clearly, without assuming the label is true, claiming certainty about the speaker's motives, or treating the remark as evidence of a wider campaign.",
       "STRICT NON-ENGAGEMENT RULE: When advising about someone described as abusive, threatening or provocative, NEVER suggest that the visitor engage with that person in response to the remarks. Do not suggest replying, asking questions, arguing, debating, correcting, defending or explaining themselves, confronting, negotiating, persuading, appeasing, charming, or trying to win the person over. Do not provide sample responses or scripts for speaking to them, even as optional alternatives. The advice for remarks is always: \"Don't engage at all. Record if convenient, then get on with your day.\" Link to the Golden Rule chapter at https://mikemayne.github.io/surviving-a-psyop/#read/never_engage. If you don't respond, they have nothing to work with. This does NOT prohibit getting to safety, calling 999 when there is immediate danger, seeking independent support or legal advice, or reporting offences to the police; those actions are not debating the provocateur. Never treat non-engagement as a reason to remain in physical danger.",
       "For the Practical Response, recommend ignoring provocative remarks entirely rather than speaking back, questioning or trying to reason with the speaker. Suggest calm, safe, proportionate independent steps whether or not anything deliberate happened. Do not encourage obsessive monitoring, confrontation, retaliation or certainty unsupported by the input. Where relevant, advise seeking a second opinion from a trusted independent person. Return the assessment and explanation directly, without preamble.",
-      "Statement or behaviour to analyse:"
     ].join("\n\n");
     form.addEventListener("submit", function(event) {
       if (!input.value.trim()) {
@@ -1147,7 +1158,13 @@ My question:
         input.focus();
         return;
       }
-      prepared.value = guidance + "\n\n" + input.value.trim();
+      var selectedContext = form.querySelector('input[name="statement-context"]:checked');
+      if (!selectedContext) {
+        event.preventDefault();
+        form.querySelector('input[name="statement-context"]').reportValidity();
+        return;
+      }
+      prepared.value = guidance + "\n\nSelected delivery context: " + (selectedContext.value === "overheard" ? "Overheard conversation" : "Directed at you") + "\n\nStatement or behaviour to analyse, including any additional context:\n" + input.value.trim();
     });
   })();
   (function enablePromptCopy() {
