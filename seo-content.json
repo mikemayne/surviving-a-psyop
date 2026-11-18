@@ -1150,5 +1150,17 @@
       "internal_monologue_trick",
       "source_identification_trick"
     ]
+  },
+  "thought_attribution_suggestion_repetition": {
+    "intro": "A research-grounded hypothesis about falsely attributing a recently heard phrase to someone's thoughts, and whether repetition during poor sleep could make the feeling persist.",
+    "questions": [
+      "How might an accusation change someone's judgment about where a familiar phrase came from?",
+      "What research supports source-monitoring errors, repetition and sleep deprivation, and what remains untested?"
+    ],
+    "related": [
+      "primed_thought_attribution",
+      "sleep_deprivation_reinforcement",
+      "internal_monologue_trick"
+    ]
   }
 }

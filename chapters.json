@@ -800,6 +800,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/primed_thought_attribution.txt"
     },
     {
+      "id": "thought_attribution_suggestion_repetition",
+      "title": "Thought Attribution Through Suggestion and Repetition",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/thought_attribution_suggestion_repetition.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/thought_attribution_suggestion_repetition",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/thought_attribution_suggestion_repetition.txt"
+    },
+    {
       "id": "bug_in_face",
       "title": "The bug-in-face trick",
       "category": "Technology & perception",
