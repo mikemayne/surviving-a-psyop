@@ -473,6 +473,26 @@
         "rumination"
       ]
     },
+    "ego_inflation_deflation": {
+      "kind": "technique",
+      "possible_goal": "influence self-image through implied exceptional importance or status criticism",
+      "possible_emotional_effects": [
+        "pride",
+        "excitement",
+        "insecurity",
+        "defensiveness"
+      ],
+      "possible_behavioural_responses": [
+        "making overconfident or impulsive decisions",
+        "seeking approval",
+        "trying to prove one's worth"
+      ],
+      "possible_cumulative_effects": [
+        "self_monitoring",
+        "reassurance_seeking",
+        "rumination"
+      ]
+    },
     "temptation_to_win": {
       "kind": "technique",
       "possible_goal": "invite a reply with an easily challenged claim, then prolong engagement through criticism or praise",
