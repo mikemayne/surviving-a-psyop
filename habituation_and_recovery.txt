@@ -1,0 +1,63 @@
+# Habituation: When a Technique Stops Working
+
+## A weirdly hopeful positive
+
+One of the most hopeful things about repeated provocations is that **they may stop having the same effect**.
+
+If somebody hears the same kind of remark over and over again, they may eventually stop reacting to it. That is **habituation**: the response to a repeated stimulus becomes smaller. It doesn't mean the remark has become true or acceptable. It means the brain may stop treating it as new or worth responding to.
+
+Understanding how a psychological technique works can also make it easier to dismiss, particularly when you recognise that an insult doesn't deserve an answer. You don't have to analyse each statement in the moment to benefit from that understanding.
+
+## What happens after a break?
+
+Suppose a particular kind of statement seems to lose its effect. Then it disappears, other kinds of comments take its place for a fortnight to a month, and the first kind returns.
+
+There are several relevant phenomena:
+
+- **Habituation:** repeated exposure produces a smaller reaction to a familiar stimulus.
+- **Spontaneous recovery:** after a break, some of the earlier response may return, even without any new learning.
+- **Dishabituation:** a different or novel stimulus can sometimes temporarily restore responding to a familiar stimulus.
+- **Potentiation of habituation:** after several cycles of habituation and recovery, the response may fall away more quickly or more strongly on later cycles.
+- **Sensitisation:** in other circumstances, especially with stressful or intense experiences, repeated exposure can increase rather than reduce responsiveness.
+
+The break might last days or weeks, but **there is no established two-week or one-month reset period** for a person's reaction to insults or psychological provocations. A change in how remarks feel is not a reliable way to infer why the remarks changed or whether anybody was timing them.
+
+## Why this is encouraging
+
+If a repeated statement used to provoke a strong reaction and now barely registers, that is real progress in how the person experiences it, regardless of why the statement was made.
+
+And if it feels upsetting again after a break, that doesn't mean all the progress has vanished. Spontaneous recovery is compatible with learned habituation. In some experimental situations, the response declines faster on subsequent exposures.
+
+There is also a cost to mindlessly repeating the same message: people may become bored by it, recognise it as an attempt to influence them, or trust it less.
+
+Habituation isn't guaranteed. Emotional responses to ongoing stress vary, and recognising a technique doesn't make somebody immune to distress. But reactions can change, and an intrusive remark doesn't have to keep its power indefinitely.
+
+## Research
+
+**Habituation, spontaneous recovery, dishabituation and potentiation.** Rankin and colleagues describe the defining characteristics of habituation, including partial recovery after a break and faster response reduction after repeated cycles.
+
+Rankin et al. (2009), *Habituation Revisited: An Updated and Revised Description of the Behavioral Characteristics of Habituation*. https://doi.org/10.1016/j.nlm.2008.09.012
+
+**Affective habituation to negative words.** Repeated exposure to extremely negative words reduced the extremity of subsequent evaluations in laboratory experiments.
+
+Dijksterhuis and Smith (2002), *Affective Habituation: Subliminal Exposure to Extreme Stimuli Decreases Their Extremity*. https://doi.org/10.1037/1528-3542.2.3.203
+
+**Social stress can lead to different patterns.** Research on repeated social stress found both habituation and sensitisation across emotional and physiological measures. Repeated experiences do not produce one uniform effect.
+
+*“I'm Ready This Time”: Investigating Physiological and Emotional Habituation to Repetitive Social Stress* (2025). https://pmc.ncbi.nlm.nih.gov/articles/PMC11878534/
+
+**Recognising repetition can reduce credibility.** Research on repeated statements has found both familiarity-based credibility gains and, when repetition appears persuasive, resistance and reduced trust.
+
+*Helpful or Harmful? How Frequent Repetition Affects Perceived Statement Credibility* (2013). https://doi.org/10.1111/jcom.12063
+
+## Research gap
+
+These findings do not establish a reliable timetable for rotating psychological provocations or show that a particular change in a person's reactions was caused by deliberate switching. The protective effect of understanding a technique will also vary with the person and circumstances.
+
+## Response
+
+**Don't engage.** You don't have to work out whether you have habituated, which technique is being used, or whether it is making a comeback.
+
+**Do only what you would do normally.** Record a significant incident if convenient, report an actual threat when necessary, and get on with your day. Call **999** for immediate danger.
+
+Read [Never Engage: The Most Important Rule](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).

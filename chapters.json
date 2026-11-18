@@ -170,6 +170,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/negging_psychological_manipulation.txt"
     },
     {
+      "id": "habituation_and_recovery",
+      "title": "Habituation: When a Technique Stops Working",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/habituation_and_recovery.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/habituation_and_recovery",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/habituation_and_recovery.txt"
+    },
+    {
       "id": "good_cop_bad_cop",
       "title": "Good cop, bad cop",
       "category": "Recognising manipulation",
@@ -807,6 +816,15 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/primed_thought_attribution.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/primed_thought_attribution",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/primed_thought_attribution.txt"
+    },
+    {
+      "id": "priming_ambiguous_accusations",
+      "title": "Priming, Ambiguous Accusations and Failed Attempts",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/priming_ambiguous_accusations.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/priming_ambiguous_accusations",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/priming_ambiguous_accusations.txt"
     },
     {
       "id": "thought_attribution_suggestion_repetition",
