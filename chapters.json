@@ -827,6 +827,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/primed_thought_attribution.txt"
     },
     {
+      "id": "suggested_mishearings",
+      "title": "Suggested Mishearings",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/suggested_mishearings.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/suggested_mishearings",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/suggested_mishearings.txt"
+    },
+    {
       "id": "priming_ambiguous_accusations",
       "title": "Priming, Ambiguous Accusations and Failed Attempts",
       "category": "Technology & perception",
