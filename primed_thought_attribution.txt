@@ -1,5 +1,9 @@
 # Primed Thought Attribution
 
+**Effects:** Familiarity, source confusion.
+
+**Possible objectives:** Create the impression of knowing private thoughts.
+
 ## The proposed technique
 
 Imagine someone hears a short phrase in a voice resembling their own. Shortly afterwards, another person claims, "You were just thinking that," or, "You just said that."
