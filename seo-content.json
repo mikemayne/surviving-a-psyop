@@ -1078,5 +1078,17 @@
       "introduction",
       "conclusion"
     ]
+  },
+  "how_to_record": {
+    "intro": "Practical steps for keeping dated, factual notes of comments and incidents, preserving available evidence and managing correspondence by email.",
+    "questions": [
+      "What should I include when I email myself a record of something I heard or observed?",
+      "How can I keep evidence and correspondence organised for later review?"
+    ],
+    "related": [
+      "record_ignore_report",
+      "ready_to_report",
+      "stay_grounded"
+    ]
   }
 }
