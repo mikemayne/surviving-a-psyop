@@ -17,6 +17,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/introduction.txt"
     },
     {
+      "id": "record_ignore_report",
+      "title": "Record, Ignore, Report",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/record_ignore_report.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/record_ignore_report",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/record_ignore_report.txt"
+    },
+    {
       "id": "never_engage",
       "title": "Never Engage: The Most Important Rule",
       "category": "Begin here",
