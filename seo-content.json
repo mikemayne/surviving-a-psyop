@@ -1276,5 +1276,17 @@
       "public_shaming",
       "preemptive_discrediting"
     ]
+  },
+  "pretend_planning": {
+    "intro": "Explains how an indistinct, seemingly purposeful conversation can capture a listener's attention, interrupt what they are doing and create an opening for other forms of pressure.",
+    "questions": [
+      "Why can a conversation that is just too quiet to follow grab someone's attention?",
+      "How can I avoid getting distracted by trying to make out an indistinct conversation?"
+    ],
+    "related": [
+      "accidentally_overheard",
+      "cross_conversation_sentence_assembly",
+      "never_engage"
+    ]
   }
 }
