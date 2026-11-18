@@ -299,6 +299,18 @@
       "false_assistance"
     ]
   },
+  "induced_sympathy": {
+    "intro": "How a convincingly despondent tone can invite sympathy, guilt or reassurance even when the words contain no request, and how to keep appropriate boundaries.",
+    "questions": [
+      "Can a distressed-sounding voice encourage sympathy without an explicit request?",
+      "How can I maintain boundaries while taking genuine requests for help seriously?"
+    ],
+    "related": [
+      "fake_shock",
+      "guilt_tripping",
+      "never_engage"
+    ]
+  },
   "we_only_do_this_to_really_bad_people": {
     "intro": "Explains how claiming that harsh treatment is reserved for 'really bad people' can imply guilt without evidence, justify cruelty and discourage seeking help.",
     "questions": [
