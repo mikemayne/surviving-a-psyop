@@ -1,5 +1,9 @@
 # Outcome Inflation and Deflation
 
+**Effects:** Distort expectations, encourage overconfidence or discouragement.
+
+**Possible objectives:** Influence decisions.
+
 ## The Pattern
 
 Predictions about the consequences of someone's actions can be exaggerated in either direction. One person might say, "He's going to be a millionaire", while another dismisses the same work with "Nobody will use that."

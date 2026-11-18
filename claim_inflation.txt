@@ -1,5 +1,9 @@
 # Credibility Sabotage Through Induced Exaggeration
 
+**Effects:** Increase uncertainty and pressure to make exaggerated claims.
+
+**Possible objectives:** Undermine credibility.
+
 ### THE TECHNIQUE
 
 This technique involves encouraging an individual to make increasingly exaggerated, speculative or implausible claims, potentially undermining the credibility of their legitimate complaints.

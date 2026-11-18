@@ -1,5 +1,9 @@
 # Logic Traps
 
+**Effects:** Create confusion and pressure to accept false premises.
+
+**Possible objectives:** Increase the effectiveness of other techniques.
+
 A logic trap is an argument, question or statement that encourages you to accept a false premise and then reason from it towards a predetermined conclusion.
 
 The objective is often to make you defend yourself against an accusation, justify an ordinary decision, or choose between options that somebody else has defined for you.
