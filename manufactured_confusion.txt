@@ -1,5 +1,9 @@
 # Manufactured Confusion
 
+**Effects:** Confusion, fatigue, self-doubt.
+
+**Possible objectives:** Undermine judgement, increase the effectiveness of other techniques.
+
 ## The Technique
 
 Manufactured confusion is the deliberate creation of uncertainty by issuing contradictory instructions, changing explanations, introducing irrelevant detail or denying an earlier agreement. The target may be given a complicated story, asked to act on it, then criticised for misunderstanding. Another version repeatedly introduces new exceptions until there is no stable rule that can actually be followed.
