@@ -359,6 +359,18 @@
       "stay_grounded"
     ]
   },
+  "ego_inflation_deflation": {
+    "intro": "Explains how remarks implying exceptional importance or unwarranted arrogance can affect self-image, and why neither should drive decisions without evidence.",
+    "questions": [
+      "How can an apparently admiring remark encourage overconfidence without offering explicit praise?",
+      "How can a dismissive remark challenge someone's self-image and invite them to prove themselves?"
+    ],
+    "related": [
+      "negging_psychological_manipulation",
+      "outcome_inflation_deflation",
+      "temptation_to_win"
+    ]
+  },
   "temptation_to_win": {
     "intro": "Explains why obviously weak insults and arguments can invite unwanted debate, how criticism followed by flattery can prolong engagement, and why recording briefly then disengaging may help.",
     "questions": [
