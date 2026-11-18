@@ -1,5 +1,9 @@
 # Thought Attribution Through Suggestion and Repetition
 
+**Effects:** Familiarity, source confusion.
+
+**Possible objectives:** Reinforce misleading thought attributions.
+
 ## The Proposed Technique
 
 Imagine someone hears a spoken phrase and then is immediately accused of having thought or said it: "You were just thinking that."
