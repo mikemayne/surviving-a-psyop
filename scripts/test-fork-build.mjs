@@ -24,7 +24,7 @@ try {
   // The compiled reader must contain every approved chapter in order.
   // Without this, a valid #read/id route can fall back to #catalogue.
   const approvedChapters = JSON.parse(published('chapters.json')).chapters;
-  const compiledGroups = published('index.html').match(/var GROUPS = (\\[[^\\n]+\\]);/);
+  const compiledGroups = published('index.html').match(/var GROUPS = (\[[^\n]+\]);/);
   assert.ok(compiledGroups, 'Published reader chapter groups must be present');
   const compiledChapters = JSON.parse(compiledGroups[1]).flatMap(group =>
     group.files.map(([id, title]) => ({ id, title, category: group.name, category_description: group.note }))
