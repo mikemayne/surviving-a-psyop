@@ -1,8 +1,8 @@
 # The Fabricated Confession
 
-**Effects:** Confusion, reputational fear.
+**Effects:** Increase confusion, Increase shame, Increase distress.
 
-**Possible objectives:** Create apparent admissions.
+**Possible objectives:** Increase the effectiveness of other techniques, Discredit the individual.
 
 **Example:** "He just said [insert admission of a crime]."
 
