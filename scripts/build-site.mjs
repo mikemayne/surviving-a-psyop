@@ -91,6 +91,27 @@ for (const [id, entry] of Object.entries(strategyEntries)) {
     if (!valid) throw Error('Invalid strategy metadata field ' + id + '.' + field);
   }
 }
+
+const effectTags = strategyMetadata.cumulative_effect_taxonomy;
+if (strategyMetadata.schema_version !== 2 || !effectTags || typeof effectTags !== 'object') {
+  throw Error('Cumulative strategy metadata schema is missing.');
+}
+for (const [id, entry] of Object.entries(strategyEntries)) {
+  const effects = entry.possible_cumulative_effects;
+  if (effects !== 'N/A' && (!Array.isArray(effects) || !effects.length ||
+      effects.some(tag => typeof effectTags[tag] !== 'string'))) {
+    throw Error('Invalid cumulative effect tags for chapter: ' + id);
+  }
+}
+if (!Array.isArray(strategyMetadata.possible_causal_transitions)) {
+  throw Error('Missing possible causal transitions.');
+}
+for (const link of strategyMetadata.possible_causal_transitions) {
+  if (!effectTags[link.from] || !effectTags[link.to] || !link.relationship) {
+    throw Error('Invalid causal effect transition.');
+  }
+}
+
 write('strategy-metadata.json', JSON.stringify(strategyMetadata, null, 2) + '\n');
 
 write('chapters.json', JSON.stringify(chapters, null, 2) + '\n');

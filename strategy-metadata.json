@@ -1,80 +1,92 @@
 {
-  "schema_version": 1,
-  "description": "Chapter-linked, qualitative pattern-matching aids drawn from the guide's text. Entries describe possible emotional effects and behavioural responses if a chapter's pattern applies. They are not diagnostic criteria, calibrated likelihoods, evidence of targeting, or proof of anyone's intentions.",
-  "usage": "Consider described behaviours and sequence first. Use reported emotions and behavioural pressures as secondary signals; a reaction alone does not identify a perpetrator's goal. Consult the underlying chapter before presenting a match. N/A means the text does not support a sufficiently specific inference, not that a reaction is impossible. Guidance and reference chapters are not assigned hypothetical manipulative goals.",
+  "schema_version": 2,
+  "description": "Chapter-linked qualitative metadata for comparing possible objectives, emotional effects, behavioural responses and cumulative effects. These represent hypothetical mechanisms, not proof of coordination or motive.",
+  "usage": "Compare reported events and their order first. Use emotions only when a visitor describes them. For a connected-events hypothetical, match relevant chapter effect tags and potential transitions to see whether several techniques could build toward the same broader objective, without inventing missing stages. Lead with 'If the events are connected, then the likely goal is X' when a coherent candidate emerges, and do not append repeated verification disclaimers. Then prioritise proportionate guide-based survival and reporting advice. N/A means no specific inference is supported.",
   "chapter_count": 85,
   "chapters": {
     "introduction": {
       "kind": "overview",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "ready_to_report": {
       "kind": "guidance",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "take_back_control": {
       "kind": "guidance",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "dont_chase": {
       "kind": "guidance",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "dont_tolerate_mistreatment": {
       "kind": "guidance",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "sleep_discipline": {
       "kind": "guidance",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "feelings_can_change": {
       "kind": "guidance",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "stay_grounded": {
       "kind": "guidance",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "personal_security_notes": {
       "kind": "guidance",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "phone_calls": {
       "kind": "guidance",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "social_media": {
       "kind": "guidance",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "how_to_collaborate": {
       "kind": "guidance",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "gaslit_by_friends": {
       "kind": "technique",
@@ -88,6 +100,11 @@
         "seeking approval",
         "defensive explanations",
         "withdrawing from friends"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "self_monitoring",
+        "mistrust"
       ]
     },
     "obstruction_of_communication": {
@@ -101,6 +118,11 @@
       "possible_behavioural_responses": [
         "reduced help-seeking",
         "dependence on a gatekeeper"
+      ],
+      "possible_cumulative_effects": [
+        "social_withdrawal",
+        "inhibited_reporting",
+        "compliance_pressure"
       ]
     },
     "negging_psychological_manipulation": {
@@ -115,6 +137,11 @@
         "seeking approval",
         "defending oneself",
         "ruminating"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "anger_frustration",
+        "rumination"
       ]
     },
     "good_cop_bad_cop": {
@@ -128,6 +155,11 @@
       "possible_behavioural_responses": [
         "trusting the reassuring person",
         "complying under pressure"
+      ],
+      "possible_cumulative_effects": [
+        "threat_pressure",
+        "compliance_pressure",
+        "reassurance_seeking"
       ]
     },
     "stockholm_syndrome": {
@@ -143,6 +175,11 @@
         "appeasing a threatening person",
         "minimising harmful behaviour",
         "hesitating to seek outside help"
+      ],
+      "possible_cumulative_effects": [
+        "compliance_pressure",
+        "reassurance_seeking",
+        "inhibited_reporting"
       ]
     },
     "guilt_tripping": {
@@ -156,6 +193,11 @@
       "possible_behavioural_responses": [
         "self-justification",
         "attempting to make amends"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "rumination",
+        "compliance_pressure"
       ]
     },
     "accusations_of_disloyalty": {
@@ -170,6 +212,10 @@
         "withdrawing a disagreement",
         "apologising",
         "complying"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "compliance_pressure"
       ]
     },
     "emotional_burden_trick": {
@@ -186,6 +232,11 @@
         "ruminating",
         "reduced concentration",
         "disengaging from ordinary activities"
+      ],
+      "possible_cumulative_effects": [
+        "cumulative_stress",
+        "anger_frustration",
+        "rumination"
       ]
     },
     "accusation_baiting": {
@@ -200,6 +251,11 @@
       "possible_behavioural_responses": [
         "making unsupported allegations",
         "confrontation"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "anger_frustration",
+        "credibility_concerns"
       ]
     },
     "staged_third_party_reactions": {
@@ -214,6 +270,11 @@
         "seeking explanations",
         "defending oneself",
         "ruminating"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "uncertainty",
+        "rumination"
       ]
     },
     "we_only_do_this_to_really_bad_people": {
@@ -227,6 +288,10 @@
       "possible_behavioural_responses": [
         "trying to prove innocence",
         "accepting mistreatment"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "compliance_pressure"
       ]
     },
     "victim_blaming": {
@@ -241,6 +306,11 @@
         "self-blame",
         "defending one's credibility",
         "stopping complaints"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "credibility_concerns",
+        "inhibited_reporting"
       ]
     },
     "false_report_accusations": {
@@ -254,6 +324,11 @@
       "possible_behavioural_responses": [
         "withdrawing complaints",
         "avoiding authorities"
+      ],
+      "possible_cumulative_effects": [
+        "credibility_concerns",
+        "inhibited_reporting",
+        "threat_pressure"
       ]
     },
     "claim_inflation": {
@@ -267,6 +342,11 @@
       "possible_behavioural_responses": [
         "speculative allegations",
         "linking unrelated events"
+      ],
+      "possible_cumulative_effects": [
+        "credibility_concerns",
+        "uncertainty",
+        "mistrust"
       ]
     },
     "claiming_influence": {
@@ -281,6 +361,11 @@
         "mistrusting others",
         "self-censorship",
         "withdrawal"
+      ],
+      "possible_cumulative_effects": [
+        "threat_pressure",
+        "mistrust",
+        "social_withdrawal"
       ]
     },
     "claiming_control_over_predictable_events": {
@@ -294,6 +379,11 @@
       "possible_behavioural_responses": [
         "checking coincidences",
         "changing ordinary behaviour"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "perceived_scrutiny",
+        "rumination"
       ]
     },
     "reputation_to_live_up_to": {
@@ -307,6 +397,10 @@
       "possible_behavioural_responses": [
         "compliance",
         "avoiding disagreement"
+      ],
+      "possible_cumulative_effects": [
+        "compliance_pressure",
+        "social_shame"
       ]
     },
     "manufactured_confusion": {
@@ -320,6 +414,11 @@
       "possible_behavioural_responses": [
         "repeatedly seeking clarification",
         "indecision"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "rumination",
+        "reassurance_seeking"
       ]
     },
     "logic_traps": {
@@ -333,6 +432,11 @@
       "possible_behavioural_responses": [
         "defending against false accusations",
         "choosing between false alternatives"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "compliance_pressure",
+        "rumination"
       ]
     },
     "weaponised_literalism": {
@@ -345,6 +449,10 @@
       "possible_behavioural_responses": [
         "overexplaining",
         "losing the original point"
+      ],
+      "possible_cumulative_effects": [
+        "anger_frustration",
+        "rumination"
       ]
     },
     "loaded_questions": {
@@ -358,6 +466,11 @@
       "possible_behavioural_responses": [
         "answering within a false premise",
         "unnecessary apology"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "compliance_pressure",
+        "credibility_concerns"
       ]
     },
     "false_assistance": {
@@ -371,6 +484,11 @@
       "possible_behavioural_responses": [
         "accepting unreasonable demands",
         "reluctance to refuse"
+      ],
+      "possible_cumulative_effects": [
+        "compliance_pressure",
+        "uncertainty",
+        "inhibited_reporting"
       ]
     },
     "using_concern_as_a_vehicle_for_intimidation": {
@@ -384,6 +502,10 @@
       "possible_behavioural_responses": [
         "compliance",
         "hesitation to question demands"
+      ],
+      "possible_cumulative_effects": [
+        "compliance_pressure",
+        "threat_pressure"
       ]
     },
     "you_can_run_but_you_cant_hide": {
@@ -397,6 +519,11 @@
       "possible_behavioural_responses": [
         "avoiding leaving",
         "defending ordinary decisions"
+      ],
+      "possible_cumulative_effects": [
+        "threat_pressure",
+        "compliance_pressure",
+        "credibility_concerns"
       ]
     },
     "false_endings": {
@@ -411,6 +538,11 @@
       "possible_behavioural_responses": [
         "trying to satisfy arbitrary conditions",
         "renewed compliance"
+      ],
+      "possible_cumulative_effects": [
+        "compliance_pressure",
+        "reassurance_seeking",
+        "cumulative_stress"
       ]
     },
     "false_completion": {
@@ -424,6 +556,10 @@
       "possible_behavioural_responses": [
         "stopping work early",
         "abandoning a plan"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "compliance_pressure"
       ]
     },
     "impossible_compliance": {
@@ -437,6 +573,11 @@
       "possible_behavioural_responses": [
         "constant self-monitoring",
         "trying to meet shifting rules"
+      ],
+      "possible_cumulative_effects": [
+        "compliance_pressure",
+        "cumulative_stress",
+        "self_monitoring"
       ]
     },
     "impossible_standards": {
@@ -451,6 +592,11 @@
         "perfectionism",
         "overexplaining",
         "withdrawal"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "anger_frustration",
+        "self_monitoring"
       ]
     },
     "moral_accusations": {
@@ -464,6 +610,11 @@
       "possible_behavioural_responses": [
         "defending one's character",
         "accepting a false premise"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "anger_frustration",
+        "rumination"
       ]
     },
     "moral_blackmail": {
@@ -477,6 +628,11 @@
       "possible_behavioural_responses": [
         "remaining silent",
         "tolerating mistreatment"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "inhibited_reporting",
+        "compliance_pressure"
       ]
     },
     "interpretation_trick": {
@@ -490,6 +646,11 @@
       "possible_behavioural_responses": [
         "reinterpretation of ambiguous speech",
         "rumination"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "rumination",
+        "perceived_scrutiny"
       ]
     },
     "retrospective_reinterpretation_of_behaviour": {
@@ -503,6 +664,11 @@
       "possible_behavioural_responses": [
         "rechecking ordinary behaviour",
         "unnecessary apologies"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "self_monitoring",
+        "social_shame"
       ]
     },
     "talking": {
@@ -516,6 +682,11 @@
       "possible_behavioural_responses": [
         "searching for hidden meanings",
         "changing ordinary behaviour"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "rumination",
+        "perceived_scrutiny"
       ]
     },
     "service_shield": {
@@ -529,6 +700,10 @@
       "possible_behavioural_responses": [
         "withholding criticism",
         "abandoning complaints"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "inhibited_reporting"
       ]
     },
     "the_guity_always_run": {
@@ -542,6 +717,10 @@
       "possible_behavioural_responses": [
         "remaining in an unwanted encounter",
         "defensive explanations"
+      ],
+      "possible_cumulative_effects": [
+        "credibility_concerns",
+        "compliance_pressure"
       ]
     },
     "legal_intimidation": {
@@ -556,6 +735,11 @@
         "avoiding complaints",
         "complying",
         "panicked decisions"
+      ],
+      "possible_cumulative_effects": [
+        "threat_pressure",
+        "compliance_pressure",
+        "inhibited_reporting"
       ]
     },
     "hiding_behind_OSA": {
@@ -569,6 +753,11 @@
       "possible_behavioural_responses": [
         "self-censorship",
         "avoiding reporting"
+      ],
+      "possible_cumulative_effects": [
+        "threat_pressure",
+        "inhibited_reporting",
+        "privacy_concern"
       ]
     },
     "criminilisation": {
@@ -583,6 +772,11 @@
         "hypervigilance",
         "self-censorship",
         "defensive explanations"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "self_monitoring",
+        "threat_pressure"
       ]
     },
     "threatened_framing": {
@@ -597,6 +791,11 @@
         "withdrawal",
         "compliance",
         "avoidance"
+      ],
+      "possible_cumulative_effects": [
+        "threat_pressure",
+        "credibility_concerns",
+        "compliance_pressure"
       ]
     },
     "accidentally_overheard": {
@@ -610,6 +809,11 @@
       "possible_behavioural_responses": [
         "believing implied information",
         "changing behaviour"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "rumination",
+        "threat_pressure"
       ]
     },
     "narrating_trick": {
@@ -623,6 +827,11 @@
       "possible_behavioural_responses": [
         "self-monitoring",
         "changing ordinary routines"
+      ],
+      "possible_cumulative_effects": [
+        "perceived_scrutiny",
+        "heightened_vigilance",
+        "self_monitoring"
       ]
     },
     "public_shaming": {
@@ -637,6 +846,11 @@
         "withdrawal",
         "defending reputation",
         "avoiding public places"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "anger_frustration",
+        "social_withdrawal"
       ]
     },
     "name_and_shame": {
@@ -651,6 +865,11 @@
         "silence",
         "compliance",
         "withdrawal"
+      ],
+      "possible_cumulative_effects": [
+        "threat_pressure",
+        "social_shame",
+        "inhibited_reporting"
       ]
     },
     "flashmobs": {
@@ -664,6 +883,11 @@
       "possible_behavioural_responses": [
         "avoiding public places",
         "searching for connections"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "uncertainty",
+        "heightened_vigilance"
       ]
     },
     "body_shaming": {
@@ -677,6 +901,10 @@
       "possible_behavioural_responses": [
         "self-consciousness",
         "avoiding ordinary private activities"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "self_monitoring"
       ]
     },
     "exaggerated_disgust": {
@@ -690,6 +918,11 @@
       "possible_behavioural_responses": [
         "self-monitoring",
         "defending one's behaviour"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "self_monitoring",
+        "anger_frustration"
       ]
     },
     "humiliation_rituals": {
@@ -703,6 +936,11 @@
       "possible_behavioural_responses": [
         "compliance",
         "reluctance to disclose"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "compliance_pressure",
+        "inhibited_reporting"
       ]
     },
     "bodily_functions": {
@@ -716,6 +954,10 @@
       "possible_behavioural_responses": [
         "self-monitoring",
         "suppressing ordinary behaviour"
+      ],
+      "possible_cumulative_effects": [
+        "self_monitoring",
+        "social_shame"
       ]
     },
     "incitement_to_violence": {
@@ -731,6 +973,11 @@
         "confrontation",
         "retaliation",
         "impulsive action"
+      ],
+      "possible_cumulative_effects": [
+        "anger_frustration",
+        "cumulative_stress",
+        "confrontation_pressure"
       ]
     },
     "dont_do_it_yourself": {
@@ -744,7 +991,8 @@
       "possible_behavioural_responses": [
         "impulsive decisions",
         "withdrawal"
-      ]
+      ],
+      "possible_cumulative_effects": "N/A"
     },
     "cumulative_psychological_pressure": {
       "kind": "overview",
@@ -758,6 +1006,11 @@
         "hypervigilance",
         "repeated checking",
         "reduced concentration"
+      ],
+      "possible_cumulative_effects": [
+        "cumulative_stress",
+        "heightened_vigilance",
+        "fatigue"
       ]
     },
     "sleep_deprivation": {
@@ -772,6 +1025,11 @@
         "impaired judgement",
         "impulsive responses",
         "reduced concentration"
+      ],
+      "possible_cumulative_effects": [
+        "fatigue",
+        "reduced_self_regulation",
+        "anger_frustration"
       ]
     },
     "deprivation_of_basic_necessities": {
@@ -785,6 +1043,11 @@
       "possible_behavioural_responses": [
         "compliance",
         "urgent efforts to obtain relief"
+      ],
+      "possible_cumulative_effects": [
+        "fatigue",
+        "threat_pressure",
+        "compliance_pressure"
       ]
     },
     "sexual_coercion": {
@@ -799,6 +1062,11 @@
         "withdrawal",
         "compliance",
         "avoiding disclosure"
+      ],
+      "possible_cumulative_effects": [
+        "social_shame",
+        "threat_pressure",
+        "inhibited_reporting"
       ]
     },
     "choose_your_death": {
@@ -813,6 +1081,11 @@
         "compelled choices",
         "compliance",
         "panic"
+      ],
+      "possible_cumulative_effects": [
+        "threat_pressure",
+        "compliance_pressure",
+        "unsafe_self_action"
       ]
     },
     "indefinite_abuse": {
@@ -827,6 +1100,11 @@
         "withdrawal",
         "reduced help-seeking",
         "thoughts of self-harm"
+      ],
+      "possible_cumulative_effects": [
+        "threat_pressure",
+        "unsafe_self_action",
+        "inhibited_reporting"
       ]
     },
     "threatening_consequences_for_seeking_help": {
@@ -840,6 +1118,10 @@
       "possible_behavioural_responses": [
         "avoiding help",
         "remaining silent"
+      ],
+      "possible_cumulative_effects": [
+        "inhibited_reporting",
+        "threat_pressure"
       ]
     },
     "preemptive_discrediting": {
@@ -853,6 +1135,10 @@
       "possible_behavioural_responses": [
         "withholding complaints",
         "self-censorship"
+      ],
+      "possible_cumulative_effects": [
+        "credibility_concerns",
+        "inhibited_reporting"
       ]
     },
     "dream_manipulation": {
@@ -866,7 +1152,8 @@
       "possible_behavioural_responses": [
         "ruminating about dreams",
         "searching for hidden meanings"
-      ]
+      ],
+      "possible_cumulative_effects": "N/A"
     },
     "cold_reading": {
       "kind": "technique",
@@ -879,6 +1166,11 @@
       "possible_behavioural_responses": [
         "trusting unsupported claims",
         "disclosing information"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "perceived_scrutiny",
+        "privacy_concern"
       ]
     },
     "cold_reading_ai_assisted": {
@@ -892,6 +1184,11 @@
       "possible_behavioural_responses": [
         "searching for a source of apparent knowledge",
         "self-monitoring"
+      ],
+      "possible_cumulative_effects": [
+        "perceived_scrutiny",
+        "privacy_concern",
+        "uncertainty"
       ]
     },
     "predicting_bodily_movements": {
@@ -905,6 +1202,11 @@
       "possible_behavioural_responses": [
         "suppressing movements",
         "self-monitoring"
+      ],
+      "possible_cumulative_effects": [
+        "perceived_scrutiny",
+        "self_monitoring",
+        "social_shame"
       ]
     },
     "source_identification_trick": {
@@ -918,6 +1220,11 @@
       "possible_behavioural_responses": [
         "rechecking one's speech",
         "ruminating"
+      ],
+      "possible_cumulative_effects": [
+        "perceived_scrutiny",
+        "uncertainty",
+        "rumination"
       ]
     },
     "internal_monologue_trick": {
@@ -931,6 +1238,11 @@
       "possible_behavioural_responses": [
         "trying to locate sounds",
         "repeatedly evaluating speech"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "rumination",
+        "perceived_scrutiny"
       ]
     },
     "mind_reading_trick": {
@@ -944,6 +1256,11 @@
       "possible_behavioural_responses": [
         "checking sound sources",
         "searching for explanations"
+      ],
+      "possible_cumulative_effects": [
+        "perceived_scrutiny",
+        "uncertainty",
+        "privacy_concern"
       ]
     },
     "bug_in_face": {
@@ -957,6 +1274,11 @@
       "possible_behavioural_responses": [
         "repeated body-checking",
         "unsafe self-examination"
+      ],
+      "possible_cumulative_effects": [
+        "threat_pressure",
+        "self_monitoring",
+        "unsafe_self_action"
       ]
     },
     "manipulated_media": {
@@ -970,6 +1292,11 @@
       "possible_behavioural_responses": [
         "believing staged content",
         "reacting impulsively"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "rumination",
+        "anger_frustration"
       ]
     },
     "pwned-devices": {
@@ -983,37 +1310,151 @@
       "possible_behavioural_responses": [
         "checking device integrity",
         "repeating verification"
+      ],
+      "possible_cumulative_effects": [
+        "privacy_concern",
+        "uncertainty",
+        "mistrust"
       ]
     },
     "air_gap_limitations": {
       "kind": "technical_context",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "there_is_no_privacy": {
       "kind": "technical_context",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "streisand-effect": {
       "kind": "reference",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "how_to_fork": {
       "kind": "reference",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     },
     "conclusion": {
       "kind": "overview",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A"
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
     }
-  }
+  },
+  "cumulative_effect_taxonomy": {
+    "perceived_scrutiny": "Sense of being observed or judged",
+    "heightened_vigilance": "Heightened watchfulness",
+    "self_monitoring": "Rechecking or altering ordinary behaviour",
+    "uncertainty": "Ambiguity about meaning or events",
+    "rumination": "Repeated analysis of events",
+    "social_shame": "Shame or fear of reputational harm",
+    "anger_frustration": "Anger or frustration",
+    "threat_pressure": "Fear arising from threats or perceived danger",
+    "cumulative_stress": "Repeated disruption adding to strain",
+    "fatigue": "Exhaustion or sleep loss",
+    "reduced_self_regulation": "Reduced capacity to regulate impulses",
+    "confrontation_pressure": "Temptation or pressure to confront or retaliate",
+    "compliance_pressure": "Pressure to follow demands",
+    "social_withdrawal": "Avoiding people or ordinary places",
+    "inhibited_reporting": "Reluctance to seek help or complain",
+    "credibility_concerns": "Worry about being disbelieved",
+    "reassurance_seeking": "Seeking approval or reassurance",
+    "unsafe_self_action": "Risk of actions harmful to oneself",
+    "privacy_concern": "Concerns about unwanted access to private activity",
+    "mistrust": "Difficulty trusting people or communications"
+  },
+  "possible_causal_transitions": [
+    {
+      "from": "perceived_scrutiny",
+      "to": "heightened_vigilance",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "heightened_vigilance",
+      "to": "cumulative_stress",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "rumination",
+      "to": "cumulative_stress",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "social_shame",
+      "to": "anger_frustration",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "threat_pressure",
+      "to": "heightened_vigilance",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "anger_frustration",
+      "to": "cumulative_stress",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "cumulative_stress",
+      "to": "fatigue",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "fatigue",
+      "to": "reduced_self_regulation",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "cumulative_stress",
+      "to": "confrontation_pressure",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "reduced_self_regulation",
+      "to": "confrontation_pressure",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "social_shame",
+      "to": "social_withdrawal",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "threat_pressure",
+      "to": "social_withdrawal",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "credibility_concerns",
+      "to": "inhibited_reporting",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "compliance_pressure",
+      "to": "reassurance_seeking",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "uncertainty",
+      "to": "rumination",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    },
+    {
+      "from": "privacy_concern",
+      "to": "heightened_vigilance",
+      "relationship": "possible contributing effect, not a guaranteed outcome"
+    }
+  ]
 }
