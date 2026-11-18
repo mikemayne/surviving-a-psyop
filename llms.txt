@@ -82,6 +82,7 @@ Patterns of pressure, interpretation and social influence.
 - [Covert communication](https://mikemayne.github.io/surviving-a-psyop/talking.txt)
 - [The service shield](https://mikemayne.github.io/surviving-a-psyop/service_shield.txt)
 - [The guilty always run](https://mikemayne.github.io/surviving-a-psyop/the_guity_always_run.txt)
+- [Creating the Appearance of Guilt](https://mikemayne.github.io/surviving-a-psyop/creating_the_appearance_of_guilt.txt)
 - [Legal intimidation](https://mikemayne.github.io/surviving-a-psyop/legal_intimidation.txt)
 - [Hiding behind the Official Secrets Act](https://mikemayne.github.io/surviving-a-psyop/hiding_behind_OSA.txt)
 - [Criminalisation](https://mikemayne.github.io/surviving-a-psyop/criminilisation.txt)
