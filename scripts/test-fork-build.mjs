@@ -34,6 +34,29 @@ try {
   assert.ok(!published('index.html').includes('https://mikemayne.github.io/surviving-a-psyop/'));
   assert.ok(!published('index.html').includes('https://github.com/mikemayne/surviving-a-psyop'));
 
+
+  // Homepage text must be generated from introduction.txt, not copied or fetched on load.
+  const source = fs.readFileSync('introduction.txt', 'utf8');
+  const section = source.match(/\*\*\s*How to survive\s*\*\*([\s\S]*?)\*\*\s*How to report\s*\*\*/i);
+  assert.ok(section, 'introduction.txt has a survival rules section');
+  const rules = [...section[1].matchAll(/^[ \t]*([1-4])\.[ \t]+\*\*([^*\r\n]+)\*\*[ \t]+—[ \t]+([^\r\n]+)[ \t]*$/gm)];
+  assert.equal(rules.length, 4, 'introduction.txt contains exactly four numbered rules');
+  const homeRules = published('index.html');
+  assert.ok(!homeRules.includes('syncHomepageRules'), 'No browser-side rewrite of homepage rules');
+  assert.ok(!homeRules.includes('<!-- Generated from introduction.txt'), 'No unfilled rule placeholders');
+  const escapeText = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  for (const [i, match] of rules.entries()) {
+    const [, number, title, body] = match;
+    assert.equal(Number(number), i + 1);
+    const expectedBody = escapeText(body.trim()).replace(/\*\*([^*\r\n]+)\*\*/g, '<strong>$1</strong>');
+    const rendered = homeRules.match(new RegExp('<article class="rule-card"><span class="rule-number">0' + number +
+      '</span><h3>([^<]*)</h3><p id="rule-text-' + number + '">([\\s\\S]*?)</p></article>'));
+    assert.ok(rendered, 'Homepage rule ' + number + ' is present');
+    assert.equal(rendered[1], escapeText(title.trim()), 'Rule ' + number + ' title matches introduction.txt');
+    assert.equal(rendered[2], expectedBody, 'Rule ' + number + ' text matches introduction.txt');
+  }
+
   const customConfig = {
     ...config,
     title: 'My & Your Handbook',
