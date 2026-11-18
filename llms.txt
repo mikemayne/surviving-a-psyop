@@ -102,6 +102,7 @@ Descriptions of emotionally forceful and coercive tactics.
 - [Don't do it yourself](https://mikemayne.github.io/surviving-a-psyop/dont_do_it_yourself.txt)
 - [Cumulative Psychological Pressure](https://mikemayne.github.io/surviving-a-psyop/cumulative_psychological_pressure.txt)
 - [Sleep deprivation](https://mikemayne.github.io/surviving-a-psyop/sleep_deprivation.txt)
+- [Sleep Deprivation and Repeated Reinforcement](https://mikemayne.github.io/surviving-a-psyop/sleep_deprivation_reinforcement.txt)
 - [Deprivation of Basic Necessities as Punishment](https://mikemayne.github.io/surviving-a-psyop/deprivation_of_basic_necessities.txt)
 - [Sexual coercion](https://mikemayne.github.io/surviving-a-psyop/sexual_coercion.txt)
 - [Choose your death](https://mikemayne.github.io/surviving-a-psyop/choose_your_death.txt)
