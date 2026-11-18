@@ -1,5 +1,9 @@
 # AI-Assisted Cold Reading — Creating the Illusion of Mind Reading
 
+**Effects:** Increase confusion, Increase distress, Undermine confidence.
+
+**Possible objectives:** Increase the effectiveness of other techniques, Provoke a reaction.
+
 AI-assisted cold reading is a potential extension of traditional cold reading in which machine learning models are used to predict what someone might be thinking about, based on personal information, behavioural patterns and recent events.
 
 The objective is not necessarily to reconstruct the exact words of someone's inner monologue. Instead, the technique relies on making sufficiently accurate predictions about the **subject of someone's thoughts** to create the impression that their mind is being read.
