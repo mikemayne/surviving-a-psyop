@@ -30,6 +30,33 @@ function replaceMeta(html, attribute, key, value) {
   return html.slice(0, start + prefix.length) + escapeHTML(value) + html.slice(end);
 }
 
+
+// The four homepage rules have one source: the numbered rules in introduction.txt.
+// Fail the build rather than silently using stale or manually duplicated HTML.
+function generateHomepageRules(html) {
+  const source = fs.readFileSync('introduction.txt', 'utf8');
+  const section = source.match(/\*\*\s*How to survive\s*\*\*([\s\S]*?)\*\*\s*How to report\s*\*\*/i);
+  if (!section) throw new Error('introduction.txt: missing How to survive / How to report sections');
+
+  const rules = [...section[1].matchAll(/^[ \t]*([1-4])\.[ \t]+\*\*([^*\r\n]+)\*\*[ \t]+—[ \t]+([^\r\n]+)[ \t]*$/gm)];
+  if (rules.length !== 4 || rules.some((match, index) => Number(match[1]) !== index + 1)) {
+    throw new Error('introduction.txt must contain exactly four numbered homepage rules (1–4)');
+  }
+
+  const marker = '<!-- Generated from introduction.txt by the site build; edit introduction.txt instead. -->';
+  for (const match of rules) {
+    const [, number, heading, body] = match;
+    const expected = '<h3>' + marker + '</h3><p id="rule-text-' + number + '">' + marker + '</p>';
+    if (html.split(expected).length !== 2) {
+      throw new Error('index.html rule ' + number + ' must contain its build-time placeholders; edit introduction.txt instead');
+    }
+    const inline = escapeHTML(body.trim()).replace(/\*\*([^*\r\n]+)\*\*/g, '<strong>$1</strong>');
+    html = html.replace(expected, '<h3>' + escapeHTML(heading.trim()) +
+      '</h3><p id="rule-text-' + number + '">' + inline + '</p>');
+  }
+  return html;
+}
+
 let html = switchSiteLinks(fs.readFileSync('index.html', 'utf8'));
 html = html.replaceAll('How to Survive a Psyop', escapeHTML(site.title));
 html = html.replaceAll('An Open Field Guide', escapeHTML(site.tagline));
@@ -59,6 +86,7 @@ html = html.replace(/(<div class="cover-center">)[\s\S]*?(<\/div>)/,
   (_match, start, end) => start + (site.coverText === 'Just Do Nothing.'
     ? 'Just<br>Do<br>Nothing.'
     : site.coverText.split('\n').map(escapeHTML).join('<br>')) + end);
+html = generateHomepageRules(html);
 write('index.html', html);
 
 const chapters = JSON.parse(fs.readFileSync('chapters.json', 'utf8'));
