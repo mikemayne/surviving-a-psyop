@@ -134,6 +134,10 @@ Learning from the Target's Responses
 
 Cold reading can also function as a process of information gathering. Every response to a guess, whether verbal or behavioural, may provide additional information about the individual. Modern machine learning systems could potentially accumulate this feedback to refine a personalised model of someone's interests, behaviour and likely responses. This need not involve repeatedly retraining an entire language model; information from previous interactions can simply be incorporated into the context used to generate subsequent predictions. Over time, such a system might produce increasingly convincing demonstrations of apparent personal knowledge. However, reactions are ambiguous, and predicting someone's responses is not equivalent to reading their thoughts.
 
+## Claims presented as explanations
+
+During a period of sleep deprivation, I was told that "super-advanced bugs" had been deployed in my house and could hear my subvocalisations. I was also told that I say everything I think out loud. I do not. No known listening bug can hear silent subvocalisations or unspoken thoughts from across a room. Neither claim establishes an ability to read minds.
+
 ## Response
 
 **Don't engage at all. Record if convenient, then get on with your day.**
