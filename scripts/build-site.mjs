@@ -57,6 +57,33 @@ function generateHomepageRules(html) {
   return html;
 }
 
+
+ // Generate reader navigation from the authoritative chapters.json catalogue.
+ // The source HTML keeps a fallback list for direct file previews, but
+ // publishing always uses the catalogue so newly registered pages cannot 404.
+function generateReaderGroups(html, catalogue) {
+  const grouped = new Map();
+  for (const chapter of catalogue.chapters) {
+    if (!grouped.has(chapter.category)) {
+      grouped.set(chapter.category, {
+        name: chapter.category, note: chapter.category_description, files: []
+      });
+    }
+    grouped.get(chapter.category).files.push([chapter.id, chapter.title]);
+  }
+  const startMarker = '  // BEGIN CHAPTER GROUPS';
+  const endMarker = '  // END CHAPTER GROUPS';
+  const start = html.indexOf(startMarker);
+  const end = html.indexOf(endMarker, start);
+  if (start < 0 || end < 0 || html.indexOf(startMarker, start + 1) !== -1 || html.indexOf(endMarker, end + 1) !== -1) {
+    throw new Error('index.html must contain exactly one chapter group placeholder pair');
+  }
+  const payload = JSON.stringify([...grouped.values()]).replace(/</g, '\\u003c');
+  return html.slice(0, start) + startMarker + '\n  var GROUPS = ' + payload + ';\n' +
+    html.slice(end);
+}
+
+const chapters = JSON.parse(fs.readFileSync('chapters.json', 'utf8'));
 let html = switchSiteLinks(fs.readFileSync('index.html', 'utf8'));
 html = html.replaceAll('How to Survive a Psyop', escapeHTML(site.title));
 html = html.replaceAll('An Open Field Guide', escapeHTML(site.tagline));
@@ -83,9 +110,9 @@ html = html.replace(/(<h1(?:\s[^>]*)?>)How to survive a <em>psyop\.<\/em><\/h1>/
 html = html.replace(/(<p class="hero-lead">)[\s\S]*?(<\/p>)/,
   (_match, start, end) => start + escapeHTML(site.heroLead) + end);
 html = generateHomepageRules(html);
+html = generateReaderGroups(html, chapters);
 write('index.html', html);
 
-const chapters = JSON.parse(fs.readFileSync('chapters.json', 'utf8'));
 chapters.title = site.title;
 chapters.description = site.description;
 chapters.homepage = site.siteUrl;
