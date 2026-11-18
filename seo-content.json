@@ -1252,5 +1252,17 @@
       "accidentally_overheard",
       "never_engage"
     ]
+  },
+  "creating_the_appearance_of_guilt": {
+    "intro": "How persistent stress and public accusations can make someone more watchful or hesitant, and how those reactions may be misread as evidence of guilt.",
+    "questions": [
+      "Why might someone become hesitant or hypervigilant after repeated stressful encounters?",
+      "Why is nervous or unusual public behaviour not evidence of wrongdoing?"
+    ],
+    "related": [
+      "the_guity_always_run",
+      "public_shaming",
+      "preemptive_discrediting"
+    ]
   }
 }
