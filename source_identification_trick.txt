@@ -12,6 +12,10 @@ The psychological mechanism involves **priming, suggestion and source-monitoring
 
 In combination, the two techniques can simulate knowledge of both what somebody is thinking and whom they are thinking about. The technical operations are simply generating plausible language and predicting a likely referent. Where speech is entirely internal and no behavioural information is available, the prediction must rely on contextual probabilities rather than direct observation of the thought.
 
+## Research gap
+
+Language models can rank plausible referents from context. Whether combining that ranking with an externally supplied phrase would consistently make listeners misattribute a thought's subject has not been established. Consensual source-memory tests could examine the combined effect.
+
 ## Response
 
 **Don't engage at all. Record if convenient, then get on with your day.**
