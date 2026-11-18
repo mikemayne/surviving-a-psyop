@@ -130,6 +130,10 @@ Learning from the Target's Responses
 
 Cold reading can also function as a process of information gathering. Every response to a guess, whether verbal or behavioural, may provide additional information about the individual. Modern machine learning systems could potentially accumulate this feedback to refine a personalised model of someone's interests, behaviour and likely responses. This need not involve repeatedly retraining an entire language model; information from previous interactions can simply be incorporated into the context used to generate subsequent predictions. Over time, such a system might produce increasingly convincing demonstrations of apparent personal knowledge. However, reactions are ambiguous, and predicting someone's responses is not equivalent to reading their thoughts.
 
+## Research gap
+
+General cold-reading mechanisms are well described. The accuracy of any particular apparent prediction depends on specificity, context and chance; blinded prospective tests can distinguish repeatable performance from selective recall.
+
 ## Response
 
 **Don't engage at all. Record if convenient, then get on with your day.**
