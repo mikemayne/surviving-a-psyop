@@ -1108,8 +1108,15 @@ My question:
         if (moveFocus && (fromReader || fromWhatToDo || fromCantIgnore)) section.querySelector("h2").focus({preventScroll:true});
       }, 0);
     } else {
-      window.scrollTo(0,0);
-      if (moveFocus && (fromReader || fromWhatToDo || fromCantIgnore)) document.querySelector(".hero h1").focus({preventScroll:true});
+      var heroHeading = document.querySelector(".hero h1");
+      if (!moveFocus) {
+        // On the initial homepage load, show the introduction instead of leading with the navigation.
+        document.querySelector(".hero").scrollIntoView({behavior:"instant", block:"start"});
+        heroHeading.focus({preventScroll:true});
+      } else {
+        window.scrollTo(0,0);
+        if (fromReader || fromWhatToDo || fromCantIgnore) heroHeading.focus({preventScroll:true});
+      }
     }
   }
 
