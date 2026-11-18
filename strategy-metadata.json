@@ -1576,8 +1576,7 @@
       ],
       "possible_cumulative_effects": [
         "rumination",
-        "uncertainty",
-        "habituation"
+        "uncertainty"
       ]
     },
     "habituation_and_recovery": {
