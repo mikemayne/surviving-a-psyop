@@ -503,6 +503,18 @@
       "dont_tolerate_mistreatment"
     ]
   },
+  "attacking_your_priorities": {
+    "intro": "Explores criticism that concedes someone's words were correct but treats their order as proof of faulty priorities, and explains why the wider inference may not follow.",
+    "questions": [
+      "Does saying correct things in the wrong order necessarily reveal someone's underlying priorities?",
+      "How can I recognise when a practical comment about emphasis becomes an unsupported judgement about character?"
+    ],
+    "related": [
+      "impossible_standards",
+      "retrospective_reinterpretation_of_behaviour",
+      "moral_accusations"
+    ]
+  },
   "moral_accusations": {
     "intro": "Examines the use of sweeping moral accusations to pressure someone or derail a discussion.",
     "questions": [

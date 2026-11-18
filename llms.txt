@@ -70,6 +70,7 @@ Patterns of pressure, interpretation and social influence.
 - [False completion](https://mikemayne.github.io/surviving-a-psyop/false_completion.txt)
 - [Impossible compliance](https://mikemayne.github.io/surviving-a-psyop/impossible_compliance.txt)
 - [Impossible standards](https://mikemayne.github.io/surviving-a-psyop/impossible_standards.txt)
+- [Attacking Your Priorities](https://mikemayne.github.io/surviving-a-psyop/attacking_your_priorities.txt)
 - [Loaded moral accusations](https://mikemayne.github.io/surviving-a-psyop/moral_accusations.txt)
 - [Moral blackmail](https://mikemayne.github.io/surviving-a-psyop/moral_blackmail.txt)
 - [The interpretation trick](https://mikemayne.github.io/surviving-a-psyop/interpretation_trick.txt)
