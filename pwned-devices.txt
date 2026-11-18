@@ -1,8 +1,8 @@
 # Compromised Devices and Manipulated Information
 
-**Effects:** Privacy concerns, uncertainty.
+**Effects:** Increase distress, Increase fear, Increase confusion.
 
-**Possible objectives:** Obtain information or influence perceptions.
+**Possible objectives:** Increase the effectiveness of other techniques, Induce compliance.
 
 A compromised computer or smartphone can be used to present false information to its owner, potentially making otherwise trustworthy sources appear to say things they do not.
 
