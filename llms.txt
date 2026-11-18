@@ -25,6 +25,7 @@ Start with the introduction and practical ways of responding.
 
 - [Introduction](https://mikemayne.github.io/surviving-a-psyop/introduction.txt)
 - [How to Record](https://mikemayne.github.io/surviving-a-psyop/how_to_record.txt)
+- [The Time Gap](https://mikemayne.github.io/surviving-a-psyop/the_time_gap.txt)
 - [Ready to report?](https://mikemayne.github.io/surviving-a-psyop/ready_to_report.txt)
 - [Take back control](https://mikemayne.github.io/surviving-a-psyop/take_back_control.txt)
 - [Don't chase](https://mikemayne.github.io/surviving-a-psyop/dont_chase.txt)
