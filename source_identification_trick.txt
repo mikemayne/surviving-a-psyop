@@ -1,5 +1,9 @@
 Experience: The “That was for [person]” source-identification remark
 
+**Effects:** Increase confusion, Increase distress, Increase suggestibility.
+
+**Possible objectives:** Increase the effectiveness of other techniques.
+
 If you say something to yourself, without identifying who you are talking about and they say “That was for [person’s name].” They can't read your mind, they're just using a cheap ML trick.  This can be used in combination with the inner monologue trick to first try to convince you that you said something you didn't then say who it was for.  This is just the combination of two cheap ML tricks.  
 
 ### Technical explanation

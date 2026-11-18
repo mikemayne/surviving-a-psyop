@@ -1,5 +1,9 @@
 # Primed Thought Attribution
 
+**Effects:** Increase confusion, Undermine confidence, Increase suggestibility.
+
+**Possible objectives:** Increase the effectiveness of other techniques.
+
 ## The proposed technique
 
 Imagine someone hears a short phrase in a voice resembling their own. Shortly afterwards, another person claims, "You were just thinking that," or, "You just said that."

@@ -1,5 +1,9 @@
 # Thought Attribution Through Suggestion and Repetition
 
+**Effects:** Increase suggestibility, Increase confusion, Undermine confidence.
+
+**Possible objectives:** Increase the effectiveness of other techniques.
+
 ## The Proposed Technique
 
 Imagine someone hears a spoken phrase and then is immediately accused of having thought or said it: "You were just thinking that."
