@@ -64,7 +64,6 @@ try {
     description: 'A customised public-domain guide.',
     heroHeading: 'My handbook',
     heroLead: 'Welcome to my guide.',
-    coverText: 'My\nBook',
     repository: 'sample-author/my-book',
     siteUrl: 'https://guide.example.com/'
   };
@@ -75,7 +74,12 @@ try {
   assert.ok(home.includes('document.title = ch.title + " — " + "My & Your Handbook";'));
   assert.ok(home.includes('My handbook'));
   assert.ok(home.includes('Welcome to my guide.'));
-  assert.ok(home.includes('My<br>Book'));
+  // The homepage uses a fixed, responsive two-choice safety card instead of a configurable book cover.
+  assert.ok(home.includes('class="cover"'), 'Homepage safety card is present');
+  assert.ok(home.includes('Are you in danger?'), 'Safety question is present');
+  assert.ok(home.includes('Call 999'), 'Emergency response is present');
+  assert.ok(home.includes('Record, Ignore'), 'Non-emergency response is present');
+  assert.ok(home.includes('id="what-to-do-view"'), 'Separate What to do page is retained');
   assert.ok(home.includes('A Personal Guide'));
   assert.ok(home.includes('https://guide.example.com/'));
   assert.ok(home.includes('https://github.com/sample-author/my-book'));

@@ -78,7 +78,7 @@
     .author-note p { color: var(--muted); line-height: 1.8; font-size: .97rem; margin: 0 0 18px; }
     .author-note p strong { color: var(--ink); }
     .hero { padding: 94px 0 92px; border-bottom: 1px solid var(--line); overflow: hidden; }
-    .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 6%; }
+    .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; align-items: stretch; gap: 6%; }
     .hero h1 { font: normal clamp(3.75rem, 7vw, 7.05rem)/.98 var(--serif); letter-spacing: -.062em; max-width: 700px; margin: 27px 0 28px; }
     .hero h1 em { color: var(--accent); font-weight: normal; }
     .hero-lead { color: var(--muted); font-size: 1.11rem; line-height: 1.75; max-width: 530px; }
@@ -89,15 +89,50 @@
     .btn-secondary { border-color: var(--line); color: var(--ink); background: transparent; }
     .tiny-note { margin-top: 23px; color: var(--muted); font-size: .8rem; display: flex; align-items: center; gap: 10px; }
     .tiny-note:before { content: ""; width: 23px; height: 1px; background: var(--orange); }
-    .cover { aspect-ratio: 4/5; position: relative; background: #315f55; border-radius: 3px 11px 11px 3px; color: #f4f3e9; box-shadow: 15px 25px 40px rgba(30,48,42,.16), inset 11px 0 13px rgba(0,0,0,.12); overflow: hidden; padding: 37px; display: flex; flex-direction: column; justify-content: space-between; max-width: 480px; margin-left: auto; }
-    .cover:before, .cover:after { content:""; position: absolute; border: 1px solid rgba(226,243,222,.22); border-radius: 50%; width: 380px; height: 380px; left: 19%; top: 16%; }
-    .cover:after { width: 270px; height: 270px; left: 32%; top: 25%; }
-    .cover > * { position: relative; z-index: 1; }
-    .cover-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; text-transform: uppercase; font-size: .67rem; letter-spacing: .2em; line-height: 1.8; }
-    .cover-top .sun { width: 42px; height: 42px; border: 1px solid #a8c9b8; border-radius: 50%; display: block; position: relative; }
-    .cover-top .sun:after { content:""; position: absolute; top: 50%; left: -12px; right: -12px; height: 1px; background: #a8c9b8; transform: rotate(-34deg); }
-    .cover-center { font: normal clamp(2.8rem, 4.2vw, 4.5rem)/1.04 var(--serif); letter-spacing: -.05em; max-width: 280px; }
-    .cover-bottom { border-top: 1px solid rgba(250,250,240,.4); padding-top: 18px; display: flex; justify-content: space-between; gap: 10px; font-size: .67rem; letter-spacing: .15em; text-transform: uppercase; }
+    /* Reusable, generously sized two-choice card. No arrows or extra decisions. */
+    .binary-question {
+      font: 850 clamp(2rem, 3.7vw, 3.3rem)/1.12 var(--sans);
+      letter-spacing: -.04em; margin: 0;
+    }
+    .binary-options { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(14px, 2vw, 20px); }
+    .binary-option {
+      display: grid; grid-template-columns: minmax(56px, 88px) minmax(0, 1fr);
+      align-items: center; gap: clamp(12px, 2vw, 24px);
+      min-height: 116px; padding: clamp(20px, 2.7vw, 30px);
+      border: 1px solid var(--line); border-left: 6px solid var(--accent);
+      border-radius: 5px; background: var(--paper); color: var(--ink);
+      text-align: left;
+    }
+    .binary-option--urgent { border-left-color: var(--orange); }
+    .binary-condition { font: 900 clamp(.92rem, 1.3vw, 1.12rem)/1.2 var(--sans); letter-spacing: .1em; }
+    .binary-answer {
+      font: 850 clamp(1.55rem, 2.8vw, 2.3rem)/1.15 var(--sans);
+      letter-spacing: -.025em; overflow-wrap: normal;
+    }
+    a.binary-option { text-decoration: none; }
+    a.binary-option:hover { background: var(--paper-2); }
+    .cover {
+      width: 100%; min-height: 440px; position: relative;
+      background: #315f55; border-radius: 4px 11px 11px 4px; color: #f4f3e9;
+      box-shadow: 15px 25px 40px rgba(30,48,42,.16);
+      padding: clamp(24px, 3vw, 40px); display: flex; flex-direction: column;
+      justify-content: space-between; gap: clamp(22px, 3vw, 32px);
+      max-width: 480px; margin-left: auto;
+    }
+    .cover-kicker { font: 850 .83rem/1.4 var(--sans); text-transform: uppercase; letter-spacing: .15em; opacity: .92; }
+    .cover .binary-question { font-size: clamp(2.15rem, 3.3vw, 3.1rem); max-width: none; }
+    .cover .binary-options { flex: 1; grid-template-rows: repeat(2, minmax(105px, 1fr)); }
+    .cover .binary-option {
+      min-height: 105px; padding: clamp(16px, 2vw, 24px);
+      border-color: rgba(244,243,233,.5);
+      background: rgba(11,37,29,.18); color: #f4f3e9;
+      grid-template-columns: minmax(42px, 55px) minmax(0, 1fr);
+      gap: clamp(10px, 1.5vw, 18px);
+    }
+    .cover .binary-option--urgent { border-left-color: #f5bc8f; }
+    .cover .binary-option--calm { border-left-color: #b5e2ca; }
+    .cover a.binary-option:hover { background: rgba(11,37,29,.34); }
+    .cover .binary-answer { font-size: clamp(1.4rem, 2.05vw, 1.85rem); }
 
     /* The four central rules from the introduction */
     .rules { padding: 90px 0 95px; background: var(--surface); border-bottom: 1px solid var(--line); scroll-margin-top: 20px; }
@@ -272,8 +307,7 @@
       .hero-grid, .contribute-grid { grid-template-columns: 1fr; gap: 44px; }
       .hero h1 { font-size: clamp(3.5rem, 13vw, 5rem); margin: 20px 0; }
       .hero-lead { font-size: .99rem; }
-      .cover { width: 88%; margin: 0 auto; max-width: 360px; }
-      .cover-center { font-size: 3.25rem; }
+      .cover { width: 100%; margin: 0 auto; max-width: 480px; min-height: 460px; }
       .principles-inner { grid-template-columns: 1fr; }
       .principle, .principle:first-child { padding: 20px 0; border-right: 0; border-bottom: 1px solid var(--line); }
       .principle:last-child { border-bottom: 0; }
@@ -322,51 +356,37 @@
       .mobile-site-nav summary { padding-inline: 10px; }
     }
 
-    /* Simple responsive two-choice decision tree, using the site's existing palette. */
-    .what-to-do { padding: clamp(50px, 7vw, 96px) 0 100px; min-height: calc(100vh - 180px); }
+    /* The same bold safety card, expanded on its own page for instant scanning. */
+    .what-to-do { padding: clamp(44px, 6vw, 80px) 0 100px; min-height: calc(100vh - 180px); }
     .what-to-do-heading { text-align: center; }
-    .what-to-do-heading h1 { font: normal clamp(3rem, 6vw, 5rem)/1.05 var(--serif); letter-spacing: -.055em; margin: 12px 0 0; }
-    .decision-tree { width: min(100%, 800px); margin: clamp(42px, 6vw, 70px) auto 0; text-align: center; }
-    .decision-question, .decision-outcome {
-      display: grid; place-items: center; min-height: 96px; padding: 22px 18px;
-      border: 1px solid var(--line); border-radius: 5px; background: var(--surface);
-      color: var(--ink); font-size: clamp(1.15rem, 2vw, 1.5rem); font-weight: 700;
-      line-height: 1.4; box-shadow: var(--shadow);
+    .what-to-do-heading h1 {
+      font: 850 clamp(2.8rem, 5.4vw, 4.8rem)/1.06 var(--sans);
+      letter-spacing: -.055em; margin: 12px 0 0;
     }
-    .decision-start { width: min(100%, 490px); margin-inline: auto; background: var(--accent-light); border-color: var(--accent); }
-    .decision-paths { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); position: relative; gap: 44px; margin-top: 64px; }
-    .decision-paths::before {
-      content: ""; position: absolute; top: -32px; left: 25%; right: 25%; border-top: 2px solid var(--accent);
+    .binary-panel {
+      width: min(100%, 820px); margin: clamp(30px, 5vw, 48px) auto 0;
+      padding: clamp(22px, 4.5vw, 50px); background: var(--surface);
+      border: 1px solid var(--line); border-radius: 6px; box-shadow: var(--shadow);
     }
-    .decision-paths::after {
-      content: ""; position: absolute; top: -64px; left: 50%; height: 32px; border-left: 2px solid var(--accent);
+    .binary-panel .binary-question {
+      font-size: clamp(2rem, 4.5vw, 3.7rem);
+      text-align: center; margin-bottom: clamp(24px, 4vw, 40px);
     }
-    .decision-path { min-width: 0; position: relative; display: flex; flex-direction: column; align-items: stretch; gap: 14px; }
-    .decision-path::before {
-      content: ""; position: absolute; top: -32px; left: 50%; height: 32px; border-left: 2px solid var(--accent);
-    }
-    .decision-label {
-      display: inline-flex; justify-content: center; align-items: center; align-self: center;
-      min-width: 70px; min-height: 36px; padding: 5px 16px; border: 1px solid var(--line);
-      border-radius: 4px; background: var(--paper-2); color: var(--ink); font-weight: 750; font-size: .9rem;
-    }
-    .decision-label-yes { background: var(--accent-light); border-color: var(--accent); }
-    .decision-outcome { background: var(--paper-2); }
-    .decision-emergency {
-      color: var(--orange); background: var(--surface); border: 2px solid var(--orange);
-      font-size: clamp(1.5rem, 3vw, 2.1rem); text-decoration: none;
-    }
-    .decision-emergency:hover { background: var(--paper-2); }
+    .binary-panel .binary-option { min-height: clamp(124px, 15vw, 164px); }
+    .binary-panel .binary-answer { font-size: clamp(1.7rem, 3.3vw, 2.6rem); }
     @media (max-width: 720px) {
       .what-to-do { padding-bottom: 65px; }
-      .decision-tree { max-width: 500px; margin-top: 34px; }
-      .decision-paths { grid-template-columns: minmax(0, 1fr); gap: 24px; margin-top: 25px; }
-      .decision-paths::before, .decision-paths::after, .decision-path::before { display: none; }
-      .decision-path { padding-left: 15px; border-left: 2px solid var(--accent); }
-      .decision-label { align-self: flex-start; }
-      .decision-question, .decision-outcome { min-height: 76px; }
+      .binary-panel { margin-top: 30px; }
+      .binary-option { grid-template-columns: 50px minmax(0, 1fr); min-height: 110px; }
+      .cover .binary-option { min-height: 110px; }
     }
-    @media (prefers-reduced-motion: reduce) {
+    @media (max-width: 380px) {
+      .binary-option { gap: 12px; padding: 18px 14px; }
+      .cover { padding: 22px; }
+      .cover .binary-option { grid-template-columns: 40px minmax(0, 1fr); }
+      .cover .binary-answer { font-size: 1.3rem; }
+    }
+        @media (prefers-reduced-motion: reduce) {
       *, *:before, *:after { scroll-behavior: auto !important; transition-duration: 0s !important; }
     }
   </style>
@@ -416,10 +436,20 @@
         </div>
         <p class="tiny-note">Freely available. No sign-in. No tracking.</p>
       </div>
-      <div class="cover" role="img" aria-label="Book cover reading Just Do Nothing">
-        <div class="cover-top"><span>FIELD NOTES<br>AN OPEN HANDBOOK</span><span class="sun" aria-hidden="true"></span></div>
-        <div class="cover-center">Just<br>Do<br>Nothing.</div>
-        <div class="cover-bottom"><span>Readers' edition</span><span>CC0 · OPEN</span></div>
+      <div class="cover">
+        <span class="cover-kicker">What to do</span>
+        <h2 class="binary-question">Are you in danger?</h2>
+        <div class="binary-options" aria-label="Two responses">
+          <a class="binary-option binary-option--urgent" href="tel:999">
+            <span class="binary-condition">YES</span>
+            <strong class="binary-answer">Call 999</strong>
+          </a>
+          <div class="binary-option binary-option--calm">
+            <span class="binary-condition">NO</span>
+            <strong class="binary-answer">Record, Ignore</strong>
+            <span class="sr-only">Record what was said if convenient; otherwise ignore.</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -567,19 +597,20 @@ My question:
       <p class="eyebrow"><span class="mark">✳</span> Practical response</p>
       <h1 id="what-to-do-title" tabindex="-1">What to do</h1>
     </header>
-    <div class="decision-tree" role="group" aria-label="Are you in danger? Yes: call 999. No: record if convenient, then ignore.">
-      <div class="decision-question decision-start">Are you in danger?</div>
-      <div class="decision-paths">
-        <div class="decision-path" role="group" aria-label="Yes, in danger">
-          <span class="decision-label decision-label-yes">Yes</span>
-          <a class="decision-outcome decision-emergency" href="tel:999">Call 999</a>
-        </div>
-        <div class="decision-path" role="group" aria-label="No, not in danger">
-          <span class="decision-label">No</span>
-          <div class="decision-outcome">Record, Ignore</div>
+    <section class="binary-panel" aria-labelledby="what-to-do-question">
+      <h2 class="binary-question" id="what-to-do-question">Are you in danger?</h2>
+      <div class="binary-options">
+        <a class="binary-option binary-option--urgent" href="tel:999">
+          <span class="binary-condition">YES</span>
+          <strong class="binary-answer">Call 999</strong>
+        </a>
+        <div class="binary-option binary-option--calm">
+          <span class="binary-condition">NO</span>
+          <strong class="binary-answer">Record, Ignore</strong>
+          <span class="sr-only">Record what was said if convenient; otherwise ignore.</span>
         </div>
       </div>
-    </div>
+    </section>
   </div>
 </main>
 <main class="reader hidden" id="reader-view">
@@ -1078,25 +1109,6 @@ My question:
     var preference = localStorage.getItem("fieldguide-theme");
     if (preference === "dark" || (!preference && window.matchMedia("(prefers-color-scheme: dark)").matches)) document.documentElement.dataset.theme = "dark";
   } catch(e) {}
-  // Match the cover to the hero text's height without stretching its 4:5 shape.
-  (function () {
-    var grid = document.querySelector(".hero-grid");
-    var copy = grid.firstElementChild;
-    var cover = grid.querySelector(".cover");
-    function sizeCover() {
-      if (window.matchMedia("(max-width: 680px)").matches) {
-        cover.style.removeProperty("width");
-        return;
-      }
-      var columns = grid.getBoundingClientRect().width - copy.getBoundingClientRect().width
-        - parseFloat(getComputedStyle(grid).columnGap);
-      var target = Math.min(480, columns, copy.getBoundingClientRect().height * 4 / 5);
-      cover.style.width = Math.max(0, Math.floor(target)) + "px";
-    }
-    if (window.ResizeObserver) new ResizeObserver(sizeCover).observe(copy);
-    window.addEventListener("resize", sizeCover);
-    sizeCover();
-  })();
   syncThemeButton();
   window.addEventListener("hashchange", function() { route(true); });
   window.addEventListener("scroll",updateProgress,{passive:true});
