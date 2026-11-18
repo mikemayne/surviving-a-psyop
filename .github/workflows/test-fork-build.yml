@@ -4,6 +4,7 @@ on:
     paths:
       - 'scripts/**'
       - 'index.html'
+      - 'introduction.txt'
       - 'chapters.json'
       - 'seo-content.json'
       - 'llms.txt'
