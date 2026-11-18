@@ -35,6 +35,18 @@
       "take_back_control"
     ]
   },
+  "up_or_down": {
+    "intro": "A simple way to stop dwelling on repeated upsetting statements: label their apparent emotional pull as Up or Down, then move on without debating the words.",
+    "questions": [
+      "How can I resist the urge to analyse or answer every repeated remark?",
+      "What do the Up and Down labels mean when I want to disengage?"
+    ],
+    "related": [
+      "never_engage",
+      "habituation_and_recovery",
+      "the_time_gap"
+    ]
+  },
   "ready_to_report": {
     "intro": "A practical guide to documenting troubling experiences, discussing them with your GP and reporting concerns to the police calmly and factually.",
     "questions": [
