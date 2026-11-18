@@ -2,7 +2,7 @@
   "schema_version": 2,
   "description": "Chapter-linked qualitative metadata for comparing possible objectives, emotional effects, behavioural responses and cumulative effects. These represent hypothetical mechanisms, not proof of coordination or motive.",
   "usage": "Compare the reported conduct, context and chronology first. Keep distinct (1) a chapter's possible intended objective, (2) the visitor's reported emotional impact, and (3) the actual behavioural response or outcome. An intended action does not have to occur for that goal to remain a possible hypothesis: for example, staying calm or feeling only frustration does not by itself rule out an attempted provocation, and anger does not prove one. Emotions and responses are secondary context, never a motive-detection test. For a connected-events hypothetical, examine shared effect tags and possible transitions without inventing stages. Lead with 'If the events are connected, then the likely goal is X' only when a coherent candidate emerges, and avoid repetitive disclaimers; prioritise safe, proportionate coping and reporting advice. N/A means no specific inference is supported.",
-  "chapter_count": 85,
+  "chapter_count": 86,
   "chapters": {
     "introduction": {
       "kind": "overview",
@@ -401,6 +401,25 @@
       "possible_cumulative_effects": [
         "compliance_pressure",
         "social_shame"
+      ]
+    },
+    "outcome_inflation_deflation": {
+      "kind": "technique",
+      "possible_goal": "distort expectations of success or failure to influence decisions",
+      "possible_emotional_effects": [
+        "excitement",
+        "discouragement",
+        "uncertainty"
+      ],
+      "possible_behavioural_responses": [
+        "overcommitting",
+        "abandoning worthwhile work",
+        "seeking reassurance"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "reassurance_seeking",
+        "rumination"
       ]
     },
     "manufactured_confusion": {

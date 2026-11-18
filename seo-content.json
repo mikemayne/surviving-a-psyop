@@ -323,6 +323,18 @@
       "stay_grounded"
     ]
   },
+  "outcome_inflation_deflation": {
+    "intro": "Explores how sweeping predictions of success or failure can distort motivation, decisions and satisfaction, and how to assess them using evidence rather than hype or dismissal.",
+    "questions": [
+      "How can exaggerated predictions of success or failure influence someone's decisions?",
+      "How do I judge a project fairly when other people make extreme predictions about it?"
+    ],
+    "related": [
+      "reputation_to_live_up_to",
+      "negging_psychological_manipulation",
+      "stay_grounded"
+    ]
+  },
   "manufactured_confusion": {
     "intro": "Explains how contradictory instructions, shifting explanations and changing rules can create confusion and dependence on repeated clarification.",
     "questions": [
