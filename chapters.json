@@ -296,6 +296,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accusation_baiting.txt"
     },
     {
+      "id": "projection",
+      "title": "Projection",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/projection.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/projection",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/projection.txt"
+    },
+    {
       "id": "accusation_laundering",
       "title": "Accusation Laundering",
       "category": "Recognising manipulation",

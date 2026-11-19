@@ -1447,5 +1447,18 @@
       "threatening_consequences_for_seeking_help",
       "stay_grounded"
     ]
+  },
+  "projection": {
+    "intro": "Explains how someone may attribute their own feelings, intentions or behaviour to another person, shifting attention away from the conduct at issue.",
+    "questions": [
+      "What is projection in a disagreement?",
+      "How can an accusation put someone on the defensive and distract from the original behaviour?",
+      "How can I distinguish a possible projection from an ordinary disagreement?"
+    ],
+    "related": [
+      "accusation_baiting",
+      "victim_blaming",
+      "accusations_of_disloyalty"
+    ]
   }
 }
