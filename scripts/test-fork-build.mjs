@@ -58,9 +58,9 @@ try {
   assert.ok(published('sitemap.xml').includes(base + 'questionnaire.html'),
     'Questionnaire must be present in the sitemap');
 
-  assert.ok(published('topics/index.html').includes('<h2>Begin here</h2>'),
+  assert.ok(published('topics/index.html').includes('<h2>' + approvedChapters[0].category + '</h2>'),
     'Opening chapter list preserves its first section heading');
-  assert.ok(!published('topics/introduction.html').includes('<p class="eyebrow">Begin here</p>'),
+  assert.ok(!published('topics/introduction.html').includes('<p class="eyebrow">' + approvedChapters[0].category + '</p>'),
     'Opening chapter page has no redundant category eyebrow');
   assert.ok(published('topics/introduction.html').includes('<h1>Introduction</h1>'),
     'Opening chapter still has a descriptive main heading');
@@ -115,7 +115,7 @@ try {
     'Both decision tiles show Record, Ignore, Report as three stacked lines');
   assert.ok(home.includes('id="what-to-do-view"'), 'Separate What to do page is retained');
   assert.ok(home.includes('<h3 class="category-title">'), 'Homepage catalogue retains category headings');
-  assert.ok(home.includes('ch.group === "Begin here" ? "" : ch.group'),
+  assert.ok(home.includes('ch.group === GROUPS[0].name ? "" : ch.group'),
     'Reader suppresses the redundant chapter label without changing grouping');
   assert.ok(home.includes('A Personal Guide'));
   assert.ok(home.includes('https://guide.example.com/'));

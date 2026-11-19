@@ -780,7 +780,7 @@ My question:
   "use strict";
   // BEGIN CHAPTER GROUPS — automatically regenerated from chapters.json when published.
   var GROUPS = [
-    {name:"Begin here", note:"Start with the introduction and practical ways of responding.", files:[
+    {name:"Basic Advice", note:"Practical ways to stay safe and respond effectively", files:[
       ["introduction","Introduction"],
       ["record_ignore_report","Record, Ignore, Report"],
       ["how_to_record","How to Record"],
@@ -1089,7 +1089,7 @@ My question:
     reader.classList.remove("hidden");
     closeSidebar(false);
     articleTitle.textContent = ch.title;
-    document.getElementById("article-category").textContent = ch.group === "Begin here" ? "" : ch.group;
+    document.getElementById("article-category").textContent = ch.group === GROUPS[0].name ? "" : ch.group;
     document.getElementById("article-number").textContent = String(ch.number).padStart(2,"0") + " / " + chapters.length;
     document.getElementById("article-source").href = repoRoot + "/blob/main/" + encodeURIComponent(ch.id) + ".txt";
     articleContent.innerHTML = "<p>Loading chapter…</p>";
