@@ -1422,5 +1422,17 @@
       "pwned-devices",
       "personal_security_notes"
     ]
+  },
+  "invoking_an_imagined_audience": {
+    "intro": "Explains how invoking an absent audience's predicted reaction can create social pressure and lend an unsupported judgement borrowed authority.",
+    "questions": [
+      "How can references to what the press, a jury, the police or everyone supposedly thinks be used to pressure someone?",
+      "Why is a prediction about an absent audience's reaction not the same as evidence of its actual view?"
+    ],
+    "related": [
+      "claiming_influence",
+      "staged_third_party_reactions",
+      "accusation_laundering"
+    ]
   }
 }
