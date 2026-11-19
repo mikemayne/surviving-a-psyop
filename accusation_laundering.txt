@@ -4,7 +4,7 @@
 
 **Possible objectives:** Discredit the individual, Influence third parties, Provoke a reaction.
 
-### THE TECHNIQUE
+## The technique
 
 Someone makes an accusation. Later that day, they recount the accusation to a third party as if it were already an established fact.
 
@@ -12,7 +12,7 @@ That is the important change. The accusation has not become more reliable simply
 
 For example, someone might first say, "I think Alex took my parcel." A few hours later, they tell someone else, "When Alex took my parcel..." The second statement treats the allegation as something that has already been established.
 
-### WHY IT WORKS
+## How it works
 
 This uses **presupposition**. Rather than asking whether the accusation is true, the speaker talks as though the answer is already known. A listener may accept the premise without stopping to question it.
 
@@ -22,7 +22,7 @@ If the third party repeats the story, it can become even more misleading. Severa
 
 If the person being accused happens to overhear the conversation, the remark may also provoke embarrassment, anger or a desire to defend themselves. Instead of questioning the original accusation, everyone can end up discussing the accused person's reaction.
 
-### THE IMPORTANT DISTINCTION
+## The important distinction
 
 A person may genuinely believe an accusation and repeat it as fact without deliberately trying to manipulate anybody. The sequence on its own does not tell you why they said it.
 
