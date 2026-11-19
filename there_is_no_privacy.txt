@@ -1,4 +1,4 @@
-### Privacy — Knowing When to Stop Trying
+# Privacy — Knowing When to Stop Trying
 
 Privacy is a worthwhile goal, and taking reasonable precautions to protect it makes sense. However, absolute privacy is extremely difficult to guarantee against a sufficiently capable and determined adversary. Even Apple's Lockdown Mode, designed to protect against sophisticated cyberattacks, cannot guarantee complete security. Internet-connected devices with microphones are potentially vulnerable to compromise, while technologies such as Wi-Fi sensing and millimetre-wave radar can, under suitable conditions, detect physical activity without conventional cameras or microphones. Some of these techniques can operate without leaving obvious traces on the devices being observed. Their practical capabilities vary considerably, and their existence does not mean they are being used against you.
 
