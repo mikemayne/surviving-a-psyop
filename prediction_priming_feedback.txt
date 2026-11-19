@@ -6,13 +6,11 @@
 
 ## The proposed technique
 
-The hypothesis is that it may be possible to create the illusion of reading someone's mind by continuously combining prediction, priming and source misattribution.
+Is it possible to create the illusion of reading someone's mind by continuously combining LLM prediction, priming and source misattribution.  All that is needed is a hacked mobile phone, and a suitably unethical human or two.
 
-A system could use a large language model (LLM) to predict what someone is likely to think about next, who they are likely to be thinking about, and their approximate emotional state.
+The system uses a large language model (LLM) to predict what someone is likely to think about next, who they are likely to be thinking about, and their approximate emotional state based on their previous statments.  These predictions could be based on extensive information about the individual, potentially including years of recorded speech, their relationships, previous conversations, recurring subjects, emotional associations and broader context.
 
-These predictions could be based on extensive information about the individual, potentially including years of recorded speech, their relationships, previous conversations, recurring subjects, emotional associations and broader context.
-
-The objective would not be to predict someone's internal monologue word for word. Predicting the general subject, the person being considered or the emotional meaning of a thought might be sufficiently accurate to create the impression of mind reading.
+The LLM produces a list of likely statements, and uses other observations derived from other machine learning tricks to rank their likelihood of being approximately what the victim is going to say next.  The objective is not to predict someone's internal monologue word for word. Predicting the general subject, the person being considered or the emotional meaning of a thought might be sufficiently accurate to create the impression of mind reading.
 
 ## How it might work
 
@@ -28,65 +26,43 @@ These three approaches could be used repeatedly in combination.
 
 Crucially, **a failed prediction could still have a useful effect**.
 
-Suppose the model predicts that someone is thinking about Sarah and a voice says, "That was for Sarah."
+Suppose the model predicts that someone is thinking about Sarah and a someone eg next door shouts, "That was for Sarah."
 
-If the prediction is correct, the individual may feel that somebody has read their mind.
+If the prediction is correct, the individual may feel that somebody has read their mind.  If the prediction is incorrect, hearing Sarah's name may bring her to mind anyway. This will likely influence the person's subsequent thoughts, making later predictions involving Sarah more likely to be correct. If you want an illustration of how this works, try not thinking of a Pink Elephant.  
 
-If the prediction is incorrect, hearing Sarah's name may bring her to mind anyway. This could influence the person's subsequent thoughts, making later predictions involving Sarah more likely to be correct.
-
-In this way, prediction and priming could reinforce one another. The prediction changes the very thing the system is attempting to predict.
+In this way, prediction and priming could reinforce one another. The prediction changes the very thing the system is attempting to predict, and steers the persons thoughts back to something the model finds easier to predict.  Think of it like a process of constant psychological calibration.
 
 ## Combining the techniques: listener-supplied specificity
 
-The techniques could be combined. A system could use source misattribution to introduce a vague statement related to someone the listener knows, then say out loud, "That was for X."
+Source misattribution is a psychological phenomenon in which someone remembers information but incorrectly identifies where it came from. For example, a person might remember something they imagined, dreamed, overheard, or were told and later believe they experienced it directly. This happens because the brain can retain the content of a memory while losing or confusing information about its original source.
+
+A hacked mobile phone be used by an abuser to make a statement, possibly below the threshold of hearing for the victim.  Just because you haven't consciously heard the words, doesn't always prevent priming from happening.  The abuser then shouts something vague about the statement such as "That was about X".  If the victim has not consciouly heard the statement, but priming has been effective then the statement feels like the victims mind has been read. If the victim has consiously heard the statement, "That was about X" appears to refer to the statement.   In the case where the statement made on the mobile phone was not heard and priming was not effective, "That was about X" could appear to be directed at someone else, but would still have the effect of priming the victim and helping calibrate the LLM.
 
 The listener might then fill in what the statement was about themselves. Even if the statement was vague, naming someone they know could bring to mind their own memories, associations and emotions. The listener could supply much of the missing detail, making the statement seem more specific than it actually was.
 
-The process could keep going throughout the day, using different combinations of source misattribution, priming and predictions. When the model had high confidence, it could make a more specific claim. When confidence was low, it could make a vague statement that still primes a person or subject and leaves the listener to fill in the gaps.
-
-Another possibility is to wait until the LLM is fairly confident that a specific topic is already on the person's mind. A related phrase could then be introduced through the proposed source-misattribution technique to reinforce that topic further. Afterwards, someone could say aloud, "That was for X."
-
-In that sequence, the model would first predict a likely topic, the phrase might make the topic more mentally accessible, and "That was for X" would link it to someone the listener knows. The listener might then fill in the specifics themselves. A statement could therefore feel accurate without having identified the original thought; the apparent match could partly arise from what was introduced afterwards.
-
-The proposed effect would not require every prediction to be correct. Some remarks might seem strikingly accurate, others might introduce a subject that comes to mind afterwards, and others might gain their apparent specificity from the listener's interpretation. These different effects could contribute to the overall impression without anyone actually knowing the listener's private thoughts.
-
-## Confidence-dependent statements
-
-The model could assign an estimated probability to each prediction and vary the specificity of the statement accordingly.
-
-When confidence is high, it could make a specific prediction about a person, subject or thought.
-
-When confidence is lower, it could make a vaguer statement that is less likely to be obviously wrong but still primes the individual towards the predicted subject.
+The process is most effective when it runs continuously throughout the day, using different combinations of source misattribution, priming and predictions. When the model had high confidence of what a victim is thinking, a more specific claim is made. When the confidence is low, a vague statement is made that still primes a person or subject and leaves the listener to fill in the gaps.  Even if the vague statement is incorrect, the victim either assumes it was directed at someone else, or is left feeling defensive "I wasn't thinking about that".  Either way, it primes the victim and callibrates the process.
 
 For example:
 
-- **High confidence:** "You were thinking about Sarah."
-- **Medium confidence:** "You were thinking about someone at work."
-- **Low confidence:** "Something at work has been bothering you."
+- **High confidence:** "That was for Sarah.".  
+- **Medium confidence:** "Thats about work"
+- **Low confidence:** Just say anything.
 
-These confidence levels would be estimates rather than reliable measurements of someone's private thoughts.
+All the statements would appear to be directed at the victim or someone else, but in either case the priming effect works. In low confidence, you just say whatever you like loud enough for the victim to hear it.  The priming effect still works even if the statement doesn't appear to be directed at the victim.
 
-The important feature is that a high-confidence statement offers the possibility of a striking apparent success, while a low-confidence statement can introduce a relevant association without making a precise claim.
+The important feature is that a high-confidence statement offers the possibility of a striking apparent success, while a low-confidence statement can introduce a relevant association without making a precise claim. 
 
 The system could then use subsequent speech and behaviour to update its predictions.
 
 ## Reinforcement and selective recall
 
-Humans do not necessarily remember successful and unsuccessful predictions equally.
+Humans do not necessarily remember successful and unsuccessful predictions equally.  An apparently accurate prediction about a private thought can be surprising and emotionally significant, making it particularly memorable.
 
-An apparently accurate prediction about a private thought can be surprising and emotionally significant, making it particularly memorable.
+An incorrect prediction may be much less memorable, especially when the statement was vague or when the subject subsequently entered the person's thoughts through priming.  If the statements could equally be directed to someone else, they are easily written off as insignificant and forgotten about.
 
-An incorrect prediction may be much less memorable, especially when the statement was vague or when the subject subsequently entered the person's thoughts through priming.
+Over time, the individual could remember the striking successes disproportionately while overlooking many of the failures. This creates a cumulative reinforcement effect.  Each apparently successful prediction makes the claimed ability seem more credible. Greater credibility may make subsequent predictions feel more significant, even when the underlying predictive accuracy has not improved.  Repeated exposure to the same subjects and associations might also make them more mentally accessible, potentially influencing subsequent predictions.
 
-Over time, the individual could remember the striking successes disproportionately while overlooking many of the failures.
-
-This could create a cumulative reinforcement effect.
-
-Each apparently successful prediction makes the claimed ability seem more credible. Greater credibility may make subsequent predictions feel more significant, even when the underlying predictive accuracy has not improved.
-
-Repeated exposure to the same subjects and associations might also make them more mentally accessible, potentially influencing subsequent predictions.
-
-The proposed effect therefore does not require a high proportion of predictions to be correct. It requires enough memorable apparent successes to outweigh the subjective significance of the failures.
+The effect does not require a high proportion of predictions to be correct. It requires enough memorable apparent successes to outweigh the subjective significance of the failures.
 
 ## Extensive personal information
 
@@ -103,9 +79,7 @@ For example, seven years of recorded speech could provide information about an i
 
 This information could be combined with current speech, approximate emotional state, recent events and broader context.
 
-The model could continuously update its estimates of which people, topics and associations were most likely to become relevant next.
-
-Rather than accurately reconstructing private thoughts, the system would be predicting likely associations and occasionally influencing them through its own statements.
+The model could continuously update its estimates of which people, topics and associations were most likely to become relevant next.  Rather than accurately reconstructing private thoughts, the system would be predicting likely associations and occasionally influencing them through its own statements.
 
 ## Object-description prediction and priming
 
@@ -125,7 +99,7 @@ Rather than treating each sensor independently, a multimodal sensor-fusion model
 
 For example, microphones could detect changes in speech patterns, cameras could detect facial expressions or movements, and Wi-Fi channel-state information (CSI) or mmWave radar might provide additional measurements of movement, breathing or other physiological activity.
 
-Acoustic cues could provide another set of weak signals. The duration of an audible "hmmmm", hesitation length, pauses, speech rhythm, pitch and breathing patterns might offer clues about cognitive workload or how long someone is deliberating. None of these cues measures the complexity or content of a private thought directly.
+Acoustic cues could provide another set of weak signals. The duration of an audible "hmmmm", hesitation length, pauses, speech rhythm, pitch and breathing patterns might offer clues about cognitive workload or how long someone is deliberating. None of these cues measures the complexity or content of a private thought directly, but they all give useful clues to help the model decide which statement is more likely to be accurate.
 
 If an LLM already had a shortlist of likely statements, a fusion model could use the audio cues to adjust their relative probabilities. Each cue would only need to improve the prediction slightly when combined with the others. Reliable feedback about whether predictions were correct could help identify which signals actually improve accuracy, rather than merely making the model more confident.
 
@@ -139,13 +113,9 @@ Someone might occasionally emit just the beginning of a word they're thinking of
 
 An LLM with continuous context could already have a list of likely next words. If a microphone picked up that fragment, it could be another signal for the fusion system, making one prediction more likely than the others. The model wouldn't need to recognise a complete word.
 
-Someone could then confidently ask, "Was that X?" If X happened to be correct, it could seem like extraordinary surveillance or mind reading when the explanation might be a cheap parlour trick: prediction, context and a small piece of audible information.
+Someone could then confidently ask, "Did he just say X?" If X happened to be correct, it could seem like extraordinary surveillance or mind reading when the explanation might be a cheap parlour trick: prediction, context and a small piece of audible information.
 
-The technical limitation is whether such tiny, unintentional sounds can be reliably detected. Research into speech recognition and silent-speech interfaces supports the underlying principles, but not that specific capability with an ordinary microphone.
-
-An important technical limitation is that detecting a reaction does not establish what caused it or whether the original prediction was correct. Sensor fusion can improve the quality of observations, but it can also increase confidence without increasing accuracy if the signals are ambiguous or correlated.
-
-The proposed system would therefore use observable behaviour as probabilistic feedback rather than as a direct measurement of private thoughts.
+The system uses observable behaviour as probabilistic feedback rather than as a direct measurement of private thoughts.
 
 ## Limitations
 
@@ -153,13 +123,11 @@ Suppose an LLM predicts that someone will think about Sarah, a phrase brings Sar
 
 That later statement could help a model predict what the person is likely to say next. It might suggest Sarah was relevant to their thinking at some point, but **it does not reveal when Sarah first came to mind or what they were thinking in between**. They might have thought about several unrelated subjects before returning to her.
 
-There is also a feedback problem: if the original phrase helped bring Sarah to mind, the later statement may partly be a result of priming, rather than an independent confirmation that the model predicted an existing private thought.
+The correct predictions will be presented as evidence that the abuser can read your mind, and knows all your internal dialogue.  This is not the case.  They can predict occasionally what you are thinking about, what you might refer to an object as or who you are thinking about.  They might even be able to predict what you are likely to say next.  That does not mean they can read your inner monologue, or hear subvocalisations.
 
 ### Selective demonstration of capability
 
-A particularly misleading trick would be to get a prediction right occasionally, then claim that the system can do it all the time but simply chooses not to.
-
-Successful predictions are presented as proof. Failed predictions can be dismissed with "I wasn't trying", while times when no prediction is offered can be explained as "I chose not to tell you". That makes the claim almost impossible to disprove from the demonstrations alone.
+Successful predictions are presented as proof. Failed predictions can be dismissed with "I wasn't trying", while times when no prediction is offered can be explained as "I chose not to tell you" or "Don't tell me what to do". That makes the claim almost impossible to disprove from the demonstrations alone.
 
 This combines **selective reporting** (showing the hits and ignoring the misses) with an **unfalsifiable claim** about a hidden ability.
 
@@ -167,7 +135,7 @@ This combines **selective reporting** (showing the hits and ignoring the misses)
 
 ## The cumulative effect
 
-The central hypothesis is that these mechanisms could reinforce one another over an extended period.
+These mechanisms could reinforce one another over an extended period.
 
 **Prediction provides occasional genuine matches.**
 
@@ -183,25 +151,13 @@ The central hypothesis is that these mechanisms could reinforce one another over
 
 None of these mechanisms requires technology capable of directly reading thoughts.
 
-The proposed illusion arises from combining ordinary psychological effects with personalised probabilistic predictions.
+The illusion arises from combining ordinary psychological effects with personalised probabilistic predictions. The more information available about the individual, the more opportunities the model may have to produce contextually appropriate predictions.
 
-The more information available about the individual, the more opportunities the model may have to produce contextually appropriate predictions.
-
-The more frequently predictions and suggestions are introduced, the more opportunities there may be for striking coincidences, semantic matches and priming effects.
-
-The result could be an increasingly convincing subjective impression that somebody has access to the individual's private thoughts, even when they do not.
+The more frequently predictions and suggestions are introduced, the more opportunities there may be for striking coincidences, semantic matches and priming effects.  The result is an increasingly convincing subjective impression that somebody has access to the individual's private thoughts, even when they do not.
 
 ## Research gap
 
-Prediction from conversational context, semantic priming, source-monitoring errors, confirmation bias and selective recall are all recognised areas of research.
-
-The proposed interaction between these mechanisms, including listener-supplied interpretations and their cumulative effects under continuous repetition, requires further investigation.
-
-The central unanswered question is whether repeated personalised prediction and priming can produce a sustained difference between actual predictive accuracy and the individual's perceived accuracy.
-
-A controlled experiment could measure this distinction using consenting participants, comparing predictions recorded before a statement with thoughts reported independently before and after hearing it.
-
-A prolonged coercive experiment would present substantial ethical problems.
+Prediction from conversational context, semantic priming, source-monitoring errors, confirmation bias and selective recall are all recognised areas of research.  The central unanswered question is whether repeated personalised prediction and priming can produce a sustained difference between actual predictive accuracy and the individual's perceived accuracy.  The part that remains un-researched is the massively unethical part.  I believe this research to have been conducted on me over the period of several years, which is how I know how it works.
 
 ## Technical references
 
@@ -227,7 +183,7 @@ If you or someone else is in immediate danger, get to safety and call **999**.
 
 ## Proposed extension: motion-informed sensor fusion
 
-As motion-sensing and action-prediction technology improves, a further extension would be to feed predicted physical actions into the existing fusion model. Video, mmWave radar or other suitable sensors might detect preparatory movement and estimate what someone is about to do before the action is complete.
+As motion-sensing and action-prediction technology improved, predicted physical actions were fed into the existing fusion model. Video, mmWave radar or other suitable sensors might detect preparatory movement and estimate what someone is about to do before the action is complete.
 
 The model could then use that prediction to reweight its shortlist of candidate interpretations. If two interpretations imply different actions, movement data might help distinguish them and improve the precision of the overall model. Habit and contextual information could contribute to the same comparison.
 
@@ -235,8 +191,4 @@ This would be **probabilistic disambiguation**, not confirmation of a private th
 
 ### Heartbeat as a physiological-response signal
 
-A future fusion model could also consider heart rate, heart-rate variability and changes from an individual's baseline. Where a stimulus is presented, a subsequent change might help identify the timing of a physiological response, including a response the person did not consciously notice.
-
-This could be useful when studying subliminal priming, but it would not establish that a message was subconsciously understood or that priming succeeded. Detecting a sound, processing its meaning and having later thoughts or behaviour influenced by it are different outcomes. Heartbeat changes are nonspecific and can arise from movement, breathing, surprise or unrelated events.
-
-The proposed use would therefore be to add a **physiological-response signal** to the fusion model, not a reliable indicator of what the person thought. Testing whether priming worked would still require independent behavioural measures and appropriate control conditions.
+A fusion model can also consider heart rate, heart-rate variability and changes from an individual's baseline. Where a stimulus is presented, a subsequent change might help identify the timing of a physiological response, including a response the person did not consciously notice.  Again this is not a way to read your mind, its just a way to add a **physiological-response signal** to the fusion model. 
