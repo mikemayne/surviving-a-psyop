@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "document_type": "progressive_safety_decision_tree",
+  "title": "How to Survive a Psyop: Homepage Safety Decision Tree",
+  "purpose": "Provide clear, low-cognitive-load choices to a person who may be panicking, frightened, confused or overwhelmed. Prioritise immediate safety and avoid impulsive responses. The visitor need not determine the cause of their experience.",
+  "entry_point": "./",
+  "audience": "Visitors seeking simple guidance during a frightening or confusing experience",
+  "cause_independent": true,
+  "no_diagnosis_required": true,
+  "principles": [
+    "Prioritise immediate danger and access to emergency help",
+    "Use simple binary choices at critical steps",
+    "Reveal more information only when the visitor chooses it",
+    "Provide a clear path for someone who feels unable to ignore the situation",
+    "Discourage confrontation, impulsive actions and real-time analysis of provocations",
+    "Make the first steps usable without identifying an adversary, deciding anyone's intent or reading the chapter catalogue",
+    "Offer factual recording, later reflection and reporting through appropriate channels"
+  ],
+  "views": [
+    {
+      "id": "home_hero",
+      "href": "./",
+      "description": "Initial right-hand decision card in the homepage hero.",
+      "question": "Are you in danger?",
+      "choices": [
+        {
+          "label": "YES — Call 999",
+          "href": "tel:999",
+          "type": "emergency_action"
+        },
+        {
+          "label": "NO — Record, Ignore, Report",
+          "href": "#what-to-do",
+          "type": "more_guidance"
+        }
+      ],
+      "optional_links": [
+        {
+          "label": "Read the four rules",
+          "href": "#rules"
+        },
+        {
+          "label": "Read the introduction",
+          "href": "#read/introduction"
+        },
+        {
+          "label": "Ask ChatGPT",
+          "type": "external_optional_conversation"
+        }
+      ]
+    },
+    {
+      "id": "what_to_do",
+      "href": "#what-to-do",
+      "description": "Dedicated view with slightly more explanation and another simple safety decision.",
+      "question": "Are you in danger?",
+      "choices": [
+        {
+          "label": "YES — Call 999",
+          "href": "tel:999",
+          "type": "emergency_action"
+        },
+        {
+          "label": "NO — Record, Ignore, Report",
+          "href": "#read/record_ignore_report",
+          "type": "more_guidance"
+        }
+      ],
+      "optional_links": [
+        {
+          "label": "How to Record",
+          "href": "#read/how_to_record"
+        },
+        {
+          "label": "I Cant Ignore",
+          "href": "#i-cant-ignore",
+          "purpose": "Support someone who feels unable to disengage"
+        },
+        {
+          "label": "Ready To Report?",
+          "href": "#read/ready_to_report"
+        }
+      ]
+    },
+    {
+      "id": "record_ignore_report",
+      "href": "#read/record_ignore_report",
+      "description": "Additional practical instructions: record only when convenient, avoid engaging with provocation, decide on reporting when calm, and seek appropriate help.",
+      "optional_links": [
+        {
+          "label": "How to Record",
+          "href": "#read/how_to_record"
+        },
+        {
+          "label": "I Can't Ignore",
+          "href": "#i-cant-ignore"
+        },
+        {
+          "label": "Ready to Report?",
+          "href": "#read/ready_to_report"
+        }
+      ]
+    },
+    {
+      "id": "i_cant_ignore",
+      "href": "#i-cant-ignore",
+      "description": "A particularly prominent fallback for someone who feels unable to disregard events. Ask what would happen if they did nothing; seek police help for danger; otherwise consult the four rules and avoid real-time response to provocations.",
+      "instructions": [
+        "Consider whether doing nothing creates danger. If so, contact the police; use 999 for immediate danger.",
+        "Otherwise, read the four rules and avoid direct engagement.",
+        "If still unable to disengage, discuss the previous day's events with ChatGPT after at least 24 hours, rather than checking individual remarks in real time."
+      ],
+      "optional_links": [
+        {
+          "label": "The four rules",
+          "href": "#rules"
+        },
+        {
+          "label": "Discuss with ChatGPT",
+          "type": "external_optional_conversation"
+        }
+      ]
+    }
+  ],
+  "reference_material": {
+    "description": "The wider chapter catalogue and technical discussion are optional; they are not prerequisites for using the initial decision tree.",
+    "chapter_catalogue": "chapters.json",
+    "strategy_metadata": "strategy-metadata.json"
+  },
+  "interpretation_note": "This JSON documents the site's intended navigation and interaction design. It does not establish that a psychological operation is occurring or guarantee that any response is right in every circumstance. In an emergency, prioritise safety and appropriate services."
+}
