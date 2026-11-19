@@ -119,6 +119,18 @@
       "social_media"
     ]
   },
+  "drugs_and_alcohol": {
+    "intro": "Practical advice about alcohol and drug use during stressful situations, including dependence, impaired judgement, seeking medical advice before withdrawal and where to find support.",
+    "questions": [
+      "How can I reduce the risks associated with drinking alcohol or taking drugs when under psychological pressure?",
+      "Where can I get professional help with alcohol or drug dependence, including advice about stopping safely?"
+    ],
+    "related": [
+      "sleep_discipline",
+      "stay_grounded",
+      "ready_to_report"
+    ]
+  },
   "feelings_can_change": {
     "intro": "Practical advice on checking assumptions, assessing evidence and remembering that distressing emotional reactions can change over time.",
     "questions": [

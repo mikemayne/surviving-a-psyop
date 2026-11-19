@@ -125,6 +125,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sleep_discipline.txt"
     },
     {
+      "id": "drugs_and_alcohol",
+      "title": "Drugs and Alcohol",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/drugs_and_alcohol.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/drugs_and_alcohol",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/drugs_and_alcohol.txt"
+    },
+    {
       "id": "feelings_can_change",
       "title": "Look for evidence, and remember feelings can change",
       "category": "Begin here",
