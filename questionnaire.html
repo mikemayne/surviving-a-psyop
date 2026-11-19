@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; img-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="description" content="Find relevant chapters by ticking topics that interest or concern you. Answers stay in your browser and are not submitted or saved.">
+  <link rel="canonical" href="https://mikemayne.github.io/surviving-a-psyop/questionnaire.html">
+  <title>Find relevant chapters — How to Survive a Psyop</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper:#f7f6f0; --surface:#fffef9; --ink:#23302d; --muted:#606c65;
+      --accent:#356a60; --line:#d9ddd3; --orange:#94502a; --accent-light:#e1ece6;
+      --serif:Georgia,"Iowan Old Style","Palatino Linotype",serif;
+      --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Arial,sans-serif;
+    }
+    * { box-sizing:border-box; }
+    body { background:var(--paper); color:var(--ink); font:16px/1.6 var(--sans); margin:0; }
+    a { color:var(--accent); text-underline-offset:3px; }
+    a:focus-visible, button:focus-visible, input:focus-visible { outline:3px solid var(--orange); outline-offset:3px; }
+    .skip { position:absolute; top:-80px; left:12px; background:var(--surface); padding:12px; z-index:3; }
+    .skip:focus { top:12px; }
+    header { background:var(--surface); border-bottom:1px solid var(--line); }
+    .wrap { max-width:1080px; margin:auto; padding:0 24px; }
+    .header-inner { min-height:76px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .brand { display:inline-flex; align-items:center; gap:12px; text-decoration:none; color:var(--ink); font-size:.98rem; }
+    .brand-mark { font:normal 1.7rem var(--serif); color:var(--accent); border:1px solid var(--line); height:42px; width:42px; display:grid; place-items:center; }
+    .brand strong,.brand small { display:block; line-height:1.25; }
+    .brand small { color:var(--muted); font-size:.62rem; letter-spacing:.12em; margin-top:3px; }
+    .header-links { display:flex; gap:20px; align-items:center; }
+    .header-links a { text-decoration:none; font-size:.88rem; font-weight:650; }
+    .eyebrow { text-transform:uppercase; letter-spacing:.16em; color:var(--orange); font-weight:750; font-size:.72rem; }
+    main { padding:54px 0 90px; }
+    h1 { font:normal clamp(2.5rem,6vw,4.5rem)/1.09 var(--serif); letter-spacing:-.05em; margin:9px 0 20px; }
+    h2 { font:normal 1.9rem/1.2 var(--serif); letter-spacing:-.025em; }
+    .lead { font-size:1.08rem; line-height:1.7; max-width:690px; }
+    .note { color:var(--muted); max-width:760px; }
+    .privacy { background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:5px; padding:18px 22px; margin:28px 0 34px; }
+    .privacy h2 { font:700 1.05rem var(--sans); margin:0 0 7px; }
+    .privacy p { margin:8px 0 0; font-size:.93rem; }
+    .content-warning { color:var(--muted); font-size:.9rem; margin:0 0 32px; }
+    .layout { display:grid; grid-template-columns:minmax(0,1.25fr) minmax(300px,.8fr); gap:28px; align-items:start; }
+    .question-section { border:1px solid var(--line); background:var(--surface); border-radius:5px; margin-bottom:18px; padding:22px 25px 18px; }
+    fieldset { border:0; padding:0; margin:0; min-width:0; }
+    legend { width:100%; font:normal 1.45rem/1.25 var(--serif); padding:0 0 12px; margin:0; }
+    .question { display:flex; align-items:flex-start; gap:13px; padding:12px 2px; border-top:1px solid var(--line); cursor:pointer; line-height:1.45; font-size:.94rem; }
+    .question:hover { color:var(--accent); }
+    .question input { margin:3px 0 0; width:19px; height:19px; flex:none; accent-color:var(--accent); }
+    .results { position:sticky; top:20px; background:var(--surface); border:1px solid var(--line); border-radius:5px; padding:23px 24px; max-height:calc(100vh - 40px); overflow:auto; }
+    .results h2 { margin:0 0 6px; }
+    .results p { font-size:.9rem; margin:8px 0 16px; }
+    .results ul { padding:0; margin:18px 0; list-style:none; }
+    .results li { border-top:1px solid var(--line); padding:12px 0; }
+    .results li a { font-weight:700; text-decoration:none; display:block; line-height:1.4; }
+    .results li small { display:block; color:var(--muted); margin-top:4px; font-size:.75rem; line-height:1.5; }
+    .results li a:hover { text-decoration:underline; }
+    button { cursor:pointer; background:var(--accent); border:1px solid var(--accent); color:#fff; border-radius:4px; padding:12px 18px; font:700 .88rem var(--sans); }
+    button:disabled { cursor:not-allowed; opacity:.45; }
+    .small-note { color:var(--muted); font-size:.82rem; }
+    .general { margin-top:36px; padding-top:18px; border-top:1px solid var(--line); }
+    .general h2 { margin:0 0 10px; }
+    .general p { max-width:780px; }
+    footer { border-top:1px solid var(--line); padding:22px 0 35px; color:var(--muted); font-size:.82rem; }
+    @media(max-width:800px) { .layout { grid-template-columns:1fr; } .results { position:static; max-height:none; } main { padding-top:36px; } }
+    @media(max-width:480px) { .wrap { padding:0 16px; } .question-section,.results { padding:17px; } .header-links { gap:10px; } .header-links a { font-size:.77rem; } .brand small { display:none; } .brand-mark { display:none; } }
+    @media(prefers-color-scheme:dark) { :root { color-scheme:dark; --paper:#141d1a; --surface:#202c26; --ink:#edf2e9; --muted:#bac8bf; --accent:#a5d4bf; --line:#405248; --orange:#e2b38c; --accent-light:#273d32; } button { color:#14281f; } }
+    @media(prefers-reduced-motion:reduce) { * { scroll-behavior:auto !important; } }
+  </style>
+</head>
+<body>
+<a href="#questions" class="skip">Skip to questionnaire</a>
+<header>
+  <div class="wrap header-inner">
+    <a class="brand" href="./" aria-label="How to Survive a Psyop homepage">
+      <span class="brand-mark" aria-hidden="true">h</span>
+      <span><strong>How to Survive a Psyop</strong><small>AN OPEN FIELD GUIDE</small></span>
+    </a>
+    <nav class="header-links" aria-label="Site navigation">
+      <a href="./#rules">Four rules</a>
+      <a href="./#catalogue">All chapters</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <p class="eyebrow">Explore the guide</p>
+  <h1>Find chapters relevant to you.</h1>
+  <p class="lead">Tick the statements that match your experiences or concerns. The list of suggested reading updates as you go. Choose as many or as few as you like.</p>
+  <p class="note">This is a reading guide, not a test or diagnosis. A matching chapter does not establish why something happened or that anyone acted deliberately.</p>
+  <section class="privacy" aria-labelledby="privacy-title">
+    <h2 id="privacy-title">Your privacy: we're not watching you.</h2>
+    <p><strong>Your answers never leave this browser.</strong> The checkboxes are processed on this page only. Nothing is submitted, stored, emailed or attached to an account. We do not use analytics or cookies for this questionnaire, and your selections disappear on refresh or when you leave.</p>
+    <p><strong>What the web host can see:</strong> Like other websites, the hosting provider may log your IP address, browser information, and which pages or chapters you request. It cannot see which boxes you tick or the results calculated here. A VPN can conceal your normal IP address from the host, but it cannot hide which pages are requested from that host or guarantee complete anonymity.</p>
+  </section>
+  <p class="content-warning"><strong>Content warning:</strong> Some suggested chapters discuss threats, suicide, self-harm, sexual humiliation and other upsetting experiences. Read only what feels useful.</p>
+  <div class="layout">
+    <section id="questions" aria-label="Questionnaire">
+      <div id="question-groups"></div>
+      <noscript><p>JavaScript is required for private, instant chapter matching. You can still <a href="./topics/index.html">browse every chapter</a> without it.</p></noscript>
+    </section>
+    <section class="results" aria-labelledby="results-title">
+      <h2 id="results-title">Your suggested chapters</h2>
+      <p id="selection-count" role="status" aria-live="polite" aria-atomic="true">Select any statements to see relevant chapters.</p>
+      <ul id="matches" aria-label="Suggested reading"></ul>
+      <button type="button" id="clear-all" disabled>Clear selections</button>
+      <p class="small-note">Results are based on subjects covered in the guide, not an assessment of what caused your experiences.</p>
+      <p><a href="./topics/index.html">Browse all chapters</a></p>
+    </section>
+  </div>
+  <section class="general" aria-labelledby="general-heading">
+    <h2 id="general-heading">A good place to start</h2>
+    <p>Whatever your circumstances, you can start with the <a href="./#rules">four rules</a>, <a href="./#read/stay_grounded">Staying grounded</a> and <a href="./#read/record_ignore_report">Record, Ignore, Report</a>. You do not need to work out anyone else's intentions before choosing a calm, safe response.</p>
+    <p>If you are in immediate danger in the UK, get to safety and call <a href="tel:999">999</a>. For a concern that is not an emergency, consider talking with a trusted person, your GP or an appropriate professional.</p>
+  </section>
+</main>
+<footer><div class="wrap">How to Survive a Psyop · Openly published under CC0 1.0 · <a href="./">Back to home</a></div></footer>
+<script>
+(function () {
+  "use strict";
+  // Only public topic IDs are embedded here. No answers are sent in requests, URLs,
+  // storage, telemetry, analytics or form submissions.
+  var GROUPS = [
+    { title: "Getting through a difficult situation", questions: [
+      ["I want a simple way to decide what to do next.", ["record_ignore_report","introduction","the_time_gap"]],
+      ["I keep thinking about something upsetting and want to regain perspective.", ["stay_grounded","feelings_can_change","up_or_down","dont_chase"]],
+      ["I feel tempted to answer, challenge or confront somebody.", ["never_engage","the_only_way_to_win_is_not_to_play","take_back_control"]],
+      ["The situation is affecting my sleep or ability to switch off.", ["sleep_discipline","sleep_deprivation","the_time_gap"]],
+      ["I feel worn down by repeated unpleasant experiences.", ["cumulative_psychological_pressure","habituation_and_recovery","stay_grounded"]],
+      ["I am concerned about alcohol or drug use while stressed.", ["drugs_and_alcohol","sleep_discipline","stay_grounded"]]
+    ]},
+    { title: "Conversations and social interactions", questions: [
+      ["I have overheard conversations that sounded as though they were about me.", ["listening_in","accidentally_overheard","stay_grounded"]],
+      ["I've found myself trying to make out what people are saying nearby.", ["listening_in","pretend_planning","the_time_gap"]],
+      ["Fragments of separate conversations have seemed to form a message.", ["cross_conversation_sentence_assembly","suggested_mishearings","stay_grounded"]],
+      ["Someone's words seemed ambiguous, and I am unsure what they meant.", ["interpretation_trick","suggested_mishearings","loaded_questions"]],
+      ["I've been insulted, mocked or publicly embarrassed.", ["public_shaming","name_and_shame","humiliation_rituals","dont_tolerate_mistreatment"]],
+      ["I've encountered a remark designed to make me feel guilty or ashamed.", ["guilt_tripping","moral_accusations","moral_blackmail"]],
+      ["Someone seems to alternate between friendliness and hostility.", ["good_cop_bad_cop","false_assistance","induced_sympathy"]],
+      ["I have been asked questions that felt loaded or impossible to answer.", ["loaded_questions","logic_traps","impossible_compliance","weaponised_literalism"]],
+      ["I am worried that my behaviour is being interpreted unfairly.", ["creating_the_appearance_of_guilt","retrospective_reinterpretation_of_behaviour","stay_grounded"]]
+    ]},
+    { title: "Threats, accusations and pressure", questions: [
+      ["I've received a direct threat or felt physically unsafe.", ["ready_to_report","personal_security_notes","record_ignore_report"]],
+      ["I've heard vague warnings about consequences or crossing a line.", ["the_imaginary_line","presence_threat","the_time_gap"]],
+      ["I've been threatened with damaging accusations or reputational harm.", ["threatened_framing","preemptive_discrediting","false_report_accusations"]],
+      ["I've felt pressured by demands that are impossible to satisfy.", ["impossible_compliance","impossible_standards","take_back_control"]],
+      ["I've faced comments that made me afraid to seek help or report concerns.", ["threatening_consequences_for_seeking_help","ready_to_report","dont_tolerate_mistreatment"]],
+      ["Remarks or events have left me feeling unsafe, frightened or hopeless.", ["stay_grounded","record_ignore_report","ready_to_report"]]
+    ]},
+    { title: "Perception, privacy and technology", questions: [
+      ["I want to understand claims that somebody knows what I am thinking.", ["mind_reading_trick","prediction_priming_feedback","cold_reading","air_gap_limitations"]],
+      ["Something seemed to predict my words, choices or movements.", ["predicting_bodily_movements","cold_reading_ai_assisted","primed_thought_attribution"]],
+      ["I'm uncertain whether I heard a particular word correctly.", ["suggested_mishearings","quiet_speech_masking_attention","stay_grounded"]],
+      ["I am concerned about privacy or whether a device is secure.", ["there_is_no_privacy","pwned-devices","air_gap_limitations"]],
+      ["I am concerned that a recording, photograph or other media was altered.", ["manipulated_media","stay_grounded","how_to_record"]]
+    ]},
+    { title: "Recording and reporting", questions: [
+      ["I want to write down what happened without spending all day on it.", ["how_to_record","record_ignore_report","the_time_gap"]],
+      ["I'm ready to report an incident or make a complaint.", ["ready_to_report","how_to_record","dont_tolerate_mistreatment"]],
+      ["I'm frustrated by a delayed or unhelpful response from an organisation.", ["ready_to_report","take_back_control","the_time_gap"]],
+      ["I want to get advice while keeping facts separate from interpretations.", ["stay_grounded","feelings_can_change","ready_to_report"]]
+    ]}
+  ];
+  var groups = document.getElementById("question-groups");
+  var results = document.getElementById("matches");
+  var count = document.getElementById("selection-count");
+  var clear = document.getElementById("clear-all");
+  var selected = new Set();
+  var chapters = null;
+  var questionNumber = 0;
+  GROUPS.forEach(function (group) {
+    var section = document.createElement("section");
+    section.className = "question-section";
+    var fieldset = document.createElement("fieldset");
+    var legend = document.createElement("legend");
+    legend.textContent = group.title;
+    fieldset.appendChild(legend);
+    group.questions.forEach(function (q) {
+      var id = String(questionNumber++);
+      var label = document.createElement("label");
+      label.className = "question";
+      var checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.setAttribute("aria-label", q[0]);
+      var span = document.createElement("span");
+      span.textContent = q[0];
+      label.appendChild(checkbox);
+      label.appendChild(span);
+      fieldset.appendChild(label);
+      checkbox.addEventListener("change", function () {
+        if (checkbox.checked) selected.add(id); else selected.delete(id);
+        update();
+      });
+    });
+    section.appendChild(fieldset);
+    groups.appendChild(section);
+  });
+  function update() {
+    results.replaceChildren();
+    clear.disabled = selected.size === 0;
+    if (!selected.size) {
+      count.textContent = "Select any statements to see relevant chapters.";
+      return;
+    }
+    if (!chapters) {
+      count.textContent = "The chapter list is not available. Please browse all chapters.";
+      return;
+    }
+    var scores = new Map();
+    var i = 0;
+    GROUPS.forEach(function (group) {
+      group.questions.forEach(function (q) {
+        if (selected.has(String(i))) {
+          q[1].forEach(function (chapterId, rank) {
+            if (!chapters.has(chapterId)) return;
+            scores.set(chapterId, (scores.get(chapterId) || 0) + Math.max(1, 4 - rank));
+          });
+        }
+        i++;
+      });
+    });
+    var matches = Array.from(scores.keys()).sort(function (a, b) {
+      return scores.get(b) - scores.get(a) || chapters.get(a).title.localeCompare(chapters.get(b).title);
+    });
+    count.textContent = selected.size + (selected.size === 1 ? " statement selected. " : " statements selected. ") + matches.length + " relevant chapters.";
+    matches.forEach(function (id) {
+      var chapter = chapters.get(id);
+      var li = document.createElement("li");
+      var a = document.createElement("a");
+      a.href = "./#read/" + encodeURIComponent(id);
+      a.textContent = chapter.title;
+      var category = document.createElement("small");
+      category.textContent = chapter.category;
+      li.appendChild(a);
+      li.appendChild(category);
+      results.appendChild(li);
+    });
+  }
+  clear.addEventListener("click", function () {
+    selected.clear();
+    groups.querySelectorAll("input[type=checkbox]").forEach(function (input) { input.checked = false; });
+    update();
+  });
+  fetch("./chapters.json").then(function (response) {
+    if (!response.ok) throw new Error("Chapter index unavailable");
+    return response.json();
+  }).then(function (data) {
+    if (!Array.isArray(data.chapters)) throw new Error("Invalid chapter index");
+    chapters = new Map(data.chapters.map(function (chapter) { return [chapter.id, chapter]; }));
+    update();
+  }).catch(function () { update(); });
+})();
+</script>
+</body>
+</html>
