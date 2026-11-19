@@ -1224,7 +1224,7 @@
     ]
   },
   "prediction_priming_feedback": {
-    "intro": "A hypothesis combining personalised prediction, priming, source misattribution and multimodal sensor fusion to explain apparent thought-reading and reaction feedback.",
+    "intro": "A hypothesis combining personalised prediction, priming, source misattribution and multimodal sensor fusion, including weak acoustic cues such as hesitation and humming, to explain apparent thought-reading and reaction feedback.",
     "questions": [
       "How might spoken predictions and priming change the listener's subsequent associations?",
       "What could microphones, cameras, Wi-Fi sensing or mmWave radar observe during a reaction?",
