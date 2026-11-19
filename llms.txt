@@ -43,6 +43,7 @@ Start with the introduction and practical ways of responding.
 - [Introduction](https://mikemayne.github.io/surviving-a-psyop/introduction.txt)
 - [How to Record](https://mikemayne.github.io/surviving-a-psyop/how_to_record.txt)
 - [The Time Gap](https://mikemayne.github.io/surviving-a-psyop/the_time_gap.txt)
+- [Delayed Responses from Organisations](https://mikemayne.github.io/surviving-a-psyop/delayed_responses_from_organisations.txt)
 - [Listening In](https://mikemayne.github.io/surviving-a-psyop/listening_in.txt)
 - [Never Engage: The Most Important Rule](https://mikemayne.github.io/surviving-a-psyop/never_engage.txt)
 - [The Only Way to Win Is Not to Play](https://mikemayne.github.io/surviving-a-psyop/the_only_way_to_win_is_not_to_play.txt)
