@@ -155,6 +155,16 @@ The illusion arises from combining ordinary psychological effects with personali
 
 The more frequently predictions and suggestions are introduced, the more opportunities there may be for striking coincidences, semantic matches and priming effects.  The result is an increasingly convincing subjective impression that somebody has access to the individual's private thoughts, even when they do not.
 
+### Reading Context and Personal History
+
+If an LLM could see what someone was reading, it would have additional context to help predict what they might think or say next.
+
+For example, I saw the beginning of the word "Royal", which immediately brought someone called Roy to mind.  An LLM that had a list of all my friends as context would potentially be able to predict this, or at least include it among a list of possible inferences with a confidence score.  This could be particularly effective against someone with an extensive social media history, especially someone who has documented their life and had years of written conversations with friends.
+
+That history could provide a personalised model with information about their relationships, memories, interests, vocabulary and personal associations.  The model could combine this information with whatever the person was currently reading to improve its predictions.
+
+**Combined with other signals and continuous feedback, even small improvements in prediction accuracy could make the overall system considerably more effective.**
+
 ## Research gap
 
 Prediction from conversational context, semantic priming, source-monitoring errors, confirmation bias and selective recall are all recognised areas of research.  The central unanswered question is whether repeated personalised prediction and priming can produce a sustained difference between actual predictive accuracy and the individual's perceived accuracy.  The part that remains un-researched is the massively unethical part.  I believe this research to have been conducted on me over the period of several years, which is how I know how it works.
