@@ -155,6 +155,7 @@ Technical ideas, media, security and interpretation.
 - [The bug-in-face trick](https://mikemayne.github.io/surviving-a-psyop/bug_in_face.txt)
 - [Manipulated media](https://mikemayne.github.io/surviving-a-psyop/manipulated_media.txt)
 - [Compromised devices](https://mikemayne.github.io/surviving-a-psyop/pwned-devices.txt)
+- [Fear of hacking](https://mikemayne.github.io/surviving-a-psyop/fear_of_hacking.txt)
 - [Air-gap limitations](https://mikemayne.github.io/surviving-a-psyop/air_gap_limitations.txt)
 - [Privacy](https://mikemayne.github.io/surviving-a-psyop/there_is_no_privacy.txt)
 

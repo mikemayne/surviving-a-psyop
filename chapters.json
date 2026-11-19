@@ -1016,6 +1016,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/pwned-devices.txt"
     },
     {
+      "id": "fear_of_hacking",
+      "title": "Fear of hacking",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/fear_of_hacking.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/fear_of_hacking",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/fear_of_hacking.txt"
+    },
+    {
       "id": "air_gap_limitations",
       "title": "Air-gap limitations",
       "category": "Technology & perception",

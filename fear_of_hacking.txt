@@ -1,0 +1,41 @@
+# Fear of hacking
+
+**Effects:** Hypervigilance, anxiety, distraction, loss of concentration.
+
+**Possible objectives:** Divert attention from ordinary activities, keep someone preoccupied with hypothetical threats, and make security concerns dominate their time.
+
+## How it works
+
+Cybersecurity is important. Keeping devices updated, using strong authentication and taking sensible precautions are worthwhile. The problem begins when every ordinary activity is treated as though somebody is about to hack it.
+
+You start looking at everything from a security perspective. Every device, application, browser extension, internet connection, message and online action becomes a potential vulnerability. Instead of concentrating on what you were trying to achieve, you consider how someone might interfere with it.
+
+The possibility of an attack becomes enough to change your behaviour. You do not need to discover a compromised device or experience an actual intrusion. Repeatedly discussing hypothetical ways that something could be hacked can make the threat feel immediate and personally relevant.
+
+## Turning security into a distraction
+
+Each activity becomes another security question. You begin checking settings, reconsidering tools, changing routines and imagining increasingly elaborate ways that an attacker might gain access.
+
+The more possibilities you consider, the more there seem to be. There is always another device, connection, application or weakness to think about. Security stops being a sensible precaution and becomes the main activity.
+
+This creates hypervigilance. Your attention is continually pulled away from the task in front of you and towards the possibility of interference. You can spend more time thinking about how someone might disrupt your work than actually doing the work.
+
+The distraction is particularly effective because it presents itself as responsibility. You feel that you are being careful, when in fact the constant threat assessment is preventing you from getting on with ordinary life.
+
+## The important distinction
+
+Reasonable security precautions protect your devices and information. Treating every activity as an imminent hacking attempt makes you preoccupied with threats that may never materialise.
+
+**You do not have to consider every possible way something could be hacked before you are allowed to use it.**
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**
