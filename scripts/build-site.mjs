@@ -167,6 +167,13 @@ write('strategy-metadata.json', JSON.stringify(strategyMetadata, null, 2) + '\n'
 
 write('chapters.json', JSON.stringify(chapters, null, 2) + '\n');
 
+// Publish the progressive, cause-independent safety decision tree for readers and AI tools.
+const decisionTree = JSON.parse(fs.readFileSync('decision-tree.json', 'utf8'));
+if (decisionTree.schema_version !== 1 || !Array.isArray(decisionTree.views) || decisionTree.views.length < 2) {
+  throw new Error('Invalid decision-tree.json metadata');
+}
+write('decision-tree.json', JSON.stringify(decisionTree, null, 2) + '\n');
+
 let llms = switchSiteLinks(fs.readFileSync('llms.txt', 'utf8'));
 llms = llms.replace(/^# .*$/m, '# ' + site.title);
 llms = llms.replace(/^> .*$/m, '> ' + site.description);
@@ -179,7 +186,7 @@ for (const name of fs.readdirSync('.')) {
   }
 }
 fs.cpSync('topics', path.join(output, 'topics'), { recursive: true });
-for (const required of ['index.html', 'chapters.json', 'strategy-metadata.json', 'llms.txt', 'robots.txt', 'sitemap.xml', 'topics/index.html']) {
+for (const required of ['index.html', 'chapters.json', 'strategy-metadata.json', 'decision-tree.json', 'llms.txt', 'robots.txt', 'sitemap.xml', 'topics/index.html']) {
   if (!fs.statSync(path.join(output, required)).size) throw new Error('Missing output: ' + required);
 }
 console.log('Built ' + site.title + ' at ' + site.siteUrl + ' from ' + site.repository);
