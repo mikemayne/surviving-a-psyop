@@ -1089,7 +1089,7 @@ My question:
     reader.classList.remove("hidden");
     closeSidebar(false);
     articleTitle.textContent = ch.title;
-    document.getElementById("article-category").textContent = ch.group === "Begin here" ? "" : ch.group;
+    document.getElementById("article-category").textContent = ch.group === GROUPS[0].name ? "" : ch.group;
     document.getElementById("article-number").textContent = String(ch.number).padStart(2,"0") + " / " + chapters.length;
     document.getElementById("article-source").href = repoRoot + "/blob/main/" + encodeURIComponent(ch.id) + ".txt";
     articleContent.innerHTML = "<p>Loading chapter…</p>";
