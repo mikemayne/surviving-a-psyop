@@ -1485,5 +1485,17 @@
       "presence_threat",
       "threatening_consequences_for_seeking_help"
     ]
+  },
+  "staged_compliments": {
+    "intro": "Explains how praise timed immediately before a request or persuasive message can capture attention, encourage reciprocity and make the following message more persuasive.",
+    "questions": [
+      "How can a compliment make someone more receptive to a request or persuasive message?",
+      "Why might praise immediately before a suggestion create pressure to respond warmly?"
+    ],
+    "related": [
+      "induced_sympathy",
+      "negging_psychological_manipulation",
+      "good_cop_bad_cop"
+    ]
   }
 }
