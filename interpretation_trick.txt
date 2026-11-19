@@ -1,10 +1,10 @@
-AMBIGUOUS SOUND INTERPRETATION AND THE MIND-READING ILLUSION
+# Ambiguous Sound Interpretation and the Mind-Reading Illusion
 
 **Effects:** Increase confusion, Undermine confidence, Increase distress.
 
 **Possible objectives:** Increase the effectiveness of other techniques, Provoke a reaction.
 
-INFORMAL DESCRIPTION
+## The technique
 
 After hearing a phrase, someone makes a claim about what you supposedly heard or thought the sound meant.
 
@@ -12,8 +12,7 @@ If the claim is correct, it can appear that the speaker can read your mind.  If 
 
 It's important to remember that this just a cheap machine learning trick, not an advanced surveillance capability.  It may be that they claim they have bugs that can hear Subvocalisations, or inner thoughts.  They can't.
 
-TECHNICAL EXPLANATION
-
+## How it might work
 1. Ambiguous auditory input and top-down processing
 
 The brain does not decode sounds from acoustics alone. It combines incoming information with vocabulary, expectations and context. Classic examples include the Ganong effect (an ambiguous speech sound is categorised differently depending on whether it forms a familiar word) and phonemic restoration (listeners sometimes perceptually fill in missing speech sounds).

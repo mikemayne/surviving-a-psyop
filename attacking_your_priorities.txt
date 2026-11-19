@@ -4,7 +4,7 @@
 
 **Possible objectives:** Increase the effectiveness of other techniques, Induce compliance.
 
-## The Technique
+## The technique
 
 **Example:** "You said the right things in the wrong order. That means your priorities are wrong."
 
@@ -12,7 +12,7 @@ This statement acknowledges that the content was correct, then treats the order 
 
 The key move is from **a potentially valid observation about presentation** to **an unsupported conclusion about character**. The criticism is no longer about what was said, but what the critic claims the order reveals.
 
-## How It Works
+## How it works
 
 The remark combines two elements:
 
@@ -21,7 +21,7 @@ The remark combines two elements:
 
 When used as a form of pressure, this can invite the target to explain their intentions, justify their values, or repeat the same points in a different order. If the standard is subjective or keeps changing, even a corrected response may attract another criticism.
 
-## Possible Objective
+## Possible objective
 
 In a manipulative interaction, the remark may be intended to:
 
@@ -33,7 +33,7 @@ In a manipulative interaction, the remark may be intended to:
 
 These are possible effects and motives, not conclusions that can be drawn from the sentence alone.
 
-## Recognising the Pattern
+## Recognising the pattern
 
 Order and emphasis can matter. In some situations, they reveal what a person chose to foreground, especially when a consistent pattern appears across many decisions. Constructive feedback can explain why a particular order had practical consequences.
 
@@ -41,7 +41,7 @@ But **one ordering choice does not, by itself, establish someone's underlying pr
 
 Be alert to a repeated pattern of acknowledging correct conduct while introducing new, vague or shifting grounds for condemnation.
 
-## Further Considerations
+
 
 Distinguish an actionable comment about clarity or urgency from a claim to know someone's hidden values. You can privately consider useful feedback without accepting an unsupported judgement about your character.
 
