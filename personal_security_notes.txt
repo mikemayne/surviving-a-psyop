@@ -1,6 +1,6 @@
 # Personal Security — CCTV Without Constant Vigilance
 
-### THE PRINCIPLE
+## The principle
 
 I recommend installing external security cameras covering the front and rear of your property. They can deter opportunistic crime and provide useful evidence if something genuinely concerning occurs.
 
@@ -8,7 +8,7 @@ Where possible, choose cameras without loudspeakers or two-way audio output. Rem
 
 **Good-quality microphones, however, can be an advantage where there is a legitimate reason to record audio.** Clear audio may be valuable evidence of verbal threats, intimidation or other incidents. Sensitive microphones can sometimes capture intelligible speech that would otherwise be lost in background noise.
 
-### PROTECTING YOUR RECORDINGS
+## Protecting your recordings
 
 Choose a reputable manufacturer providing regular security updates. Use unique passwords, passkeys or strong multifactor authentication, and keep firmware updated.
 
@@ -16,7 +16,7 @@ Consider systems with local recording and independent backups. Recordings might 
 
 Position cameras to protect your property while minimising unnecessary coverage of neighbouring properties and public areas. Audio recording should be limited to what is necessary and lawful.
 
-### DON'T WATCH YOUR CAMERAS IN REAL TIME
+## Don't watch your cameras in real time
 
 **My strongest recommendation is to avoid watching live camera feeds.** For a suspected non-violent incident that does not require an immediate response, let the camera record and wait until the next day to review the relevant footage. For example, if you suspect someone has scratched a parked car, there is generally no reason to watch a live feed or investigate it immediately.
 
@@ -32,7 +32,7 @@ After a night's sleep, you are more likely to assess the recording calmly and di
 
 If someone is in immediate danger, call 999 and explain the situation.
 
-### DEALING WITH SUSPICIOUS INCIDENTS
+## Dealing with suspicious incidents
 
 If a recording contains an apparent threat or evidence of a crime, preserve the original footage, including its timestamp and surrounding context.
 
@@ -42,7 +42,7 @@ Do not confront someone based on an ambiguous recording. Report credible threats
 
 Repeatedly reviewing the same material rarely improves its evidential value and can create unnecessary stress.  When you do review material, use headphones so you can hear quiet as well as loud details.  Try not to speculate too much about whats going on in the video, if you think it represents a crime consider reporting it through the non-emergency police channel.  What constitutes a crime can be researched on the internet, but avoid using anyones personal details when searching.  
 
-### THE CENTRAL PRINCIPLE
+## The central principle
 
 **Install cameras, secure them properly, preserve useful evidence, and otherwise get on with your life.**
 

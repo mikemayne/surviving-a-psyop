@@ -1,4 +1,4 @@
-### The Streisand Effect
+# The Streisand Effect
 
 The Streisand effect is a phenomenon in which an attempt to hide, censor or suppress information inadvertently attracts greater public attention to that information.
 
