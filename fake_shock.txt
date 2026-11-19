@@ -1,5 +1,9 @@
 # Fake Shock: Feigned Sympathy
 
+**Effects:** Increase distress, Increase shame, Increase confusion.
+
+**Possible objectives:** Increase the effectiveness of other techniques, Provoke a reaction.
+
 ## The Technique
 
 Someone begins recalling or recording a troubling event. Another person responds with apparent shock and disbelief:

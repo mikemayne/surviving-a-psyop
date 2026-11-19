@@ -1,0 +1,52 @@
+# Suggested Mishearings
+
+**Effects:** Increase confusion, Undermine confidence, Increase distress.
+
+**Induced emotions:** Confusion, uncertainty.
+
+**Possible objectives:** Increase the effectiveness of other techniques, create an apparent impression of knowing what somebody privately heard.
+
+## The proposed technique
+
+A language model could suggest alternative words that a person might hear instead of the words actually spoken. Someone could then make a remark such as:
+
+> "He thought they said nose, not clothes."
+
+The model would not need to know what the person actually heard. It could simply suggest plausible alternatives based on how words sound and the surrounding context.
+
+If the suggestion happened to match what the person thought they heard, the remark could create the impression that the speaker somehow knew their private perception. If it was wrong, it could still put an alternative interpretation into their mind. The person might then question what they originally heard.
+
+This would be a separate trick from simply making an ambiguous statement: the claimed knowledge is specifically about **which words the listener heard**.
+
+## How it might work
+
+- **Phonetic similarity:** Words can be confused when they share sounds, especially if some consonants are masked or the speech is unclear. "Nose" and "clothes" are not identical-sounding words, but the example illustrates the proposed claim.
+- **Language-model suggestions:** A model could generate and rank alternative words using pronunciation and sentence context. Without an audio recording or other information about the listener, it would only be guessing.
+- **Perceptual priming:** Suggesting an alternative can influence how a listener interprets later ambiguous speech.
+- **Phonemic restoration:** The brain can use context to fill in speech sounds that are missing or obscured.
+- **Post-event suggestion:** Once another wording has been supplied, it can influence how somebody later remembers or describes the original phrase.
+- **Apparent private knowledge:** A successful guess can feel significant even when it only reflects an ordinary, predictable misunderstanding.
+
+The claim "he thought they said ..." doesn't demonstrate that anybody knows what another person heard. It could be a guess, a misunderstanding or an unsupported assertion. The proposed manipulation depends on presenting it as though it were known.
+
+## Research
+
+- **Ganong (1980), Phonetic categorization in auditory word perception.** Expectations about words can influence categorisation of ambiguous speech sounds. https://pubmed.ncbi.nlm.nih.gov/6444985/
+- **Phonemic restoration and sentence context (2010).** Sentence context can affect perception of missing or obscured speech sounds. https://pmc.ncbi.nlm.nih.gov/articles/PMC2963680/
+- **Loftus et al. (2025), The history of an idea: The misinformation effect.** Later suggestions can affect reports of an earlier event, although that does not mean every suggestion changes the original memory. https://doi.org/10.1111/lcrp.70020
+
+## Research gap
+
+Phonetic confusion, contextual speech perception and post-event suggestion are established research areas. The proposed use of language-model-generated alternatives to create an impression of knowing a particular person's private perception has not been directly demonstrated.
+
+## Claims presented as explanations
+
+During a period of sleep deprivation, I was told that "super-advanced bugs" had been deployed in my house and could hear my subvocalisations. I was also told that I say everything I think out loud. I do not. No known listening bug can hear silent subvocalisations or unspoken thoughts from across a room.
+
+## Response
+
+**Don't engage with the claim or try to verify it in real time.** If recording the event is useful, distinguish what was actually heard from somebody else's suggested interpretation, and do it later.
+
+If you or somebody else is in immediate danger, get to safety and call **999**.
+
+See [Record, Ignore, Report](https://mikemayne.github.io/surviving-a-psyop/#read/record_ignore_report).

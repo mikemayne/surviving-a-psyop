@@ -1,5 +1,9 @@
 # Primed Thought Attribution
 
+**Effects:** Increase confusion, Undermine confidence, Increase suggestibility.
+
+**Possible objectives:** Increase the effectiveness of other techniques.
+
 ## The proposed technique
 
 Imagine someone hears a short phrase in a voice resembling their own. Shortly afterwards, another person claims, "You were just thinking that," or, "You just said that."
@@ -53,6 +57,10 @@ Whether a staged accusation can make someone experience a recently heard phrase 
 If somebody claims to know what you were thinking, their statement does not establish that they do. They may be guessing, repeating a phrase already available to both of you, or simply be mistaken.
 
 There is no need to check their supposed ability, debate the claim or reconstruct every fleeting thought. Keep any record to what was actually heard and observed, separately from possible explanations.
+
+## Claims presented as explanations
+
+During a period of sleep deprivation, I was told that "super-advanced bugs" had been deployed in my house and could hear my subvocalisations. I was also told that I say everything I think out loud. I do not. No known listening bug can hear silent subvocalisations or unspoken thoughts from across a room.
 
 ## Response
 

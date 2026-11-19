@@ -1,0 +1,60 @@
+# Cross-Conversation Sentence Assembly
+
+**Effects:** Increase confusion, Increase distress, Undermine confidence.
+
+**Induced emotions:** Unease, suspicion, anxiety.
+
+**Possible objectives:** Increase the effectiveness of other techniques, Provoke a reaction, Discredit the person, Make them appear guilty.
+
+## Description
+
+Two or three groups of people could have carefully crafted conversations that each contain part of a sentence meaningful to the person listening.
+
+For example:
+
+- Group 1: "This is what"
+- Group 2: "happens when you call the"
+- Group 3: "A team"
+
+The person joins the fragments into: **"This is what happens when you call the A team."** No individual said the complete sentence.
+
+**The listener would first need to be primed to recognise its meaning.** Previous information or experiences would make that particular sentence significant to them. That's also why it might make no sense to anybody else: outside observers hear only ordinary fragments of separate conversations and have no reason to join them together.
+
+Each conversation could make perfect sense by itself. If this were deliberately arranged, the speakers would have considerable plausible deniability, because no one speaker delivered the whole message. The timing could be achieved with normal conversational cues or prompts; sophisticated equipment would not be required.
+
+## Persistent effects
+
+The striking possibility is that it might only need to happen once or twice to establish an expectation. Afterwards, someone may become hypervigilant about conversations around them, listening out for fragments that might fit together.
+
+Once that expectation takes hold, unrelated conversations can start to seem connected. The person may keep searching for further messages, even when the speakers are simply talking to one another. The attention and anxiety involved can reinforce the habit.
+
+Like the effect described in [Talking](https://mikemayne.github.io/surviving-a-psyop/#read/talking), **the response could persist without anyone having to repeat the original event.**
+
+## The effect in front of other people
+
+If someone visibly reacts to a sentence that nobody else heard as a sentence, they may appear suspicious, defensive, or excessively concerned about ordinary conversations.
+
+This could be exploited to discredit them. A particular danger is that their reaction to an implied accusation might be **mistaken for evidence of guilt**, even though a distressed or defensive reaction establishes nothing about whether the accusation is true.
+
+## Psychological mechanisms
+
+- **Priming and expectation:** Prior context gives an otherwise ordinary combination of words personal significance.
+- **Auditory attention:** The listener shifts attention between different speakers and remembers fragments.
+- **Pattern recognition and confirmation bias:** Once looking for a particular message, the listener is more likely to notice phrases that seem to fit.
+- **Hypervigilance:** Repeated monitoring of ambiguous conversations can itself increase distress and the sense that something significant is being said.
+
+## Defence
+
+**Ignore it.**
+
+Don't try to assemble fragments from other people's conversations, determine whether they're connected, or explain the supposed sentence to bystanders. Carry on with what you were doing.
+
+If you or someone else is in immediate danger, call **999**.
+
+See [Never Engage](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+## Research
+
+- **Auditory Scene Analysis: An Attention Perspective.** Explains how attention helps organise competing speakers and sound streams. https://pmc.ncbi.nlm.nih.gov/articles/PMC5945068/
+- **The Impact of Hypervigilance: Evidence for a Forward Feedback Loop.** Examines how attention to possible threats and anxiety can reinforce one another. https://pmc.ncbi.nlm.nih.gov/articles/PMC4211931/
+- **Phonetic categorization in auditory word perception (Ganong, 1980).** Demonstrates the influence of lexical context on ambiguous speech perception. https://pubmed.ncbi.nlm.nih.gov/6444985/

@@ -1,5 +1,9 @@
 Experience: The “That was for [person]” source-identification remark
 
+**Effects:** Increase confusion, Increase distress, Increase suggestibility.
+
+**Possible objectives:** Increase the effectiveness of other techniques.
+
 If you say something to yourself, without identifying who you are talking about and they say “That was for [person’s name].” They can't read your mind, they're just using a cheap ML trick.  This can be used in combination with the inner monologue trick to first try to convince you that you said something you didn't then say who it was for.  This is just the combination of two cheap ML tricks.  
 
 ### Technical explanation
@@ -12,9 +16,19 @@ The psychological mechanism involves **priming, suggestion and source-monitoring
 
 In combination, the two techniques can simulate knowledge of both what somebody is thinking and whom they are thinking about. The technical operations are simply generating plausible language and predicting a likely referent. Where speech is entirely internal and no behavioural information is available, the prediction must rely on contextual probabilities rather than direct observation of the thought.
 
+### Object-description variation
+
+The same hypothetical prediction-and-attribution trick could concern an object. If somebody strokes their beard, another person might ask, "Did he just call that his Marx beard?" An LLM using the person's speech, humour and familiar cultural references might generate plausible nicknames.
+
+As with "That was for [person's name]", the question could both guess and suggest an interpretation. Hearing the name may bring it to mind even if it was not there before. A gesture provides context, not access to private speech or thought.
+
 ## Research gap
 
 Language models can rank plausible referents from context. Whether combining that ranking with an externally supplied phrase would consistently make listeners misattribute a thought's subject has not been established. Consensual source-memory tests could examine the combined effect.
+
+## Claims presented as explanations
+
+During a period of sleep deprivation, I was told that "super-advanced bugs" had been deployed in my house and could hear my subvocalisations. I was also told that I say everything I think out loud. I do not. No known listening bug can hear silent subvocalisations or unspoken thoughts from across a room.
 
 ## Response
 

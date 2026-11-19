@@ -1,5 +1,9 @@
 # AI-Assisted Cold Reading — Creating the Illusion of Mind Reading
 
+**Effects:** Increase confusion, Increase distress, Undermine confidence.
+
+**Possible objectives:** Increase the effectiveness of other techniques, Provoke a reaction.
+
 AI-assisted cold reading is a potential extension of traditional cold reading in which machine learning models are used to predict what someone might be thinking about, based on personal information, behavioural patterns and recent events.
 
 The objective is not necessarily to reconstruct the exact words of someone's inner monologue. Instead, the technique relies on making sufficiently accurate predictions about the **subject of someone's thoughts** to create the impression that their mind is being read.
@@ -15,6 +19,12 @@ The model could then receive continuous contextual updates about the individual'
 Observable emotional and behavioural information could also be incorporated. Changes in facial expressions, speech patterns or behaviour might provide additional clues, although these are imperfect indicators of someone's actual emotional state.
 
 The model would use this information to generate predictions about subjects likely to be occupying the individual's attention.
+
+### Predicting personal descriptions of objects
+
+A personalised LLM might predict how someone would name an object using their characteristic humour, vocabulary, comparisons and cultural references. Viewing history could help identify familiar characters or historical figures; actual speech samples would be more informative about naming habits.
+
+For example, when someone strokes their beard, "Did he just call that his Marx beard?" could be a suggested nickname rather than a report of something actually said or thought. The question could also prime that association.
 
 ### Selective Prediction and Confidence
 
@@ -85,6 +95,10 @@ In most circumstances, the simplest response is to ignore the claim and continue
 ## Research gap
 
 AI can generate context-sensitive guesses, but the accuracy of personalised predictions of unspoken topics—and whether they outperform ordinary cold reading—needs controlled testing against participants' voluntary, contemporaneous reports.
+
+## Claims presented as explanations
+
+During a period of sleep deprivation, I was told that "super-advanced bugs" had been deployed in my house and could hear my subvocalisations. I was also told that I say everything I think out loud. I do not. No known listening bug can hear silent subvocalisations or unspoken thoughts from across a room.
 
 ## Response
 

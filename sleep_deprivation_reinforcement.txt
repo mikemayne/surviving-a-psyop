@@ -1,5 +1,9 @@
 # Sleep Deprivation and Repeated Reinforcement
 
+**Effects:** Impair judgement, Increase suggestibility, Increase confusion.
+
+**Possible objectives:** Increase the effectiveness of other techniques.
+
 ## The Proposed Technique
 
 Sleep deprivation can make it harder to concentrate, evaluate information and remember where a particular idea came from. A misleading statement or interpretation that is encountered repeatedly during this period may also become increasingly familiar.

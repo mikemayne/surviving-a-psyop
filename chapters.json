@@ -35,6 +35,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/how_to_record.txt"
     },
     {
+      "id": "the_time_gap",
+      "title": "The Time Gap",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/the_time_gap.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/the_time_gap",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/the_time_gap.txt"
+    },
+    {
       "id": "never_engage",
       "title": "Never Engage: The Most Important Rule",
       "category": "Begin here",
@@ -42,6 +51,15 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/never_engage.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/never_engage",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/never_engage.txt"
+    },
+    {
+      "id": "up_or_down",
+      "title": "Up or Down — How to Ignore Repeated Statements",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/up_or_down.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/up_or_down",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/up_or_down.txt"
     },
     {
       "id": "ready_to_report",
@@ -170,6 +188,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/negging_psychological_manipulation.txt"
     },
     {
+      "id": "habituation_and_recovery",
+      "title": "Habituation: When a Technique Stops Working",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/habituation_and_recovery.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/habituation_and_recovery",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/habituation_and_recovery.txt"
+    },
+    {
       "id": "good_cop_bad_cop",
       "title": "Good cop, bad cop",
       "category": "Recognising manipulation",
@@ -240,6 +267,15 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/fake_shock.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/fake_shock",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/fake_shock.txt"
+    },
+    {
+      "id": "induced_sympathy",
+      "title": "Induced Sympathy",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/induced_sympathy.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/induced_sympathy",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/induced_sympathy.txt"
     },
     {
       "id": "we_only_do_this_to_really_bad_people",
@@ -512,6 +548,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/the_guity_always_run.txt"
     },
     {
+      "id": "creating_the_appearance_of_guilt",
+      "title": "Creating the Appearance of Guilt",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/creating_the_appearance_of_guilt.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/creating_the_appearance_of_guilt",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/creating_the_appearance_of_guilt.txt"
+    },
+    {
       "id": "legal_intimidation",
       "title": "Legal intimidation",
       "category": "Recognising manipulation",
@@ -555,6 +600,24 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/accidentally_overheard.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/accidentally_overheard",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accidentally_overheard.txt"
+    },
+    {
+      "id": "pretend_planning",
+      "title": "Pretend Planning",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/pretend_planning.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/pretend_planning",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/pretend_planning.txt"
+    },
+    {
+      "id": "cross_conversation_sentence_assembly",
+      "title": "Cross-Conversation Sentence Assembly",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/cross_conversation_sentence_assembly.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/cross_conversation_sentence_assembly",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cross_conversation_sentence_assembly.txt"
     },
     {
       "id": "narrating_trick",
@@ -755,6 +818,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cold_reading_ai_assisted.txt"
     },
     {
+      "id": "prediction_priming_feedback",
+      "title": "Prediction-Priming Feedback: The Illusion of Mind Reading",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/prediction_priming_feedback.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/prediction_priming_feedback",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/prediction_priming_feedback.txt"
+    },
+    {
       "id": "predicting_bodily_movements",
       "title": "Predicting bodily movements",
       "category": "Technology & perception",
@@ -800,6 +872,24 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/primed_thought_attribution.txt"
     },
     {
+      "id": "suggested_mishearings",
+      "title": "Suggested Mishearings",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/suggested_mishearings.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/suggested_mishearings",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/suggested_mishearings.txt"
+    },
+    {
+      "id": "priming_ambiguous_accusations",
+      "title": "Priming, Ambiguous Accusations and Failed Attempts",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/priming_ambiguous_accusations.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/priming_ambiguous_accusations",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/priming_ambiguous_accusations.txt"
+    },
+    {
       "id": "thought_attribution_suggestion_repetition",
       "title": "Thought Attribution Through Suggestion and Repetition",
       "category": "Technology & perception",
@@ -807,6 +897,15 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/thought_attribution_suggestion_repetition.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/thought_attribution_suggestion_repetition",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/thought_attribution_suggestion_repetition.txt"
+    },
+    {
+      "id": "quiet_speech_masking_attention",
+      "title": "Quiet Speech, Masking and Selective Attention",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/quiet_speech_masking_attention.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/quiet_speech_masking_attention",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/quiet_speech_masking_attention.txt"
     },
     {
       "id": "bug_in_face",

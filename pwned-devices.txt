@@ -1,5 +1,9 @@
 # Compromised Devices and Manipulated Information
 
+**Effects:** Increase distress, Increase fear, Increase confusion.
+
+**Possible objectives:** Increase the effectiveness of other techniques, Induce compliance.
+
 A compromised computer or smartphone can be used to present false information to its owner, potentially making otherwise trustworthy sources appear to say things they do not.
 
 An attacker who has sufficient control over a device may be able to alter the contents of webpages as they are displayed, replace search results, interfere with messages, generate misleading notifications or present entirely fabricated communications.

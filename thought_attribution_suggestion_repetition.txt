@@ -1,5 +1,9 @@
 # Thought Attribution Through Suggestion and Repetition
 
+**Effects:** Increase suggestibility, Increase confusion, Undermine confidence.
+
+**Possible objectives:** Increase the effectiveness of other techniques.
+
 ## The Proposed Technique
 
 Imagine someone hears a spoken phrase and then is immediately accused of having thought or said it: "You were just thinking that."
@@ -19,6 +23,14 @@ The proposed manipulation exploits a distinction between **recognising words** a
 The further hypothesis is that repeated accusations made during sleep deprivation could reinforce an association that continues after normal sleep resumes. Someone might then **feel as though they thought a phrase while knowing they did not deliberately think it**.
 
 A proposed objective would be to create confusion about the authorship of thoughts, or the impression that someone else knows what a person was thinking. The mechanism would depend on familiarity and attribution, not actual mind-reading.
+
+## Cumulative Reinforcement (Proposed)
+
+The hypothesis does not require every accusation to be accepted. Even when someone immediately rejects a false attribution, repeated exposure could make the **idea**, rather than the exact words, increasingly familiar or accessible.
+
+If a later accusation coincides with a genuine source-memory error, that experience might strengthen the association between recognising the idea and feeling that it was self-generated. On this account, **rejected accusations could prime later encounters, while occasional misattributions could reinforce the apparent authorship**. The two effects might interact over time rather than operating as independent attempts.
+
+Familiarity does not guarantee this feedback loop: repetition can also strengthen someone's recognition that an accusation is mistaken.
 
 ## What the Research Supports
 
@@ -44,7 +56,11 @@ A proposed objective would be to create confusion about the authorship of though
 
 ## What Remains Unproven
 
-The open question is whether repeated false attributions during sleep deprivation could persist as a felt memory after normal sleep resumes. Direct testing under sustained, coercive conditions would raise serious ethical concerns; the component effects can be studied separately with consent.
+The open question is whether repeated accusations—including ones consciously rejected—can reinforce false self-attribution that persists after normal sleep resumes. Testing sustained coercive conditions would raise serious ethical concerns; the component effects can be studied separately with consent.
+
+## Claims presented as explanations
+
+During a period of sleep deprivation, I was told that "super-advanced bugs" had been deployed in my house and could hear my subvocalisations. I was also told that I say everything I think out loud. I do not. No known listening bug can hear silent subvocalisations or unspoken thoughts from across a room.
 
 ## Response
 

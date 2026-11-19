@@ -1,5 +1,9 @@
 # Cold Reading — Creating the Illusion of Knowing the Unknowable
 
+**Effects:** Increase confusion, Increase distress, Undermine confidence.
+
+**Possible objectives:** Increase the effectiveness of other techniques, Provoke a reaction.
+
 Cold reading is a psychological technique used to create the impression that someone possesses knowledge about another person that they could not reasonably have obtained. It is commonly associated with stage mentalists, fortune tellers and fraudulent psychics, but the same principles can be used in social manipulation, intimidation and confidence tricks.
 
 The technique relies on making plausible guesses, observing reactions and gradually refining statements until they appear remarkably accurate. A skilled cold reader may seem to know someone's private thoughts, memories, relationships or personal circumstances without having any special access to that information.
@@ -133,6 +137,10 @@ Cold reading can also function as a process of information gathering. Every resp
 ## Research gap
 
 General cold-reading mechanisms are well described. The accuracy of any particular apparent prediction depends on specificity, context and chance; blinded prospective tests can distinguish repeatable performance from selective recall.
+
+## Claims presented as explanations
+
+During a period of sleep deprivation, I was told that "super-advanced bugs" had been deployed in my house and could hear my subvocalisations. I was also told that I say everything I think out loud. I do not. No known listening bug can hear silent subvocalisations or unspoken thoughts from across a room.
 
 ## Response
 

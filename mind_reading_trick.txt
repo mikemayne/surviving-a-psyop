@@ -1,5 +1,9 @@
 Experience: Hearing my own-sounding voice followed by another person's repetition
 
+**Effects:** Increase confusion, Increase fear, Increase distress.
+
+**Possible objectives:** Increase the effectiveness of other techniques.
+
 In bed, with my mobile phone next to me, with a noise machine on I experienced what sounded like my own voice talking quietly from a source I found difficult to locate. Very shortly afterwards, another person in a nearby room repeats exactly the same words. The first voice seemed to precede the other person's speech by a very small interval.  The combination was unsettling: it created the impression that the other person had heard either me say something extremely quietly, or potentially even read my mind, even though I knew I had said nothing.
 
 Technical explanation (hypothetical)
@@ -13,6 +17,10 @@ The relevant psychological principle is apparent corroboration or source attribu
 ## Research gap
 
 Voice cloning and coordinated playback can reproduce parts of the proposed sound sequence. Whether such a sequence consistently causes apparent mind-reading interpretations—rather than recognition of two external sounds—requires blinded, consensual listening experiments.
+
+## Claims presented as explanations
+
+During a period of sleep deprivation, I was told that "super-advanced bugs" had been deployed in my house and could hear my subvocalisations. I was also told that I say everything I think out loud. I do not. No known listening bug can hear silent subvocalisations or unspoken thoughts from across a room.
 
 ## Response
 

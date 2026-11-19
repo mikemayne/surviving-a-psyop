@@ -35,6 +35,18 @@
       "take_back_control"
     ]
   },
+  "up_or_down": {
+    "intro": "A simple way to stop dwelling on repeated upsetting statements: label their apparent emotional pull as Up or Down, then move on without debating the words.",
+    "questions": [
+      "How can I resist the urge to analyse or answer every repeated remark?",
+      "What do the Up and Down labels mean when I want to disengage?"
+    ],
+    "related": [
+      "never_engage",
+      "habituation_and_recovery",
+      "the_time_gap"
+    ]
+  },
   "ready_to_report": {
     "intro": "A practical guide to documenting troubling experiences, discussing them with your GP and reporting concerns to the police calmly and factually.",
     "questions": [
@@ -297,6 +309,18 @@
       "good_cop_bad_cop",
       "staged_third_party_reactions",
       "false_assistance"
+    ]
+  },
+  "induced_sympathy": {
+    "intro": "How a convincingly despondent tone can invite sympathy, guilt or reassurance even when the words contain no request, and how to keep appropriate boundaries.",
+    "questions": [
+      "Can a distressed-sounding voice encourage sympathy without an explicit request?",
+      "How can I maintain boundaries while taking genuine requests for help seriously?"
+    ],
+    "related": [
+      "fake_shock",
+      "guilt_tripping",
+      "never_engage"
     ]
   },
   "we_only_do_this_to_really_bad_people": {
@@ -1139,6 +1163,18 @@
       "stay_grounded"
     ]
   },
+  "the_time_gap": {
+    "intro": "Advice on setting troubling interactions aside, avoiding real-time searches or analysis in response, and deciding independently when something needs attention.",
+    "questions": [
+      "Why can reacting or searching in real time make an upsetting interaction harder to set aside?",
+      "How can I make decisions on my own schedule while still acting promptly when safety is at risk?"
+    ],
+    "related": [
+      "never_engage",
+      "record_ignore_report",
+      "take_back_control"
+    ]
+  },
   "primed_thought_attribution": {
     "intro": "A hypothetical sequence in which hearing a phrase makes it mentally accessible before someone claims the listener just thought it. Explains priming, source monitoring and why apparent thought-reading does not follow.",
     "questions": [
@@ -1161,6 +1197,108 @@
       "primed_thought_attribution",
       "sleep_deprivation_reinforcement",
       "internal_monologue_trick"
+    ]
+  },
+  "prediction_priming_feedback": {
+    "intro": "A hypothesis combining personalised prediction, priming, source misattribution and multimodal sensor fusion to explain apparent thought-reading and reaction feedback.",
+    "questions": [
+      "How might spoken predictions and priming change the listener's subsequent associations?",
+      "What could microphones, cameras, Wi-Fi sensing or mmWave radar observe during a reaction?",
+      "Why can observable feedback increase a model's confidence without proving a prediction of private thoughts was correct?"
+    ],
+    "related": [
+      "cold_reading_ai_assisted",
+      "primed_thought_attribution",
+      "thought_attribution_suggestion_repetition"
+    ]
+  },
+  "priming_ambiguous_accusations": {
+    "intro": "A proposed sequence in which a phrase primes an idea, a later ambiguous accusation invites the listener to supply a referent, and unsuccessful attempts may still act as repetition or provocation.",
+    "questions": [
+      "Does the priming voice have to sound like my own?",
+      "How can an ambiguous accusation seem personal without identifying anybody?",
+      "What if none of the attempts has an effect?"
+    ],
+    "related": [
+      "primed_thought_attribution",
+      "fabricated_confession",
+      "habituation_and_recovery"
+    ]
+  },
+  "habituation_and_recovery": {
+    "intro": "The hopeful possibility that repeated provocations can lose emotional impact, how responses can return after a break, and why no fixed reset period can be inferred.",
+    "questions": [
+      "Why might a repeated insult eventually have less impact?",
+      "Can habituation return after a fortnight or a month?",
+      "Why is non-engagement preferable to analysing each remark?"
+    ],
+    "related": [
+      "never_engage",
+      "feelings_can_change",
+      "priming_ambiguous_accusations"
+    ]
+  },
+  "quiet_speech_masking_attention": {
+    "intro": "Why someone listening for a quiet, familiar voice might notice speech that others miss under instrumental music or background noise, and how stress and expectation can also create false detections.",
+    "questions": [
+      "Can a quiet familiar voice be noticed when other people are not paying attention?",
+      "How do instrumental music, a sleep noise machine and selective attention affect speech detection?",
+      "Can prolonged stress and expectation make someone hear speech in ambiguous background audio?"
+    ],
+    "related": [
+      "primed_thought_attribution",
+      "thought_attribution_suggestion_repetition",
+      "habituation_and_recovery"
+    ]
+  },
+  "suggested_mishearings": {
+    "intro": "A hypothetical use of AI-generated similar-sounding words to suggest what somebody supposedly heard. Explains perceptual priming, post-event suggestion, and why a plausible guess is not knowledge of another person's private perception.",
+    "questions": [
+      "Why can two similar-sounding words be confused when speech is unclear?",
+      "Can suggesting a different word affect what I subsequently remember hearing?",
+      "Does an accurate guess about what I heard demonstrate access to my thoughts?"
+    ],
+    "related": [
+      "interpretation_trick",
+      "primed_thought_attribution",
+      "quiet_speech_masking_attention"
+    ]
+  },
+  "cross_conversation_sentence_assembly": {
+    "intro": "Explores how priming might make fragments of different conversations seem to form a personally meaningful sentence, and how monitoring for more fragments could lead to persistent hypervigilance.",
+    "questions": [
+      "Why might a combination of separate conversations feel meaningful to one listener but not to others?",
+      "How can searching for hidden sentences in everyday conversations reinforce hypervigilance?",
+      "Why is ignoring ambiguous remarks safer than reacting to them?"
+    ],
+    "related": [
+      "talking",
+      "accidentally_overheard",
+      "never_engage"
+    ]
+  },
+  "creating_the_appearance_of_guilt": {
+    "intro": "How persistent stress and public accusations can make someone more watchful or hesitant, and how those reactions may be misread as evidence of guilt.",
+    "questions": [
+      "Why might someone become hesitant or hypervigilant after repeated stressful encounters?",
+      "Why is nervous or unusual public behaviour not evidence of wrongdoing?"
+    ],
+    "related": [
+      "the_guity_always_run",
+      "public_shaming",
+      "preemptive_discrediting"
+    ]
+  },
+  "pretend_planning": {
+    "intro": "Explains how indistinct, seemingly purposeful speech might draw someone's attention away from another activity; includes everyday descriptions of the pattern and reassurance when an indistinct conversation is their only concern.",
+    "questions": [
+      "Why might a barely audible conversation distract me from what I am doing?",
+      "If all I have noticed is an indistinct conversation next door, do I need to do anything?"
+    ],
+    "related": [
+      "accidentally_overheard",
+      "cross_conversation_sentence_assembly",
+      "never_engage"
     ]
   }
 }
