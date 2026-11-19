@@ -112,6 +112,9 @@ html = html.replace(/(<p class="hero-lead">)[\s\S]*?(<\/p>)/,
 html = generateHomepageRules(html);
 html = generateReaderGroups(html, chapters);
 write('index.html', html);
+// Publish the same-site questionnaire without changing its local-only selection logic.
+write('questionnaire.html', switchSiteLinks(fs.readFileSync('questionnaire.html', 'utf8')));
+
 
 chapters.title = site.title;
 chapters.description = site.description;
@@ -186,7 +189,7 @@ for (const name of fs.readdirSync('.')) {
   }
 }
 fs.cpSync('topics', path.join(output, 'topics'), { recursive: true });
-for (const required of ['index.html', 'chapters.json', 'strategy-metadata.json', 'decision-tree.json', 'llms.txt', 'robots.txt', 'sitemap.xml', 'topics/index.html']) {
+for (const required of ['index.html', 'questionnaire.html', 'chapters.json', 'strategy-metadata.json', 'decision-tree.json', 'llms.txt', 'robots.txt', 'sitemap.xml', 'topics/index.html']) {
   if (!fs.statSync(path.join(output, required)).size) throw new Error('Missing output: ' + required);
 }
 console.log('Built ' + site.title + ' at ' + site.siteUrl + ' from ' + site.repository);
