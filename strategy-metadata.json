@@ -1975,6 +1975,29 @@
         "reassurance_seeking",
         "uncertainty"
       ]
+    },
+    "intrusion_of_privacy": {
+      "kind": "technique",
+      "possible_goal": "make personal activities feel observed or judged and encourage hypervigilance, privacy concern and self-monitoring",
+      "possible_emotional_effects": [
+        "feeling monitored",
+        "unease",
+        "self-consciousness",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "checking for signs of observation",
+        "second-guessing ordinary private decisions",
+        "changing habits to avoid scrutiny",
+        "becoming preoccupied with how personal information was obtained"
+      ],
+      "possible_cumulative_effects": [
+        "perceived_scrutiny",
+        "privacy_concern",
+        "heightened_vigilance",
+        "self_monitoring",
+        "rumination"
+      ]
     }
   },
   "cumulative_effect_taxonomy": {

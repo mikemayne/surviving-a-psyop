@@ -1497,5 +1497,17 @@
       "negging_psychological_manipulation",
       "good_cop_bad_cop"
     ]
+  },
+  "intrusion_of_privacy": {
+    "intro": "How unsolicited comments about spending, routines and other personal choices can make someone feel monitored, even during ordinary private activities.",
+    "questions": [
+      "Why can an unexpected remark about my spending or private habits leave me feeling watched?",
+      "How can intrusive comments cause hypervigilance and self-monitoring?"
+    ],
+    "related": [
+      "there_is_no_privacy",
+      "fear_of_hacking",
+      "take_back_control"
+    ]
   }
 }
