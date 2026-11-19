@@ -1975,6 +1975,29 @@
         "reassurance_seeking",
         "uncertainty"
       ]
+    },
+    "intrusion_of_privacy": {
+      "kind": "technique",
+      "possible_goal": "make private choices seem subject to another person's approval, induce guilt, provoke justification or encourage self-monitoring",
+      "possible_emotional_effects": [
+        "guilt",
+        "shame",
+        "frustration",
+        "self-consciousness"
+      ],
+      "possible_behavioural_responses": [
+        "defending private decisions",
+        "changing ordinary habits to avoid criticism",
+        "seeking approval",
+        "second-guessing spending"
+      ],
+      "possible_cumulative_effects": [
+        "privacy_concern",
+        "self_monitoring",
+        "social_shame",
+        "compliance_pressure",
+        "anger_frustration"
+      ]
     }
   },
   "cumulative_effect_taxonomy": {

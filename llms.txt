@@ -71,6 +71,7 @@ Patterns of pressure, interpretation and social influence.
 - [Good cop, bad cop](https://mikemayne.github.io/surviving-a-psyop/good_cop_bad_cop.txt)
 - [Stockholm syndrome](https://mikemayne.github.io/surviving-a-psyop/stockholm_syndrome.txt)
 - [Guilt tripping](https://mikemayne.github.io/surviving-a-psyop/guilt_tripping.txt)
+- [Intrusion of Privacy](https://mikemayne.github.io/surviving-a-psyop/intrusion_of_privacy.txt)
 - [False Accusations of Disloyalty](https://mikemayne.github.io/surviving-a-psyop/accusations_of_disloyalty.txt)
 - [Emotional burden](https://mikemayne.github.io/surviving-a-psyop/emotional_burden_trick.txt)
 - [Accusation baiting](https://mikemayne.github.io/surviving-a-psyop/accusation_baiting.txt)

@@ -1497,5 +1497,17 @@
       "negging_psychological_manipulation",
       "good_cop_bad_cop"
     ]
+  },
+  "intrusion_of_privacy": {
+    "intro": "How criticism of spending, habits and other private choices can create guilt, self-monitoring and pressure to justify decisions that do not require another person's approval.",
+    "questions": [
+      "Why do unsolicited remarks about my spending or habits make me feel obliged to explain myself?",
+      "How can repeated criticism of private choices affect autonomy and self-confidence?"
+    ],
+    "related": [
+      "guilt_tripping",
+      "attacking_your_priorities",
+      "take_back_control"
+    ]
   }
 }
