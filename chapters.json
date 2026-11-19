@@ -980,6 +980,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/quiet_speech_masking_attention.txt"
     },
     {
+      "id": "spatial_audio",
+      "title": "Spatial Audio — Voices From Unexpected Directions",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/spatial_audio.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/spatial_audio",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/spatial_audio.txt"
+    },
+    {
       "id": "bug_in_face",
       "title": "The bug-in-face trick",
       "category": "Technology & perception",
