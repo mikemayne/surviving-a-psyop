@@ -1,0 +1,45 @@
+# Spatial Audio — Voices From Unexpected Directions
+
+**Effects:** Confusion, fear, uncertainty about the source of a voice, exaggerated perceptions of surveillance capabilities.
+
+**Possible objectives:** Make someone believe a voice is coming from somewhere it isn't. Convince them that technology is being used which is considerably more sophisticated than the equipment actually required.
+
+## How it works
+
+Head-Related Transfer Functions (HRTFs) describe how the shape of your head, ears and body affects sounds arriving from different directions.
+
+By processing recorded speech using an HRTF, it is possible to make a voice appear to originate from a different direction from the physical speakers reproducing it, including above or behind the listener.
+
+A car is a suitable environment for attempting this because the driver's head occupies a relatively predictable position. Knowledge of the listener's head and ear geometry can improve the spatial effect.
+
+A car with ordinary front and rear speakers can reproduce spatially processed audio. The speakers do not need to be physically modified.
+
+## Using a connected phone
+
+A phone connected to a car stereo can provide the audio signal. If the phone is compromised, software on it could generate or play a voice that has already been processed using an HRTF.
+
+The car's existing speakers then reproduce that signal.
+
+This does not require specialist speakers or an additional device installed inside the car. The spatial processing can take place on the phone.
+
+The accuracy of the effect depends on the speaker arrangement, the processing and the acoustics of the vehicle.
+
+## Exaggerating technological capabilities
+
+A voice apparently coming from above someone's head could be used to suggest that it was produced by an extraordinary surveillance or neurological technology.
+
+The content of the voice could reinforce that impression by making claims about the technology supposedly being used.
+
+The important point is that **the apparent direction of a voice can be manipulated using ordinary audio technology.** A voice that appears to come from above the listener does not require a speaker above their head.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**

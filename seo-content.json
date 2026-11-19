@@ -1397,5 +1397,18 @@
       "the_time_gap",
       "stay_grounded"
     ]
+  },
+  "spatial_audio": {
+    "intro": "Explains how HRTF processing can change the perceived direction of reproduced speech, including when played through car speakers.",
+    "questions": [
+      "How can spatial audio make a voice seem to come from above or behind the listener?",
+      "What roles do HRTF processing, speaker placement and cabin acoustics play?",
+      "Can a connected phone supply preprocessed spatial audio to a car stereo?"
+    ],
+    "related": [
+      "quiet_speech_masking_attention",
+      "manipulated_media",
+      "pwned-devices"
+    ]
   }
 }
