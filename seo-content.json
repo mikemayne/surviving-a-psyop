@@ -324,6 +324,18 @@
       "dont_chase"
     ]
   },
+  "accusation_laundering": {
+    "intro": "Explains how repeating an unverified allegation as fact can make it seem accepted, without adding evidence or independent corroboration.",
+    "questions": [
+      "Why might an accusation sound more credible when someone recounts it as though it were already true?",
+      "How can repetition and retelling make one person's allegation seem independently corroborated?"
+    ],
+    "related": [
+      "accusation_baiting",
+      "moral_accusations",
+      "staged_third_party_reactions"
+    ]
+  },
   "staged_third_party_reactions": {
     "intro": "Explores how an apparently spontaneous third-party reaction can invite shame or speculation when the subject of the remark is unclear.",
     "questions": [
