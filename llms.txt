@@ -75,6 +75,8 @@ Patterns of pressure, interpretation and social influence.
 - [Emotional burden](https://mikemayne.github.io/surviving-a-psyop/emotional_burden_trick.txt)
 - [Accusation baiting](https://mikemayne.github.io/surviving-a-psyop/accusation_baiting.txt)
 - [Projection](https://mikemayne.github.io/surviving-a-psyop/projection.txt)
+- [Attributing Displaced Anger](https://mikemayne.github.io/surviving-a-psyop/attributing_displaced_anger.txt)
+- [Implied Consequences](https://mikemayne.github.io/surviving-a-psyop/implied_consequences.txt)
 - [Accusation Laundering](https://mikemayne.github.io/surviving-a-psyop/accusation_laundering.txt)
 - [Staged Third-Party Reactions](https://mikemayne.github.io/surviving-a-psyop/staged_third_party_reactions.txt)
 - [Fake Shock: Feigned Sympathy](https://mikemayne.github.io/surviving-a-psyop/fake_shock.txt)
