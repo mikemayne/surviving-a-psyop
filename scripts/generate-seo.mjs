@@ -65,7 +65,7 @@ for(let i=0;i<chapters.length;i++){
   const q='<section><h2>Questions this chapter explores</h2><ul>'+m.questions.map(s=>'<li>'+esc(s)+'</li>').join('')+'</ul></section>';
   const related='<section><h2>Related reading</h2><ul>'+m.related.map(id=>{if(!titles[id])throw Error('Unknown related chapter '+id);return '<li><a href="./'+id+'.html">'+esc(titles[id])+'</a></li>'}).join('')+'</ul></section>';
   const nav='<div class="chapter-nav">'+(prev?'<a href="./'+prev.id+'.html">← '+esc(prev.title)+'</a>':'<span></span>')+(next?'<a href="./'+next.id+'.html">'+esc(next.title)+' →</a>':'<span></span>')+'</div>';
-  const body='<main id="main-content" tabindex="-1">'+(c.category === 'Begin here' ? '' : '<p class="eyebrow">'+esc(c.category)+'</p>')+'<h1>'+esc(c.title)+'</h1>'+
+  const body='<main id="main-content" tabindex="-1">'+(c.category === chapters[0].category ? '' : '<p class="eyebrow">'+esc(c.category)+'</p>')+'<h1>'+esc(c.title)+'</h1>'+
     '<p class="intro">From <a href="../">'+esc(site.title)+'</a> — start with the <a href="../#rules">four rules</a>.</p>'+
     '<p class="intro">'+esc(m.intro)+'</p><article>'+chapterHTML(text)+q+'</article>'+related+nav+
     '<footer><a href="./index.html">All chapters</a> · <a href="../#read/'+c.id+'">Interactive reader</a> · <a href="../'+c.id+'.txt">Original text</a> · CC0 1.0 Universal</footer></main>';
