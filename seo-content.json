@@ -1434,5 +1434,18 @@
       "staged_third_party_reactions",
       "accusation_laundering"
     ]
+  },
+  "downplaying_trauma": {
+    "intro": "Explains how minimising distressing experiences, comparing suffering or pressuring someone to move on can undermine confidence in their own response.",
+    "questions": [
+      "How can someone downplay a distressing experience without denying that it happened?",
+      "Why can comparisons with other people's suffering make someone question whether their own distress is legitimate?",
+      "How can pressure to move on discourage someone from seeking support?"
+    ],
+    "related": [
+      "victim_blaming",
+      "threatening_consequences_for_seeking_help",
+      "stay_grounded"
+    ]
   }
 }
