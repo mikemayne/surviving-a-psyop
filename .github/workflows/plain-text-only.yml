@@ -111,3 +111,7 @@ jobs:
           print(f"Plain-text-only check passed for {len(names)} file(s), {total_bytes} bytes.")
           print("Human review of text, links, safety and anonymity remains necessary.")
           PY
+      - name: Validate questionnaire coverage for new chapters
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: python3 scripts/check-questionnaire-coverage.py "$BASE_SHA"
