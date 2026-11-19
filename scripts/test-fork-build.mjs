@@ -46,6 +46,18 @@ try {
   assert.ok(published('robots.txt').includes('Sitemap: ' + base + 'sitemap.xml'));
   assert.ok(published('sitemap.xml').includes(base + 'topics/index.html'));
   assert.ok(published('topics/index.html').includes(base + 'topics/index.html'));
+  assert.ok(published('index.html').includes('href="./questionnaire.html"'),
+    'Homepage must link to the private chapter finder');
+  const questionnaire = published('questionnaire.html');
+  assert.ok(questionnaire.includes(base + 'questionnaire.html'),
+    'Questionnaire canonical URL must adapt to a fork');
+  assert.ok(questionnaire.includes('fetch("./chapters.json")'),
+    'Questionnaire must use only the public chapter index');
+  assert.ok(questionnaire.includes('Your answers never leave this browser'),
+    'Questionnaire privacy note must be present');
+  assert.ok(published('sitemap.xml').includes(base + 'questionnaire.html'),
+    'Questionnaire must be present in the sitemap');
+
   assert.ok(published('topics/index.html').includes('<h2>Begin here</h2>'),
     'Opening chapter list preserves its first section heading');
   assert.ok(!published('topics/introduction.html').includes('<p class="eyebrow">Begin here</p>'),
