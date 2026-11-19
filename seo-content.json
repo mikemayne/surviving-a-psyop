@@ -1336,5 +1336,17 @@
       "false_endings",
       "never_engage"
     ]
+  },
+  "presence_threat": {
+    "intro": "Explores how a person's deliberately signalled presence can be used as an implied threat, creating fear and anticipation without an explicit confrontation.",
+    "questions": [
+      "How can someone's presence be used to communicate an implied threat?",
+      "What is a practical response to an intimidating presence without engaging? "
+    ],
+    "related": [
+      "pretend_planning",
+      "never_engage",
+      "threatening_consequences_for_seeking_help"
+    ]
   }
 }
