@@ -1,4 +1,4 @@
-# Prediction-Priming Feedback: The Illusion of Mind Reading
+# Mind Reading
 
 **Effects:** Increase suggestibility, Increase confusion, Undermine confidence.
 
@@ -125,6 +125,10 @@ Rather than treating each sensor independently, a multimodal sensor-fusion model
 
 For example, microphones could detect changes in speech patterns, cameras could detect facial expressions or movements, and Wi-Fi channel-state information (CSI) or mmWave radar might provide additional measurements of movement, breathing or other physiological activity.
 
+Acoustic cues could provide another set of weak signals. The duration of an audible "hmmmm", hesitation length, pauses, speech rhythm, pitch and breathing patterns might offer clues about cognitive workload or how long someone is deliberating. None of these cues measures the complexity or content of a private thought directly.
+
+If an LLM already had a shortlist of likely statements, a fusion model could use the audio cues to adjust their relative probabilities. Each cue would only need to improve the prediction slightly when combined with the others. Reliable feedback about whether predictions were correct could help identify which signals actually improve accuracy, rather than merely making the model more confident.
+
 The system could compare these observations before and after a statement to estimate whether the individual had reacted. It could then incorporate the feedback into subsequent predictions, potentially improving its personalised model over time.
 
 This introduces another possible feedback mechanism: **prediction, priming, observable reaction and updated prediction could form a continuous loop**, with information from different sensors contributing to the model's confidence.
@@ -142,6 +146,24 @@ The technical limitation is whether such tiny, unintentional sounds can be relia
 An important technical limitation is that detecting a reaction does not establish what caused it or whether the original prediction was correct. Sensor fusion can improve the quality of observations, but it can also increase confidence without increasing accuracy if the signals are ambiguous or correlated.
 
 The proposed system would therefore use observable behaviour as probabilistic feedback rather than as a direct measurement of private thoughts.
+
+## Limitations
+
+Suppose an LLM predicts that someone will think about Sarah, a phrase brings Sarah to mind, and a few minutes later the person says something similar to the prediction.
+
+That later statement could help a model predict what the person is likely to say next. It might suggest Sarah was relevant to their thinking at some point, but **it does not reveal when Sarah first came to mind or what they were thinking in between**. They might have thought about several unrelated subjects before returning to her.
+
+There is also a feedback problem: if the original phrase helped bring Sarah to mind, the later statement may partly be a result of priming, rather than an independent confirmation that the model predicted an existing private thought.
+
+### Selective demonstration of capability
+
+A particularly misleading trick would be to get a prediction right occasionally, then claim that the system can do it all the time but simply chooses not to.
+
+Successful predictions are presented as proof. Failed predictions can be dismissed with "I wasn't trying", while times when no prediction is offered can be explained as "I chose not to tell you". That makes the claim almost impossible to disprove from the demonstrations alone.
+
+This combines **selective reporting** (showing the hits and ignoring the misses) with an **unfalsifiable claim** about a hidden ability.
+
+**Occasionally getting a prediction right does not establish that someone can make that prediction reliably, on demand, or continuously.**
 
 ## The cumulative effect
 
