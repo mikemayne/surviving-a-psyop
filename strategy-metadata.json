@@ -1978,25 +1978,25 @@
     },
     "intrusion_of_privacy": {
       "kind": "technique",
-      "possible_goal": "make private choices seem subject to another person's approval, induce guilt, provoke justification or encourage self-monitoring",
+      "possible_goal": "make personal activities feel observed or judged and encourage hypervigilance, privacy concern and self-monitoring",
       "possible_emotional_effects": [
-        "guilt",
-        "shame",
-        "frustration",
-        "self-consciousness"
+        "feeling monitored",
+        "unease",
+        "self-consciousness",
+        "frustration"
       ],
       "possible_behavioural_responses": [
-        "defending private decisions",
-        "changing ordinary habits to avoid criticism",
-        "seeking approval",
-        "second-guessing spending"
+        "checking for signs of observation",
+        "second-guessing ordinary private decisions",
+        "changing habits to avoid scrutiny",
+        "becoming preoccupied with how personal information was obtained"
       ],
       "possible_cumulative_effects": [
+        "perceived_scrutiny",
         "privacy_concern",
+        "heightened_vigilance",
         "self_monitoring",
-        "social_shame",
-        "compliance_pressure",
-        "anger_frustration"
+        "rumination"
       ]
     }
   },

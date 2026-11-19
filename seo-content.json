@@ -1499,14 +1499,14 @@
     ]
   },
   "intrusion_of_privacy": {
-    "intro": "How criticism of spending, habits and other private choices can create guilt, self-monitoring and pressure to justify decisions that do not require another person's approval.",
+    "intro": "How unsolicited comments about spending, routines and other personal choices can make someone feel monitored, even during ordinary private activities.",
     "questions": [
-      "Why do unsolicited remarks about my spending or habits make me feel obliged to explain myself?",
-      "How can repeated criticism of private choices affect autonomy and self-confidence?"
+      "Why can an unexpected remark about my spending or private habits leave me feeling watched?",
+      "How can intrusive comments cause hypervigilance and self-monitoring?"
     ],
     "related": [
-      "guilt_tripping",
-      "attacking_your_priorities",
+      "there_is_no_privacy",
+      "fear_of_hacking",
       "take_back_control"
     ]
   }
