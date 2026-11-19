@@ -4,21 +4,37 @@
 
 **Possible objectives:** Increase the effectiveness of other techniques, Provoke a reaction.
 
-**Objective:** To associate ordinary, harmless physical movements with shameful accusations, potentially making an individual feel constantly observed and self-conscious.
+**Objective:** To associate ordinary, harmless movements with shameful accusations, making someone self-conscious about their own body and potentially giving the impression that another person can predict their actions.
 
-**Example:** Someone says, "A paedo scratches his ear" immediately before the individual scratches their ear. The timing makes an otherwise meaningless accusation appear significant.
+**Example:** Someone says, "A paedo touches his ear" and the listener touches their ear a moment later. The remark turns a completely ordinary movement into something apparently significant. If the timing seems accurate, it may also create the impression that the speaker knew what the listener was about to do.
 
-**Technical possibilities:** Some movements can be anticipated from subtle preparatory cues and video analysis. Electrical muscle activity can be measured using electromyography (EMG), usually with sensors placed on or close to the body. Predicting a visible movement from video is different from measuring muscle activation remotely.
+The abusive form of this technique would be to repeatedly pair harmless actions with humiliating or threatening remarks. A person might begin monitoring every movement they make, trying to work out how someone could have anticipated it, or trying not to move naturally. The accusation has no logical relationship to the movement. That association is the point of the proposed manipulation.
 
-Other possible explanations for an apparently accurate prediction include recognising habitual movements, psychological suggestion, and coincidence. Mentioning an itch or a particular movement may itself draw attention to that part of the body.
+## Possible mechanisms
 
-**Psychological mechanism:** Pairing a prediction with a shameful accusation can encourage excessive self-monitoring. Ordinary movements become associated with embarrassment, guilt or fear of being judged.
+There are several ways a remark might appear to predict an action. None needs to be assumed in any particular incident.
 
-**Defence:** Don't attempt to suppress ordinary bodily movements or engage with the accusation. Cover your webcam as a simple privacy precaution. Move normally and get on with your day.
+- **Preparatory movement:** A hand may already be starting towards the ear before the listener recognises the movement as an ear touch. Predicting an action before it is completed is not the same as predicting it before any movement begins.
+- **mmWave radar:** Radar-based motion sensing can track some movements without a conventional camera. A trained motion model might identify preparatory movement and estimate the likely next action. The accuracy and speaking-time advantage for a small gesture such as touching an ear would depend on the actual system and conditions.
+- **Video and computer vision:** A camera and movement-prediction model could detect posture, gestures and early motion cues.
+- **Habit modelling:** People repeat gestures. Knowledge of a person's habits and circumstances can make some actions more predictable.
+- **Contextual prediction:** An activity or situation may make particular movements more likely, without any special sensor.
+- **Priming:** Mentioning a body part or action could itself make someone more likely to attend to it or touch it. In that case the remark may influence the action rather than predict it.
+- **Selective reporting:** Many unsuccessful guesses can be ignored while an occasional successful guess is highlighted as evidence of extraordinary accuracy.
+- **Timing ambiguity:** A remark made after an action has begun, but before it is completed or consciously noticed, may be remembered as coming first.
+- **Coincidence:** A prediction can sometimes be right by chance.
 
-## Research gap
+These mechanisms can also overlap. A language model might generate likely actions from context and habits, while a separate motion model contributes observations. Combining predictions can improve performance in some settings, but it does not turn the system into a mind reader.
 
-Video can sometimes reveal preparatory movement cues, but reliable prediction of specific small movements before they occur, across ordinary environments and different people, remains unestablished. This can be tested consensually with blinded predictions.
+## Why it can be distressing
+
+Pairing an accurate-seeming prediction with a shameful accusation could make ordinary movements feel incriminating. It might also encourage the person to watch their own gestures, look for further predictions, or try to establish which technology was used. That attention can make the remark more intrusive and memorable.
+
+The important distinction is between an observed remark and a proposed explanation for its timing. One apparently accurate prediction does not establish a sensor, a coordinated operation or the speaker's intent.
+
+## Technical limitation
+
+The relevant test is prediction lead time: how far before a clearly defined action can a system make a correct, specific prediction, and how often does it get that prediction wrong? Predicting the completion of an already-started movement is a different capability from predicting a movement before it begins. A spoken sentence also takes time, so an apparently immediate prediction is not by itself evidence of real-time radar or AI analysis.
 
 ## Response
 
