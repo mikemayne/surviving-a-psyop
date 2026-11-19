@@ -4,7 +4,7 @@
 
 **Possible objectives:** Increase the effectiveness of other techniques, Discredit the individual.
 
-### THE TECHNIQUE
+## The technique
 
 Manipulated media involves using altered, fabricated or deliberately staged audiovisual content to create misleading impressions, provoke emotional reactions or influence an individual's behaviour.
 
@@ -18,7 +18,7 @@ This could be combined with the **“Talking blag”**, in which an individual i
 
 Where the individual engages with this supposed covert conversation, subtle remarks or apparent responses might be sufficient to sustain the impression of an interaction. If the individual refuses to engage, the material could become increasingly explicit, potentially progressing to someone appearing to address them directly.
 
-### WHY IT WORKS
+## How it works
 
 People generally assume that audiovisual material is a reasonably faithful representation of something that actually happened.
 
@@ -32,7 +32,7 @@ If the viewer begins treating ordinary dialogue as a coded exchange, subsequent 
 
 More explicit material could, in principle, be used to provoke surprise, fear, anger or confusion, particularly if it appeared to contradict the viewer's understanding of what was happening.
 
-### RECOGNISING THE PATTERN
+## Recognising the pattern
 
 Manipulated audiovisual content can take many forms, including fabricated news reports, impersonated public figures, edited conversations, staged livestreams and apparently spontaneous interactions.
 
@@ -43,19 +43,6 @@ However, technical manipulation is not always visually detectable, and unusual o
 A particularly important distinction is between **what the media demonstrably contains and what the viewer interprets it to mean**.
 
 A person appearing to look into a camera, make a relevant remark or address an unspecified audience does not, by itself, establish that they are communicating with a particular viewer.
-
-### Further considerations
-Avoid treating apparently personalised audiovisual content as an instruction or invitation to interact.
-
-Do not engage in supposed covert conversations with television programmes, livestreams or other media. If something appears to address you personally, consider its ordinary context before assigning it a more elaborate meaning.
-
-Where authenticity matters, compare the material with an independent source, such as an official broadcast archive or a separate verified livestream. Preserve original recordings and source information if there is a concrete reason to investigate suspected manipulation.
-
-Avoid repeatedly analysing ambiguous dialogue in an attempt to decode hidden meanings. This can increase attention to coincidences without establishing whether any manipulation occurred.
-
-If content is disturbing, disengage from it and return to ordinary activities. There is no obligation to respond to anything appearing on a screen.
-
-**The central principle is that audiovisual realism does not guarantee authenticity, but apparent personal relevance does not establish deliberate communication. Independent verification is more useful than attempting to interpret ambiguous material as a coded exchange.**
 
 ## Research gap
 

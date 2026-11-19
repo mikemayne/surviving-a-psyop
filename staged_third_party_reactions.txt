@@ -4,7 +4,7 @@
 
 **Possible objectives:** Increase the effectiveness of other techniques, Provoke a reaction.
 
-### The technique
+## The technique
 
 A conversation is presented as though a new person has just arrived and is being shown something concerning the target.
 
@@ -15,7 +15,7 @@ For example:
 
 The target is left to imagine what the newcomer has supposedly been shown and why their reaction is so contemptuous.
 
-### How it works
+## How it works
 
 The technique combines several psychological mechanisms:
 
@@ -25,13 +25,6 @@ The technique combines several psychological mechanisms:
 - **Implied evidence:** Suggesting that damaging information exists without actually presenting any.
 
 The apparent arrival of a new participant makes the reaction seem spontaneous and independent rather than rehearsed.
-
-### Further considerations
-Don't assume that the conversation concerns you, that a new person is actually involved, or that anything incriminating has been shown.
-
-An unexplained expression of contempt provides no useful information. There is nothing to investigate or defend yourself against without something concrete to address.
-
-**Don't fill in the blanks for them. Disengage and carry on with your day.**
 
 ## Response
 

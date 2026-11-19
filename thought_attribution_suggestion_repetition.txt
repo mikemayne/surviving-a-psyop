@@ -4,7 +4,7 @@
 
 **Possible objectives:** Increase the effectiveness of other techniques.
 
-## The Proposed Technique
+## The proposed technique
 
 Imagine someone hears a spoken phrase and then is immediately accused of having thought or said it: "You were just thinking that."
 
@@ -12,7 +12,7 @@ The phrase is familiar because it was recently heard. The accusation offers a di
 
 The proposed manipulation exploits a distinction between **recognising words** and **remembering where they came from**. A person might recognise the phrase without reliably remembering its source, or experience a fleeting feeling of having thought it without accepting the accusation as true.
 
-## How It Might Work
+## How it might work
 
 - **Auditory exposure:** Hearing words can make them easier to recognise or bring to mind later.
 - **Suggestion:** An accusation such as "You were thinking that" proposes a source for the familiar words.
@@ -24,7 +24,7 @@ The further hypothesis is that repeated accusations made during sleep deprivatio
 
 A proposed objective would be to create confusion about the authorship of thoughts, or the impression that someone else knows what a person was thinking. The mechanism would depend on familiarity and attribution, not actual mind-reading.
 
-## Cumulative Reinforcement (Proposed)
+## Cumulative reinforcement
 
 The hypothesis does not require every accusation to be accepted. Even when someone immediately rejects a false attribution, repeated exposure could make the **idea**, rather than the exact words, increasingly familiar or accessible.
 
@@ -32,7 +32,7 @@ If a later accusation coincides with a genuine source-memory error, that experie
 
 Familiarity does not guarantee this feedback loop: repetition can also strengthen someone's recognition that an accusation is mistaken.
 
-## What the Research Supports
+## What the research supports
 
 **1. External-to-internal source errors — Supported.** Garrison et al. (2017) found that healthy volunteers sometimes misremembered perceived information as imagined. Their study concerns later judgments about the source of words, not an immediate experience of inner speech.
 
@@ -54,7 +54,7 @@ Familiarity does not guarantee this feedback loop: repetition can also strengthe
 
 [Nonbelieved Memories — Mazzoni et al. (2010)](https://pubmed.ncbi.nlm.nih.gov/20689053/)
 
-## What Remains Unproven
+## What remains unproven
 
 The open question is whether repeated accusations—including ones consciously rejected—can reinforce false self-attribution that persists after normal sleep resumes. Testing sustained coercive conditions would raise serious ethical concerns; the component effects can be studied separately with consent.
 
@@ -64,10 +64,6 @@ During a period of sleep deprivation, I was told that "super-advanced bugs" had 
 
 ## Response
 
-**Recognising a phrase is not the same as having thought it.** A feeling of familiarity or remembering does not establish that the words originated in your mind, and an accusation is not evidence of what you thought.
-
-There is no need to reconstruct every fleeting thought or debate someone's claim to know what was in your mind. If an incident needs recording, write down what was actually heard and said, separately from possible explanations.
-
 **Don't engage at all. Record if convenient, then get on with your day.**
 
 If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
@@ -75,3 +71,5 @@ If you or someone else is in immediate danger, get to safety and call **999**. S
 Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
 
 **If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**

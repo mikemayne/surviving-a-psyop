@@ -20,7 +20,7 @@ After repeated criticism or humiliation, winning an argument may feel particular
 But winning an argument is not the same as winning the interaction.
 
 If a remark was designed to draw you into a debate, responding gives it your attention, time and emotional energy. A deliberately weak argument could be used as bait. Equally, a careless insult may be just that; you don't need to determine anyone's intention before deciding not to reply.
-How a Debate Can Become a Trap
+## How a debate becomes a trap
 
 Once an exchange has started, it creates opportunities for further pressure.
 
@@ -33,31 +33,11 @@ A conversation might begin with criticism and then shift towards exaggerated app
 
 Relief after criticism can make praise unusually appealing. If someone deliberately alternates insults with reassurance or flattery, the contrast can encourage the other person to keep seeking approval.
 
-Exaggerated praise can also encourage unrealistic expectations or impulsive decisions. Stress, exhaustion and inadequate sleep can make it harder to assess such decisions calmly. If you're feeling unusually energised or driven, postpone major decisions until you've rested and can evaluate them independently.
+Exaggerated praise can also encourage unrealistic expectations or impulsive decisions. Stress, exhaustion and inadequate sleep can make it harder to assess such decisions calmly.
 
-You do not have to enter the conversation in order to reject its influence.
+The pressure works by making the conversation itself feel necessary.
 
-Record, Don't Respond
-
-If something seems worth preserving, make a short factual note of the words you heard, the date, time and circumstances. Email it to yourself if that is convenient and you want a timestamp.
-
-Keep the statement separate from your interpretation. Writing that somebody said particular words does not mean accepting those words as true.
-
-There is no need to record every passing remark. If documenting things repeatedly keeps you preoccupied or costs you sleep, prioritise ordinary life, rest and wellbeing.
-
-After recording anything useful, leave it alone. Don't spend the rest of the day rehearsing arguments or trying to work out what the speaker really intended.
-The Golden Rule
-
-Never respond to baiting, mocking, flattery or provocation. Under no circumstances should you enter a debate with the provocation itself.
-
-Don't explain, negotiate, correct, defend yourself or try to win. You do not have to prove that you're clever, innocent, capable or worthy of respect.
-
-This rule is about not engaging with provocative remarks. It does not prevent you from protecting yourself, leaving an unsafe situation, reporting a crime or seeking independent help. Those are practical actions, not participation in the argument. If you face immediate danger, get to safety and call 999.
-
-No matter how weak the argument or how satisfying a reply might feel, refuse the invitation to participate.
-
-Record if convenient. Classify UP or DOWN if helpful. Ignore the provocation. Get on with your day.
-Why Ignoring a Remark Can Feel So Difficult: The Psychology
+## Why the urge to respond feels strong
 
 There is a strong human tendency to continue conversations once somebody has started one. We learn to respond to speech almost automatically. That tendency is useful in ordinary social life but can make deliberately provocative remarks harder to ignore.
 
@@ -78,21 +58,15 @@ None of these mechanisms means a particular speaker is deliberately manipulating
 Recognising that impulse is the useful skill. You can feel the urge to argue, correct or win without acting on it.
 
 Wanting to respond is not the same as needing to respond.
-A Note About Driving
 
-If you are highly stressed or sleep deprived, consider avoiding driving until you have rested and can concentrate properly. Severe stress and lack of sleep can affect attention, judgement and reaction times. If you feel drowsy, distracted or unable to drive safely, do not drive. If you are already on the road, find somewhere safe to stop.
-Response
+## Response
 
-Don't engage at all. Record if convenient, then get on with your day.
+**Don't engage at all. Record if convenient, then get on with your day.**
 
-If you or someone else is in immediate danger, get to safety and call 999. Seeking emergency help is not engaging with a provocation.
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
 
-Read the Golden Rule chapter.
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
 
-If you don't respond, they have nothing to work with.
+**If you don't respond, they have nothing to work with.**
 
-If you don't react, you don't give them anything to work with.
-Questions this chapter explores
-
-    Why do I feel compelled to respond to an insulting or obviously false remark?
-    How do conversational reciprocity and turn-taking make it harder to ignore a provocation?
+**If you don't react, you don't give them anything to work with.**

@@ -1,6 +1,6 @@
 # Telephone Calls — Don't Trust Caller ID or Familiar Voices
 
-### THE TECHNIQUE
+## The technique
 
 Telephone calls can be used for impersonation, intimidation, fraud and psychological manipulation. Modern technology makes it increasingly difficult to establish someone's identity simply from their telephone number or the sound of their voice.
 
@@ -10,7 +10,7 @@ AI voice cloning introduces another vulnerability. Modern speech synthesis syste
 
 It is therefore possible for someone to appear to telephone from a familiar number while speaking in a familiar voice, without actually being the person they claim to be.
 
-### WHY IT WORKS
+## Why it works
 
 People naturally associate familiar voices and telephone numbers with particular individuals. Hearing someone who sounds like a friend, relative or trusted professional can encourage immediate confidence in their identity.
 
@@ -18,7 +18,7 @@ Scammers and impersonators can exploit this trust to obtain information, make th
 
 A particularly effective technique is to manufacture urgency, making the recipient feel they must respond immediately rather than independently verifying the caller.
 
-### Further considerations
+## Further considerations
 **You are under no obligation to answer calls from strangers.** If you do not recognise a number, it is perfectly reasonable to ignore the call and allow the person to leave a voicemail. Bear in mind that legitimate organisations sometimes call from withheld or unfamiliar numbers.
 
 When I answer an unexpected call, I prefer to let the other person speak first rather than immediately identifying myself. This is a simple way to establish why they are calling without volunteering information. However, a natural-sounding conversation is not proof that the caller is human or that their identity is genuine.
@@ -31,7 +31,7 @@ If someone becomes abusive, threatening or manipulative, **simply hang up**. You
 
 Avoid engaging with suspicious callers simply to establish who they are or what they want. Attempting to catch someone impersonating another person can create unnecessary opportunities for further manipulation.
 
-### THE CENTRAL PRINCIPLE
+## The central principle
 
 **Treat unexpected telephone calls as unverified communications until you have established the caller's identity through an independent channel.**
 

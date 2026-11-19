@@ -1,4 +1,4 @@
-Experience: Repeated emotional disruption and its cumulative burden
+# The Emotional Burden of Repeated Provocations
 
 **Effects:** Increase distress, Increase shame, Increase emotional reactivity.
 
@@ -8,8 +8,7 @@ Over a period of years, I experienced repeated remarks, accusations and sometime
 
 The experience was especially disruptive at first, but became substantially less effective at provoking a reaction as time went on. I became more familiar with the patterns and better able to disengage. 
 
-Technical explanation 
-
+## How it might work
 A simplified technical model would involve a phone capable of recording speech, measuring ordinary device activity and playing audio, together with people making remarks. The emotional burden would not depend on producing any single emotion, accurately reading thoughts or recognising precise feelings: repeated, salient and unpredictable interruptions could demand attention and produce varying reactions that add up over time. Human speakers alone could account for much of this psychological mechanism; advanced AI is not a prerequisite.
 
 A hypothetical software feedback component could compare readily measurable changes in spoken behaviour—pitch, loudness, rate, pauses and voice quality—against a person's usual pattern. It might also register changes in phone movement or activity. These signals can sometimes indicate arousal or a change in behaviour, but they are not dependable labels for anger, fear or any other specific emotion, and a silent or unrelated reaction might go undetected. A simple statistical model could track whether particular kinds of statements tended to precede observable changes, without establishing that the statements caused those changes.
@@ -18,8 +17,7 @@ The relevant psychological principles are attentional capture, orienting respons
 
 In this hypothetical account, there is no need for an implant, wireless physiological sensing, facial-expression analysis or a specially trained LLM. The minimum psychological mechanism is repeated unwelcome stimulation and human adaptation. The optional ML component is limited to recognising some changes in audible speech or phone activity and finding imperfect statistical patterns over time. The explanation identifies possible mechanisms for independent examination; it does not determine what caused my experiences.
 
-References for independent verification
-
+## Research
 1. Rankin, C. H., et al. (2009). "Habituation revisited: An updated and revised description of the behavioral characteristics of habituation." Neurobiology of Learning and Memory, 92(2), 135–138. https://pmc.ncbi.nlm.nih.gov/articles/PMC2754195/
    — Repeated stimuli, declining responses and dishabituation.
 

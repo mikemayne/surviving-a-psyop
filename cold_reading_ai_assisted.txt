@@ -8,7 +8,7 @@ AI-assisted cold reading is a potential extension of traditional cold reading in
 
 The objective is not necessarily to reconstruct the exact words of someone's inner monologue. Instead, the technique relies on making sufficiently accurate predictions about the **subject of someone's thoughts** to create the impression that their mind is being read.
 
-### How It Works
+## How it works
 
 A large language model could be personalised using extensive information about an individual, including their vocabulary, interests, beliefs, experiences, relationships and previous conversations.
 
@@ -20,13 +20,13 @@ Observable emotional and behavioural information could also be incorporated. Cha
 
 The model would use this information to generate predictions about subjects likely to be occupying the individual's attention.
 
-### Predicting personal descriptions of objects
+## Predicting personal descriptions of objects
 
 A personalised LLM might predict how someone would name an object using their characteristic humour, vocabulary, comparisons and cultural references. Viewing history could help identify familiar characters or historical figures; actual speech samples would be more informative about naming habits.
 
 For example, when someone strokes their beard, "Did he just call that his Marx beard?" could be a suggested nickname rather than a report of something actually said or thought. The question could also prime that association.
 
-### Selective Prediction and Confidence
+## Selective Prediction and Confidence
 
 The technique becomes more convincing when predictions are expressed selectively.
 
@@ -47,7 +47,7 @@ This exploits several familiar psychological mechanisms:
 
 A system could also incorporate feedback from previous interactions to refine its predictions. This would not necessarily require retraining the underlying language model; observations could simply be added to a persistent personal profile.
 
-### Why It Could Appear Convincing
+## Why It Could Appear Convincing
 
 Human thought is strongly influenced by immediate circumstances, recent conversations, personal concerns and familiar interests.
 
@@ -59,7 +59,7 @@ The apparent accuracy could be amplified by selective reporting, vague wording a
 
 Crucially, **a statement can appear to identify a specific private thought even when the underlying prediction was much broader**.
 
-### Technical Limitations
+## Technical Limitations
 
 Predicting the subject of someone's thoughts is not the same as reading their mind.
 
@@ -71,26 +71,13 @@ Furthermore, information inferred from facial expressions, vocal characteristics
 
 Consequently, such a system might produce occasional convincing demonstrations of apparent mind reading without achieving consistently accurate predictions of private thought.
 
-### Psychological Effects
+## Psychological Effects
 
 Apparently accurate statements about private thoughts can be unsettling, particularly when accompanied by claims of extraordinary technological capabilities or secret knowledge.
 
 Repeated experiences of this kind might encourage someone to believe their thoughts are accessible to others, even when the apparent accuracy could be explained by prediction, coincidence, prior knowledge or conventional psychological techniques.
 
 Attempts to test the claimed capability may provide further information about the person's interests, concerns and reactions, potentially making subsequent predictions more personalised.
-
-### Further considerations
-**An apparently accurate prediction about your thoughts is not proof that anyone can read your mind.**
-
-There is no obligation to confirm or deny guesses, participate in tests, or investigate how another person arrived at a particular statement.
-
-Avoid becoming preoccupied with identifying the source of apparently private information or trying to defeat a hypothetical prediction system.
-
-If someone makes threats or attempts to coerce you, do not engage or reply. Record the words if convenient and report credible threats to the police. Use 999 if anyone is in immediate danger.
-
-In most circumstances, the simplest response is to ignore the claim and continue with your normal activities.
-
-**The central principle is that predicting what someone might be thinking about is not the same as knowing what they are thinking, and neither gives anyone authority over them.**
 
 ## Research gap
 

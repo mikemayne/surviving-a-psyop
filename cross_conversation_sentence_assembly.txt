@@ -6,7 +6,7 @@
 
 **Possible objectives:** Increase the effectiveness of other techniques, Provoke a reaction, Discredit the person, Make them appear guilty.
 
-## Description
+## The technique
 
 Two or three groups of people could have carefully crafted conversations that each contain part of a sentence meaningful to the person listening.
 
@@ -43,18 +43,20 @@ This could be exploited to discredit them. A particular danger is that their rea
 - **Pattern recognition and confirmation bias:** Once looking for a particular message, the listener is more likely to notice phrases that seem to fit.
 - **Hypervigilance:** Repeated monitoring of ambiguous conversations can itself increase distress and the sense that something significant is being said.
 
-## Defence
-
-**Ignore it.**
-
-Don't try to assemble fragments from other people's conversations, determine whether they're connected, or explain the supposed sentence to bystanders. Carry on with what you were doing.
-
-If you or someone else is in immediate danger, call **999**.
-
-See [Never Engage](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
-
 ## Research
 
 - **Auditory Scene Analysis: An Attention Perspective.** Explains how attention helps organise competing speakers and sound streams. https://pmc.ncbi.nlm.nih.gov/articles/PMC5945068/
 - **The Impact of Hypervigilance: Evidence for a Forward Feedback Loop.** Examines how attention to possible threats and anxiety can reinforce one another. https://pmc.ncbi.nlm.nih.gov/articles/PMC4211931/
 - **Phonetic categorization in auditory word perception (Ganong, 1980).** Demonstrates the influence of lexical context on ambiguous speech perception. https://pubmed.ncbi.nlm.nih.gov/6444985/
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**

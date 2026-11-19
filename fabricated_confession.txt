@@ -6,7 +6,7 @@
 
 **Example:** "He just said [insert admission of a crime]."
 
-## The Pattern
+## The pattern
 
 This is a claim that somebody has just confessed to a crime, made in the third person as though the speaker is reporting a fact. In the fabricated version of the pattern, the supposed confession never happened.
 
@@ -23,24 +23,6 @@ A statement *about* somebody is not a statement *made by* them. Hearing a person
 **Doubt about memory.** Repeatedly insisting that someone said something they do not remember saying can make them question their recollection, especially when stressed or tired. This can resemble gaslighting when it forms part of a persistent effort to undermine confidence in memory or perception. A single unsupported assertion is more precisely called false attribution; it does not, by itself, establish gaslighting.
 
 **Reputational harm.** A listener might repeat a supposed confession as though it were genuine. The allegation can then travel further than the original words, regardless of whether anyone checks what was actually said.
-
-## Don't Supply the Missing Context
-
-An overheard sentence may be mistaken, quoted from elsewhere, referring to another person or missing important context. The words "he" and "just" do not identify who is being discussed or establish that a crime occurred.
-
-It is useful to distinguish three different things:
-
-- What you directly heard: somebody said, "He just said [claim]."
-- What the speaker alleged: that someone else made an admission.
-- What actually happened: a separate question requiring reliable information.
-
-Those are not interchangeable. Do not turn an overheard assertion into a factual account of another person's speech or conduct.
-
-If the incident genuinely needs documenting, record the words as accurately as possible, along with the time and context if known. Avoid guessing at the intended subject, the speaker's motive or what others might believe. There is no need to catalogue every passing remark or spend hours trying to resolve ambiguous statements.
-
-If a serious accusation is made through an official channel, deal with the official process using accurate records and independent advice rather than confronting the person who made the remark.
-
-**Someone saying you confessed is not the same as you confessing.**
 
 ## Response
 

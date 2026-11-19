@@ -41,7 +41,7 @@ However:
 - A claim of national security involvement does not automatically prevent independent scrutiny or complaints.
 - Criminal proceedings in England and Wales are normally public. Courts can exclude the public from proceedings in exceptional circumstances, including for national security reasons, but this is governed by law and judicial decisions, not by an individual's threats.
 
-### Police officers are Crown servants
+# Police officers are Crown servants
 
 An important detail is that **Section 12(1)(e) of the Official Secrets Act 1989 expressly includes constables and people employed or appointed for the purposes of police forces within its definition of Crown servants.**
 
@@ -55,7 +55,7 @@ This does not mean that every disclosure to every police officer is automaticall
 
 The essential distinction is that **the Official Secrets Act protects certain information; it does not grant individuals a general licence to engage in unlawful conduct or prevent complaints about their behaviour.**
 
-## Further considerations
+
 **Do not accept someone's claim of official authority as legal advice.**
 
 There is no need to argue about whether a particular organisation, technology or operation exists, or to persuade the person making the claim to explain themselves.

@@ -1,4 +1,4 @@
-### ELECTROMAGNETIC AUDIO INJECTION AND AIR-GAPPED DEVICES
+# Electromagnetic Audio Injection and Air-Gapped Devices
 
 Disconnecting a computer, television or other electronic device from the internet is an effective way of preventing many forms of remote network-based interference. However, an air gap does not necessarily prevent every form of interference with the device's hardware.
 
@@ -28,7 +28,7 @@ Where a specific audio anomaly can be reproduced, independent technical assessme
 
 **The central principle is that network isolation protects against network communications, whereas electromagnetic compatibility is a separate engineering concern. Neither should be confused with evidence that a particular device is under external control.**
 
-### TEMPEST AND THE LIMITATIONS OF AIR-GAPPED DEVICES
+## TEMPEST and the limitations of air gaps
 
 An **air gap** is the physical isolation of an electronic device from external networks, including the internet. Although effective against many conventional cyberattacks, an air gap does not provide complete protection against every form of electronic surveillance or interference.
 

@@ -1,4 +1,4 @@
-Experience: The “That was for [person]” source-identification remark
+# Source Identification — "That Was for Someone"
 
 **Effects:** Increase confusion, Increase distress, Increase suggestibility.
 
@@ -6,7 +6,7 @@ Experience: The “That was for [person]” source-identification remark
 
 If you say something to yourself, without identifying who you are talking about and they say “That was for [person’s name].” They can't read your mind, they're just using a cheap ML trick.  This can be used in combination with the inner monologue trick to first try to convince you that you said something you didn't then say who it was for.  This is just the combination of two cheap ML tricks.  
 
-### Technical explanation
+## How it might work
 
 The first component is **natural language generation**. A language model can produce short, first-person statements resembling someone's ordinary inner monologue. If those statements are presented in a familiar voice, repetition and suggestion may encourage the listener to experience them as personally relevant or mistakenly attribute their source.
 
@@ -16,7 +16,7 @@ The psychological mechanism involves **priming, suggestion and source-monitoring
 
 In combination, the two techniques can simulate knowledge of both what somebody is thinking and whom they are thinking about. The technical operations are simply generating plausible language and predicting a likely referent. Where speech is entirely internal and no behavioural information is available, the prediction must rely on contextual probabilities rather than direct observation of the thought.
 
-### Object-description variation
+## Object-description variation
 
 The same hypothetical prediction-and-attribution trick could concern an object. If somebody strokes their beard, another person might ask, "Did he just call that his Marx beard?" An LLM using the person's speech, humour and familiar cultural references might generate plausible nicknames.
 

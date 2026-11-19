@@ -4,13 +4,13 @@
 
 **Possible objectives:** Increase the effectiveness of other techniques, Provoke a reaction.
 
-### The technique
+## The technique
 
 An argument can be diverted by interpreting ordinary words according to an excessively narrow or literal definition, rather than the meaning that is clear from the context.
 
 Instead of engaging with what someone is saying, the other person challenges an approximation, figure of speech or minor choice of words. A straightforward conversation can then become a lengthy dispute about terminology.
 
-### What it can look like
+## What it can look like
 
 - "You said *everyone* was upset, but you haven't spoken to literally everyone."
 - "You said it happens *constantly*, but it didn't happen yesterday afternoon."
@@ -19,24 +19,22 @@ Instead of engaging with what someone is saying, the other person challenges an 
 
 The objection might be technically arguable while having little bearing on the point being made.
 
-### Why it works
+## Why it works
 
 Repeated demands for precision can shift the discussion away from the underlying issue and onto the speaker's wording. They may feel obliged to defend casual expressions, explain obvious context and keep revising their statements.
 
 When used deliberately, this can exhaust the speaker or create the misleading impression that their substantive point has been disproved, when only a minor phrasing issue has been identified.
 
-### Further considerations
+
 Even a brief correction, such as explaining what a word was intended to mean, can draw you into a discussion. **Do not engage with someone using pedantic objections to provoke you.** Do not clarify, defend your wording, acknowledge their point or try to redirect the conversation. Ignore them completely.
 
 If accurate wording matters for a formal report, legal process or ordinary work, make the correction independently in that setting. That is different from arguing with a provocative speaker.
 
-### An important distinction
+## An important distinction
 
 Not every request for clarification is manipulation. People can reasonably disagree about definitions, and technical, medical and legal questions sometimes require very precise wording.
 
 The more useful distinction is between **trying to understand what someone means** and **repeatedly arguing about minor wording after that meaning is already clear**.
-
-**Do not clarify anything to the provocateur. Ignore the remarks and return to your own activities.**
 
 ## Response
 

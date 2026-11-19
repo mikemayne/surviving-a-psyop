@@ -1,12 +1,16 @@
-### Talking
+# Talking
 
 **Effects:** Impair judgement, Increase distress, Increase confusion.
 
 **Possible objectives:** Increase the effectiveness of other techniques, Provoke a reaction.
 
-**Objective:** To encourage an individual to interpret ordinary speech as a form of covert communication, creating opportunities to manipulate their behaviour, provoke incriminating actions, and cause innocent remarks by uninvolved people to be misinterpreted as deliberate threats or insults.
+## The objective
 
-**Method:** The individual is encouraged to believe that apparently ordinary statements can carry a second, hidden meaning. This establishes an informal system of coded communication in which the intended meaning is never explicitly stated but is instead inferred from context, timing, previous conversations, or apparently coincidental references.
+The aim is to encourage an individual to interpret ordinary speech as a form of covert communication, creating opportunities to manipulate their behaviour, provoke incriminating actions, and cause innocent remarks by uninvolved people to be misinterpreted as deliberate threats or insults.
+
+## The technique
+
+The individual is encouraged to believe that apparently ordinary statements can carry a second, hidden meaning. This establishes an informal system of coded communication in which the intended meaning is never explicitly stated but is instead inferred from context, timing, previous conversations, or apparently coincidental references.
 
 This can be exploited in two distinct ways:
 
@@ -14,11 +18,11 @@ This can be exploited in two distinct ways:
 
 2. **Misinterpretation of innocent speech.** Once the individual has become accustomed to searching for hidden meanings, completely unrelated statements by people with no involvement can be interpreted as coded insults, threats, or instructions. Ordinary conversations, coincidental phrases, and harmless remarks can acquire apparent significance simply because they resemble earlier examples of coded communication. This can progressively undermine trust in strangers, friends, and everyday social interactions. Innocuous statements are often re-interpreted by abusers to give them meaning they did not have after the fact.
 
-**Psychological mechanisms:** The technique exploits priming, associative learning, pattern recognition, confirmation bias, and ambiguity. Repeated exposure to apparently meaningful coincidences can encourage a habit of interpreting otherwise unremarkable speech as personally directed communication. Emotional reactions to perceived insults or threats can then reinforce that habit.
+## How it works
+
+The technique exploits priming, associative learning, pattern recognition, confirmation bias, and ambiguity. Repeated exposure to apparently meaningful coincidences can encourage a habit of interpreting otherwise unremarkable speech as personally directed communication. Emotional reactions to perceived insults or threats can then reinforce that habit.
 
 The particularly manipulative aspect is that the second mechanism requires no active participation by the people whose remarks are being interpreted. Once the expectation of covert communication has been established, ordinary social interactions can supply an effectively unlimited stream of ambiguous material.
-
-**Countermeasure:** Refuse to participate in covert communication. Interpret statements according to their ordinary, explicit meaning rather than attempting to decode implied messages. Never act on an inferred instruction, and do not attribute hostile intentions to someone merely because their words could be interpreted as having a hidden meaning. When an instruction genuinely matters, require it to be communicated directly and unambiguously.
 
 ## Response
 
