@@ -57,6 +57,10 @@ If content is disturbing, disengage from it and return to ordinary activities. T
 
 **The central principle is that audiovisual realism does not guarantee authenticity, but apparent personal relevance does not establish deliberate communication. Independent verification is more useful than attempting to interpret ambiguous material as a coded exchange.**
 
+## Research gap
+
+Editing and synthesis techniques are established, but a claim that a particular item was manipulated requires analysis of that item and its provenance. Controlled forensic benchmarks can measure detection limits; there is no single universal visual sign.
+
 ## Response
 
 **Don't engage at all. Record if convenient, then get on with your day.**

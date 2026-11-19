@@ -22,6 +22,10 @@ The same hypothetical prediction-and-attribution trick could concern an object. 
 
 As with "That was for [person's name]", the question could both guess and suggest an interpretation. Hearing the name may bring it to mind even if it was not there before. A gesture provides context, not access to private speech or thought.
 
+## Research gap
+
+Language models can rank plausible referents from context. Whether combining that ranking with an externally supplied phrase would consistently make listeners misattribute a thought's subject has not been established. Consensual source-memory tests could examine the combined effect.
+
 ## Claims presented as explanations
 
 During a period of sleep deprivation, I was told that "super-advanced bugs" had been deployed in my house and could hear my subvocalisations. I was also told that I say everything I think out loud. I do not. No known listening bug can hear silent subvocalisations or unspoken thoughts from across a room.

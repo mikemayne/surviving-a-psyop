@@ -25,11 +25,13 @@ For example, someone might encounter the same misleading explanation several tim
 
 If these effects were deliberately exploited, the objective could be to establish a mistaken interpretation that continues to influence decisions even after sleep improves. The immediate effect would not necessarily be a dramatic reaction; it might be a lasting tendency to favour one explanation over alternatives.
 
-## What the Research Establishes — and Does Not
+## What research supports
 
-Research provides separate support for sleep deprivation increasing some forms of false memory, and for repetition increasing the perceived truth of statements. The illusory truth effect has been measured after delays of days or weeks.
+Sleep deprivation can increase false memories in some circumstances. Repetition can increase the perceived truth of statements, with effects observed days or weeks later.
 
-These findings do **not** establish that combining sleep deprivation with repeated psychological tricks reliably creates lasting beliefs. Sleep loss can also impair learning, and effects vary with circumstances. The persistence of an interpretation cannot by itself reveal how it arose or whether anyone intended to influence it.
+## Research gap
+
+Whether repeated misleading suggestions during sleep deprivation can establish a false association that persists after sleep recovers has not been established. Direct tests involving prolonged forced sleep loss and psychological coercion would raise serious ethical concerns.
 
 Further reading:
 

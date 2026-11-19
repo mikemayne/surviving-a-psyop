@@ -42,6 +42,10 @@ These vulnerabilities have significant practical limitations involving distance,
 
 **The central principle is that an air gap isolates network communications, not every possible physical communication channel.** Nevertheless, disconnecting from the internet remains an effective security precaution, and the existence of these techniques does not mean an ordinary disconnected device is compromised.
 
+## Research gap
+
+Electromagnetic coupling and side channels have been demonstrated for particular equipment and conditions. Reliable, intelligible speech injection across arbitrary disconnected devices, distances and environments is not established; this is primarily an equipment-specific engineering question.
+
 ## Response
 
 **Don't engage at all. Record if convenient, then get on with your day.**

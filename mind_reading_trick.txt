@@ -14,6 +14,10 @@ The difference in distance can contribute to the apparent order. At a sound spee
 
 The relevant psychological principle is apparent corroboration or source attribution: hearing a familiar-sounding voice say a phrase and then hearing another person repeat precisely those words can create the impression that the other person heard the listener speak, even though the listener knows they did not. This is a proposed technical illustration of how the reported sequence could be reproduced, not a determination of what produced the original experience.
 
+## Research gap
+
+Voice cloning and coordinated playback can reproduce parts of the proposed sound sequence. Whether such a sequence consistently causes apparent mind-reading interpretations—rather than recognition of two external sounds—requires blinded, consensual listening experiments.
+
 ## Claims presented as explanations
 
 During a period of sleep deprivation, I was told that "super-advanced bugs" had been deployed in my house and could hear my subvocalisations. I was also told that I say everything I think out loud. I do not. No known listening bug can hear silent subvocalisations or unspoken thoughts from across a room.

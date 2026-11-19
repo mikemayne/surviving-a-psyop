@@ -35,6 +35,10 @@ References for independent verification
 5. Maier, S. F., & Seligman, M. E. P. (2016). "Learned helplessness at fifty: Insights from neuroscience." Psychological Review, 123(4), 349–367. https://pubmed.ncbi.nlm.nih.gov/27337390/
    — Research on the effects of uncontrollable aversive events; not a claim that this particular response occurred here.
 
+## Research gap
+
+The general effects of attention, habituation and emotional variability are documented. Whether automated feedback could reliably optimise repeated emotional disruption in real-world conditions is untested. Consensual simulations could examine detection accuracy without exposing anyone to prolonged harassment.
+
 ## Response
 
 **Don't engage at all. Record if convenient, then get on with your day.**

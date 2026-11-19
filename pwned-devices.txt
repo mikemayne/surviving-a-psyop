@@ -46,6 +46,10 @@ Avoid spending excessive time trying to determine whether particular pieces of i
 
 Assume they can hack everything.  They will generally not make it obvious when a device is hacked.
 
+## Research gap
+
+Compromised devices can change what a user sees or hears, but whether an individual device was compromised is a forensic question, not a psychological inference. Reproducible artefacts and independent technical examination are more useful than extrapolating from unusual content.
+
 ## Response
 
 **Don't engage at all. Record if convenient, then get on with your day.**

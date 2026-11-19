@@ -38,7 +38,11 @@ Once a particular wording has been supplied, it can become easier to hear that w
 
 SUMMARY OF THE HYPOTHETICAL
 
-An ambiguous sound is followed by a confident verbal interpretation. A correct interpretation may create the illusion of private knowledge; an incorrect one may still introduce an emotionally salient concept or bias later interpretation. Even an explicitly rejected suggestion has been heard and considered. The mechanism relies on known properties of perception and cognition, not on reading thoughts. The magnitude and reliability of each effect would need to be tested rather than assumed.
+An ambiguous sound is followed by a confident verbal interpretation. A correct interpretation may create the illusion of private knowledge; an incorrect one may still introduce an emotionally salient concept or bias later interpretation. Even an explicitly rejected suggestion has been heard and considered. The mechanism relies on known properties of perception and cognition, not on reading thoughts.
+
+RESEARCH GAP
+
+Whether a staged interpretation reliably produces the impression of mind-reading or lasting source confusion has not been tested as a complete sequence. Short, consensual perception experiments are possible; sustained coercive versions would raise ethical concerns.
 
 RESEARCH REFERENCES
 
