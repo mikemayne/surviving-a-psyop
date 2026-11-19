@@ -305,6 +305,24 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/projection.txt"
     },
     {
+      "id": "attributing_displaced_anger",
+      "title": "Attributing Displaced Anger",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/attributing_displaced_anger.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/attributing_displaced_anger",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/attributing_displaced_anger.txt"
+    },
+    {
+      "id": "implied_consequences",
+      "title": "Implied Consequences",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/implied_consequences.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/implied_consequences",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/implied_consequences.txt"
+    },
+    {
       "id": "accusation_laundering",
       "title": "Accusation Laundering",
       "category": "Recognising manipulation",

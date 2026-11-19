@@ -1460,5 +1460,30 @@
       "victim_blaming",
       "accusations_of_disloyalty"
     ]
+  },
+  "attributing_displaced_anger": {
+    "intro": "Explains how a claim that someone is taking their anger out on another person can assign motives, redirect responsibility and create conflict around an unverified explanation.",
+    "questions": [
+      "How can a claim about displaced anger influence who gets blamed for someone's behaviour?",
+      "Why should I distinguish someone's actions from an explanation of their motives?"
+    ],
+    "related": [
+      "projection",
+      "victim_blaming",
+      "accusation_baiting"
+    ]
+  },
+  "implied_consequences": {
+    "intro": "Explains how remarks such as 'Keep digging!' can imply that continuing an unspecified action will lead to unspecified trouble, leaving the listener to supply both meanings.",
+    "questions": [
+      "What makes 'Keep digging!' an example of implied consequences?",
+      "How can an ambiguous remark make ordinary actions feel risky without specifying a threat?",
+      "How is an implied consequence different from a direct threat or an unspecified boundary warning?"
+    ],
+    "related": [
+      "the_imaginary_line",
+      "presence_threat",
+      "threatening_consequences_for_seeking_help"
+    ]
   }
 }
