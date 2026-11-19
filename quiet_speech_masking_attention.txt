@@ -8,13 +8,11 @@
 
 ## The proposed technique
 
-I experienced extremely quiet negging in front of other people, but only in voices I recognised and associated with extreme stress. It was perhaps only a few dB above the background noise. The background was generally music, mostly instrumental music, but sometimes a noise machine while I was trying to sleep.
+I experienced extremely quiet negging in front of other people, but only in voices I recognised and associated with extreme stress. The voices were perhaps only a few dB above background noise, and nobody else appeared able to hear them. The background was generally music, mostly instrumental music, but sometimes a noise machine while I was trying to sleep.
 
-I was the only person listening out for the negging. Nobody else appeared to notice it.
+**A quiet voice can be audible to somebody who is listening for it, even when other people don't notice it.** A signal only 3 dB above the background noise isn't necessarily difficult to hear. It depends on the sound, the listener's attention and how the speech overlaps the noise.
 
-Could that difference in attention explain why? **A quiet voice can be audible to somebody who is listening for it, even when other people don't notice it.** A signal only 3 dB above the background noise isn't necessarily difficult to hear. It depends on the sound, the listener's attention and how the speech overlaps the noise.
-
-If somebody deliberately took advantage of this effect, they might be able to make provocative remarks in public while reducing the chance that other people notice them. The proposed objective would be to **enable other forms of abuse in public spaces and discredit the person if they complain**.
+Someone taking advantage of this can use other psychological techniques in public while reducing the making it unlikely that other people notice them. The proposed objective here is to **enable other forms of abuse in public spaces and discredit the person if they complain**.
 
 ## How it might work
 
@@ -27,6 +25,8 @@ If somebody deliberately took advantage of this effect, they might be able to ma
 **Music and background noise.** Instrumental music and noise machines can mask quiet speech, but not necessarily make it inaudible. What gets through depends on the frequencies, changes in volume, gaps in the sound and where people are listening from. Different people may also be hearing different mixes of the speech and background noise.
 
 These effects don't have to make the voice louder. They may make one person **more likely to notice and understand it** than somebody who isn't listening for it.
+
+**gist memory combined with source-memory uncertainty** If a member of the public did hear the voice, they are more likely to remember the accusation than the specific words and are not likely to be able to identify the source.  If they do say something, the abuser can just stop and it's unlikely there would be any proof of the event in any case.
 
 ## What happens after prolonged stress?
 
