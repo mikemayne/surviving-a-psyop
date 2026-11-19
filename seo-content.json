@@ -1288,5 +1288,17 @@
       "public_shaming",
       "preemptive_discrediting"
     ]
+  },
+  "pretend_planning": {
+    "intro": "Explains how indistinct, seemingly purposeful speech might draw someone's attention away from another activity; includes everyday descriptions of the pattern and reassurance when an indistinct conversation is their only concern.",
+    "questions": [
+      "Why might a barely audible conversation distract me from what I am doing?",
+      "If all I have noticed is an indistinct conversation next door, do I need to do anything?"
+    ],
+    "related": [
+      "accidentally_overheard",
+      "cross_conversation_sentence_assembly",
+      "never_engage"
+    ]
   }
 }

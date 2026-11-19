@@ -1697,6 +1697,25 @@
         "credibility_concerns",
         "social_withdrawal"
       ]
+    },
+    "pretend_planning": {
+      "kind": "technique",
+      "possible_goal": "capture the listener's attention to make other techniques more effective",
+      "possible_emotional_effects": [
+        "curiosity",
+        "uncertainty",
+        "unease"
+      ],
+      "possible_behavioural_responses": [
+        "straining to hear indistinct speech",
+        "diverting attention from the current activity",
+        "monitoring nearby conversations"
+      ],
+      "possible_cumulative_effects": [
+        "heightened_vigilance",
+        "uncertainty",
+        "rumination"
+      ]
     }
   },
   "cumulative_effect_taxonomy": {
