@@ -1175,6 +1175,18 @@
       "take_back_control"
     ]
   },
+  "listening_in": {
+    "intro": "Why listening out for personally relevant fragments can reinforce hypervigilance, and why ignoring overheard conversations protects attention.",
+    "questions": [
+      "Why does hearing my name make a background conversation difficult to ignore?",
+      "Why is it better not to try to interpret conversations I can only partly hear?"
+    ],
+    "related": [
+      "the_time_gap",
+      "pretend_planning",
+      "accidentally_overheard"
+    ]
+  },
   "primed_thought_attribution": {
     "intro": "A hypothetical sequence in which hearing a phrase makes it mentally accessible before someone claims the listener just thought it. Explains priming, source monitoring and why apparent thought-reading does not follow.",
     "questions": [
