@@ -2,7 +2,7 @@
   "schema_version": 2,
   "description": "Chapter-linked qualitative metadata for comparing possible objectives, emotional effects, behavioural responses and cumulative effects. These represent hypothetical mechanisms, not proof of coordination or motive.",
   "usage": "Compare the reported conduct, context and chronology first. Keep distinct (1) a chapter's possible intended objective, (2) the visitor's reported emotional impact, and (3) the actual behavioural response or outcome. An intended action does not have to occur for that goal to remain a possible hypothesis: for example, staying calm or feeling only frustration does not by itself rule out an attempted provocation, and anger does not prove one. Emotions and responses are secondary context, never a motive-detection test. For a connected-events hypothetical, examine shared effect tags and possible transitions without inventing stages. Lead with 'If the events are connected, then the likely goal is X' only when a coherent candidate emerges, and avoid repetitive disclaimers; prioritise safe, proportionate coping and reporting advice. N/A means no specific inference is supported.",
-  "chapter_count": 121,
+  "chapter_count": 123,
   "chapters": {
     "introduction": {
       "kind": "overview",
@@ -1910,6 +1910,50 @@
         "rumination",
         "credibility_concerns",
         "anger_frustration",
+        "cumulative_stress"
+      ]
+    },
+    "attributing_displaced_anger": {
+      "kind": "technique",
+      "possible_goal": "redirect responsibility for someone's behaviour, supply an unverified explanation, or create conflict involving a third party",
+      "possible_emotional_effects": [
+        "confusion",
+        "defensiveness",
+        "resentment",
+        "guilt"
+      ],
+      "possible_behavioural_responses": [
+        "taking sides",
+        "feeling responsible for another person's behaviour",
+        "redirecting blame",
+        "trying to mediate a conflict"
+      ],
+      "possible_cumulative_effects": [
+        "rumination",
+        "interpersonal_conflict",
+        "misplaced_guilt",
+        "cumulative_stress"
+      ]
+    },
+    "implied_consequences": {
+      "kind": "technique",
+      "possible_goal": "create apprehension, discourage an action, or provoke speculation about unspecified consequences",
+      "possible_emotional_effects": [
+        "uncertainty",
+        "apprehension",
+        "fear",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "self-censorship",
+        "changing plans",
+        "stopping an ordinary activity",
+        "ruminating about possible consequences"
+      ],
+      "possible_cumulative_effects": [
+        "anticipatory_anxiety",
+        "avoidance",
+        "rumination",
         "cumulative_stress"
       ]
     }
