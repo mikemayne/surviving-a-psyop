@@ -629,6 +629,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/pretend_planning.txt"
     },
     {
+      "id": "presence_threat",
+      "title": "Presence Threat",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/presence_threat.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/presence_threat",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/presence_threat.txt"
+    },
+    {
       "id": "the_imaginary_line",
       "title": "The Imaginary Line",
       "category": "Intimidation & pressure",
