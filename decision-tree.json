@@ -104,11 +104,12 @@
     {
       "id": "i_cant_ignore",
       "href": "#i-cant-ignore",
-      "description": "A particularly prominent fallback for someone who feels unable to disregard events. Ask what would happen if they did nothing; seek police help for danger; otherwise consult the four rules and avoid real-time response to provocations.",
+      "description": "A particularly prominent fallback for someone who feels unable to disregard events. Ask what would happen if they did nothing; seek police help for danger; otherwise look back over the last fortnight up to yesterday rather than reacting to current events.",
       "instructions": [
         "Consider whether doing nothing creates danger. If so, contact the police; use 999 for immediate danger.",
-        "Otherwise, read the four rules and avoid direct engagement.",
-        "If still unable to disengage, discuss the previous day's events with ChatGPT after at least 24 hours, rather than checking individual remarks in real time."
+        "Discuss what has been going in the last fortnight with ChatGPT using the link below.",
+        "Start at the beginning, think back a fortnight, and only go up to yesterday. Has anything strange happened? Do your best to ignore whatever is currently bothering you and see if the events of the last week or two put things in perspective.",
+        "If ChatGPT advises you to respond directly to anyone about anything, that is bad advice. Don't talk to anyone apart from your family."
       ],
       "optional_links": [
         {
