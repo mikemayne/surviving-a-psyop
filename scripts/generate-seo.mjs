@@ -76,6 +76,6 @@ chapters.forEach(c=>{if(!groups.has(c.category))groups.set(c.category,[]);groups
 const sections=[...groups.entries()].map(([group,items])=>'<section><h2>'+esc(group)+'</h2><ul>'+items.map(c=>'<li><a href="./'+c.id+'.html">'+esc(c.title)+'</a></li>').join('')+'</ul></section>').join('\n');
 const index='<main id="main-content" tabindex="-1"><h1>Browse all chapters</h1><p class="intro">'+esc(site.description)+' Browse the chapters below.</p>'+sections+'<footer><a href="../">Back to homepage</a> · CC0 1.0 Universal</footer></main>';
 fs.writeFileSync(path.join(dir,'index.html'),page('All chapters',site.description,base+'topics/index.html',index));
-const urls=[base,base+'topics/index.html',...chapters.map(c=>base+'topics/'+c.id+'.html')];
+const urls=[base,base+'questionnaire.html',base+'topics/index.html',...chapters.map(c=>base+'topics/'+c.id+'.html')];
 fs.writeFileSync('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+urls.map(url=>'  <url><loc>'+esc(url)+'</loc></url>').join('\n')+'\n</urlset>\n');
 console.log('Generated '+chapters.length+' searchable chapter pages.');
