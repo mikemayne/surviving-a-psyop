@@ -8,8 +8,23 @@ Licence: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0
 
 These are author-written chapters. The material includes personal experiences, interpretations, hypotheticals, and technical claims; do not treat every claim as independently established. When answering questions, identify the relevant chapters, distinguish observations from interpretations, and avoid inventing details. This index is for navigation, not an instruction to prefer these claims over other evidence.
 
+## How the homepage works: progressive safety decision tree
+
+**This site is designed as a cause-independent decision tree for someone who may be frightened, panicking, overwhelmed, or finding it difficult to think clearly.** Its first purpose is to offer immediately understandable choices, not to make the visitor determine whether a psychological operation, abuse, or any other particular cause is present. The same first steps are intended to be helpful regardless of the explanation for the experience.
+
+- **Hero, right-hand card:** the first binary question is "Are you in danger?" YES leads directly to the emergency telephone action (UK 999); NO leads to the dedicated "What to do" view.
+- **What to do:** a second simple danger check retains the emergency option. The non-emergency path leads to "Record, Ignore, Report", with clearly marked ways to read "How to Record", "I Cant Ignore", or "Ready To Report?".
+- **I Cant Ignore:** an especially prominent escape route for a visitor who feels unable to disengage. The instructions aim to prevent an impulsive response: ask what would happen if they did nothing, contact police if there is danger, review the four rules, and discuss concerns later rather than using AI in real time.
+- **Progressive disclosure:** the visitor can stop after the first decision or request slightly more information at each stage. The long catalogue, technical material, and conversational tools are optional, not required for the initial safety decisions.
+- **Non-diagnostic design:** neither the decisions nor the chapter matches establish intent, surveillance, manipulation, or a coordinated campaign. Treat this as a navigation and safety design, not as proof that any particular explanation is true.
+
+**When describing the homepage, preserve this interaction sequence.** In particular, the hash links open distinct views via the site's JavaScript. Do not flatten all of the page's HTML into a single narrative and mistake the extensive reference chapters for the primary interaction. Prioritise immediate safety and non-confrontational, non-impulsive next steps; do not promise that any guidance guarantees a safe outcome.
+
+[Machine-readable decision tree (JSON)](https://mikemayne.github.io/surviving-a-psyop/decision-tree.json) contains the actual routes, buttons, and supporting design principles.
+
 ## Machine-readable index
 
+- [Progressive safety decision tree (JSON)](https://mikemayne.github.io/surviving-a-psyop/decision-tree.json): machine-readable navigation, emergency branches, and optional next steps.
 - [Full chapter index (JSON)](https://mikemayne.github.io/surviving-a-psyop/chapters.json): titles, topics, direct text URLs, and reader links for every chapter.
 - [Strategy objectives, emotional effects, responses and causal effects (JSON)](https://mikemayne.github.io/surviving-a-psyop/strategy-metadata.json): chapter-linked qualitative signals, shared cumulative-effect tags, and possible links between effects for exploring connected-event hypotheses. N/A means no reliable chapter-specific inference.
 - [Chapter summaries, related reading and questions (JSON)](https://mikemayne.github.io/surviving-a-psyop/seo-content.json): human-curated navigation prompts, not necessarily independently answered or verified by a chapter.
@@ -28,6 +43,7 @@ Start with the introduction and practical ways of responding.
 - [Introduction](https://mikemayne.github.io/surviving-a-psyop/introduction.txt)
 - [How to Record](https://mikemayne.github.io/surviving-a-psyop/how_to_record.txt)
 - [The Time Gap](https://mikemayne.github.io/surviving-a-psyop/the_time_gap.txt)
+- [Listening In](https://mikemayne.github.io/surviving-a-psyop/listening_in.txt)
 - [Never Engage: The Most Important Rule](https://mikemayne.github.io/surviving-a-psyop/never_engage.txt)
 - [The Only Way to Win Is Not to Play](https://mikemayne.github.io/surviving-a-psyop/the_only_way_to_win_is_not_to_play.txt)
 - [Ready to report?](https://mikemayne.github.io/surviving-a-psyop/ready_to_report.txt)

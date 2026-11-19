@@ -44,6 +44,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/the_time_gap.txt"
     },
     {
+      "id": "listening_in",
+      "title": "Listening In",
+      "category": "Begin here",
+      "category_description": "Start with the introduction and practical ways of responding.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/listening_in.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/listening_in",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/listening_in.txt"
+    },
+    {
       "id": "never_engage",
       "title": "Never Engage: The Most Important Rule",
       "category": "Begin here",
@@ -618,6 +627,15 @@
       "url": "https://mikemayne.github.io/surviving-a-psyop/pretend_planning.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/pretend_planning",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/pretend_planning.txt"
+    },
+    {
+      "id": "the_imaginary_line",
+      "title": "The Imaginary Line",
+      "category": "Intimidation & pressure",
+      "category_description": "Descriptions of emotionally forceful and coercive tactics.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/the_imaginary_line.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/the_imaginary_line",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/the_imaginary_line.txt"
     },
     {
       "id": "cross_conversation_sentence_assembly",
