@@ -1884,9 +1884,9 @@
         "trying to move on prematurely"
       ],
       "possible_cumulative_effects": [
-        "self_doubt",
+        "credibility_concerns",
         "inhibited_reporting",
-        "isolation",
+        "social_withdrawal",
         "cumulative_stress"
       ]
     }
