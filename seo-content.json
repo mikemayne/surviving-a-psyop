@@ -1410,5 +1410,17 @@
       "manipulated_media",
       "pwned-devices"
     ]
+  },
+  "fear_of_hacking": {
+    "intro": "Explains how constant discussion of hypothetical hacking threats can turn ordinary technology use into a source of hypervigilance and distraction, even without an actual intrusion.",
+    "questions": [
+      "How can fear of hacking distract someone from what they are trying to achieve?",
+      "When does sensible cybersecurity awareness become disproportionate threat monitoring?"
+    ],
+    "related": [
+      "there_is_no_privacy",
+      "pwned-devices",
+      "personal_security_notes"
+    ]
   }
 }
