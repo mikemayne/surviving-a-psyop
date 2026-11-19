@@ -224,3 +224,11 @@ There is no need to test the claimed ability, correct inaccurate predictions or 
 If you or someone else is in immediate danger, get to safety and call **999**.
 
 **If you don't react, you don't give them anything to work with.**
+
+## Proposed extension: motion-informed sensor fusion
+
+As motion-sensing and action-prediction technology improves, a further extension would be to feed predicted physical actions into the existing fusion model. Video, mmWave radar or other suitable sensors might detect preparatory movement and estimate what someone is about to do before the action is complete.
+
+The model could then use that prediction to reweight its shortlist of candidate interpretations. If two interpretations imply different actions, movement data might help distinguish them and improve the precision of the overall model. Habit and contextual information could contribute to the same comparison.
+
+This would be **probabilistic disambiguation**, not confirmation of a private thought: different thoughts can produce the same movement, and the same thought need not produce any particular movement. The proposed improvement would need to be measured against independently reported intentions, rather than inferred solely from observed actions.
