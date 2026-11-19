@@ -31,6 +31,7 @@ These are author-written chapters. The material includes personal experiences, i
 - [Searchable HTML chapter index](https://mikemayne.github.io/surviving-a-psyop/topics/index.html): standalone pages with chapter text, context, questions and links.
 - [Introduction](https://mikemayne.github.io/surviving-a-psyop/introduction.txt)
 - [Never Engage: The Most Important Rule](https://mikemayne.github.io/surviving-a-psyop/never_engage.txt)
+- [The Only Way to Win Is Not to Play](https://mikemayne.github.io/surviving-a-psyop/the_only_way_to_win_is_not_to_play.txt)
 - [Up or Down — How to Ignore Repeated Statements](https://mikemayne.github.io/surviving-a-psyop/up_or_down.txt): starting principles, practical advice, and reporting guidance.
 
 ## Chapters
@@ -43,6 +44,8 @@ Start with the introduction and practical ways of responding.
 - [How to Record](https://mikemayne.github.io/surviving-a-psyop/how_to_record.txt)
 - [The Time Gap](https://mikemayne.github.io/surviving-a-psyop/the_time_gap.txt)
 - [Listening In](https://mikemayne.github.io/surviving-a-psyop/listening_in.txt)
+- [Never Engage: The Most Important Rule](https://mikemayne.github.io/surviving-a-psyop/never_engage.txt)
+- [The Only Way to Win Is Not to Play](https://mikemayne.github.io/surviving-a-psyop/the_only_way_to_win_is_not_to_play.txt)
 - [Ready to report?](https://mikemayne.github.io/surviving-a-psyop/ready_to_report.txt)
 - [Take back control](https://mikemayne.github.io/surviving-a-psyop/take_back_control.txt)
 - [Don't chase](https://mikemayne.github.io/surviving-a-psyop/dont_chase.txt)
