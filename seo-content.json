@@ -1312,5 +1312,17 @@
       "cross_conversation_sentence_assembly",
       "never_engage"
     ]
+  },
+  "the_imaginary_line": {
+    "intro": "Explains how a vague declaration that someone has crossed a boundary can create apprehension about unspecified consequences, and why an ambiguous remark need not prompt an immediate response.",
+    "questions": [
+      "What makes phrases such as 'Right, that's it!' or 'Now you're for it' feel threatening when no consequence is specified?",
+      "How can I avoid getting drawn into trying to work out what an ambiguous remark means?"
+    ],
+    "related": [
+      "threatening_consequences_for_seeking_help",
+      "false_endings",
+      "never_engage"
+    ]
   }
 }
