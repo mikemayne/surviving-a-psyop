@@ -1930,9 +1930,8 @@
       ],
       "possible_cumulative_effects": [
         "rumination",
-        "interpersonal_conflict",
-        "misplaced_guilt",
-        "cumulative_stress"
+        "mistrust",
+        "anger_frustration"
       ]
     },
     "implied_consequences": {
@@ -1951,10 +1950,9 @@
         "ruminating about possible consequences"
       ],
       "possible_cumulative_effects": [
-        "anticipatory_anxiety",
-        "avoidance",
-        "rumination",
-        "cumulative_stress"
+        "threat_pressure",
+        "uncertainty",
+        "rumination"
       ]
     }
   },
