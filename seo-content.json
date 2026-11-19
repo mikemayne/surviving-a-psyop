@@ -144,6 +144,18 @@
       "take_back_control"
     ]
   },
+  "its_fine_to_change_your_mind": {
+    "intro": "Why people want to remain consistent, and why it is reasonable to reconsider an agreement made under pressure when you can decide freely.",
+    "questions": [
+      "Why can it feel difficult to change my mind after I have agreed to something?",
+      "Is it reasonable to reconsider an agreement made when I felt pressured or frightened?"
+    ],
+    "related": [
+      "take_back_control",
+      "feelings_can_change",
+      "dont_tolerate_mistreatment"
+    ]
+  },
   "stay_grounded": {
     "intro": "Practical advice for checking assumptions, considering simpler explanations, and separating direct experience from interpretation.",
     "questions": [
