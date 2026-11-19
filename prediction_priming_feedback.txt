@@ -129,6 +129,16 @@ The system could compare these observations before and after a statement to esti
 
 This introduces another possible feedback mechanism: **prediction, priming, observable reaction and updated prediction could form a continuous loop**, with information from different sensors contributing to the model's confidence.
 
+### Partial speech initiation
+
+Someone might occasionally emit just the beginning of a word they're thinking of without consciously intending to speak — perhaps a plosive or another fragment shorter than a syllable.
+
+An LLM with continuous context could already have a list of likely next words. If a microphone picked up that fragment, it could be another signal for the fusion system, making one prediction more likely than the others. The model wouldn't need to recognise a complete word.
+
+Someone could then confidently ask, "Was that X?" If X happened to be correct, it could seem like extraordinary surveillance or mind reading when the explanation might be a cheap parlour trick: prediction, context and a small piece of audible information.
+
+The technical limitation is whether such tiny, unintentional sounds can be reliably detected. Research into speech recognition and silent-speech interfaces supports the underlying principles, but not that specific capability with an ordinary microphone.
+
 An important technical limitation is that detecting a reaction does not establish what caused it or whether the original prediction was correct. Sensor fusion can improve the quality of observations, but it can also increase confidence without increasing accuracy if the signals are ambiguous or correlated.
 
 The proposed system would therefore use observable behaviour as probabilistic feedback rather than as a direct measurement of private thoughts.
@@ -170,6 +180,12 @@ The central unanswered question is whether repeated personalised prediction and 
 A controlled experiment could measure this distinction using consenting participants, comparing predictions recorded before a statement with thoughts reported independently before and after hearing it.
 
 A prolonged coercive experiment would present substantial ethical problems.
+
+## Technical references
+
+- **Speech context and word beginnings:** Broderick et al. (2022), *Parallel processing in speech perception with local and global representations of linguistic context*. https://pmc.ncbi.nlm.nih.gov/articles/PMC8830882/
+- **Silent-speech signals:** Kapur et al. (2018), *AlterEgo: A Personalized Wearable Silent Speech Interface*. https://www.media.mit.edu/publications/alterego-IUI/
+- **LLMs and speech-related signals:** Mohapatra et al. (2025), *Can LLMs Understand Unvoiced Speech? Exploring EMG-to-Text Conversion with LLMs*. https://aclanthology.org/2025.acl-short.56/
 
 ## Claims presented as explanations
 
