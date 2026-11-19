@@ -201,4 +201,25 @@ This would be **probabilistic disambiguation**, not confirmation of a private th
 
 ### Heartbeat as a physiological-response signal
 
-A fusion model can also consider heart rate, heart-rate variability and changes from an individual's baseline. Where a stimulus is presented, a subsequent change might help identify the timing of a physiological response, including a response the person did not consciously notice.  Again this is not a way to read your mind, its just a way to add a **physiological-response signal** to the fusion model. 
+A fusion model can also consider heart rate, heart-rate variability and changes from an individual's baseline. Where a stimulus is presented, a subsequent change might help identify the timing of a physiological response, including a response the person did not consciously notice.  Again this is not a way to read your mind, its just a way to add a **physiological-response signal** to the fusion model.
+
+### Possible additional physiological candidates for sensor fusion
+
+Other physiological signals could potentially add useful information to a multimodal fusion model. These are candidates to investigate, not established measurements that a through-wall mmWave system can reliably obtain.
+
+- **Ballistocardiographic movement:** Tiny movements caused by the mechanical forces of the heartbeat. Radar may capture some of this movement and provide information beyond simply counting heartbeats.
+- **Pulse waveform morphology:** The shape and amplitude of pulse-related movement may contain information about cardiovascular changes that is lost when the signal is reduced to a heart-rate figure.
+- **Beat-to-beat timing and heart-rate variability:** If individual cardiac cycles can be identified reliably, their timing may provide an estimate of heart-rate variability.
+- **Cardiorespiratory coupling:** The relationship between breathing and heartbeat, including respiratory sinus arrhythmia, could provide a combined measure of changes in autonomic activity.
+- **Pulse transit time:** Timing differences between pulse signals measured at different locations could potentially contribute to estimates of cardiovascular changes. This would require sufficiently reliable measurements at more than one location.
+- **Blood-pressure-related changes:** Pulse waveform features and timing might support indirect estimates of blood pressure, although this is considerably less direct than measuring a pulse.
+- **Muscle microtremor and tension:** Small involuntary movements, including tremor or changes in muscle tension, could provide additional movement signals where the sensor has sufficient resolution.
+- **Swallowing and throat movement:** Swallows and other small throat movements may be detectable as distinct physical events.
+- **Vocal-tract and speech-related vibration:** Radar might capture some movement associated with speech production, including vocal activity and articulatory movement.
+- **Postural sway and small adjustments:** Subtle changes in balance, posture and body position could provide information about movement or physical state.
+- **Startle and freezing responses:** Sudden movement, or a temporary reduction in movement, could be useful event-related signals when considered alongside the other measurements.
+- **Gait microstructure:** Changes in walking rhythm, step timing and movement consistency could provide further behavioural information when the person is moving.
+
+Some of these signals are more plausible than others for mmWave radar. Chest movement, cardiac mechanical movement, respiration and larger body movements are the more direct candidates. Estimates of pulse-wave characteristics or beat-to-beat timing depend on signal quality and validation. Blood pressure, pulse transit time and peripheral vasoconstriction are more indirect: they should not be treated as measurements that mmWave radar can simply read through a wall. Vasoconstriction in particular is usually assessed through changes in peripheral blood flow or skin blood volume, which may require a different sensing modality.
+
+The useful question for a fusion model would be whether any of these signals adds predictive information beyond the signals already available. Each candidate would need to be tested separately and then in combination, against an independent reference measurement. A signal that changes after a stimulus may help locate the timing of a response, but it does not by itself identify the cause of that response.
