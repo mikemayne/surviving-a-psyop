@@ -68,7 +68,8 @@
     "related": [
       "introduction",
       "dont_tolerate_mistreatment",
-      "stay_grounded"
+      "stay_grounded",
+      "delayed_responses_from_organisations"
     ]
   },
   "take_back_control": {
@@ -1359,6 +1360,18 @@
       "pretend_planning",
       "never_engage",
       "threatening_consequences_for_seeking_help"
+    ]
+  },
+  "delayed_responses_from_organisations": {
+    "intro": "How to use delays from organisations to regain composure, organise records, make Subject Access Requests, and pursue complaints calmly and persistently.",
+    "questions": [
+      "How can I make constructive use of a slow response from an organisation?",
+      "What can I do about a complaint I could not raise promptly, and when should I follow up?"
+    ],
+    "related": [
+      "ready_to_report",
+      "the_time_gap",
+      "stay_grounded"
     ]
   }
 }
