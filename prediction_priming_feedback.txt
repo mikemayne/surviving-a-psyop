@@ -1,4 +1,4 @@
-# Prediction-Priming Feedback: The Illusion of Mind Reading
+# Mind Reading
 
 **Effects:** Increase suggestibility, Increase confusion, Undermine confidence.
 
@@ -124,6 +124,10 @@ Rather than treating each sensor independently, a multimodal sensor-fusion model
 **The individual's reactions could also provide a continuous feedback signal.**
 
 For example, microphones could detect changes in speech patterns, cameras could detect facial expressions or movements, and Wi-Fi channel-state information (CSI) or mmWave radar might provide additional measurements of movement, breathing or other physiological activity.
+
+Acoustic cues could provide another set of weak signals. The duration of an audible "hmmmm", hesitation length, pauses, speech rhythm, pitch and breathing patterns might offer clues about cognitive workload or how long someone is deliberating. None of these cues measures the complexity or content of a private thought directly.
+
+If an LLM already had a shortlist of likely statements, a fusion model could use the audio cues to adjust their relative probabilities. Each cue would only need to improve the prediction slightly when combined with the others. Reliable feedback about whether predictions were correct could help identify which signals actually improve accuracy, rather than merely making the model more confident.
 
 The system could compare these observations before and after a statement to estimate whether the individual had reacted. It could then incorporate the feedback into subsequent predictions, potentially improving its personalised model over time.
 
