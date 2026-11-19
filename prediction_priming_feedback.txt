@@ -224,3 +224,19 @@ There is no need to test the claimed ability, correct inaccurate predictions or 
 If you or someone else is in immediate danger, get to safety and call **999**.
 
 **If you don't react, you don't give them anything to work with.**
+
+## Proposed extension: motion-informed sensor fusion
+
+As motion-sensing and action-prediction technology improves, a further extension would be to feed predicted physical actions into the existing fusion model. Video, mmWave radar or other suitable sensors might detect preparatory movement and estimate what someone is about to do before the action is complete.
+
+The model could then use that prediction to reweight its shortlist of candidate interpretations. If two interpretations imply different actions, movement data might help distinguish them and improve the precision of the overall model. Habit and contextual information could contribute to the same comparison.
+
+This would be **probabilistic disambiguation**, not confirmation of a private thought: different thoughts can produce the same movement, and the same thought need not produce any particular movement. The proposed improvement would need to be measured against independently reported intentions, rather than inferred solely from observed actions.
+
+### Heartbeat as a physiological-response signal
+
+A future fusion model could also consider heart rate, heart-rate variability and changes from an individual's baseline. Where a stimulus is presented, a subsequent change might help identify the timing of a physiological response, including a response the person did not consciously notice.
+
+This could be useful when studying subliminal priming, but it would not establish that a message was subconsciously understood or that priming succeeded. Detecting a sound, processing its meaning and having later thoughts or behaviour influenced by it are different outcomes. Heartbeat changes are nonspecific and can arise from movement, breathing, surprise or unrelated events.
+
+The proposed use would therefore be to add a **physiological-response signal** to the fusion model, not a reliable indicator of what the person thought. Testing whether priming worked would still require independent behavioural measures and appropriate control conditions.
