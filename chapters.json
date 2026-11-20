@@ -962,6 +962,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/prediction_priming_feedback.txt"
     },
     {
+      "id": "pretend_superpowers",
+      "title": "Pretend Superpowers",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/pretend_superpowers.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/pretend_superpowers",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/pretend_superpowers.txt"
+    },
+    {
       "id": "predicting_bodily_movements",
       "title": "Predicting bodily movements",
       "category": "Technology & perception",
