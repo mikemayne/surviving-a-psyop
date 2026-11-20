@@ -2,7 +2,7 @@
   "schema_version": 2,
   "description": "Chapter-linked qualitative metadata for comparing possible objectives, emotional effects, behavioural responses and cumulative effects. These represent hypothetical mechanisms, not proof of coordination or motive.",
   "usage": "Compare the reported conduct, context and chronology first. Keep distinct (1) a chapter's possible intended objective, (2) the visitor's reported emotional impact, and (3) the actual behavioural response or outcome. An intended action does not have to occur for that goal to remain a possible hypothesis: for example, staying calm or feeling only frustration does not by itself rule out an attempted provocation, and anger does not prove one. Emotions and responses are secondary context, never a motive-detection test. For a connected-events hypothetical, examine shared effect tags and possible transitions without inventing stages. Lead with 'If the events are connected, then the likely goal is X' only when a coherent candidate emerges, and avoid repetitive disclaimers; prioritise safe, proportionate coping and reporting advice. N/A means no specific inference is supported.",
-  "chapter_count": 127,
+  "chapter_count": 132,
   "chapters": {
     "introduction": {
       "kind": "overview",
@@ -2036,6 +2036,101 @@
         "uncertainty",
         "rumination",
         "self_monitoring"
+      ]
+    },
+    "exploitation_of_ambiguity": {
+      "kind": "technique",
+      "possible_goal": "encourage the listener to construct a harmful interpretation of incomplete information",
+      "possible_emotional_effects": [
+        "uncertainty",
+        "apprehension",
+        "confusion"
+      ],
+      "possible_behavioural_responses": [
+        "filling gaps with imagined explanations",
+        "ruminating",
+        "hesitating over ordinary choices"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "rumination",
+        "self_monitoring"
+      ]
+    },
+    "manufactured_corroboration": {
+      "kind": "technique",
+      "possible_goal": "make a claim appear more independently supported or authoritative than it is",
+      "possible_emotional_effects": [
+        "self-doubt",
+        "social pressure",
+        "uncertainty"
+      ],
+      "possible_behavioural_responses": [
+        "overweighting repeated claims",
+        "accepting an unsupported premise",
+        "seeking reassurance"
+      ],
+      "possible_cumulative_effects": [
+        "mistrust",
+        "social_shame",
+        "credibility_concerns"
+      ]
+    },
+    "induced_reactions_as_evidence": {
+      "kind": "technique",
+      "possible_goal": "misrepresent a reaction to pressure as evidence of guilt or character",
+      "possible_emotional_effects": [
+        "frustration",
+        "shame",
+        "defensiveness"
+      ],
+      "possible_behavioural_responses": [
+        "defending oneself",
+        "withdrawing",
+        "becoming self-conscious"
+      ],
+      "possible_cumulative_effects": [
+        "self_monitoring",
+        "credibility_concerns",
+        "social_shame"
+      ]
+    },
+    "manufactured_no_win_situations": {
+      "kind": "technique",
+      "possible_goal": "create circumstances where reasonable responses can all be labelled failures",
+      "possible_emotional_effects": [
+        "frustration",
+        "uncertainty",
+        "helplessness"
+      ],
+      "possible_behavioural_responses": [
+        "repeatedly trying to comply",
+        "second-guessing decisions",
+        "disengaging"
+      ],
+      "possible_cumulative_effects": [
+        "compliance_pressure",
+        "uncertainty",
+        "rumination"
+      ]
+    },
+    "attention_capture_and_conditioning": {
+      "kind": "technique",
+      "possible_goal": "repeatedly redirect attention and reinforce an expectation about specific cues",
+      "possible_emotional_effects": [
+        "distraction",
+        "frustration",
+        "anticipatory concern"
+      ],
+      "possible_behavioural_responses": [
+        "checking for recurring cues",
+        "interrupting ordinary tasks",
+        "anticipating further messages"
+      ],
+      "possible_cumulative_effects": [
+        "heightened_vigilance",
+        "rumination",
+        "cumulative_stress"
       ]
     }
   },
