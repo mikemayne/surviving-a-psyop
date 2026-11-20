@@ -1,0 +1,43 @@
+# False Attribution of Causality
+
+**Effects:** Increase confusion, Increase suggestibility, Undermine confidence.
+
+**Possible objectives:** Create false beliefs, Increase the effectiveness of other techniques, Influence behaviour.
+
+## The principle
+
+Create an effect, then arrange circumstances so that someone believes **they caused it themselves**.
+
+The person may not be told what to believe. Instead, the apparent connection between their own action, thought or feeling and the resulting event leads them to make the wrong causal inference.
+
+This is a meta-pattern: an underlying principle that can be used in the design of many different techniques.
+
+## How it works
+
+There are two different causal chains.
+
+**Actual cause:** An external action produces an effect.
+
+**Perceived cause:** The person believes that something they did, thought or felt produced that effect.
+
+For example, in a staged experiment, someone is asked to think about a lamp switching on. Another person secretly operates the switch at the appropriate moment. The participant may believe their thought caused the light to turn on.
+
+The lamp really did turn on. The mistake is in deciding what caused it.
+
+The effect can be reinforced through repetition. When an apparently meaningful event repeatedly follows the same action, it can become tempting to treat the timing as proof of causality. In fact, repetition only establishes the cause when the possible alternatives have been checked.
+
+## Why it matters
+
+The false belief is particularly persuasive when the person arrives at it themselves. Nobody needs to make an explicit claim about causality.
+
+Depending on the context, the person might wrongly believe they have unusual abilities, that their thoughts influence outside events, or that they are responsible for something they did not cause.
+
+This principle overlaps with several individual techniques, including pretend superpowers and falsely claiming control over predictable events. What unites these examples is the mismatch between the actual cause and the cause the person believes in.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't react, you don't give them anything to work with.**

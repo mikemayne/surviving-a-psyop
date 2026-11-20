@@ -206,6 +206,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/how_to_collaborate.txt"
     },
     {
+      "id": "false_attribution_of_causality",
+      "title": "False Attribution of Causality",
+      "category": "Meta-patterns",
+      "category_description": "Underlying principles that can shape multiple manipulation techniques.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/false_attribution_of_causality.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/false_attribution_of_causality",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_attribution_of_causality.txt"
+    },
+    {
       "id": "gaslit_by_friends",
       "title": "Gaslighting by friends",
       "category": "Recognising manipulation",
