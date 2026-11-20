@@ -40,3 +40,9 @@ Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#re
 The mind-reading trick can also make surveillance in one part of a house feel like surveillance everywhere. For example, imagine that someone has access to a phone left in the living room. A thought occurs to you while you are in the bathroom, nowhere near the phone. Later, the other person predicts or refers to that thought. The apparent mind-reading makes it feel as though they must have been monitoring you in the bathroom as well.
 
 That is the important part of the effect: the prediction seems to reveal access to the thought, and the mind fills in the gap by extending the imagined surveillance from the place where a device might be present to the whole house. A limited point of access can therefore create the feeling of being watched everywhere, even in rooms where there is no device.
+
+## Humming as a possible weak signal
+
+Humming produces harmonics and resonances shaped partly by the position of the tongue, jaw and vocal tract. If silently imagining a word also produces small articulatory movements, those movements might change the acoustic spectrum of a hum. A sufficiently sensitive model could test whether those changes provide a weak clue about the imagined word, alongside other contextual or physiological signals in a hypothetical fusion sensor system.
+
+This is a candidate signal, not a demonstrated method of identifying imagined words from humming. Its usefulness would depend on finding repeatable, word-specific differences under controlled conditions.
