@@ -1,0 +1,29 @@
+# Manufactured Corroboration
+
+**Effects:** Increase apparent credibility, Increase social pressure, Undermine confidence.
+
+**Possible objectives:** Make an unsupported claim seem established, Influence third parties, Discourage challenge.
+
+## The principle
+
+Make one source of information look like several independent sources.
+
+The same claim can be repeated by different people, attributed to an institution or retold as a settled fact. The number of repetitions grows, but the number of independent observations does not.
+
+## How it works
+
+Imagine one person makes an unverified accusation. They tell two others, who then repeat it. A fourth listener hears three people making the same accusation and assumes three witnesses have independently confirmed it.
+
+In reality, all three reports trace back to the same original claim.
+
+A similar effect can be created by quoting an unnamed audience, invoking supposed expert agreement, or presenting a repeated assertion as an established premise.
+
+**Repetition is not corroboration. Independence of sources is what matters.**
+
+An analyser should distinguish how many times a claim appears from how many genuinely independent sources support it. It should not treat agreement alone as proof of fabrication or coordination.
+
+This meta-pattern connects Accusation Laundering, Staged Third-Party Reactions, Invoking an Imagined Audience and Claiming Influence Over Others.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
