@@ -1,0 +1,44 @@
+# Behavioural Prediction Using a Continuously Updated LLM
+
+**Effects:** Increase confusion, Increase suggestibility, Undermine confidence.
+
+**Possible objectives:** Make predictions seem unusually accurate, Increase the effectiveness of other techniques.
+
+## Another possible signal
+
+Another possible signal for a proposed mind-reading system is the use of a large language model (LLM) to predict an individual's next actions based on their behavioural history.
+
+An LLM could be supplied with a chronological description of an individual's actions, conversations, reactions and circumstances. As new observations become available, they could be added to the model's context, allowing it to continuously update its predictions.
+
+Over time, the model could identify recurring behavioural patterns, habits, preferences and typical responses to particular situations. Rather than producing a single prediction, it could generate several possible next actions, each assigned an estimated probability.
+
+## Combining predictions with other signals
+
+The predictions could be combined with other information available to the system, including movement, speech, physiological measurements and environmental context. Where a measurement is ambiguous, the behavioural history could provide additional context for assessing different interpretations.
+
+For example, if an individual repeatedly follows the same sequence of actions, observing the first few steps might make the next step more predictable. An otherwise ambiguous movement could then be interpreted alongside that behavioural prediction.
+
+A dedicated statistical component could combine the LLM's estimates with other signals, taking account of their respective reliability. Signals derived from the same underlying observation would need to be treated as correlated rather than counted as independent confirmations.
+
+## Continuous feedback
+
+The proposed process would operate as a loop:
+
+1. Observe and describe the individual's actions.
+2. Add those observations to their chronological behavioural history.
+3. Use the LLM to predict probable next actions or responses.
+4. Combine those predictions with other available signals.
+5. Compare the predictions against subsequent observable actions.
+6. Update the behavioural model and repeat.
+
+The LLM could also predict longer sequences of plausible actions, rather than only the immediately following action.
+
+A potential advantage is the ability to use information gathered over extended periods, providing context that might not be apparent from measurements taken at a single moment.
+
+## Limitation
+
+The confidence of predictions produced by the LLM alone is likely to be low, so they would need to be combined with other signals to be useful.
+
+Even when several signals are available, any improvement in accuracy would need to be measured against what could be predicted from habits and context alone. More inputs do not automatically produce more reliable predictions.
+
+For the broader proposal, see [Mind Reading](https://mikemayne.github.io/surviving-a-psyop/#read/prediction_priming_feedback).
