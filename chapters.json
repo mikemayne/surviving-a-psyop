@@ -1043,6 +1043,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/prediction_priming_feedback.txt"
     },
     {
+      "id": "continuous_behavioural_prediction",
+      "title": "Behavioural Prediction Using a Continuously Updated LLM",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/continuous_behavioural_prediction.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/continuous_behavioural_prediction",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/continuous_behavioural_prediction.txt"
+    },
+    {
       "id": "pretend_superpowers",
       "title": "Pretend Superpowers",
       "category": "Technology & perception",
