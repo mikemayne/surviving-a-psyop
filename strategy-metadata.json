@@ -2,7 +2,7 @@
   "schema_version": 2,
   "description": "Chapter-linked qualitative metadata for comparing possible objectives, emotional effects, behavioural responses and cumulative effects. These represent hypothetical mechanisms, not proof of coordination or motive.",
   "usage": "Compare the reported conduct, context and chronology first. Keep distinct (1) a chapter's possible intended objective, (2) the visitor's reported emotional impact, and (3) the actual behavioural response or outcome. An intended action does not have to occur for that goal to remain a possible hypothesis: for example, staying calm or feeling only frustration does not by itself rule out an attempted provocation, and anger does not prove one. Emotions and responses are secondary context, never a motive-detection test. For a connected-events hypothetical, examine shared effect tags and possible transitions without inventing stages. Lead with 'If the events are connected, then the likely goal is X' only when a coherent candidate emerges, and avoid repetitive disclaimers; prioritise safe, proportionate coping and reporting advice. N/A means no specific inference is supported.",
-  "chapter_count": 124,
+  "chapter_count": 126,
   "chapters": {
     "introduction": {
       "kind": "overview",
@@ -12,6 +12,34 @@
       "possible_cumulative_effects": "N/A"
     },
     "record_ignore_report": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
+    },
+    "how_to_record": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
+    },
+    "the_time_gap": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
+    },
+    "delayed_responses_from_organisations": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
+    },
+    "listening_in": {
       "kind": "guidance",
       "possible_goal": "N/A",
       "possible_emotional_effects": "N/A",
@@ -186,6 +214,13 @@
         "rumination"
       ]
     },
+    "habituation_and_recovery": {
+      "kind": "guidance",
+      "possible_goal": "N/A",
+      "possible_emotional_effects": "N/A",
+      "possible_behavioural_responses": "N/A",
+      "possible_cumulative_effects": "N/A"
+    },
     "good_cop_bad_cop": {
       "kind": "technique",
       "possible_goal": "increase compliance by contrasting hostility with reassurance",
@@ -240,6 +275,29 @@
         "social_shame",
         "rumination",
         "compliance_pressure"
+      ]
+    },
+    "intrusion_of_privacy": {
+      "kind": "technique",
+      "possible_goal": "make personal activities feel observed or judged and encourage hypervigilance, privacy concern and self-monitoring",
+      "possible_emotional_effects": [
+        "feeling monitored",
+        "unease",
+        "self-consciousness",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "checking for signs of observation",
+        "second-guessing ordinary private decisions",
+        "changing habits to avoid scrutiny",
+        "becoming preoccupied with how personal information was obtained"
+      ],
+      "possible_cumulative_effects": [
+        "perceived_scrutiny",
+        "privacy_concern",
+        "heightened_vigilance",
+        "self_monitoring",
+        "rumination"
       ]
     },
     "accusations_of_disloyalty": {
@@ -300,6 +358,71 @@
         "credibility_concerns"
       ]
     },
+    "projection": {
+      "kind": "technique",
+      "possible_goal": "shift attention away from one's own conduct, make another person defensive, or influence how others interpret a disagreement",
+      "possible_emotional_effects": [
+        "confusion",
+        "self-doubt",
+        "defensiveness",
+        "shame",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "defending oneself",
+        "repeatedly explaining intentions",
+        "losing focus on the original issue",
+        "withdrawing from the discussion"
+      ],
+      "possible_cumulative_effects": [
+        "rumination",
+        "credibility_concerns",
+        "anger_frustration",
+        "cumulative_stress"
+      ]
+    },
+    "attributing_displaced_anger": {
+      "kind": "technique",
+      "possible_goal": "redirect responsibility for someone's behaviour, supply an unverified explanation, or create conflict involving a third party",
+      "possible_emotional_effects": [
+        "confusion",
+        "defensiveness",
+        "resentment",
+        "guilt"
+      ],
+      "possible_behavioural_responses": [
+        "taking sides",
+        "feeling responsible for another person's behaviour",
+        "redirecting blame",
+        "trying to mediate a conflict"
+      ],
+      "possible_cumulative_effects": [
+        "rumination",
+        "mistrust",
+        "anger_frustration"
+      ]
+    },
+    "implied_consequences": {
+      "kind": "technique",
+      "possible_goal": "create apprehension, discourage an action, or provoke speculation about unspecified consequences",
+      "possible_emotional_effects": [
+        "uncertainty",
+        "apprehension",
+        "fear",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "self-censorship",
+        "changing plans",
+        "stopping an ordinary activity",
+        "ruminating about possible consequences"
+      ],
+      "possible_cumulative_effects": [
+        "threat_pressure",
+        "uncertainty",
+        "rumination"
+      ]
+    },
     "accusation_laundering": {
       "kind": "technique",
       "possible_goal": "make an unverified accusation seem like an accepted fact",
@@ -356,6 +479,28 @@
         "uncertainty"
       ]
     },
+    "downplaying_trauma": {
+      "kind": "technique",
+      "possible_goal": "minimise the impact of distressing experiences, undermine confidence in the individual's response, and discourage discussion or help-seeking",
+      "possible_emotional_effects": [
+        "self-doubt",
+        "shame",
+        "distress",
+        "isolation"
+      ],
+      "possible_behavioural_responses": [
+        "minimising one's own experience",
+        "withholding information",
+        "avoiding support",
+        "trying to move on prematurely"
+      ],
+      "possible_cumulative_effects": [
+        "credibility_concerns",
+        "inhibited_reporting",
+        "social_withdrawal",
+        "cumulative_stress"
+      ]
+    },
     "induced_sympathy": {
       "kind": "technique",
       "possible_goal": "encourage sympathy, reassurance or engagement through apparently despondent delivery",
@@ -373,6 +518,27 @@
         "compliance_pressure",
         "uncertainty",
         "rumination"
+      ]
+    },
+    "staged_compliments": {
+      "kind": "technique",
+      "possible_goal": "capture attention and make someone more receptive to a subsequent suggestion, request or claim",
+      "possible_emotional_effects": [
+        "gratitude",
+        "pride",
+        "trust",
+        "curiosity"
+      ],
+      "possible_behavioural_responses": [
+        "listening attentively",
+        "seeking approval",
+        "loosening a personal boundary",
+        "complying under pressure"
+      ],
+      "possible_cumulative_effects": [
+        "compliance_pressure",
+        "reassurance_seeking",
+        "uncertainty"
       ]
     },
     "we_only_do_this_to_really_bad_people": {
@@ -483,6 +649,27 @@
         "threat_pressure",
         "mistrust",
         "social_withdrawal"
+      ]
+    },
+    "invoking_an_imagined_audience": {
+      "kind": "technique",
+      "possible_goal": "create social pressure or discourage action by invoking an absent audience's supposed judgement",
+      "possible_emotional_effects": [
+        "anxiety",
+        "self-consciousness",
+        "fear",
+        "uncertainty"
+      ],
+      "possible_behavioural_responses": [
+        "self-censorship",
+        "withdrawing an action",
+        "defending oneself against an imagined judgement"
+      ],
+      "possible_cumulative_effects": [
+        "perceived_scrutiny",
+        "social_shame",
+        "compliance_pressure",
+        "uncertainty"
       ]
     },
     "claiming_control_over_predictable_events": {
@@ -919,6 +1106,26 @@
         "compliance_pressure"
       ]
     },
+    "creating_the_appearance_of_guilt": {
+      "kind": "technique",
+      "possible_goal": "make nervous or hesitant behaviour appear incriminating to others",
+      "possible_emotional_effects": [
+        "self-consciousness",
+        "unease",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "looking around repeatedly",
+        "hesitating in conversation",
+        "avoiding social situations"
+      ],
+      "possible_cumulative_effects": [
+        "heightened_vigilance",
+        "self_monitoring",
+        "credibility_concerns",
+        "social_withdrawal"
+      ]
+    },
     "legal_intimidation": {
       "kind": "technique",
       "possible_goal": "induce compliance by exaggerating criminal consequences",
@@ -1010,6 +1217,83 @@
         "uncertainty",
         "rumination",
         "threat_pressure"
+      ]
+    },
+    "pretend_planning": {
+      "kind": "technique",
+      "possible_goal": "capture the listener's attention to make other techniques more effective",
+      "possible_emotional_effects": [
+        "curiosity",
+        "uncertainty",
+        "unease"
+      ],
+      "possible_behavioural_responses": [
+        "straining to hear indistinct speech",
+        "diverting attention from the current activity",
+        "monitoring nearby conversations"
+      ],
+      "possible_cumulative_effects": [
+        "heightened_vigilance",
+        "uncertainty",
+        "rumination"
+      ]
+    },
+    "presence_threat": {
+      "kind": "technique",
+      "possible_goal": "intimidate through an implied threat conveyed by a deliberately signalled presence",
+      "possible_emotional_effects": [
+        "fear",
+        "unease",
+        "anticipatory anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "checking surroundings",
+        "anticipating another encounter",
+        "changing routine"
+      ],
+      "possible_cumulative_effects": [
+        "heightened_vigilance",
+        "threat_pressure",
+        "cumulative_stress"
+      ]
+    },
+    "the_imaginary_line": {
+      "kind": "technique",
+      "possible_goal": "create apprehension and provoke a response by suggesting unspecified consequences",
+      "possible_emotional_effects": [
+        "fear",
+        "uncertainty",
+        "apprehension"
+      ],
+      "possible_behavioural_responses": [
+        "reviewing recent actions",
+        "asking what happened",
+        "anticipating unspecified consequences"
+      ],
+      "possible_cumulative_effects": [
+        "heightened_vigilance",
+        "uncertainty",
+        "rumination"
+      ]
+    },
+    "cross_conversation_sentence_assembly": {
+      "kind": "technique",
+      "possible_goal": "create persistent hypervigilance or prompt a defensive reaction that others might mistake for guilt",
+      "possible_emotional_effects": [
+        "unease",
+        "anxiety",
+        "confusion"
+      ],
+      "possible_behavioural_responses": [
+        "monitoring nearby conversations",
+        "assembling unrelated speech fragments",
+        "reacting defensively"
+      ],
+      "possible_cumulative_effects": [
+        "heightened_vigilance",
+        "uncertainty",
+        "credibility_concerns",
+        "rumination"
       ]
     },
     "narrating_trick": {
@@ -1404,6 +1688,44 @@
         "uncertainty"
       ]
     },
+    "prediction_priming_feedback": {
+      "kind": "technique",
+      "possible_goal": "create an impression of knowing another person's private thoughts",
+      "possible_emotional_effects": [
+        "surprise",
+        "uncertainty",
+        "unease"
+      ],
+      "possible_behavioural_responses": [
+        "checking apparent matches",
+        "questioning the origin of thoughts"
+      ],
+      "possible_cumulative_effects": [
+        "perceived_scrutiny",
+        "uncertainty",
+        "rumination"
+      ]
+    },
+    "pretend_superpowers": {
+      "kind": "technique",
+      "possible_goal": "create a false impression of exceptional personal abilities through apparently confirming feedback",
+      "possible_emotional_effects": [
+        "amazement",
+        "excitement",
+        "confusion",
+        "uncertainty"
+      ],
+      "possible_behavioural_responses": [
+        "overestimating one's predictive abilities",
+        "seeking repeated confirmation",
+        "paying extra attention to apparent matches"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "self_monitoring",
+        "rumination"
+      ]
+    },
     "predicting_bodily_movements": {
       "kind": "technique",
       "possible_goal": "make ordinary movement seem incriminating",
@@ -1494,6 +1816,42 @@
         "perceived_scrutiny"
       ]
     },
+    "suggested_mishearings": {
+      "kind": "technique",
+      "possible_goal": "create an impression of knowing somebody's private perception and increase uncertainty about ambiguous speech",
+      "possible_emotional_effects": [
+        "confusion",
+        "uncertainty",
+        "unease"
+      ],
+      "possible_behavioural_responses": [
+        "rechecking what was heard",
+        "questioning a past interpretation"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "rumination",
+        "perceived_scrutiny"
+      ]
+    },
+    "priming_ambiguous_accusations": {
+      "kind": "technique",
+      "possible_goal": "make a primed or ambiguous accusation feel personally meaningful while still provoking or repeating the claim if priming fails",
+      "possible_emotional_effects": [
+        "confusion",
+        "unease",
+        "frustration"
+      ],
+      "possible_behavioural_responses": [
+        "trying to resolve the ambiguous referent",
+        "responding to deny an accusation",
+        "ignoring the remark"
+      ],
+      "possible_cumulative_effects": [
+        "rumination",
+        "uncertainty"
+      ]
+    },
     "thought_attribution_suggestion_repetition": {
       "kind": "technique",
       "possible_goal": "make a familiar phrase seem self-generated through suggestion and repeated accusations",
@@ -1511,6 +1869,45 @@
         "uncertainty",
         "rumination",
         "perceived_scrutiny"
+      ]
+    },
+    "quiet_speech_masking_attention": {
+      "kind": "experience_and_analysis",
+      "possible_goal": "make subtle provocative remarks hard for bystanders to notice or corroborate and increase stress or vigilance",
+      "possible_emotional_effects": [
+        "fear",
+        "frustration",
+        "uncertainty"
+      ],
+      "possible_behavioural_responses": [
+        "listening for a familiar voice in background sound",
+        "questioning why others did not notice",
+        "becoming more watchful of ambiguous audio"
+      ],
+      "possible_cumulative_effects": [
+        "heightened_vigilance",
+        "uncertainty",
+        "cumulative_stress",
+        "credibility_concerns",
+        "rumination"
+      ]
+    },
+    "spatial_audio": {
+      "kind": "technical_context",
+      "possible_goal": "make an audio source appear to occupy an unexpected location and exaggerate perceived technical capabilities",
+      "possible_emotional_effects": [
+        "confusion",
+        "fear",
+        "uncertainty"
+      ],
+      "possible_behavioural_responses": [
+        "searching for the apparent source of speech",
+        "overestimating the capabilities of an audio system"
+      ],
+      "possible_cumulative_effects": [
+        "uncertainty",
+        "heightened_vigilance",
+        "rumination"
       ]
     },
     "bug_in_face": {
@@ -1567,6 +1964,26 @@
         "mistrust"
       ]
     },
+    "fear_of_hacking": {
+      "kind": "technique",
+      "possible_goal": "divert attention from ordinary activities by making hypothetical security threats dominate attention",
+      "possible_emotional_effects": [
+        "fear",
+        "uncertainty",
+        "anxiety"
+      ],
+      "possible_behavioural_responses": [
+        "repeatedly reviewing device and account security",
+        "delaying ordinary online activities",
+        "continually considering hypothetical attack scenarios"
+      ],
+      "possible_cumulative_effects": [
+        "heightened_vigilance",
+        "rumination",
+        "privacy_concern",
+        "cumulative_stress"
+      ]
+    },
     "air_gap_limitations": {
       "kind": "technical_context",
       "possible_goal": "N/A",
@@ -1601,403 +2018,6 @@
       "possible_emotional_effects": "N/A",
       "possible_behavioural_responses": "N/A",
       "possible_cumulative_effects": "N/A"
-    },
-    "how_to_record": {
-      "kind": "guidance",
-      "possible_goal": "N/A",
-      "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A",
-      "possible_cumulative_effects": "N/A"
-    },
-    "the_time_gap": {
-      "kind": "guidance",
-      "possible_goal": "N/A",
-      "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A",
-      "possible_cumulative_effects": "N/A"
-    },
-    "delayed_responses_from_organisations": {
-      "kind": "guidance",
-      "possible_goal": "N/A",
-      "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A",
-      "possible_cumulative_effects": "N/A"
-    },
-    "listening_in": {
-      "kind": "guidance",
-      "possible_goal": "N/A",
-      "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A",
-      "possible_cumulative_effects": "N/A"
-    },
-    "prediction_priming_feedback": {
-      "kind": "technique",
-      "possible_goal": "create an impression of knowing another person's private thoughts",
-      "possible_emotional_effects": [
-        "surprise",
-        "uncertainty",
-        "unease"
-      ],
-      "possible_behavioural_responses": [
-        "checking apparent matches",
-        "questioning the origin of thoughts"
-      ],
-      "possible_cumulative_effects": [
-        "perceived_scrutiny",
-        "uncertainty",
-        "rumination"
-      ]
-    },
-    "priming_ambiguous_accusations": {
-      "kind": "technique",
-      "possible_goal": "make a primed or ambiguous accusation feel personally meaningful while still provoking or repeating the claim if priming fails",
-      "possible_emotional_effects": [
-        "confusion",
-        "unease",
-        "frustration"
-      ],
-      "possible_behavioural_responses": [
-        "trying to resolve the ambiguous referent",
-        "responding to deny an accusation",
-        "ignoring the remark"
-      ],
-      "possible_cumulative_effects": [
-        "rumination",
-        "uncertainty"
-      ]
-    },
-    "habituation_and_recovery": {
-      "kind": "guidance",
-      "possible_goal": "N/A",
-      "possible_emotional_effects": "N/A",
-      "possible_behavioural_responses": "N/A",
-      "possible_cumulative_effects": "N/A"
-    },
-    "quiet_speech_masking_attention": {
-      "kind": "experience_and_analysis",
-      "possible_goal": "make subtle provocative remarks hard for bystanders to notice or corroborate and increase stress or vigilance",
-      "possible_emotional_effects": [
-        "fear",
-        "frustration",
-        "uncertainty"
-      ],
-      "possible_behavioural_responses": [
-        "listening for a familiar voice in background sound",
-        "questioning why others did not notice",
-        "becoming more watchful of ambiguous audio"
-      ],
-      "possible_cumulative_effects": [
-        "heightened_vigilance",
-        "uncertainty",
-        "cumulative_stress",
-        "credibility_concerns",
-        "rumination"
-      ]
-    },
-    "suggested_mishearings": {
-      "kind": "technique",
-      "possible_goal": "create an impression of knowing somebody's private perception and increase uncertainty about ambiguous speech",
-      "possible_emotional_effects": [
-        "confusion",
-        "uncertainty",
-        "unease"
-      ],
-      "possible_behavioural_responses": [
-        "rechecking what was heard",
-        "questioning a past interpretation"
-      ],
-      "possible_cumulative_effects": [
-        "uncertainty",
-        "rumination",
-        "perceived_scrutiny"
-      ]
-    },
-    "cross_conversation_sentence_assembly": {
-      "kind": "technique",
-      "possible_goal": "create persistent hypervigilance or prompt a defensive reaction that others might mistake for guilt",
-      "possible_emotional_effects": [
-        "unease",
-        "anxiety",
-        "confusion"
-      ],
-      "possible_behavioural_responses": [
-        "monitoring nearby conversations",
-        "assembling unrelated speech fragments",
-        "reacting defensively"
-      ],
-      "possible_cumulative_effects": [
-        "heightened_vigilance",
-        "uncertainty",
-        "credibility_concerns",
-        "rumination"
-      ]
-    },
-    "creating_the_appearance_of_guilt": {
-      "kind": "technique",
-      "possible_goal": "make nervous or hesitant behaviour appear incriminating to others",
-      "possible_emotional_effects": [
-        "self-consciousness",
-        "unease",
-        "anxiety"
-      ],
-      "possible_behavioural_responses": [
-        "looking around repeatedly",
-        "hesitating in conversation",
-        "avoiding social situations"
-      ],
-      "possible_cumulative_effects": [
-        "heightened_vigilance",
-        "self_monitoring",
-        "credibility_concerns",
-        "social_withdrawal"
-      ]
-    },
-    "pretend_planning": {
-      "kind": "technique",
-      "possible_goal": "capture the listener's attention to make other techniques more effective",
-      "possible_emotional_effects": [
-        "curiosity",
-        "uncertainty",
-        "unease"
-      ],
-      "possible_behavioural_responses": [
-        "straining to hear indistinct speech",
-        "diverting attention from the current activity",
-        "monitoring nearby conversations"
-      ],
-      "possible_cumulative_effects": [
-        "heightened_vigilance",
-        "uncertainty",
-        "rumination"
-      ]
-    },
-    "the_imaginary_line": {
-      "kind": "technique",
-      "possible_goal": "create apprehension and provoke a response by suggesting unspecified consequences",
-      "possible_emotional_effects": [
-        "fear",
-        "uncertainty",
-        "apprehension"
-      ],
-      "possible_behavioural_responses": [
-        "reviewing recent actions",
-        "asking what happened",
-        "anticipating unspecified consequences"
-      ],
-      "possible_cumulative_effects": [
-        "heightened_vigilance",
-        "uncertainty",
-        "rumination"
-      ]
-    },
-    "presence_threat": {
-      "kind": "technique",
-      "possible_goal": "intimidate through an implied threat conveyed by a deliberately signalled presence",
-      "possible_emotional_effects": [
-        "fear",
-        "unease",
-        "anticipatory anxiety"
-      ],
-      "possible_behavioural_responses": [
-        "checking surroundings",
-        "anticipating another encounter",
-        "changing routine"
-      ],
-      "possible_cumulative_effects": [
-        "heightened_vigilance",
-        "threat_pressure",
-        "cumulative_stress"
-      ]
-    },
-    "spatial_audio": {
-      "kind": "technical_context",
-      "possible_goal": "make an audio source appear to occupy an unexpected location and exaggerate perceived technical capabilities",
-      "possible_emotional_effects": [
-        "confusion",
-        "fear",
-        "uncertainty"
-      ],
-      "possible_behavioural_responses": [
-        "searching for the apparent source of speech",
-        "overestimating the capabilities of an audio system"
-      ],
-      "possible_cumulative_effects": [
-        "uncertainty",
-        "heightened_vigilance",
-        "rumination"
-      ]
-    },
-    "fear_of_hacking": {
-      "kind": "technique",
-      "possible_goal": "divert attention from ordinary activities by making hypothetical security threats dominate attention",
-      "possible_emotional_effects": [
-        "fear",
-        "uncertainty",
-        "anxiety"
-      ],
-      "possible_behavioural_responses": [
-        "repeatedly reviewing device and account security",
-        "delaying ordinary online activities",
-        "continually considering hypothetical attack scenarios"
-      ],
-      "possible_cumulative_effects": [
-        "heightened_vigilance",
-        "rumination",
-        "privacy_concern",
-        "cumulative_stress"
-      ]
-    },
-    "invoking_an_imagined_audience": {
-      "kind": "technique",
-      "possible_goal": "create social pressure or discourage action by invoking an absent audience's supposed judgement",
-      "possible_emotional_effects": [
-        "anxiety",
-        "self-consciousness",
-        "fear",
-        "uncertainty"
-      ],
-      "possible_behavioural_responses": [
-        "self-censorship",
-        "withdrawing an action",
-        "defending oneself against an imagined judgement"
-      ],
-      "possible_cumulative_effects": [
-        "perceived_scrutiny",
-        "social_shame",
-        "compliance_pressure",
-        "uncertainty"
-      ]
-    },
-    "downplaying_trauma": {
-      "kind": "technique",
-      "possible_goal": "minimise the impact of distressing experiences, undermine confidence in the individual's response, and discourage discussion or help-seeking",
-      "possible_emotional_effects": [
-        "self-doubt",
-        "shame",
-        "distress",
-        "isolation"
-      ],
-      "possible_behavioural_responses": [
-        "minimising one's own experience",
-        "withholding information",
-        "avoiding support",
-        "trying to move on prematurely"
-      ],
-      "possible_cumulative_effects": [
-        "credibility_concerns",
-        "inhibited_reporting",
-        "social_withdrawal",
-        "cumulative_stress"
-      ]
-    },
-    "projection": {
-      "kind": "technique",
-      "possible_goal": "shift attention away from one's own conduct, make another person defensive, or influence how others interpret a disagreement",
-      "possible_emotional_effects": [
-        "confusion",
-        "self-doubt",
-        "defensiveness",
-        "shame",
-        "frustration"
-      ],
-      "possible_behavioural_responses": [
-        "defending oneself",
-        "repeatedly explaining intentions",
-        "losing focus on the original issue",
-        "withdrawing from the discussion"
-      ],
-      "possible_cumulative_effects": [
-        "rumination",
-        "credibility_concerns",
-        "anger_frustration",
-        "cumulative_stress"
-      ]
-    },
-    "attributing_displaced_anger": {
-      "kind": "technique",
-      "possible_goal": "redirect responsibility for someone's behaviour, supply an unverified explanation, or create conflict involving a third party",
-      "possible_emotional_effects": [
-        "confusion",
-        "defensiveness",
-        "resentment",
-        "guilt"
-      ],
-      "possible_behavioural_responses": [
-        "taking sides",
-        "feeling responsible for another person's behaviour",
-        "redirecting blame",
-        "trying to mediate a conflict"
-      ],
-      "possible_cumulative_effects": [
-        "rumination",
-        "mistrust",
-        "anger_frustration"
-      ]
-    },
-    "implied_consequences": {
-      "kind": "technique",
-      "possible_goal": "create apprehension, discourage an action, or provoke speculation about unspecified consequences",
-      "possible_emotional_effects": [
-        "uncertainty",
-        "apprehension",
-        "fear",
-        "frustration"
-      ],
-      "possible_behavioural_responses": [
-        "self-censorship",
-        "changing plans",
-        "stopping an ordinary activity",
-        "ruminating about possible consequences"
-      ],
-      "possible_cumulative_effects": [
-        "threat_pressure",
-        "uncertainty",
-        "rumination"
-      ]
-    },
-    "staged_compliments": {
-      "kind": "technique",
-      "possible_goal": "capture attention and make someone more receptive to a subsequent suggestion, request or claim",
-      "possible_emotional_effects": [
-        "gratitude",
-        "pride",
-        "trust",
-        "curiosity"
-      ],
-      "possible_behavioural_responses": [
-        "listening attentively",
-        "seeking approval",
-        "loosening a personal boundary",
-        "complying under pressure"
-      ],
-      "possible_cumulative_effects": [
-        "compliance_pressure",
-        "reassurance_seeking",
-        "uncertainty"
-      ]
-    },
-    "intrusion_of_privacy": {
-      "kind": "technique",
-      "possible_goal": "make personal activities feel observed or judged and encourage hypervigilance, privacy concern and self-monitoring",
-      "possible_emotional_effects": [
-        "feeling monitored",
-        "unease",
-        "self-consciousness",
-        "frustration"
-      ],
-      "possible_behavioural_responses": [
-        "checking for signs of observation",
-        "second-guessing ordinary private decisions",
-        "changing habits to avoid scrutiny",
-        "becoming preoccupied with how personal information was obtained"
-      ],
-      "possible_cumulative_effects": [
-        "perceived_scrutiny",
-        "privacy_concern",
-        "heightened_vigilance",
-        "self_monitoring",
-        "rumination"
-      ]
     }
   },
   "cumulative_effect_taxonomy": {

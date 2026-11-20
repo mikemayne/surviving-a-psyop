@@ -1509,5 +1509,18 @@
       "fear_of_hacking",
       "take_back_control"
     ]
+  },
+  "pretend_superpowers": {
+    "intro": "How repeated apparent coincidences, misleading feedback and social reactions could create a mistaken impression of extraordinary ability.",
+    "questions": [
+      "Why can a series of apparent successes make an ability seem extraordinary?",
+      "How can misleading feedback and social reinforcement distort confidence in a prediction?"
+    ],
+    "related": [
+      "prediction_priming_feedback",
+      "staged_third_party_reactions",
+      "claiming_control_over_predictable_events",
+      "stay_grounded"
+    ]
   }
 }

@@ -149,6 +149,7 @@ Technical ideas, media, security and interpretation.
 - [Cold reading](https://mikemayne.github.io/surviving-a-psyop/cold_reading.txt)
 - [AI-assisted cold reading](https://mikemayne.github.io/surviving-a-psyop/cold_reading_ai_assisted.txt)
 - [Mind Reading](https://mikemayne.github.io/surviving-a-psyop/prediction_priming_feedback.txt)
+- [Pretend Superpowers](https://mikemayne.github.io/surviving-a-psyop/pretend_superpowers.txt)
 - [Predicting bodily movements](https://mikemayne.github.io/surviving-a-psyop/predicting_bodily_movements.txt)
 - [Source identification](https://mikemayne.github.io/surviving-a-psyop/source_identification_trick.txt)
 - [Internal monologue](https://mikemayne.github.io/surviving-a-psyop/internal_monologue_trick.txt)
