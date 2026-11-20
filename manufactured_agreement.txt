@@ -13,8 +13,11 @@ For example:
 - "You listen to that song, so you must agree with what it says."
 - "You didn't turn the television off. That means you support it."
 - "You laughed at that scene. So that's what you really think."
+- "They apologised for making that song."
 
 The accusation invents an opinion and assigns it to the person simply because they heard or watched something.
+
+The last example is a subtler variation. By invoking the artist's supposed apology, it suggests that even the creator now considers the song objectionable. That can invite the listener to feel ashamed of enjoying it, without actually showing what the listener believes. Whether an apology happened is a separate factual question; either way, it does not establish agreement with the lyrics.
 
 ## How it works
 
