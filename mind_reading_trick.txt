@@ -52,3 +52,7 @@ This is a candidate signal, not a demonstrated method of identifying imagined wo
 Repeatedly shaming someone for being loud could pressure them to turn their music down. In a hypothetical setup involving listening devices and quiet audio priming, that would serve a practical purpose. Loud music can mask the quieter sounds a microphone might otherwise capture, and it can drown out subtle audio prompts. Lowering the volume would improve the signal-to-noise ratio for microphones and make quiet prompts easier to hear.
 
 In this proposed mechanism, the point of the shaming is to make the surveillance and audio-priming equipment work more effectively by reducing competing noise.
+
+## Acoustic hesitation as a possible feedback signal
+
+A microphone can pick up hesitation sounds such as “hmm”, “um” and “err”, as well as pauses, breathing changes and other small vocal noises. These may provide weak clues that someone is deliberating, uncertain or preparing to respond. In a hypothetical sensor-fusion system, such cues could be treated as another contextual input when estimating whether a decision might be approaching.
