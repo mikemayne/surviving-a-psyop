@@ -1473,6 +1473,20 @@
       "stay_grounded"
     ]
   },
+  "minimising_the_effect": {
+    "intro": "Explores how serious or repeated behaviour can be described as harmless teasing while the affected person's objection is made to look unreasonable.",
+    "questions": [
+      "How can calling harmful conduct 'just a joke' shift attention from the conduct to a person's reaction?",
+      "Why does omitting the cumulative context make an objection seem disproportionate?",
+      "How can I distinguish a genuine apology for a bad joke from repeated dismissal of serious objections?"
+    ],
+    "related": [
+      "downplaying_trauma",
+      "victim_blaming",
+      "dont_tolerate_mistreatment",
+      "record_ignore_report"
+    ]
+  },
   "projection": {
     "intro": "Explains how someone may attribute their own feelings, intentions or behaviour to another person, shifting attention away from the conduct at issue.",
     "questions": [
