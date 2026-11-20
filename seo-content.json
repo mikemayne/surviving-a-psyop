@@ -384,6 +384,20 @@
       "dont_tolerate_mistreatment"
     ]
   },
+  "manufactured_moral_justification": {
+    "intro": "Describes a possible tactic where conspicuous outrage about alleged past wrongdoing invites people to treat current mistreatment as deserved, without showing a valid connection.",
+    "questions": [
+      "Why doesn't an allegation about someone's past automatically justify how they are treated now?",
+      "How can loud moral condemnation imply guilt or social agreement without proving either?",
+      "When is an overheard conversation too ambiguous to infer deliberate manipulation?"
+    ],
+    "related": [
+      "we_only_do_this_to_really_bad_people",
+      "exaggerated_disgust",
+      "victim_blaming",
+      "stay_grounded"
+    ]
+  },
   "claim_inflation": {
     "intro": "Explores how the seriousness or scope of an accusation may change as it is repeated.",
     "questions": [
@@ -1473,6 +1487,20 @@
       "stay_grounded"
     ]
   },
+  "minimising_the_effect": {
+    "intro": "Explores how serious or repeated behaviour can be described as harmless teasing while the affected person's objection is made to look unreasonable.",
+    "questions": [
+      "How can calling harmful conduct 'just a joke' shift attention from the conduct to a person's reaction?",
+      "Why does omitting the cumulative context make an objection seem disproportionate?",
+      "How can I distinguish a genuine apology for a bad joke from repeated dismissal of serious objections?"
+    ],
+    "related": [
+      "downplaying_trauma",
+      "victim_blaming",
+      "dont_tolerate_mistreatment",
+      "record_ignore_report"
+    ]
+  },
   "projection": {
     "intro": "Explains how someone may attribute their own feelings, intentions or behaviour to another person, shifting attention away from the conduct at issue.",
     "questions": [
@@ -1509,6 +1537,19 @@
       "the_imaginary_line",
       "presence_threat",
       "threatening_consequences_for_seeking_help"
+    ]
+  },
+  "poisoned_encouragement": {
+    "intro": "Explains how apparent encouragement, predictions of harm and claims of permission can cause someone to question or abandon an otherwise independent decision.",
+    "questions": [
+      "What is poisoned encouragement, and how can apparent approval discourage an action?",
+      "How does 'Why do you think we let you do it?' imply control without demonstrating it?",
+      "How does poisoned encouragement differ from a warning that simply names a concrete risk?"
+    ],
+    "related": [
+      "implied_consequences",
+      "claiming_control_over_predictable_events",
+      "using_concern_as_a_vehicle_for_intimidation"
     ]
   },
   "staged_compliments": {
@@ -1661,20 +1702,6 @@
       "moral_accusations",
       "accusations_of_disloyalty",
       "creating_the_appearance_of_guilt"
-    ]
-  },
-  "manufactured_moral_justification": {
-    "intro": "Describes a possible tactic where conspicuous outrage about alleged past wrongdoing invites people to treat current mistreatment as deserved, without showing a valid connection.",
-    "questions": [
-      "Why doesn't an allegation about someone's past automatically justify how they are treated now?",
-      "How can loud moral condemnation imply guilt or social agreement without proving either?",
-      "When is an overheard conversation too ambiguous to infer deliberate manipulation?"
-    ],
-    "related": [
-      "we_only_do_this_to_really_bad_people",
-      "exaggerated_disgust",
-      "victim_blaming",
-      "stay_grounded"
     ]
   }
 }
