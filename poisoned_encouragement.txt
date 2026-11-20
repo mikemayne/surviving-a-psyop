@@ -1,0 +1,78 @@
+# Poisoned Encouragement
+
+**Effects:** Increase uncertainty, Increase fear, Undermine confidence, Increase hesitation.
+
+**Possible objectives:** Discourage an action, Induce self-deterrence, Undermine independent decision-making, Increase the effectiveness of other techniques.
+
+## The technique
+
+**Example:** "Good, we're glad you're doing that. It'll be bad for you because X. Why do you think we let you do it?"
+
+Rather than opposing a person's decision directly, the speaker appears to welcome it. The apparent encouragement is paired with a prediction of harm and a suggestion that the speaker has deliberately allowed the action to happen.
+
+The message is designed to change the meaning of the person's decision: something they previously considered useful or positive is made to feel like a mistake.
+
+Three elements work together:
+
+1. **Apparent approval:** "We're glad you're doing that."
+2. **Claimed foreknowledge:** "It'll be bad for you." The speaker implies they know about consequences the listener has overlooked.
+3. **Claimed control:** "Why do you think we let you do it?" The speaker presents another person's independent choice as something subject to their permission.
+
+The speaker does not have to establish that they know anything special or have any control. The suggestion itself may introduce doubt.
+
+## How it works
+
+The apparent approval encourages the listener to reassess a decision from the perspective of someone who seems opposed to their interests: *If they're happy about it, have I missed something?*
+
+A warning about consequences then supplies an emotional reason to hesitate, while the question about permission suggests an unequal relationship of power. The listener may start imagining risks that have not been explained or evidenced.
+
+This is a form of **self-deterrence**. Instead of giving a direct order to stop, the speaker attempts to make the listener choose to stop.
+
+The same manoeuvre can spoil the satisfaction of making progress. A decision that previously felt constructive becomes associated with apprehension and second-guessing.
+
+## The double bind
+
+The technique can put the listener in an uncomfortable position.
+
+- If they continue, they may worry they are walking into a trap.
+- If they stop, they may feel they have surrendered to the speaker's influence.
+
+Either way, attention has been pulled away from the merits of the original decision and onto the speaker's insinuation.
+
+## Examples
+
+- **Making a complaint:** "Good, complain. You have no idea how badly that's going to end for you."
+- **Seeking legal advice:** "Excellent, get a solicitor. That's exactly what we wanted."
+- **Collecting evidence:** "Keep recording everything. You're only making things worse for yourself."
+- **Requesting a review:** "We're delighted you're doing that. Why do you think nobody has stopped you?"
+- **Making personal progress:** "Good, keep going. You'll understand why we wanted you to eventually."
+
+The precise activity is less important than the structure: apparent encouragement, anticipated harm and a suggestion of privileged knowledge or control.
+
+## Recognising the pattern
+
+Look for the combination of approval, an adverse prediction and an assertion or insinuation of authority over someone else's decision.
+
+A claim of foreknowledge is not evidence of foreknowledge. A claim of permission is not evidence of control.
+
+This technique overlaps with [Implied Consequences](https://mikemayne.github.io/surviving-a-psyop/#read/implied_consequences) and [Claiming Control Over Predictable Events](https://mikemayne.github.io/surviving-a-psyop/#read/claiming_control_over_predictable_events), but it adds something specific: **the speaker uses apparent enthusiasm for the listener's action as the reason the listener should distrust that action.**
+
+## Defence
+
+Judge the original decision on its practical merits, credible information and foreseeable consequences. Do not treat someone else's apparent enthusiasm as proof that your decision is wrong, or their claim to have "allowed" it as proof of authority.
+
+Where a concrete risk is identified, evaluate that risk on its own evidence. An unsupported insinuation need not become a reason to abandon an otherwise sensible plan.
+
+**Someone claiming to welcome your decision does not make it harmful. Someone claiming to have permitted it does not mean they control it.**
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.
+
+Read [the Golden Rule chapter](https://mikemayne.github.io/surviving-a-psyop/#read/never_engage).
+
+**If you don't respond, they have nothing to work with.**
+
+**If you don't react, you don't give them anything to work with.**
