@@ -1625,5 +1625,17 @@
       "exploitation_of_ambiguity",
       "the_time_gap"
     ]
+  },
+  "manufactured_agreement": {
+    "intro": "Explains how someone may falsely treat listening to a song or watching a programme as agreement with controversial statements made in it.",
+    "questions": [
+      "Why doesn't hearing or enjoying a song imply agreement with its lyrics?",
+      "How can falsely attributing a programme's opinions to its audience provoke defensiveness or self-censorship?"
+    ],
+    "related": [
+      "moral_accusations",
+      "accusations_of_disloyalty",
+      "creating_the_appearance_of_guilt"
+    ]
   }
 }
