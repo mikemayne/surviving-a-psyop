@@ -231,3 +231,9 @@ The useful question for a fusion model would be whether any of these signals add
 Another possible feedback mechanism for the hypothetical fusion system would be to combine the internal monologue trick with continuous prediction and priming. A model could produce its best guesses at the next word or association and introduce those guesses as very quiet speech, potentially timed with footsteps or other everyday sounds to make the speech less noticeable.
 
 If a suggestion happened to match a person's existing thought, it might appear unusually accurate. If it did not match, hearing the suggestion might still bring the word or a related idea to mind. A model could then use subsequent observable speech, behaviour or physiological responses to adjust its next suggestions. This would allow several feedback mechanisms to operate together, with each contributing a possible weak signal to the same model.
+
+## Microphone-based agreement or disagreement as a possible feedback signal
+
+A microphone might capture small audible reactions to a statement: murmurs, brief vocalisations, sighs, laughter, changes in breathing, hesitation, or shifts in vocal pitch and timing. A classifier could test whether these features correlate with agreement, disagreement or neutrality, using listeners' own reported responses as the reference.
+
+If such a relationship proved repeatable in controlled tests, the resulting estimate could provide another weak feedback signal alongside other inputs to a hypothetical sensor-fusion system. Its reliability would likely be low and context-dependent, so the contribution would need to be measured independently rather than assumed.
