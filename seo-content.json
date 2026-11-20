@@ -974,6 +974,18 @@
       "dont_tolerate_mistreatment"
     ]
   },
+  "weaponised_reporting": {
+    "intro": "Explains how calling a victim's report 'snitching' while claiming that an abuser's report will receive police support can discourage reporting through implied retaliation and unequal consequences.",
+    "questions": [
+      "How can a double standard about reporting be used to intimidate someone into staying silent?",
+      "Does a claim that the police will side with someone establish that they actually will?"
+    ],
+    "related": [
+      "threatening_consequences_for_seeking_help",
+      "legal_intimidation",
+      "false_report_accusations"
+    ]
+  },
   "preemptive_discrediting": {
     "intro": "Explains how remarks such as 'Nobody will believe him' or claims about large amounts of unseen evidence can undermine confidence in being heard, without establishing what others think or whether the supposed evidence exists.",
     "questions": [
