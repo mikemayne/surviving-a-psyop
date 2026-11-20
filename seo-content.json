@@ -1662,5 +1662,19 @@
       "accusations_of_disloyalty",
       "creating_the_appearance_of_guilt"
     ]
+  },
+  "manufactured_moral_justification": {
+    "intro": "Describes a possible tactic where conspicuous outrage about alleged past wrongdoing invites people to treat current mistreatment as deserved, without showing a valid connection.",
+    "questions": [
+      "Why doesn't an allegation about someone's past automatically justify how they are treated now?",
+      "How can loud moral condemnation imply guilt or social agreement without proving either?",
+      "When is an overheard conversation too ambiguous to infer deliberate manipulation?"
+    ],
+    "related": [
+      "we_only_do_this_to_really_bad_people",
+      "exaggerated_disgust",
+      "victim_blaming",
+      "stay_grounded"
+    ]
   }
 }
