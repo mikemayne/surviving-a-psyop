@@ -6,33 +6,48 @@
 
 ## The principle
 
-Create an effect, then arrange circumstances so that someone believes **they caused it themselves**.
+> they trick you into thinking you are causing something but really you're seeing the effect of their actions
 
-The person may not be told what to believe. Instead, the apparent connection between their own action, thought or feeling and the resulting event leads them to make the wrong causal inference.
+That is the reversal of cause and effect.
 
-This is a meta-pattern: an underlying principle that can be used in the design of many different techniques.
+Someone produces an effect, then arranges circumstances so that you mistake it for the consequence of something **you** did, said, thought or felt. You are not necessarily imagining the effect. You are being led to misunderstand **what caused it**.
+
+The deception is the apparent causal relationship. The person does not even have to tell you what to believe: if the timing and circumstances are convincing enough, you may draw the false conclusion yourself.
+
+This is a meta-pattern, because the same underlying mechanism can be used in many different techniques.
 
 ## How it works
 
-There are two different causal chains.
+There are two competing causal chains:
 
-**Actual cause:** An external action produces an effect.
+**Actual cause:** Someone else's action produces the effect.
 
-**Perceived cause:** The person believes that something they did, thought or felt produced that effect.
+**Perceived cause:** You believe your own action, thought or feeling produced that effect.
 
-For example, in a staged experiment, someone is asked to think about a lamp switching on. Another person secretly operates the switch at the appropriate moment. The participant may believe their thought caused the light to turn on.
+The mechanism, where it is deliberately used, is to make the second chain look like the first:
 
-The lamp really did turn on. The mistake is in deciding what caused it.
+1. An effect is produced independently of your behaviour.
+2. Its timing or presentation makes it appear to follow from something you did.
+3. You notice the apparent connection and infer that you caused the effect.
+4. You then respond to a responsibility or power you may not actually have.
 
-The effect can be reinforced through repetition. When an apparently meaningful event repeatedly follows the same action, it can become tempting to treat the timing as proof of causality. In fact, repetition only establishes the cause when the possible alternatives have been checked.
+For example, in a staged experiment, someone is asked to think about a lamp switching on. Another person secretly operates the switch at the appropriate moment. The participant may believe their thought caused the lamp to turn on.
+
+The lamp really did turn on. The mistake is in deciding **why** it turned on.
+
+Repeated coincidences can make the apparent connection feel more persuasive. But noticing that one event follows another does not, by itself, establish what caused it or whether anyone arranged it.
 
 ## Why it matters
 
-The false belief is particularly persuasive when the person arrives at it themselves. Nobody needs to make an explicit claim about causality.
+The false belief can be particularly persuasive when you arrive at it yourself. Nobody has to make an explicit claim about cause and effect.
 
-Depending on the context, the person might wrongly believe they have unusual abilities, that their thoughts influence outside events, or that they are responsible for something they did not cause.
+Depending on the situation, you might mistakenly believe you have unusual abilities, that your thoughts or actions are controlling events, or that you are responsible for something you did not cause.
 
-This principle overlaps with several individual techniques, including pretend superpowers and falsely claiming control over predictable events. What unites these examples is the mismatch between the actual cause and the cause the person believes in.
+This overlaps with techniques such as pretend superpowers and falsely claiming control over predictable events. What connects them is **not the type of effect**, but the switch between the real source of the effect and the source you are led to believe in.
+
+It is distinct from **Manufactured Moral Justification**. That technique tries to make someone's treatment appear deserved. Reversal of cause and effect tries to make you misunderstand what produced an event in the first place.
+
+The pattern describes a possible mechanism, not a way to identify the actual cause of an unexplained event from timing alone. Alternative explanations still need to be checked.
 
 ## Response
 
