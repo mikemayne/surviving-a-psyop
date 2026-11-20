@@ -46,3 +46,9 @@ That is the important part of the effect: the prediction seems to reveal access 
 Humming produces harmonics and resonances shaped partly by the position of the tongue, jaw and vocal tract. If silently imagining a word also produces small articulatory movements, those movements might change the acoustic spectrum of a hum. A sufficiently sensitive model could test whether those changes provide a weak clue about the imagined word, alongside other contextual or physiological signals in a hypothetical fusion sensor system.
 
 This is a candidate signal, not a demonstrated method of identifying imagined words from humming. Its usefulness would depend on finding repeatable, word-specific differences under controlled conditions.
+
+## Shaming someone into turning the music down
+
+Repeatedly shaming someone for being loud could pressure them to turn their music down. In a hypothetical setup involving listening devices and quiet audio priming, that would serve a practical purpose. Loud music can mask the quieter sounds a microphone might otherwise capture, and it can drown out subtle audio prompts. Lowering the volume would improve the signal-to-noise ratio for microphones and make quiet prompts easier to hear.
+
+In this proposed mechanism, the point of the shaming is to make the surveillance and audio-priming equipment work more effectively by reducing competing noise.
