@@ -56,5 +56,3 @@ In this proposed mechanism, the point of the shaming is to make the surveillance
 ## Acoustic hesitation as a possible feedback signal
 
 A microphone can pick up hesitation sounds such as “hmm”, “um” and “err”, as well as pauses, breathing changes and other small vocal noises. These may provide weak clues that someone is deliberating, uncertain or preparing to respond. In a hypothetical sensor-fusion system, such cues could be treated as another contextual input when estimating whether a decision might be approaching.
-
-Whether combining these acoustic cues improves estimates of decision timing is a research question that could be tested under controlled conditions.
