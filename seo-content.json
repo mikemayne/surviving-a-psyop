@@ -1610,5 +1610,20 @@
       "false_endings",
       "the_time_gap"
     ]
+  },
+  "exploiting_natural_human_responses": {
+    "intro": "A meta-pattern in which a predictable human instinct is activated in circumstances where the instinctive response works against the person's interests. It examines curiosity, fairness, empathy, self-defence and urgency without assuming intent from a reaction alone.",
+    "questions": [
+      "When can an ordinarily useful human instinct become counterproductive?",
+      "How can a situation invite an unhelpful response without anyone directly instructing it?",
+      "How can you check whether reacting will actually serve your interests?"
+    ],
+    "related": [
+      "manufactured_urgency",
+      "accusation_baiting",
+      "induced_sympathy",
+      "exploitation_of_ambiguity",
+      "the_time_gap"
+    ]
   }
 }
