@@ -215,6 +215,60 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_attribution_of_causality.txt"
     },
     {
+      "id": "exploitation_of_ambiguity",
+      "title": "Exploitation of Ambiguity",
+      "category": "Meta-patterns",
+      "category_description": "Underlying principles that can shape multiple manipulation techniques.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/exploitation_of_ambiguity.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/exploitation_of_ambiguity",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/exploitation_of_ambiguity.txt"
+    },
+    {
+      "id": "manufactured_corroboration",
+      "title": "Manufactured Corroboration",
+      "category": "Meta-patterns",
+      "category_description": "Underlying principles that can shape multiple manipulation techniques.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/manufactured_corroboration.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/manufactured_corroboration",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_corroboration.txt"
+    },
+    {
+      "id": "induced_reactions_as_evidence",
+      "title": "Induced Reactions as Evidence",
+      "category": "Meta-patterns",
+      "category_description": "Underlying principles that can shape multiple manipulation techniques.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/induced_reactions_as_evidence.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/induced_reactions_as_evidence",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/induced_reactions_as_evidence.txt"
+    },
+    {
+      "id": "manufactured_no_win_situations",
+      "title": "Manufactured No-Win Situations",
+      "category": "Meta-patterns",
+      "category_description": "Underlying principles that can shape multiple manipulation techniques.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/manufactured_no_win_situations.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/manufactured_no_win_situations",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_no_win_situations.txt"
+    },
+    {
+      "id": "attention_capture_and_conditioning",
+      "title": "Attention Capture and Conditioning",
+      "category": "Meta-patterns",
+      "category_description": "Underlying principles that can shape multiple manipulation techniques.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/attention_capture_and_conditioning.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/attention_capture_and_conditioning",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/attention_capture_and_conditioning.txt"
+    },
+    {
+      "id": "manufactured_urgency",
+      "title": "Manufactured Urgency",
+      "category": "Meta-patterns",
+      "category_description": "Underlying principles that can shape multiple manipulation techniques.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/manufactured_urgency.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/manufactured_urgency",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_urgency.txt"
+    },
+    {
       "id": "gaslit_by_friends",
       "title": "Gaslighting by friends",
       "category": "Recognising manipulation",

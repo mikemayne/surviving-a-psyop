@@ -1535,5 +1535,80 @@
       "claiming_control_over_predictable_events",
       "stay_grounded"
     ]
+  },
+  "exploitation_of_ambiguity": {
+    "intro": "How incomplete statements can invite a listener to supply meanings and consequences that were never explicitly stated.",
+    "questions": [
+      "How can an ambiguous remark feel specific when important details are missing?",
+      "What is the difference between a statement and the meaning a listener supplies?"
+    ],
+    "related": [
+      "implied_consequences",
+      "the_imaginary_line",
+      "pretend_planning",
+      "stay_grounded"
+    ]
+  },
+  "manufactured_corroboration": {
+    "intro": "How several repetitions of one claim can create the appearance of multiple independent sources of evidence.",
+    "questions": [
+      "Does repeated agreement mean several independent sources have confirmed a claim?",
+      "How can an unverified allegation become treated as established fact?"
+    ],
+    "related": [
+      "accusation_laundering",
+      "staged_third_party_reactions",
+      "invoking_an_imagined_audience"
+    ]
+  },
+  "induced_reactions_as_evidence": {
+    "intro": "How a response to provocation can be misrepresented as evidence of an unrelated accusation or character trait.",
+    "questions": [
+      "Why does somebody's emotional reaction not prove the accusation made about them?",
+      "How can leaving a confrontation be unfairly portrayed as an admission of guilt?"
+    ],
+    "related": [
+      "creating_the_appearance_of_guilt",
+      "the_guity_always_run",
+      "accusation_baiting"
+    ]
+  },
+  "manufactured_no_win_situations": {
+    "intro": "How arbitrary, contradictory or changing rules can make every possible response appear wrong.",
+    "questions": [
+      "How can a choice be presented so that every answer appears to fail?",
+      "How can shifting standards turn even reasonable compliance into a supposed offence?"
+    ],
+    "related": [
+      "impossible_compliance",
+      "impossible_standards",
+      "logic_traps"
+    ]
+  },
+  "attention_capture_and_conditioning": {
+    "intro": "How repeated cues can capture attention and create expectations through reinforcement or emotionally significant associations.",
+    "questions": [
+      "How can a repeated cue draw attention away from ordinary activities?",
+      "How do intermittent reinforcement and habituation affect responses to repeated messages?"
+    ],
+    "related": [
+      "staged_compliments",
+      "pretend_planning",
+      "habituation_and_recovery",
+      "cumulative_psychological_pressure"
+    ]
+  },
+  "manufactured_urgency": {
+    "intro": "How artificially imposed deadlines or exaggerated time pressure can prompt rushed decisions by discouraging reflection or verification.",
+    "questions": [
+      "How can an invented deadline make a request feel more important than it is?",
+      "Why is an apparently urgent demand different from a genuine emergency or legitimate deadline?"
+    ],
+    "related": [
+      "the_imaginary_line",
+      "implied_consequences",
+      "false_endings",
+      "the_time_gap"
+    ]
   }
 }
