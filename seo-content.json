@@ -1044,6 +1044,19 @@
       "mind_reading_trick"
     ]
   },
+  "inner_voice_technique": {
+    "intro": "Explores a proposed, unproven acoustic mechanism combining ear-specific HRTF knowledge and MRI-derived vocal-tract modelling to examine whether recorded speech could seem less external.",
+    "questions": [
+      "Could personalised vocal-tract filtering change how a recorded voice resembles one's self-voice?",
+      "Why does bone conduction matter when hearing your own voice?",
+      "Can a single distant loudspeaker reduce external localisation cues by filtering alone?"
+    ],
+    "related": [
+      "internal_monologue_trick",
+      "spatial_audio",
+      "quiet_speech_masking_attention"
+    ]
+  },
   "mind_reading_trick": {
     "intro": "Examines how apparently accurate observations may create an impression of mind reading.",
     "questions": [
