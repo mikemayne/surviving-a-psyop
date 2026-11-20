@@ -1522,5 +1522,18 @@
       "claiming_control_over_predictable_events",
       "stay_grounded"
     ]
+  },
+  "false_attribution_of_causality": {
+    "intro": "A meta-pattern about mistaken causes: an externally produced effect can appear to result from a person's own thought, action or feeling. It distinguishes observed timing from evidence of what caused an event.",
+    "questions": [
+      "How can an effect created elsewhere lead someone to believe that they caused it?",
+      "Why does a repeated coincidence not, by itself, establish causality?",
+      "How does this underlying mechanism relate to apparent superpowers or claims of control?"
+    ],
+    "related": [
+      "pretend_superpowers",
+      "claiming_control_over_predictable_events",
+      "stay_grounded"
+    ]
   }
 }
