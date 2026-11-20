@@ -1525,6 +1525,19 @@
       "threatening_consequences_for_seeking_help"
     ]
   },
+  "poisoned_encouragement": {
+    "intro": "Explains how apparent encouragement, predictions of harm and claims of permission can cause someone to question or abandon an otherwise independent decision.",
+    "questions": [
+      "What is poisoned encouragement, and how can apparent approval discourage an action?",
+      "How does 'Why do you think we let you do it?' imply control without demonstrating it?",
+      "How does poisoned encouragement differ from a warning that simply names a concrete risk?"
+    ],
+    "related": [
+      "implied_consequences",
+      "claiming_control_over_predictable_events",
+      "using_concern_as_a_vehicle_for_intimidation"
+    ]
+  },
   "staged_compliments": {
     "intro": "Explains how praise timed immediately before a request or persuasive message can capture attention, encourage reciprocity and make the following message more persuasive.",
     "questions": [
