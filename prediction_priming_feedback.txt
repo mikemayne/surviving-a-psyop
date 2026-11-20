@@ -117,6 +117,8 @@ Someone could then confidently ask, "Did he just say X?" If X happened to be cor
 
 The system uses observable behaviour as probabilistic feedback rather than as a direct measurement of private thoughts.
 
+For another proposed source of contextual information, see [Behavioural Prediction Using a Continuously Updated LLM](https://mikemayne.github.io/surviving-a-psyop/#read/continuous_behavioural_prediction).
+
 ## Limitations
 
 Suppose an LLM predicts that someone will think about Sarah, a phrase brings Sarah to mind, and a few minutes later the person says something similar to the prediction.
