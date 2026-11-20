@@ -1597,5 +1597,18 @@
       "habituation_and_recovery",
       "cumulative_psychological_pressure"
     ]
+  },
+  "manufactured_urgency": {
+    "intro": "How artificially imposed deadlines or exaggerated time pressure can prompt rushed decisions by discouraging reflection or verification.",
+    "questions": [
+      "How can an invented deadline make a request feel more important than it is?",
+      "Why is an apparently urgent demand different from a genuine emergency or legitimate deadline?"
+    ],
+    "related": [
+      "the_imaginary_line",
+      "implied_consequences",
+      "false_endings",
+      "the_time_gap"
+    ]
   }
 }
