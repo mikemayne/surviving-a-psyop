@@ -1,0 +1,37 @@
+# Inner Voice Technique
+
+**Effects:** Make an external voice seem less clearly external. Increase uncertainty about where a voice is coming from.
+
+**Possible objectives:** Make recorded speech resemble a person's own inner voice, without having to reproduce it perfectly.
+
+## Proposed mechanism
+
+The shape of your ears affects how sound reaches your eardrums. The two ears are not identical, and each has its own frequency-dependent response. Close-up photographs and sufficiently accurate head and ear geometry can help estimate an individual's head-related transfer functions (HRTFs).
+
+An MRI covering the mouth, throat and vocal tract can also provide a model of the spaces that shape a person's voice. That geometry can be used to investigate the resonances and filtering associated with their speech.
+
+My proposal is to combine these two kinds of anatomical information. A recording resembling the listener's own voice would be filtered to weaken some of the acoustic cues that identify it as coming from an external source, while making its tone more like the voice the listener hears when speaking. The hypothetical source is a single, quiet, distant loudspeaker.
+
+The point is not to reproduce a completely convincing inner voice. **Even a small shift from sounding clearly external towards sounding internal could be perceptually significant.**
+
+This is not simply a matter of reversing an HRTF. A single loudspeaker feeds both ears through the same emitted signal, so one filter cannot independently cancel both ears' different responses. Frequency-selective filtering might still change the relative prominence of particular localisation cues. The proposal is to reduce the apparent externality of the sound, not to erase the ears' responses.
+
+## Why it would not sound exactly like your own speech
+
+When you speak, you hear your voice through both the air and vibrations transmitted through your skull and surrounding tissue. You also have feedback from the movements involved in speaking. Sound arriving through a distant loudspeaker does not reproduce that bone-conducted component.
+
+**The missing bone conduction is a major reason the filtered sound would not sound completely realistic, even if some of its airborne acoustic characteristics were reproduced.**
+
+## Research gap
+
+I acknowledge that making speech from a single distant loudspeaker seem to originate inside the listener's mouth by combining personalised HRTF filtering and MRI-derived vocal-tract modelling has not been demonstrated in scientific literature; this is only a proposed mechanism.
+
+## Related research
+
+- Wang et al. (2022), *Magnitude Modeling of Personalized HRTF Based on Ear Images and Anthropometric Measurements*. https://www.mdpi.com/2076-3417/12/16/8155
+- *Printable 3D vocal tract shapes from MRI data and their acoustic and aerodynamic properties* (2020). https://www.nature.com/articles/s41597-020-00597-w
+- *Sound Externalization: A Review of Recent Research* (2020). https://pmc.ncbi.nlm.nih.gov/articles/PMC7488874/
+- *Bone conduction facilitates self-other voice discrimination* (2023). https://pmc.ncbi.nlm.nih.gov/articles/PMC9929504/
+- *The Contribution of Head Movement to the Externalization and Internalization of Sounds* (2013). https://pmc.ncbi.nlm.nih.gov/articles/PMC3846779/
+
+See also [The Internal Monologue Trick](https://mikemayne.github.io/surviving-a-psyop/#read/internal_monologue_trick).
