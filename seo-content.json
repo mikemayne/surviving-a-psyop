@@ -1286,6 +1286,18 @@
       "thought_attribution_suggestion_repetition"
     ]
   },
+  "continuous_behavioural_prediction": {
+    "intro": "A hypothetical use of a continuously updated LLM to predict an individual's likely next actions from behavioural history, then combine those estimates with other observations.",
+    "questions": [
+      "How could an LLM use a chronological history of someone's actions to estimate what they may do next?",
+      "Why might low-confidence behavioural predictions still provide useful context alongside other measurements?"
+    ],
+    "related": [
+      "prediction_priming_feedback",
+      "predicting_bodily_movements",
+      "cold_reading_ai_assisted"
+    ]
+  },
   "priming_ambiguous_accusations": {
     "intro": "A proposed sequence in which a phrase primes an idea, a later ambiguous accusation invites the listener to supply a referent, and unsuccessful attempts may still act as repetition or provocation.",
     "questions": [
