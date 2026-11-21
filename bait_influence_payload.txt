@@ -1,0 +1,37 @@
+# Bait, Influence and Payload — A Three-Stage Model
+
+The techniques described in this guide can be examined using three possible roles in a coercive interaction: **Bait, Influence and Payload**. These are process categories, not separate psychological meta-patterns.
+
+The model describes what a technique *might do* within a sequence. It does not establish that a particular event was deliberate, that different incidents were connected, or that someone had a hidden objective.
+
+## 1. Bait — Capture attention
+
+Bait is something that draws a person into an interaction or redirects their attention: a provocative remark, a curiosity gap, an apparent insult, a loaded question, or a statement that seems to demand correction.
+
+A bait can work even if the person never replies. Spending time repeatedly checking, interpreting or anticipating the cue may itself become an unwanted diversion.
+
+## 2. Influence — Shape responses
+
+Influence involves pressure that may change how a person feels, thinks about a choice or responds. Examples include induced guilt, intimidation, confusion, promised relief, repeated criticism and exhaustion.
+
+**Influence does not require compliance or agreement.** A person may reject a demand while still experiencing distraction, fear or pressure. In the model, this stage can be brief, prolonged or absent.
+
+## 3. Payload — Obtain an outcome
+
+The payload is the specific outcome sought, if any. Possible examples include obtaining private information, eliciting words that could be presented as a false admission, persuading someone to abandon a legitimate task, damaging their reputation or provoking an aggressive action.
+
+The existence of an upsetting interaction does not reveal a payload. An alleged goal should not be treated as established simply because it is imaginable.
+
+## How the stages relate
+
+The same technique may have several roles. A loaded question might first capture attention, then pressure someone to accept its premise, and finally produce an apparent admission. Other interactions may have no identifiable payload at all. The stages can overlap, repeat, or occur in a different order.
+
+This is why the chapter catalogue uses **process-stage labels** as an additional classification, leaving the existing topic categories in place. A technique can carry Bait, Influence, Payload, or more than one label.
+
+A useful way to apply the model is to describe the observable behaviour first; identify the possible mechanism second; then consider a process role only if it genuinely helps explain the sequence. Do not infer a hidden operation or motive from the label.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If you or someone else is in immediate danger, get to safety and call **999**. Seeking emergency help is not engaging with a provocation.

@@ -27,12 +27,16 @@ try {
   const compiledGroups = published('index.html').match(/var GROUPS = (\[[^\n]+\]);/);
   assert.ok(compiledGroups, 'Published reader chapter groups must be present');
   const compiledChapters = JSON.parse(compiledGroups[1]).flatMap(group =>
-    group.files.map(([id, title]) => ({ id, title, category: group.name, category_description: group.note }))
+    group.files.map(([id, title, process_stages]) => ({ id, title, process_stages, category: group.name, category_description: group.note }))
   );
   assert.deepEqual(compiledChapters, approvedChapters.map(chapter => ({
-    id: chapter.id, title: chapter.title,
+    id: chapter.id, title: chapter.title, process_stages: chapter.process_stages || [],
     category: chapter.category, category_description: chapter.category_description
   })), 'Published reader and chapters.json must agree for every chapter');
+  assert.ok(published('topics/bait_influence_payload.html').includes('<h1>Bait, Influence and Payload — A Three-Stage Model</h1>'), 'Process chapter must be published');
+  assert.ok(published('topics/loaded_questions.html').includes('Process stages:'), 'Process stage labels must appear on chapter pages');
+  assert.ok(approvedChapters.find(chapter => chapter.id === 'false_endings').process_stages.includes('influence'),
+    'False endings must be in the Influence process category');
   assert.ok(published('index.html').includes('href="#read/record_ignore_report"'),
     'The Record, Ignore, Report decision tile must link to its chapter');
 

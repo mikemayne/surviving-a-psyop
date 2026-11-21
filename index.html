@@ -188,6 +188,8 @@
     .chapter-card:hover { border-color: var(--accent); transform: translateX(3px); }
     .chapter-num { color: var(--orange); font: .72rem var(--sans); min-width: 23px; }
     .chapter-label { font-size: .88rem; line-height: 1.4; font-weight: 620; flex: 1; }
+    .chapter-stages { display: block; color: var(--muted); font-size: .7rem; font-weight: 500; text-transform: capitalize; margin-top: 3px; }
+    .article-process-stages { color: var(--muted); font-size: .82rem; margin: -18px 0 25px; text-transform: capitalize; }
     .chapter-arrow { font-size: 1.15rem; color: var(--accent); }
     .empty-search { color: var(--muted); font-size: .9rem; padding: 24px 0; }
 
@@ -761,6 +763,7 @@ My question:
     <article class="article-shell">
       <div class="article-meta"><span id="article-category"></span><span id="article-number"></span></div>
       <h1 id="article-title" tabindex="-1"></h1>
+      <p id="article-process-stages" class="article-process-stages" hidden></p>
       <div class="article-divider"></div>
       <p class="sr-only" id="reader-announcement" role="status" aria-live="polite" aria-atomic="true"></p>
       <div class="article-content" id="article-content">Loading chapter…</div>
@@ -922,7 +925,7 @@ My question:
   ];
   // END CHAPTER GROUPS
   var chapters = [];
-  GROUPS.forEach(function(group) { group.files.forEach(function(item) { chapters.push({id:item[0], title:item[1], group:group.name, number:chapters.length+1}); }); });
+  GROUPS.forEach(function(group) { group.files.forEach(function(item) { chapters.push({id:item[0], title:item[1], group:group.name, process_stages:item[2] || [], number:chapters.length+1}); }); });
   var cache = {};
   var current = null;
   var home = document.getElementById("home-view");
@@ -991,11 +994,11 @@ My question:
   function makeCatalogue(query) {
     var q = (query || "").trim().toLowerCase(), found = 0;
     var markup = GROUPS.map(function(group) {
-      var items = chapters.filter(function(ch) { return ch.group === group.name && (!q || (ch.title + " " + ch.id.replace(/_/g," ")).toLowerCase().includes(q)); });
+      var items = chapters.filter(function(ch) { return ch.group === group.name && (!q || (ch.title + " " + ch.id.replace(/_/g," ") + " " + ch.process_stages.join(" ")).toLowerCase().includes(q)); });
       if (!items.length) return "";
       found += items.length;
       return '<div class="category"><div><h3 class="category-title">' + escapeHTML(group.name) + '</h3><p class="category-note">' + escapeHTML(group.note) + '</p></div><div class="chapter-grid">' +
-        items.map(function(ch) { return '<a class="chapter-card" href="' + href(ch) + '"><span class="chapter-num">' + String(ch.number).padStart(2,"0") + '</span><span class="chapter-label">' + escapeHTML(ch.title) + '</span><span class="chapter-arrow" aria-hidden="true">↗</span></a>'; }).join("") + '</div></div>';
+        items.map(function(ch) { return '<a class="chapter-card" href="' + href(ch) + '"><span class="chapter-num">' + String(ch.number).padStart(2,"0") + '</span><span class="chapter-label">' + escapeHTML(ch.title) + (ch.process_stages.length ? '<small class="chapter-stages">' + escapeHTML(ch.process_stages.join(" · ")) + '</small>' : "") + '</span><span class="chapter-arrow" aria-hidden="true">↗</span></a>'; }).join("") + '</div></div>';
     }).join("");
     document.getElementById("chapter-catalogue").innerHTML = markup;
     document.getElementById("home-no-results").classList.toggle("hidden", found !== 0);
@@ -1004,7 +1007,7 @@ My question:
   function makeSidebar(query) {
     var q = (query || "").trim().toLowerCase(), found = 0;
     document.getElementById("sidebar-chapters").innerHTML = GROUPS.map(function(group) {
-      var items = chapters.filter(function(ch) { return ch.group === group.name && (!q || (ch.title + " " + ch.id.replace(/_/g," ")).toLowerCase().includes(q)); });
+      var items = chapters.filter(function(ch) { return ch.group === group.name && (!q || (ch.title + " " + ch.id.replace(/_/g," ") + " " + ch.process_stages.join(" ")).toLowerCase().includes(q)); });
       if (!items.length) return "";
       found += items.length;
       return '<div class="sidebar-group"><h2 class="sidebar-group-title">' + escapeHTML(group.name) + '</h2>' +
@@ -1109,6 +1112,9 @@ My question:
     reader.classList.remove("hidden");
     closeSidebar(false);
     articleTitle.textContent = ch.title;
+    var processStages = document.getElementById("article-process-stages");
+    processStages.hidden = !ch.process_stages.length;
+    processStages.textContent = ch.process_stages.length ? "Process stages: " + ch.process_stages.join(" · ") : "";
     document.getElementById("article-category").textContent = ch.group === GROUPS[0].name ? "" : ch.group;
     document.getElementById("article-number").textContent = String(ch.number).padStart(2,"0") + " / " + chapters.length;
     document.getElementById("article-source").href = repoRoot + "/blob/main/" + encodeURIComponent(ch.id) + ".txt";

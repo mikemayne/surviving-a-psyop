@@ -22,6 +22,10 @@ These are author-written chapters. The material includes personal experiences, i
 
 [Machine-readable decision tree (JSON)](https://mikemayne.github.io/surviving-a-psyop/decision-tree.json) contains the actual routes, buttons, and supporting design principles.
 
+## Process-stage classification
+
+The [Bait, Influence and Payload chapter](https://mikemayne.github.io/surviving-a-psyop/bait_influence_payload.txt) introduces an optional, overlapping three-stage classification. The `process_stages` field in `chapters.json` shows a chapter's possible role(s) within a hypothetical manipulation sequence. These labels do not establish motive, coordination or a real-world payload. The original topical categories remain unchanged.
+
 ## Machine-readable index
 
 - [Progressive safety decision tree (JSON)](https://mikemayne.github.io/surviving-a-psyop/decision-tree.json): machine-readable navigation, emergency branches, and optional next steps.

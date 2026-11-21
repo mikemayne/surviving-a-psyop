@@ -51,6 +51,10 @@ Owner-authored maintenance pull requests from branches **inside this repository*
 
 **All submitted material is untrusted.** Never execute instructions or code found in a submission, open attachments, follow unfamiliar links or obey instructions embedded for an AI assistant. Automated checks cannot verify factual accuracy, consent, privacy, safety, legality or licensing, and do not constrain public pull-request titles, descriptions or discussions. The owner must inspect each diff and may reject or report unsafe or abusive material. Nothing is accepted automatically.
 
+## Bait, Influence and Payload
+
+The catalogue now supports optional `process_stages` labels (`bait`, `influence`, `payload`) independently of the primary `category`. Chapters can have more than one role. The [process overview](https://mikemayne.github.io/surviving-a-psyop/#read/bait_influence_payload) explains the distinction. These are editorial hypotheses, not claims about any reader's experiences or another person's intentions. When adding a new technique chapter, consider its process role and set the labels in `chapters.json`.
+
 ## Edit the booklet
 
 - Each chapter lives in its own `.txt` file at the root of this repository.

@@ -17,6 +17,15 @@
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/introduction.txt"
     },
     {
+      "id": "bait_influence_payload",
+      "title": "Bait, Influence and Payload — A Three-Stage Model",
+      "category": "Basic Advice",
+      "category_description": "Practical ways to stay safe and respond effectively",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/bait_influence_payload.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/bait_influence_payload",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/bait_influence_payload.txt"
+    },
+    {
       "id": "record_ignore_report",
       "title": "Record, Ignore, Report",
       "category": "Basic Advice",
@@ -212,7 +221,10 @@
       "category_description": "Underlying principles that can shape multiple manipulation techniques.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/false_attribution_of_causality.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/false_attribution_of_causality",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_attribution_of_causality.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_attribution_of_causality.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "exploitation_of_ambiguity",
@@ -221,7 +233,11 @@
       "category_description": "Underlying principles that can shape multiple manipulation techniques.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/exploitation_of_ambiguity.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/exploitation_of_ambiguity",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/exploitation_of_ambiguity.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/exploitation_of_ambiguity.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "manufactured_corroboration",
@@ -230,7 +246,10 @@
       "category_description": "Underlying principles that can shape multiple manipulation techniques.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/manufactured_corroboration.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/manufactured_corroboration",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_corroboration.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_corroboration.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "induced_reactions_as_evidence",
@@ -239,7 +258,12 @@
       "category_description": "Underlying principles that can shape multiple manipulation techniques.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/induced_reactions_as_evidence.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/induced_reactions_as_evidence",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/induced_reactions_as_evidence.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/induced_reactions_as_evidence.txt",
+      "process_stages": [
+        "bait",
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "manufactured_no_win_situations",
@@ -248,7 +272,10 @@
       "category_description": "Underlying principles that can shape multiple manipulation techniques.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/manufactured_no_win_situations.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/manufactured_no_win_situations",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_no_win_situations.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_no_win_situations.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "attention_capture_and_conditioning",
@@ -257,7 +284,11 @@
       "category_description": "Underlying principles that can shape multiple manipulation techniques.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/attention_capture_and_conditioning.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/attention_capture_and_conditioning",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/attention_capture_and_conditioning.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/attention_capture_and_conditioning.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "manufactured_urgency",
@@ -266,7 +297,10 @@
       "category_description": "Underlying principles that can shape multiple manipulation techniques.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/manufactured_urgency.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/manufactured_urgency",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_urgency.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_urgency.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "exploiting_natural_human_responses",
@@ -275,7 +309,11 @@
       "category_description": "Underlying principles that can shape multiple manipulation techniques.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/exploiting_natural_human_responses.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/exploiting_natural_human_responses",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/exploiting_natural_human_responses.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/exploiting_natural_human_responses.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "gaslit_by_friends",
@@ -284,7 +322,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/gaslit_by_friends.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/gaslit_by_friends",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/gaslit_by_friends.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/gaslit_by_friends.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "obstruction_of_communication",
@@ -293,7 +334,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/obstruction_of_communication.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/obstruction_of_communication",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/obstruction_of_communication.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/obstruction_of_communication.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "negging_psychological_manipulation",
@@ -302,7 +346,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/negging_psychological_manipulation.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/negging_psychological_manipulation",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/negging_psychological_manipulation.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/negging_psychological_manipulation.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "habituation_and_recovery",
@@ -311,7 +359,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/habituation_and_recovery.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/habituation_and_recovery",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/habituation_and_recovery.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/habituation_and_recovery.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "good_cop_bad_cop",
@@ -320,7 +371,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/good_cop_bad_cop.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/good_cop_bad_cop",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/good_cop_bad_cop.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/good_cop_bad_cop.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "stockholm_syndrome",
@@ -329,7 +383,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/stockholm_syndrome.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/stockholm_syndrome",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/stockholm_syndrome.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/stockholm_syndrome.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "guilt_tripping",
@@ -338,7 +395,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/guilt_tripping.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/guilt_tripping",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/guilt_tripping.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/guilt_tripping.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "intrusion_of_privacy",
@@ -347,7 +407,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/intrusion_of_privacy.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/intrusion_of_privacy",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/intrusion_of_privacy.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/intrusion_of_privacy.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "accusations_of_disloyalty",
@@ -356,7 +419,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/accusations_of_disloyalty.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/accusations_of_disloyalty",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accusations_of_disloyalty.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accusations_of_disloyalty.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "manufactured_agreement",
@@ -365,7 +431,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/manufactured_agreement.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/manufactured_agreement",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_agreement.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_agreement.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "emotional_burden_trick",
@@ -374,7 +444,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/emotional_burden_trick.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/emotional_burden_trick",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/emotional_burden_trick.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/emotional_burden_trick.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "accusation_baiting",
@@ -383,7 +456,12 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/accusation_baiting.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/accusation_baiting",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accusation_baiting.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accusation_baiting.txt",
+      "process_stages": [
+        "bait",
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "projection",
@@ -392,7 +470,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/projection.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/projection",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/projection.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/projection.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "attributing_displaced_anger",
@@ -401,7 +483,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/attributing_displaced_anger.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/attributing_displaced_anger",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/attributing_displaced_anger.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/attributing_displaced_anger.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "implied_consequences",
@@ -410,7 +495,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/implied_consequences.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/implied_consequences",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/implied_consequences.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/implied_consequences.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "poisoned_encouragement",
@@ -419,7 +507,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/poisoned_encouragement.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/poisoned_encouragement",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/poisoned_encouragement.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/poisoned_encouragement.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "accusation_laundering",
@@ -428,7 +519,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/accusation_laundering.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/accusation_laundering",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accusation_laundering.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accusation_laundering.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "staged_third_party_reactions",
@@ -437,7 +532,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/staged_third_party_reactions.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/staged_third_party_reactions",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/staged_third_party_reactions.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/staged_third_party_reactions.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "fake_shock",
@@ -446,7 +544,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/fake_shock.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/fake_shock",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/fake_shock.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/fake_shock.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "downplaying_trauma",
@@ -455,7 +557,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/downplaying_trauma.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/downplaying_trauma",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/downplaying_trauma.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/downplaying_trauma.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "minimising_the_effect",
@@ -464,7 +569,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/minimising_the_effect.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/minimising_the_effect",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/minimising_the_effect.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/minimising_the_effect.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "induced_sympathy",
@@ -473,7 +581,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/induced_sympathy.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/induced_sympathy",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/induced_sympathy.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/induced_sympathy.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "staged_compliments",
@@ -482,7 +594,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/staged_compliments.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/staged_compliments",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/staged_compliments.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/staged_compliments.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "we_only_do_this_to_really_bad_people",
@@ -491,7 +607,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/we_only_do_this_to_really_bad_people.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/we_only_do_this_to_really_bad_people",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/we_only_do_this_to_really_bad_people.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/we_only_do_this_to_really_bad_people.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "manufactured_moral_justification",
@@ -500,7 +619,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/manufactured_moral_justification.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/manufactured_moral_justification",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_moral_justification.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_moral_justification.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "victim_blaming",
@@ -509,7 +631,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/victim_blaming.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/victim_blaming",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/victim_blaming.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/victim_blaming.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "false_report_accusations",
@@ -518,7 +643,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/false_report_accusations.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/false_report_accusations",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_report_accusations.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_report_accusations.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "fabricated_confession",
@@ -527,7 +656,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/fabricated_confession.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/fabricated_confession",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/fabricated_confession.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/fabricated_confession.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "claim_inflation",
@@ -536,7 +669,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/claim_inflation.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/claim_inflation",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/claim_inflation.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/claim_inflation.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "claiming_influence",
@@ -545,7 +682,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/claiming_influence.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/claiming_influence",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/claiming_influence.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/claiming_influence.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "invoking_an_imagined_audience",
@@ -554,7 +694,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/invoking_an_imagined_audience.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/invoking_an_imagined_audience",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/invoking_an_imagined_audience.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/invoking_an_imagined_audience.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "claiming_control_over_predictable_events",
@@ -563,7 +706,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/claiming_control_over_predictable_events.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/claiming_control_over_predictable_events",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/claiming_control_over_predictable_events.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/claiming_control_over_predictable_events.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "reputation_to_live_up_to",
@@ -572,7 +718,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/reputation_to_live_up_to.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/reputation_to_live_up_to",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/reputation_to_live_up_to.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/reputation_to_live_up_to.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "outcome_inflation_deflation",
@@ -581,7 +731,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/outcome_inflation_deflation.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/outcome_inflation_deflation",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/outcome_inflation_deflation.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/outcome_inflation_deflation.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "ego_inflation_deflation",
@@ -590,7 +743,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/ego_inflation_deflation.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/ego_inflation_deflation",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/ego_inflation_deflation.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/ego_inflation_deflation.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "temptation_to_win",
@@ -599,7 +755,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/temptation_to_win.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/temptation_to_win",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/temptation_to_win.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/temptation_to_win.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "manufactured_confusion",
@@ -608,7 +768,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/manufactured_confusion.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/manufactured_confusion",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_confusion.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/manufactured_confusion.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "logic_traps",
@@ -617,7 +780,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/logic_traps.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/logic_traps",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/logic_traps.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/logic_traps.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "weaponised_literalism",
@@ -626,7 +792,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/weaponised_literalism.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/weaponised_literalism",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/weaponised_literalism.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/weaponised_literalism.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "loaded_questions",
@@ -635,7 +805,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/loaded_questions.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/loaded_questions",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/loaded_questions.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/loaded_questions.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "false_assistance",
@@ -644,7 +818,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/false_assistance.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/false_assistance",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_assistance.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_assistance.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "using_concern_as_a_vehicle_for_intimidation",
@@ -653,7 +830,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/using_concern_as_a_vehicle_for_intimidation.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/using_concern_as_a_vehicle_for_intimidation",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/using_concern_as_a_vehicle_for_intimidation.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/using_concern_as_a_vehicle_for_intimidation.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "you_can_run_but_you_cant_hide",
@@ -662,7 +842,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/you_can_run_but_you_cant_hide.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/you_can_run_but_you_cant_hide",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/you_can_run_but_you_cant_hide.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/you_can_run_but_you_cant_hide.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "false_endings",
@@ -671,7 +854,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/false_endings.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/false_endings",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_endings.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_endings.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "false_completion",
@@ -680,7 +867,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/false_completion.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/false_completion",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_completion.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/false_completion.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "impossible_compliance",
@@ -689,7 +880,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/impossible_compliance.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/impossible_compliance",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/impossible_compliance.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/impossible_compliance.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "impossible_standards",
@@ -698,7 +892,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/impossible_standards.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/impossible_standards",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/impossible_standards.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/impossible_standards.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "attacking_your_priorities",
@@ -707,7 +904,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/attacking_your_priorities.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/attacking_your_priorities",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/attacking_your_priorities.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/attacking_your_priorities.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "moral_accusations",
@@ -716,7 +916,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/moral_accusations.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/moral_accusations",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/moral_accusations.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/moral_accusations.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "moral_blackmail",
@@ -725,7 +928,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/moral_blackmail.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/moral_blackmail",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/moral_blackmail.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/moral_blackmail.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "interpretation_trick",
@@ -734,7 +940,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/interpretation_trick.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/interpretation_trick",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/interpretation_trick.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/interpretation_trick.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "retrospective_reinterpretation_of_behaviour",
@@ -743,7 +953,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/retrospective_reinterpretation_of_behaviour.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/retrospective_reinterpretation_of_behaviour",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/retrospective_reinterpretation_of_behaviour.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/retrospective_reinterpretation_of_behaviour.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "talking",
@@ -752,7 +965,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/talking.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/talking",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/talking.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/talking.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "service_shield",
@@ -761,7 +977,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/service_shield.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/service_shield",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/service_shield.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/service_shield.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "the_guity_always_run",
@@ -770,7 +989,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/the_guity_always_run.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/the_guity_always_run",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/the_guity_always_run.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/the_guity_always_run.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "creating_the_appearance_of_guilt",
@@ -779,7 +1001,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/creating_the_appearance_of_guilt.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/creating_the_appearance_of_guilt",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/creating_the_appearance_of_guilt.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/creating_the_appearance_of_guilt.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "legal_intimidation",
@@ -788,7 +1014,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/legal_intimidation.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/legal_intimidation",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/legal_intimidation.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/legal_intimidation.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "hiding_behind_OSA",
@@ -797,7 +1026,10 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/hiding_behind_OSA.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/hiding_behind_OSA",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/hiding_behind_OSA.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/hiding_behind_OSA.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "criminilisation",
@@ -806,7 +1038,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/criminilisation.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/criminilisation",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/criminilisation.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/criminilisation.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "threatened_framing",
@@ -815,7 +1051,11 @@
       "category_description": "Patterns of pressure, interpretation and social influence.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/threatened_framing.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/threatened_framing",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/threatened_framing.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/threatened_framing.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "accidentally_overheard",
@@ -824,7 +1064,11 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/accidentally_overheard.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/accidentally_overheard",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accidentally_overheard.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/accidentally_overheard.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "pretend_planning",
@@ -833,7 +1077,11 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/pretend_planning.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/pretend_planning",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/pretend_planning.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/pretend_planning.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "presence_threat",
@@ -842,7 +1090,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/presence_threat.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/presence_threat",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/presence_threat.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/presence_threat.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "the_imaginary_line",
@@ -851,7 +1102,11 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/the_imaginary_line.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/the_imaginary_line",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/the_imaginary_line.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/the_imaginary_line.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "cross_conversation_sentence_assembly",
@@ -860,7 +1115,11 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/cross_conversation_sentence_assembly.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/cross_conversation_sentence_assembly",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cross_conversation_sentence_assembly.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cross_conversation_sentence_assembly.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "narrating_trick",
@@ -869,7 +1128,11 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/narrating_trick.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/narrating_trick",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/narrating_trick.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/narrating_trick.txt",
+      "process_stages": [
+        "bait",
+        "influence"
+      ]
     },
     {
       "id": "public_shaming",
@@ -878,7 +1141,11 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/public_shaming.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/public_shaming",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/public_shaming.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/public_shaming.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "name_and_shame",
@@ -887,7 +1154,11 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/name_and_shame.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/name_and_shame",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/name_and_shame.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/name_and_shame.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "flashmobs",
@@ -896,7 +1167,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/flashmobs.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/flashmobs",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/flashmobs.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/flashmobs.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "body_shaming",
@@ -905,7 +1179,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/body_shaming.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/body_shaming",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/body_shaming.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/body_shaming.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "exaggerated_disgust",
@@ -914,7 +1191,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/exaggerated_disgust.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/exaggerated_disgust",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/exaggerated_disgust.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/exaggerated_disgust.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "humiliation_rituals",
@@ -923,7 +1203,11 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/humiliation_rituals.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/humiliation_rituals",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/humiliation_rituals.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/humiliation_rituals.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "bodily_functions",
@@ -932,7 +1216,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/bodily_functions.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/bodily_functions",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/bodily_functions.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/bodily_functions.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "incitement_to_violence",
@@ -941,7 +1228,11 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/incitement_to_violence.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/incitement_to_violence",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/incitement_to_violence.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/incitement_to_violence.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "dont_do_it_yourself",
@@ -950,7 +1241,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/dont_do_it_yourself.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/dont_do_it_yourself",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/dont_do_it_yourself.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/dont_do_it_yourself.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "cumulative_psychological_pressure",
@@ -959,7 +1253,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/cumulative_psychological_pressure.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/cumulative_psychological_pressure",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cumulative_psychological_pressure.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cumulative_psychological_pressure.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "sleep_deprivation",
@@ -968,7 +1265,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/sleep_deprivation.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/sleep_deprivation",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sleep_deprivation.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sleep_deprivation.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "sleep_deprivation_reinforcement",
@@ -977,7 +1277,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/sleep_deprivation_reinforcement.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/sleep_deprivation_reinforcement",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sleep_deprivation_reinforcement.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sleep_deprivation_reinforcement.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "deprivation_of_basic_necessities",
@@ -986,7 +1289,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/deprivation_of_basic_necessities.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/deprivation_of_basic_necessities",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/deprivation_of_basic_necessities.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/deprivation_of_basic_necessities.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "sexual_coercion",
@@ -995,7 +1301,11 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/sexual_coercion.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/sexual_coercion",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sexual_coercion.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/sexual_coercion.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "choose_your_death",
@@ -1004,7 +1314,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/choose_your_death.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/choose_your_death",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/choose_your_death.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/choose_your_death.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "indefinite_abuse",
@@ -1013,7 +1326,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/indefinite_abuse.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/indefinite_abuse",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/indefinite_abuse.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/indefinite_abuse.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "threatening_consequences_for_seeking_help",
@@ -1022,7 +1338,10 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/threatening_consequences_for_seeking_help.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/threatening_consequences_for_seeking_help",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/threatening_consequences_for_seeking_help.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/threatening_consequences_for_seeking_help.txt",
+      "process_stages": [
+        "influence"
+      ]
     },
     {
       "id": "weaponised_reporting",
@@ -1031,7 +1350,11 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/weaponised_reporting.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/weaponised_reporting",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/weaponised_reporting.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/weaponised_reporting.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "preemptive_discrediting",
@@ -1040,7 +1363,11 @@
       "category_description": "Descriptions of emotionally forceful and coercive tactics.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/preemptive_discrediting.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/preemptive_discrediting",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/preemptive_discrediting.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/preemptive_discrediting.txt",
+      "process_stages": [
+        "influence",
+        "payload"
+      ]
     },
     {
       "id": "dream_manipulation",
@@ -1058,7 +1385,11 @@
       "category_description": "Technical ideas, media, security and interpretation.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/cold_reading.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/cold_reading",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cold_reading.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cold_reading.txt",
+      "process_stages": [
+        "bait",
+        "payload"
+      ]
     },
     {
       "id": "cold_reading_ai_assisted",
@@ -1067,7 +1398,11 @@
       "category_description": "Technical ideas, media, security and interpretation.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/cold_reading_ai_assisted.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/cold_reading_ai_assisted",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cold_reading_ai_assisted.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/cold_reading_ai_assisted.txt",
+      "process_stages": [
+        "bait",
+        "payload"
+      ]
     },
     {
       "id": "prediction_priming_feedback",
@@ -1094,7 +1429,10 @@
       "category_description": "Technical ideas, media, security and interpretation.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/pretend_superpowers.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/pretend_superpowers",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/pretend_superpowers.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/pretend_superpowers.txt",
+      "process_stages": [
+        "bait"
+      ]
     },
     {
       "id": "predicting_bodily_movements",
@@ -1139,7 +1477,10 @@
       "category_description": "Technical ideas, media, security and interpretation.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/mind_reading_trick.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/mind_reading_trick",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/mind_reading_trick.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/mind_reading_trick.txt",
+      "process_stages": [
+        "bait"
+      ]
     },
     {
       "id": "primed_thought_attribution",
@@ -1148,7 +1489,10 @@
       "category_description": "Technical ideas, media, security and interpretation.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/primed_thought_attribution.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/primed_thought_attribution",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/primed_thought_attribution.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/primed_thought_attribution.txt",
+      "process_stages": [
+        "bait"
+      ]
     },
     {
       "id": "suggested_mishearings",
@@ -1157,7 +1501,10 @@
       "category_description": "Technical ideas, media, security and interpretation.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/suggested_mishearings.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/suggested_mishearings",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/suggested_mishearings.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/suggested_mishearings.txt",
+      "process_stages": [
+        "bait"
+      ]
     },
     {
       "id": "priming_ambiguous_accusations",
@@ -1166,7 +1513,10 @@
       "category_description": "Technical ideas, media, security and interpretation.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/priming_ambiguous_accusations.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/priming_ambiguous_accusations",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/priming_ambiguous_accusations.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/priming_ambiguous_accusations.txt",
+      "process_stages": [
+        "bait"
+      ]
     },
     {
       "id": "thought_attribution_suggestion_repetition",
@@ -1175,7 +1525,10 @@
       "category_description": "Technical ideas, media, security and interpretation.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/thought_attribution_suggestion_repetition.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/thought_attribution_suggestion_repetition",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/thought_attribution_suggestion_repetition.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/thought_attribution_suggestion_repetition.txt",
+      "process_stages": [
+        "bait"
+      ]
     },
     {
       "id": "quiet_speech_masking_attention",
@@ -1184,7 +1537,10 @@
       "category_description": "Technical ideas, media, security and interpretation.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/quiet_speech_masking_attention.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/quiet_speech_masking_attention",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/quiet_speech_masking_attention.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/quiet_speech_masking_attention.txt",
+      "process_stages": [
+        "bait"
+      ]
     },
     {
       "id": "spatial_audio",
@@ -1202,7 +1558,10 @@
       "category_description": "Technical ideas, media, security and interpretation.",
       "url": "https://mikemayne.github.io/surviving-a-psyop/bug_in_face.txt",
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/bug_in_face",
-      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/bug_in_face.txt"
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/bug_in_face.txt",
+      "process_stages": [
+        "payload"
+      ]
     },
     {
       "id": "manipulated_media",
@@ -1276,5 +1635,13 @@
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/conclusion",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/conclusion.txt"
     }
-  ]
+  ],
+  "process_stage_taxonomy": {
+    "description": "Optional, overlapping labels for roles a technique might play in a hypothetical coercive sequence; not evidence of intent, coordination or an actual payload.",
+    "stages": {
+      "bait": "Draws attention or prompts initial engagement",
+      "influence": "Shifts attention, emotions, expectations or decisions; agreement is not required",
+      "payload": "A possible specific outcome of the interaction"
+    }
+  }
 }

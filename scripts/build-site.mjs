@@ -69,7 +69,7 @@ function generateReaderGroups(html, catalogue) {
         name: chapter.category, note: chapter.category_description, files: []
       });
     }
-    grouped.get(chapter.category).files.push([chapter.id, chapter.title]);
+    grouped.get(chapter.category).files.push([chapter.id, chapter.title, chapter.process_stages || []]);
   }
   const startMarker = '  // BEGIN CHAPTER GROUPS';
   const endMarker = '  // END CHAPTER GROUPS';
@@ -84,6 +84,17 @@ function generateReaderGroups(html, catalogue) {
 }
 
 const chapters = JSON.parse(fs.readFileSync('chapters.json', 'utf8'));
+const stages = ['bait', 'influence', 'payload'];
+for (const chapter of chapters.chapters) {
+  if (chapter.process_stages !== undefined &&
+      (!Array.isArray(chapter.process_stages) || new Set(chapter.process_stages).size !== chapter.process_stages.length ||
+       chapter.process_stages.some(stage => !stages.includes(stage)))) {
+    throw Error('Invalid process stages for chapter: ' + chapter.id);
+  }
+}
+if (!chapters.process_stage_taxonomy || stages.some(stage => !chapters.process_stage_taxonomy.stages?.[stage])) {
+  throw Error('Missing process-stage taxonomy');
+}
 let html = switchSiteLinks(fs.readFileSync('index.html', 'utf8'));
 html = html.replaceAll('How to Survive a Psyop', escapeHTML(site.title));
 html = html.replaceAll('An Open Field Guide', escapeHTML(site.tagline));
