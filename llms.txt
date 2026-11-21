@@ -113,6 +113,7 @@ Patterns of pressure, interpretation and social influence.
 - [Impossible standards](https://mikemayne.github.io/surviving-a-psyop/impossible_standards.txt)
 - [Attacking Your Priorities](https://mikemayne.github.io/surviving-a-psyop/attacking_your_priorities.txt)
 - [Loaded moral accusations](https://mikemayne.github.io/surviving-a-psyop/moral_accusations.txt)
+- [Manufactured Moral Outrage](https://mikemayne.github.io/surviving-a-psyop/manufactured_moral_outrage.txt)
 - [Moral blackmail](https://mikemayne.github.io/surviving-a-psyop/moral_blackmail.txt)
 - [The interpretation trick](https://mikemayne.github.io/surviving-a-psyop/interpretation_trick.txt)
 - [Retrospective Reinterpretation of Behaviour](https://mikemayne.github.io/surviving-a-psyop/retrospective_reinterpretation_of_behaviour.txt)

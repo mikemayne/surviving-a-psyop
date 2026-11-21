@@ -1,8 +1,8 @@
 # Nine Influence Mechanisms — A Proposed Framework
 
-The guide currently describes 93 techniques labelled **Influence** in the Bait, Influence and Payload process model. This proposed framework groups them into nine broader families according to the psychological mechanism they might use.
+The guide currently describes 94 techniques labelled **Influence** in the Bait, Influence and Payload process model. This proposed framework groups them into nine broader families according to the psychological mechanism they might use.
 
-**The distinction:** a technique is a recognisable pattern of behaviour; a mechanism is the process through which that behaviour might affect attention, emotions, expectations or decisions. The 93 technique chapters remain useful as examples for recognising the nine families.
+**The distinction:** a technique is a recognisable pattern of behaviour; a mechanism is the process through which that behaviour might affect attention, emotions, expectations or decisions. The 94 technique chapters remain useful as examples for recognising the nine families.
 
 These are **working editorial categories**, not nine scientifically established, mutually exclusive mechanisms. Assigning a label does not establish that an interaction was deliberate, coordinated or directed at anyone.
 
