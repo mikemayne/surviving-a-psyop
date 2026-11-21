@@ -55,6 +55,10 @@ Owner-authored maintenance pull requests from branches **inside this repository*
 
 The catalogue now supports optional `process_stages` labels (`bait`, `influence`, `payload`) independently of the primary `category`. Chapters can have more than one role. The [process overview](https://mikemayne.github.io/surviving-a-psyop/#read/bait_influence_payload) explains the distinction. These are editorial hypotheses, not claims about any reader's experiences or another person's intentions. When adding a new technique chapter, consider its process role and set the labels in `chapters.json`.
 
+## Proposed nine-mechanism Influence framework
+
+The [framework article](https://mikemayne.github.io/surviving-a-psyop/#read/nine_influence_mechanisms) groups the 93 Influence-tagged technique chapters into nine provisional mechanism families. The primary family for each technique is recorded as `influence_mechanism` in `chapters.json`; the `influence_mechanism_taxonomy` object defines the families. These labels are separate from process stages and topical chapter categories.
+
 ## Edit the booklet
 
 - Each chapter lives in its own `.txt` file at the root of this repository.

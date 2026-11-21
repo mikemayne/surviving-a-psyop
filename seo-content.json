@@ -1728,5 +1728,18 @@
       "loaded_questions",
       "incitement_to_violence"
     ]
+  },
+  "nine_influence_mechanisms": {
+    "intro": "A proposed nine-family framework for organising the guide's 93 Influence techniques by their possible psychological mechanisms.",
+    "questions": [
+      "What is the difference between an influence technique and a mechanism?",
+      "Why can a technique overlap several mechanism families?"
+    ],
+    "related": [
+      "bait_influence_payload",
+      "negging_psychological_manipulation",
+      "manufactured_confusion",
+      "false_endings"
+    ]
   }
 }

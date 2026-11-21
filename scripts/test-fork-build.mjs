@@ -34,6 +34,11 @@ try {
     category: chapter.category, category_description: chapter.category_description
   })), 'Published reader and chapters.json must agree for every chapter');
   assert.ok(published('topics/bait_influence_payload.html').includes('<h1>Bait, Influence and Payload — A Three-Stage Model</h1>'), 'Process chapter must be published');
+  assert.ok(published('topics/nine_influence_mechanisms.html').includes('<h1>Nine Influence Mechanisms — A Proposed Framework</h1>'),
+    'Nine-mechanism overview must be published');
+  assert.equal(Object.keys(JSON.parse(published('chapters.json')).influence_mechanism_taxonomy.mechanisms).length, 9);
+  assert.equal(approvedChapters.filter(ch => ch.process_stages?.includes('influence') && ch.influence_mechanism).length, 93);
+  assert.equal(approvedChapters.find(ch => ch.id === 'negging_psychological_manipulation').influence_mechanism, 'shame_guilt_moral_pressure');
   assert.ok(published('topics/loaded_questions.html').includes('Process stages:'), 'Process stage labels must appear on chapter pages');
   assert.ok(approvedChapters.find(chapter => chapter.id === 'false_endings').process_stages.includes('influence'),
     'False endings must be in the Influence process category');
