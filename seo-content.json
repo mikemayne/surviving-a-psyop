@@ -638,6 +638,20 @@
       "claim_inflation"
     ]
   },
+  "manufactured_moral_outrage": {
+    "intro": "Explains how exaggerated disapproval of an ordinary choice can imply wrongdoing through a loaded association without stating an actual accusation.",
+    "questions": [
+      "How can a shocked reaction make an ordinary action sound incriminating?",
+      "Why does listening to a song or reading a book not establish a person's beliefs or actions?",
+      "What is the difference between a direct accusation and an implied association?"
+    ],
+    "related": [
+      "manufactured_agreement",
+      "moral_accusations",
+      "manufactured_moral_justification",
+      "stay_grounded"
+    ]
+  },
   "moral_blackmail": {
     "intro": "Discusses appeals to a supposedly greater good as a way of discouraging legitimate questions or complaints.",
     "questions": [

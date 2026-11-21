@@ -37,7 +37,12 @@ try {
   assert.ok(published('topics/nine_influence_mechanisms.html').includes('<h1>Nine Influence Mechanisms — A Proposed Framework</h1>'),
     'Nine-mechanism overview must be published');
   assert.equal(Object.keys(JSON.parse(published('chapters.json')).influence_mechanism_taxonomy.mechanisms).length, 9);
-  assert.equal(approvedChapters.filter(ch => ch.process_stages?.includes('influence') && ch.influence_mechanism).length, 93);
+  assert.equal(approvedChapters.filter(ch => ch.process_stages?.includes('influence') && ch.influence_mechanism).length,
+    approvedChapters.filter(ch => ch.process_stages?.includes('influence')).length,
+    'Every influence-tagged chapter must be assigned a mechanism');
+  assert.equal(approvedChapters.find(ch => ch.id === 'manufactured_moral_outrage').influence_mechanism, 'shame_guilt_moral_pressure');
+  assert.ok(published('topics/manufactured_moral_outrage.html').includes('<h1>Manufactured Moral Outrage</h1>'),
+    'New chapter must be present in the generated site');
   assert.equal(approvedChapters.find(ch => ch.id === 'negging_psychological_manipulation').influence_mechanism, 'shame_guilt_moral_pressure');
   assert.ok(published('topics/loaded_questions.html').includes('Process stages:'), 'Process stage labels must appear on chapter pages');
   assert.ok(approvedChapters.find(chapter => chapter.id === 'false_endings').process_stages.includes('influence'),
@@ -62,6 +67,7 @@ try {
     'Questionnaire canonical URL must adapt to a fork');
   assert.ok(questionnaire.includes('fetch("./chapters.json")'),
     'Questionnaire must use only the public chapter index');
+  assert.ok(questionnaire.includes('"manufactured_moral_outrage"'), 'Questionnaire must recommend the new chapter');
   assert.ok(questionnaire.includes('Your answers never leave this browser'),
     'Questionnaire privacy note must be present');
   assert.ok(published('sitemap.xml').includes(base + 'questionnaire.html'),
