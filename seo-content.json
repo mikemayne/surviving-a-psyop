@@ -1715,5 +1715,31 @@
       "accusations_of_disloyalty",
       "creating_the_appearance_of_guilt"
     ]
+  },
+  "bait_influence_payload": {
+    "intro": "A practical model for distinguishing attention capture, influence and possible outcomes without treating them as proof of intent.",
+    "questions": [
+      "What distinguishes bait, influence and payload?",
+      "Can a technique play more than one role, or have no identifiable payload?"
+    ],
+    "related": [
+      "attention_capture_and_conditioning",
+      "manufactured_confusion",
+      "loaded_questions",
+      "incitement_to_violence"
+    ]
+  },
+  "nine_influence_mechanisms": {
+    "intro": "A proposed nine-family framework for organising the guide's 93 Influence techniques by their possible psychological mechanisms.",
+    "questions": [
+      "What is the difference between an influence technique and a mechanism?",
+      "Why can a technique overlap several mechanism families?"
+    ],
+    "related": [
+      "bait_influence_payload",
+      "negging_psychological_manipulation",
+      "manufactured_confusion",
+      "false_endings"
+    ]
   }
 }

@@ -1,0 +1,75 @@
+# Nine Influence Mechanisms — A Proposed Framework
+
+The guide currently describes 93 techniques labelled **Influence** in the Bait, Influence and Payload process model. This proposed framework groups them into nine broader families according to the psychological mechanism they might use.
+
+**The distinction:** a technique is a recognisable pattern of behaviour; a mechanism is the process through which that behaviour might affect attention, emotions, expectations or decisions. The 93 technique chapters remain useful as examples for recognising the nine families.
+
+These are **working editorial categories**, not nine scientifically established, mutually exclusive mechanisms. Assigning a label does not establish that an interaction was deliberate, coordinated or directed at anyone.
+
+## 1. Shame, guilt and moral pressure
+
+Pressure through embarrassment, guilt, perceived wrongdoing or fear of social judgement.
+
+Examples: Negging, guilt tripping, moral blackmail, victim blaming, public shaming.
+
+## 2. Fear, threats and intimidation
+
+Pressure through danger, uncertainty about consequences, or implied punishment.
+
+Examples: Implied Consequences, Legal Intimidation, Presence Threat, Threatening Consequences for Seeking Help.
+
+## 3. Confusion, uncertainty and framing
+
+Making a situation harder to interpret, or shaping the explanation a person is encouraged to accept.
+
+Examples: Manufactured Confusion, Logic Traps, Exploitation of Ambiguity, Projection.
+
+## 4. Attention capture and conditioning
+
+Drawing attention towards a cue or interaction, then potentially strengthening that response through repetition or association.
+
+Examples: Attention Capture and Conditioning, Pretend Planning, Staged Compliments, The Interpretation Trick.
+
+## 5. Identity, accusation and credibility
+
+Pressuring someone through claims about their character, reputation, credibility or apparent admissions.
+
+Examples: Accusation Baiting, Loaded Questions, The Fabricated Confession, Pre-emptive Discrediting.
+
+## 6. Reward, relief and reinforcement
+
+Shaping expectations through promised rewards, relief, approval, withdrawal of reassurance or changing outcomes.
+
+Examples: False Endings, Poisoned Encouragement, Outcome Inflation and Deflation.
+
+## 7. Authority, dependence and control
+
+Encouraging reliance on someone who claims expertise, power or the ability to determine the available options.
+
+Examples: Good Cop, Bad Cop; False Assistance; Obstruction of Communication; Impossible Compliance.
+
+## 8. Exhaustion and cumulative stress
+
+The effects of sustained strain, fatigue or interruptions on attention and considered decision-making.
+
+Examples: Sleep Deprivation, Cumulative Psychological Pressure, Intrusion of Privacy.
+
+## 9. No-win situations and behavioural traps
+
+Situations framed so that every available response seems to lead to criticism or another penalty.
+
+Examples: Manufactured No-Win Situations, Impossible Standards.
+
+## How to use the framework
+
+Each Influence-tagged chapter receives **one primary mechanism category** in the machine-readable chapter index. This is a convenient starting point for browsing and research, not a claim that the chapter fits only that mechanism.
+
+For example, Negging is primarily grouped under Shame, Guilt and Moral Pressure, but it can also capture attention. False Endings is grouped under Reward, Relief and Reinforcement, but it may also create uncertainty. A technique's process-stage labels (Bait, Influence, Payload) answer a different question from its influence-mechanism category.
+
+When assessing a situation, describe the observable behaviour first. Do not infer a person's hidden purpose from a category label.
+
+## Response
+
+**Don't engage at all. Record if convenient, then get on with your day.**
+
+If anyone is in immediate danger, get to safety and call **999**.
