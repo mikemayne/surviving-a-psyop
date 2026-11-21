@@ -237,3 +237,7 @@ If a suggestion happened to match a person's existing thought, it might appear u
 A microphone might capture small audible reactions to a statement: murmurs, brief vocalisations, sighs, laughter, changes in breathing, hesitation, or shifts in vocal pitch and timing. A classifier could test whether these features correlate with agreement, disagreement or neutrality, using listeners' own reported responses as the reference.
 
 If such a relationship proved repeatable in controlled tests, the resulting estimate could provide another weak feedback signal alongside other inputs to a hypothetical sensor-fusion system. Its reliability would likely be low and context-dependent, so the contribution would need to be measured independently rather than assumed.
+
+## Music as a memory cue
+
+A song can become associated with a phrase or an earlier interaction. Hearing the song again may bring that topic to mind, even on shuffle. If a listener has previously said what the song reminds them of, that feedback gives a reason to move the topic slightly higher on a shortlist the next time the track plays.
