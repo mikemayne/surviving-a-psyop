@@ -57,7 +57,7 @@ The catalogue now supports optional `process_stages` labels (`bait`, `influence`
 
 ## Proposed nine-mechanism Influence framework
 
-The [framework article](https://mikemayne.github.io/surviving-a-psyop/#read/nine_influence_mechanisms) groups the 94 Influence-tagged technique chapters into nine provisional mechanism families. The primary family for each technique is recorded as `influence_mechanism` in `chapters.json`; the `influence_mechanism_taxonomy` object defines the families. These labels are separate from process stages and topical chapter categories.
+The [framework article](https://mikemayne.github.io/surviving-a-psyop/#read/nine_influence_mechanisms) groups the 95 Influence-tagged technique chapters into nine provisional mechanism families. The primary family for each technique is recorded as `influence_mechanism` in `chapters.json`; the `influence_mechanism_taxonomy` object defines the families. These labels are separate from process stages and topical chapter categories.
 
 ## Edit the booklet
 
