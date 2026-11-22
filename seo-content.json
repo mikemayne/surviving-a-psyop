@@ -676,6 +676,19 @@
       "criminilisation"
     ]
   },
+  "behavior_reframing": {
+    "intro": "Explores how assigning a loaded motive to an ordinary action can change its meaning and make the person feel pressured to justify it.",
+    "questions": [
+      "How can assigning a motive change what an ordinary action seems to mean?",
+      "How can an insinuation about evading justice take guilt for granted?"
+    ],
+    "related": [
+      "retrospective_reinterpretation_of_behaviour",
+      "manufactured_moral_outrage",
+      "moral_accusations",
+      "stay_grounded"
+    ]
+  },
   "retrospective_reinterpretation_of_behaviour": {
     "intro": "Examines how ordinary actions can be assigned condemnatory meanings after the fact, particularly when accusations and standards change in response to reasonable explanations.",
     "questions": [

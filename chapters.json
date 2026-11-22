@@ -1029,6 +1029,19 @@
       "influence_mechanism": "attention_capture_conditioning"
     },
     {
+      "id": "behavior_reframing",
+      "title": "Behavior Reframing",
+      "category": "Recognising manipulation",
+      "category_description": "Patterns of pressure, interpretation and social influence.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/behavior_reframing.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/behavior_reframing",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/behavior_reframing.txt",
+      "process_stages": [
+        "influence"
+      ],
+      "influence_mechanism": "confusion_uncertainty_framing"
+    },
+    {
       "id": "retrospective_reinterpretation_of_behaviour",
       "title": "Retrospective Reinterpretation of Behaviour",
       "category": "Recognising manipulation",

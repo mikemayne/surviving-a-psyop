@@ -116,6 +116,7 @@ Patterns of pressure, interpretation and social influence.
 - [Manufactured Moral Outrage](https://mikemayne.github.io/surviving-a-psyop/manufactured_moral_outrage.txt)
 - [Moral blackmail](https://mikemayne.github.io/surviving-a-psyop/moral_blackmail.txt)
 - [The interpretation trick](https://mikemayne.github.io/surviving-a-psyop/interpretation_trick.txt)
+- [Behavior Reframing](https://mikemayne.github.io/surviving-a-psyop/behavior_reframing.txt)
 - [Retrospective Reinterpretation of Behaviour](https://mikemayne.github.io/surviving-a-psyop/retrospective_reinterpretation_of_behaviour.txt)
 - [Covert communication](https://mikemayne.github.io/surviving-a-psyop/talking.txt)
 - [The service shield](https://mikemayne.github.io/surviving-a-psyop/service_shield.txt)
