@@ -2367,7 +2367,9 @@
         "increased vigilance"
       ],
       "possible_cumulative_effects": [
-        "attention_capture"
+        "heightened_vigilance",
+        "self_monitoring",
+        "uncertainty"
       ]
     }
   },
