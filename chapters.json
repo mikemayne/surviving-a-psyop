@@ -1672,6 +1672,19 @@
       ]
     },
     {
+      "id": "peripheral_disapproval",
+      "title": "Peripheral Disapproval",
+      "category": "Technology & perception",
+      "category_description": "Technical ideas, media, security and interpretation.",
+      "url": "https://mikemayne.github.io/surviving-a-psyop/peripheral_disapproval.txt",
+      "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/peripheral_disapproval",
+      "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/peripheral_disapproval.txt",
+      "process_stages": [
+        "influence"
+      ],
+      "influence_mechanism": "shame_guilt_moral_pressure"
+    },
+    {
       "id": "spatial_audio",
       "title": "Spatial Audio — Voices From Unexpected Directions",
       "category": "Technology & perception",
