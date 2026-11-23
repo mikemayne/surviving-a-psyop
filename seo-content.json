@@ -1768,5 +1768,17 @@
       "manufactured_confusion",
       "false_endings"
     ]
+  },
+  "peripheral_disapproval": {
+    "intro": "How peripheral facial expressions can be misread, why apparent disapproval may increase vigilance, and why deliberately ignoring peripheral expressions is safer than monitoring people.",
+    "questions": [
+      "Why are facial expressions in peripheral vision difficult to interpret?",
+      "What should I do if I happen to notice someone changing their expression?"
+    ],
+    "related": [
+      "stay_grounded",
+      "exploitation_of_ambiguity",
+      "attention_capture_and_conditioning"
+    ]
   }
 }
