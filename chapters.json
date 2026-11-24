@@ -394,7 +394,7 @@
       "read_url": "https://mikemayne.github.io/surviving-a-psyop/#read/good_cop_bad_cop",
       "github_url": "https://github.com/mikemayne/surviving-a-psyop/blob/main/good_cop_bad_cop.txt",
       "process_stages": [
-        "influence"
+        "influence", "bait"
       ],
       "influence_mechanism": "authority_dependence_control"
     },
